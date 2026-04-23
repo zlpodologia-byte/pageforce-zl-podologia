@@ -112,7 +112,7 @@ export const zlLinks = {
   facebook: "https://www.facebook.com/zl.podologia",
   linktree: "https://linktr.ee/zlpodologia",
   phoneTel: "tel:+5585994358505",
-  imagePolicy: "/lab/zl-podologia/politica-de-imagens",
+  imagePolicy: "/politica-de-imagens",
 } as const;
 
 export const zlContact = {
@@ -1462,7 +1462,7 @@ export const zlTestimonialsCopy = {
  * URL canonica da landing. Usada no metadata + em Schema.org. Centralizar
  * aqui evita drift quando migrar para subdomain/root em v7b.
  */
-export const ZL_CANONICAL_URL = "https://pageforce.paperclip.app/lab/zl-podologia";
+export const ZL_CANONICAL_URL = "https://zlpodologia.com.br";
 
 /**
  * Palavras-chave locais espalhadas no copy das secoes principais (hero,

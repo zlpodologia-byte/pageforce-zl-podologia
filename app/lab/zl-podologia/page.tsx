@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description,
   keywords: zlLocalKeywords as unknown as string[],
   authors: [{ name: "ZL Podologia" }],
-  alternates: { canonical: "/lab/zl-podologia" },
+  alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
@@ -114,13 +114,13 @@ function buildSchemaGraph(): JsonLdObject {
       // v8-hero-swap: imagem principal schema agora e a Zucarina em
       // atendimento clinico (hero da landing). hero-editorial-tagline
       // segue como 2o na galeria oficial.
-      "https://pageforce.paperclip.app/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
-      "https://pageforce.paperclip.app/zl-podologia/social/marca/hero-editorial-tagline.jpg",
-      "https://pageforce.paperclip.app/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
-      "https://pageforce.paperclip.app/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
-      "https://pageforce.paperclip.app/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/marca/hero-editorial-tagline.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg",
     ],
-    logo: "https://pageforce.paperclip.app/zl-podologia/social/marca/logo-oficial.jpg",
+    logo: "https://zlpodologia.com.br/zl-podologia/social/marca/logo-oficial.jpg",
     url: ZL_CANONICAL_URL,
     telephone: "+5585994358505",
     email: zlContact.email,
@@ -217,7 +217,7 @@ function buildSchemaGraph(): JsonLdObject {
     isPartOf: {
       "@type": "WebSite",
       name: "ZL Podologia Fortaleza",
-      url: "https://pageforce.paperclip.app/",
+      url: "https://zlpodologia.com.br/",
     },
     about: { "@id": `${ZL_CANONICAL_URL}#business` },
     publisher: { "@id": `${ZL_CANONICAL_URL}#business` },
@@ -233,7 +233,7 @@ function buildSchemaGraph(): JsonLdObject {
       "Profissional competente que trata o cliente com atencao e delicadeza, nas palavras das pacientes.",
     // v7-final: foto pro autorizada (Codex manifest).
     image:
-      "https://pageforce.paperclip.app/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
   };
 
   const janniePerson: JsonLdObject = {
@@ -246,7 +246,7 @@ function buildSchemaGraph(): JsonLdObject {
       "Atenciosa e cuidadosa no atendimento - citada nominalmente nas avaliacoes publicas da clinica.",
     // v7-earthy: Jannie agora tem retrato autorizado.
     image:
-      "https://pageforce.paperclip.app/zl-podologia/social/equipe/jannie-retrato.jpg",
+      "https://zlpodologia.com.br/zl-podologia/social/equipe/jannie-retrato.jpg",
   };
 
   return {

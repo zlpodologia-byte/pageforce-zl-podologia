@@ -1,7 +1,7 @@
-export const SITE_NAME = "Pageforce";
-export const SITE_URL = "https://pageforce.studio";
+export const SITE_NAME = "ZL Podologia";
+export const SITE_URL = "https://zlpodologia.com.br";
 export const SITE_DESCRIPTION =
-  "Engrenagem comercial digital para negócios locais e regionais — site, SEO, WhatsApp, CRM, BI e automação operados como sistema.";
+  "Podologia clínica em Fortaleza, com atendimento individual, cuidado humanizado e foco em unha encravada, fungos, podoprofilaxia e reflexologia.";
 export const DEFAULT_OG_IMAGE_PATH = "/opengraph-image";
 
 interface OrganizationJsonLd {
@@ -14,16 +14,7 @@ interface OrganizationJsonLd {
   foundingDate: string;
 }
 
-export const PUBLIC_STATIC_ROUTES = [
-  "/",
-  "/work",
-  "/services",
-  "/diagnostic",
-  "/about",
-  "/stories",
-  "/product",
-  "/contact",
-] as const;
+export const PUBLIC_STATIC_ROUTES = ["/", "/politica-de-imagens"] as const;
 
 export const ORGANIZATION_JSON_LD: OrganizationJsonLd = {
   "@context": "https://schema.org",
@@ -31,8 +22,8 @@ export const ORGANIZATION_JSON_LD: OrganizationJsonLd = {
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,
-  founder: "Pageforce team",
-  foundingDate: "2018",
+  founder: "ZL Podologia",
+  foundingDate: "2026",
 };
 
 export function absoluteSiteUrl(pathname: string) {

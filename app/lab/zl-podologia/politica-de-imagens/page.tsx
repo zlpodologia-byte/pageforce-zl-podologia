@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Politica de uso de imagens | ZL Podologia Fortaleza",
   description:
     "Politica LGPD da ZL Podologia Fortaleza sobre uso de imagens de profissionais, pacientes e ambiente clinico. Remocao de imagens pelo WhatsApp ou e-mail.",
-  alternates: { canonical: "/lab/zl-podologia/politica-de-imagens" },
+  alternates: { canonical: "/politica-de-imagens" },
   robots: { index: true, follow: true },
 };
 
@@ -18,7 +18,7 @@ export default function ZlImagePolicyPage() {
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
               <Link
-                href="/lab/zl-podologia"
+                href="/"
                 className="underline-offset-4 hover:underline"
               >
                 ZL Podologia
@@ -122,7 +122,7 @@ export default function ZlImagePolicyPage() {
 
         <div className="mt-12 flex flex-wrap gap-3">
           <Link
-            href="/lab/zl-podologia"
+            href="/"
             className="inline-flex items-center gap-2 rounded-full border border-[#D2C3A6] bg-white px-5 py-2.5 text-[0.82rem] font-medium text-[#3A2E23] hover:border-[#B89B77]"
           >
             &larr; Voltar para a pagina da ZL
