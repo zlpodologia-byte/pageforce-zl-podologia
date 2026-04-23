@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { AppChrome } from "@/components/layout/AppChrome";
 import { display, sans } from "@/lib/fonts";
 import {
   DEFAULT_OG_IMAGE_PATH,
@@ -11,7 +10,7 @@ import {
 } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Pageforce — Engrenagem comercial digital",
+  title: SITE_NAME,
   description: SITE_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
   alternates: {
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
         url: DEFAULT_OG_IMAGE_PATH,
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} — engrenagem comercial digital`,
+        alt: `${SITE_NAME} em Fortaleza`,
       },
     ],
   },
@@ -46,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${display.variable} ${sans.variable}`}>
       <body>
-        <AppChrome>{children}</AppChrome>
+        {children}
         <script
           id="organization-jsonld"
           type="application/ld+json"
