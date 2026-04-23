@@ -159,13 +159,13 @@ export function ZlFooterSection() {
               href={zlLinks.imagePolicy}
               className="text-white/70 underline-offset-4 hover:underline"
             >
-              Politica de uso de imagens
+              Política de uso de imagens
             </Link>
             <p
               className="italic text-white/70"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              Pes bem cuidados fazem toda a diferenca.
+              Pés bem cuidados fazem toda a diferença.
             </p>
           </div>
         </div>

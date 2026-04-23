@@ -47,7 +47,7 @@ export function ZlFiduciaryBar() {
               <p className="text-[0.6rem] uppercase tracking-[0.22em] text-[#8B7862]">
                 {item.eyebrow}
               </p>
-              {item.kind === "open_status" ? (
+              {item.kind === "open_status" ?(
                 <div className="mt-1">
                   <ZlOpenStatus
                     variant="block"
@@ -58,7 +58,7 @@ export function ZlFiduciaryBar() {
                 <>
                   <p className="mt-1 flex flex-wrap items-center gap-2 text-[0.9rem] font-medium leading-[1.3] text-[#3A2E23]">
                     {item.title}
-                    {item.kind === "google" ? (
+                    {item.kind === "google" ?(
                       <span
                         className="inline-flex items-center gap-0.5 align-middle text-[#A08379]"
                         aria-hidden="true"
@@ -74,7 +74,7 @@ export function ZlFiduciaryBar() {
                   </p>
                 </>
               )}
-              {item.cta ? (
+              {item.cta ?(
                 <a
                   href={item.cta.href}
                   target="_blank"
@@ -88,7 +88,7 @@ export function ZlFiduciaryBar() {
                   }}
                   className={`mt-1.5 inline-flex items-center gap-1 text-[0.74rem] font-medium hover:underline ${
                     item.kind === "whatsapp"
-                      ? "text-[#3a8c70]"
+                      ?"text-[#3a8c70]"
                       : "text-[#574433]"
                   }`}
                 >

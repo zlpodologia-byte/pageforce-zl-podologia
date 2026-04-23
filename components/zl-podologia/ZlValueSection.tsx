@@ -57,17 +57,17 @@ const valueOfferCovers = [
   {
     title: "Noiva Sublime",
     subtitle: "Um cuidado especial antes de um dia importante.",
-    kicker: "ExperiÃªncia",
+    kicker: "Experiência",
     src: "/zl-podologia/generated/v10/value-offer/experience-noiva-sublime.jpg",
-    alt: "Capa da experiÃªncia Noiva Sublime da ZL Podologia",
+    alt: "Capa da experiência Noiva Sublime da ZL Podologia",
     objectPosition: "52% 58%",
   },
   {
     title: "Noiva Majestosa",
     subtitle: "Para quem quer um ritual mais completo e demorado.",
-    kicker: "ExperiÃªncia",
+    kicker: "Experiência",
     src: "/zl-podologia/generated/v10/value-offer/experience-noiva-majestosa.jpg",
-    alt: "Capa da experiÃªncia Noiva Majestosa da ZL Podologia",
+    alt: "Capa da experiência Noiva Majestosa da ZL Podologia",
     objectPosition: "50% 48%",
   },
   {
@@ -83,7 +83,7 @@ const valueOfferCovers = [
     subtitle: "Um presente bonito para surpreender com cuidado.",
     kicker: "Presente",
     src: "/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.jpg",
-    alt: "Vale presente ExperiÃªncia Encanto da ZL Podologia",
+    alt: "Vale presente Experiência Encanto da ZL Podologia",
     objectPosition: "50% 50%",
   },
 ] as const;
@@ -157,7 +157,7 @@ export function ZlValueSection() {
                           <p className="text-[0.82rem] font-medium text-[#3A2E23]">
                             {row.label}
                           </p>
-                          {row.tone === "accent" ? (
+                          {row.tone === "accent" ?(
                             <span className="rounded-full bg-[#FBF1EA] px-2 py-0.5 text-[0.52rem] uppercase tracking-[0.16em] text-[#B8837A]">
                               principal
                             </span>
@@ -263,21 +263,21 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
   };
 
   const featuredLabel =
-    "featuredLabel" in card ? card.featuredLabel : undefined;
+    "featuredLabel" in card ?card.featuredLabel : undefined;
   const imagePosition =
     card.id === "noiva_majestosa"
-      ? "50% 58%"
+      ?"50% 58%"
       : card.id === "experiencia_encanto"
-        ? "50% 32%"
+        ?"50% 32%"
         : "50% 44%";
   const contextLabel =
     card.group === "pre_wedding"
-      ? "PrÃ©-wedding"
+      ?"Pré-wedding"
       : "Vale-presente";
 
   return (
     <article className="group relative flex h-full min-h-[25rem] flex-col overflow-hidden rounded-[1.75rem] border border-[#DCCFC2] bg-[#2F241D] shadow-[0_22px_56px_rgba(109,73,58,0.12)]">
-      {card.image ? (
+      {card.image ?(
         <div className="absolute inset-0 overflow-hidden bg-[#F2EBDE]">
           <Image
             src={card.image.src}
@@ -297,7 +297,7 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
           <span className="rounded-full bg-white/88 px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] text-[#6E5B4B]">
             {contextLabel}
           </span>
-          {featuredLabel ? (
+          {featuredLabel ?(
             <span className="rounded-full bg-[#B8837A] px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] text-white">
               {featuredLabel}
             </span>
@@ -354,7 +354,7 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
             <ZlWhatsappIcon />
             <span>
               {card.group === "pre_wedding"
-                ? "Reservar experiÃªncia"
+                ?"Reservar experiência"
                 : "Reservar presente"}
             </span>
           </a>
@@ -386,11 +386,11 @@ function PackageOrbitPreview() {
                 Pacotes, vales e retornos
               </p>
               <p className="mt-2 text-[1rem] leading-[1.12] tracking-[-0.03em] text-white md:text-[1.12rem]">
-                Retornos, pacotes e vales organizados em um sÃ³ lugar.
+                Retornos, pacotes e vales organizados em um só lugar.
               </p>
               <p className="mt-2 text-[0.76rem] leading-[1.48] text-white/78">
-                Retornos, presentes e experiÃªncias especiais ficam separados
-                dos procedimentos clÃ­nicos.
+                Retornos, presentes e experiências especiais ficam separados
+                dos procedimentos clínicos.
               </p>
             </div>
           </div>
@@ -398,7 +398,7 @@ function PackageOrbitPreview() {
 
         <div className="border-t border-white/8 bg-[linear-gradient(180deg,#2A2019_0%,#201813_100%)] p-4 lg:border-l lg:border-t-0">
           <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#F0C3BA]">
-            ExperiÃªncias e presentes
+            Experiências e presentes
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-2">
             {valueOfferCovers.map((cover) => (
@@ -433,8 +433,8 @@ function PackageOrbitPreview() {
 
           <div className="mt-4 rounded-[1.1rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0.08)_100%)] p-4">
             <p className="text-[0.76rem] leading-[1.5] text-white/84">
-              Presentes e experiÃªncias especiais ficam ao lado dos retornos e
-              das combinaÃ§Ãµes de cuidado.
+              Presentes e experiências especiais ficam ao lado dos retornos e
+              das combinações de cuidado.
             </p>
           </div>
         </div>

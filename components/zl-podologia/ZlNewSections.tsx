@@ -36,7 +36,7 @@ import {
 } from "@/components/zl-podologia/ZlV8Primitives";
 
 /* ------------------------------------------------------------------ */
-/* Deprecado: ZlTrustBar â€” mantido como re-export pra cobertura de    */
+/* Deprecado: ZlTrustBar ? mantido como re-export pra cobertura de    */
 /* imports legacy. Faixa fiduciaria v7a vive em ZlFiduciaryBar.tsx.    */
 /* ------------------------------------------------------------------ */
 
@@ -59,7 +59,7 @@ export function ZlBiosafetySection() {
               as="p"
               className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
             >
-              BiosseguranÃ§a
+              Biossegurança
             </Reveal>
             <Reveal
               as="h2"
@@ -67,15 +67,15 @@ export function ZlBiosafetySection() {
               className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              Protocolo de biosseguranÃ§a hospitalar em Fortaleza.
+              Protocolo de biossegurança hospitalar em Fortaleza.
             </Reveal>
             <Reveal
               as="p"
               delay={130}
               className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.65] text-[#5C4A38]"
             >
-              Sua seguranÃ§a na ZL Podologia, em ParquelÃ¢ndia, nÃ£o Ã© opcional. O
-              processo Ã© visÃ­vel, documentado e explicado durante o
+              Sua segurança na ZL Podologia, em Parquelândia, não é opcional. O
+              processo é visível, documentado e explicado durante o
               atendimento.
             </Reveal>
 
@@ -101,7 +101,7 @@ export function ZlBiosafetySection() {
               <span>{zlBiosafetyNote}</span>
             </Reveal>
 
-            {/* Photo card â€” rotativo-procedimento-pro. */}
+            {/* Photo card ? rotativo-procedimento-pro. */}
             <Reveal as="div" delay={260} className="mt-6">
               <div className="relative rounded-[1.5rem] bg-[#E6DBC6] p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_22px_52px_-24px_rgba(138,108,72,0.4)]">
                 <div className="relative aspect-[5/4] w-full overflow-hidden rounded-[calc(1.5rem-0.375rem)]">
@@ -142,7 +142,7 @@ export function ZlBiosafetySection() {
                 <span
                   className={`mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${
                     useRose
-                      ? "bg-[#FFF4EF] text-[#C69184]"
+                      ?"bg-[#FFF4EF] text-[#C69184]"
                       : "bg-[linear-gradient(135deg,#E6DBC6_0%,#D2C3A6_100%)] text-[#574433]"
                   }`}
                 >
@@ -163,7 +163,7 @@ export function ZlBiosafetySection() {
               );
             })}
 
-            {/* Apoio visual extra â€” bandagem-instrumental-pro. */}
+            {/* Apoio visual extra ? bandagem-instrumental-pro. */}
             <Reveal
               as="figure"
               delay={280}
@@ -172,7 +172,7 @@ export function ZlBiosafetySection() {
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-[calc(1.4rem-0.375rem)]">
                 <Image
                   src="/zl-podologia/social/edited-pro/procedimentos/bandagem-instrumental-pro.jpg"
-                  alt="Bandagem e instrumental em uso durante atendimento na ZL Podologia Fortaleza â€” kit individualizado por paciente"
+                  alt="Bandagem e instrumental em uso durante atendimento na ZL Podologia Fortaleza - kit individualizado por paciente"
                   fill
                   sizes="(min-width: 1024px) 52vw, 100vw"
                   loading="lazy"
@@ -257,32 +257,32 @@ function BiosafetyIcon({ kind }: { kind: ZlBiosafetyItemKind }) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 2b. Ambiente â€” trio editorial de fotos (v7a: reais HD do Codex)     */
+/* 2b. Ambiente ? trio editorial de fotos (v7a: reais HD do Codex)     */
 /* ------------------------------------------------------------------ */
 
 export function ZlAmbienteSection() {
-  // Trio editorial v7-final â€” fotos pro do Codex + original mantido:
+  // Trio editorial v7-final ? fotos pro do Codex + original mantido:
   // - sala-wide-institucional-pro: wide da sala em operacao (Codex pro)
-  // - escalda-pes-02 (original): ritual â€” Codex nao editou essa
+  // - escalda-pes-02 (original): ritual ? Codex nao editou essa
   // - profissional-contexto-humano-pro: Zucarina em contexto humano (Codex pro)
   const photos = [
     {
       src: "/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
-      alt: "Sala de atendimento da ZL Podologia em Fortaleza com podologa, paciente, ambiente institucional amplo e luz natural",
-      caption: "Sala em operaÃ§Ã£o",
+      alt: "Sala de atendimento da ZL Podologia em Fortaleza com podóloga, paciente, ambiente institucional amplo e luz natural",
+      caption: "Sala em operação",
       rotate: "md:-rotate-2",
       objectPosition: "center",
     },
     {
       src: "/zl-podologia/social/ambiente/escalda-pes-02.jpg",
-      alt: "Ritual de escalda-pes com bacia branca, flor girassol e petalas, na ZL Podologia Fortaleza",
-      caption: "Escalda-pÃ©s morno",
+      alt: "Ritual de escalda-pés com bacia branca, flor girassol e pétalas, na ZL Podologia Fortaleza",
+      caption: "Escalda-pés morno",
       rotate: "md:rotate-1",
       objectPosition: "center",
     },
     {
       src: "/zl-podologia/social/edited-pro/equipe/profissional-contexto-humano-pro.jpg",
-      alt: "Profissional da ZL Podologia em contexto humano de atendimento clinico em Fortaleza â€” presenca e acolhimento",
+      alt: "Profissional da ZL Podologia em contexto humano de atendimento clínico em Fortaleza - presença e acolhimento",
       caption: "Uma paciente por vez",
       rotate: "md:rotate-[-1deg]",
       objectPosition: "center",
@@ -292,7 +292,7 @@ export function ZlAmbienteSection() {
   return (
     <section
       id="ambiente"
-      aria-label="Ambiente da clinica ZL Podologia em Fortaleza"
+      aria-label="Ambiente da clínica ZL Podologia em Fortaleza"
       className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
     >
       {/* v8-merge B.1: envelope ExactScene wrap na secao Ambiente.
@@ -312,7 +312,7 @@ export function ZlAmbienteSection() {
               className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              Um espaÃ§o pensado para o pÃ© descansar antes de ser cuidado.
+              Um espaço pensado para o pé descansar antes de ser cuidado.
             </Reveal>
           </div>
           <Reveal
@@ -320,9 +320,9 @@ export function ZlAmbienteSection() {
             delay={130}
             className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
           >
-            Sala silenciosa na Galeria JosÃ© Bernardo (ParquelÃ¢ndia), poltrona
-            reclinÃ¡vel, escalda-pÃ©s morno e bancada organizada. VocÃª sabe onde
-            estÃ¡ do inÃ­cio ao fim do atendimento.
+            Sala silenciosa na Galeria José Bernardo (Parquelândia), poltrona
+            reclinável, escalda-pés morno e bancada organizada. Você sabe onde
+            está do início ao fim do atendimento.
           </Reveal>
         </div>
 
@@ -361,7 +361,7 @@ export function ZlAmbienteSection() {
         {/* v8-hero-swap / Bloco B (Opcao A): peca editorial oficial
             `hero-editorial-tagline` (tagline dourada "Pes bem cuidados
             fazem toda a diferenca") reposicionada aqui no Ambiente como
-            assinatura visual da secao â€” antes ela era o hero, agora e
+            assinatura visual da secao ? antes ela era o hero, agora e
             a pagina dupla editorial antes do Equipe/Pricing. */}
         <Reveal
           as="figure"
@@ -371,7 +371,7 @@ export function ZlAmbienteSection() {
           <div className="relative aspect-[0.9] w-full overflow-hidden rounded-[1.2rem]">
             <Image
               src="/zl-podologia/social/marca/hero-editorial-tagline.jpg"
-              alt="Peca editorial oficial da ZL Podologia Fortaleza com a tagline Pes bem cuidados fazem toda a diferenca em tipografia serifada dourada sobre pernas femininas em luz natural"
+              alt="Peça editorial oficial da ZL Podologia Fortaleza com a tagline Pés bem cuidados fazem toda a diferença em tipografia serifada dourada sobre pernas femininas em luz natural"
               fill
               sizes="(min-width: 1024px) 48vw, 90vw"
               loading="lazy"
@@ -380,16 +380,16 @@ export function ZlAmbienteSection() {
           </div>
           <figcaption className="flex flex-col gap-3 md:pr-4">
             <span className="text-[0.64rem] uppercase tracking-[0.26em] text-[#C69184]">
-              Assinatura da clÃ­nica
+              Assinatura da clínica
             </span>
             <p
               className="text-[clamp(1.3rem,2.2vw,1.9rem)] leading-[1.15] tracking-[-0.03em] text-[#3A2E23]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              <span className="italic">&ldquo;PÃ©s bem cuidados fazem toda a diferenÃ§a.&rdquo;</span>
+              <span className="italic">&ldquo;Pés bem cuidados fazem toda a diferença.&rdquo;</span>
             </p>
             <p className="text-[0.9rem] leading-[1.65] text-[#5C4A38]">
-              Atendimento calmo, individual e atento aos detalhes do inÃ­cio ao
+              Atendimento calmo, individual e atento aos detalhes do início ao
               fim.
             </p>
           </figcaption>
@@ -435,7 +435,7 @@ export function ZlSymptomGrid({ onPick }: ZlSymptomGridProps) {
               className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              O que esta te incomodando agora?
+              O que está te incomodando agora?
             </Reveal>
           </div>
           <Reveal
@@ -612,7 +612,7 @@ export function ZlHeroJourneySection() {
               className="group relative rounded-[1.8rem] bg-[#E6DBC6] p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_26px_64px_-28px_rgba(138,108,72,0.35)] transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-0.5"
             >
               <div className="relative flex h-full flex-col gap-4 overflow-hidden rounded-[calc(1.8rem-0.375rem)] bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)]">
-                {/* Decorative open-quote serif glyph â€” v7-earthy: taupe delicado. */}
+                {/* Decorative open-quote serif glyph ? v7-earthy: taupe delicado. */}
                 <span
                   aria-hidden="true"
                   className="pointer-events-none absolute -right-1 -top-2 text-[6rem] leading-none text-[#D2C3A6]/80 select-none"
@@ -688,7 +688,7 @@ export function ZlHeroJourneySection() {
 }
 
 /* ------------------------------------------------------------------ */
-/* 5. Quiz diagnostico 3 min â€” v7a: pergunta 2 localizacao + roteamento*/
+/* 5. Quiz diagnostico 3 min ? v7a: pergunta 2 localizacao + roteamento*/
 /* ------------------------------------------------------------------ */
 
 type QuizAnswers = {
@@ -778,18 +778,18 @@ export function ZlDiagnosticQuiz() {
                 <div
                   className="h-full rounded-full bg-[linear-gradient(90deg,#9A7F5C_0%,#574433_100%)] transition-all duration-300"
                   style={{
-                    width: `${Math.min(100, ((isResult ? total : step) / total) * 100)}%`,
+                    width: `${Math.min(100, ((isResult ?total : step) / total) * 100)}%`,
                   }}
                 />
               </div>
               <span className="text-[0.72rem] uppercase tracking-[0.22em] text-[#7A6244]">
                 {isResult
-                  ? "ConcluÃ­do"
+                  ?"Concluído"
                   : zlQuizCopy.progress(Math.min(step + 1, total), total)}
               </span>
             </div>
 
-            {isResult ? (
+            {isResult ?(
               <QuizResult answers={answers} onRestart={handleRestart} />
             ) : (
               <QuizStep
@@ -836,7 +836,7 @@ function QuizStep({
               onClick={() => onPick(option.value)}
               className={`group relative rounded-[1.1rem] border px-5 py-4 text-left transition-all duration-200 hover:-translate-y-0.5 ${
                 active
-                  ? "border-[#B89B77] bg-[#E6DBC6] shadow-[0_12px_32px_rgba(138,108,72,0.22)]"
+                  ?"border-[#B89B77] bg-[#E6DBC6] shadow-[0_12px_32px_rgba(138,108,72,0.22)]"
                   : "border-[#D2C3A6] bg-white hover:border-[#B89B77]"
               }`}
               aria-pressed={active}
@@ -868,11 +868,11 @@ function QuizResult({
   const summaryItems = [
     { label: "Queixa", value: answers.concern },
     { label: "Onde", value: answers.location },
-    { label: "HistÃ³rico", value: answers.history },
+    { label: "Histórico", value: answers.history },
   ] as const;
 
   useEffect(() => {
-    // Fire when the result is rendered â€” useful for funnel drop-off.
+    // Fire when the result is rendered ? useful for funnel drop-off.
     trackZlEvent("quiz_cta_click", { recommended_service: recommendedId });
     // We only want to fire on mount of the result.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -891,7 +891,7 @@ function QuizResult({
       </h3>
 
       {/* Servico recomendado com base nas 3 respostas. */}
-      {recommended ? (
+      {recommended ?(
         <div className="mt-5 rounded-[1.2rem] border border-[#B89B77] bg-[#E6DBC6] p-4">
           <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#574433]">
             Cuidado que mais combina com seu caso
@@ -914,13 +914,13 @@ function QuizResult({
 
       <div className="mt-6 rounded-[1rem] border border-[#D2C3A6] bg-[#FAF7F2] px-4 py-3">
         <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#8B7862]">
-          Resumo rÃ¡pido
+          Resumo rápido
         </p>
         <dl className="mt-3 grid gap-3 sm:grid-cols-3">
           {summaryItems.map((item, index) => (
             <div
               key={item.label}
-              className={`min-w-0 ${index > 0 ? "sm:border-l sm:border-[#D2C3A6] sm:pl-4" : "sm:pr-4"}`}
+              className={`min-w-0 ${index > 0 ?"sm:border-l sm:border-[#D2C3A6] sm:pl-4" : "sm:pr-4"}`}
             >
               <dt className="text-[0.64rem] uppercase tracking-[0.2em] text-[#8B7862]">
                 {item.label}
@@ -1072,7 +1072,7 @@ export function ZlCompareSection() {
   return (
     <section
       id="comparativa"
-      aria-label="Comparativa entre podologia clinica e pedicure comum"
+      aria-label="Comparativa entre podologia clínica e pedicure comum"
       className="relative border-t border-[#D2C3A6] bg-[#FAF7F2]"
     >
       <div className="container-x mx-auto max-w-[1440px] py-12 lg:py-14">

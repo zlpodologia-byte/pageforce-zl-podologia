@@ -44,7 +44,7 @@ import { ZlSceneEnvelope } from "@/components/zl-podologia/ZlV8Primitives";
 /* ------------------------------------------------------------------ */
 
 export function ZlQuickStrip() {
-  // Deprecado em v7a â€” a faixa fiduciaria consolidou TrustBar + QuickStrip
+  // Deprecado em v7a ? a faixa fiduciaria consolidou TrustBar + QuickStrip
   // em um unico componente (`ZlFiduciaryBar`).
   return null;
 }
@@ -66,7 +66,7 @@ export function ZlTrustSection() {
           body="Endereço, horário, forma de atendimento e sinais de cuidado da clínica."
         />
 
-        {/* Pivot v7-earthy â€” ancora explicita nos 4 prioritarios.
+        {/* Pivot v7-earthy ? ancora explicita nos 4 prioritarios.
             Paleta terrosa elegante. */}
         <Reveal
           as="div"
@@ -82,7 +82,7 @@ export function ZlTrustSection() {
         </Reveal>
       </div>
 
-      {/* Trust points em grid de 2 colunas (desktop) + 3 colunas (xl) â€”
+      {/* Trust points em grid de 2 colunas (desktop) + 3 colunas (xl) ?
           aproveita toda a largura da secao e elimina whitespace lateral. */}
       <div className="mx-auto mt-8 grid max-w-[1440px] gap-4 md:grid-cols-2 xl:grid-cols-3">
         {zlTrustPoints.map((point, index) => (
@@ -108,7 +108,7 @@ export function ZlTrustSection() {
 /* ------------------------------------------------------------------ */
 
 /**
- * Card de caso com fotos reais â€” v7-refine.
+ * Card de caso com fotos reais ? v7-refine.
  *
  * Quando a case entry traz beforePhoto/afterPhoto, renderizamos as fotos
  * reais dentro do mesmo container bezel (taupe/areia) preservando
@@ -128,11 +128,11 @@ function ZlCasePhotoPair({
   afterLabel: string;
   tag: string;
 }) {
-  // Podoprofilaxia nao tem antes/depois dramatico â€” trocamos rotulos pra
-  // Procedimento / Resultado quando o tag e "Experiencia".
-  const isExperience = tag === "ExperiÃªncia";
-  const firstTitle = isExperience ? "Procedimento" : "Antes";
-  const secondTitle = isExperience ? "Resultado" : "Depois";
+  // Podoprofilaxia não tem antes/depois dramático - trocamos rótulos para
+  // Procedimento / Resultado quando a tag é "Experiência".
+  const isExperience = tag === "Experiência";
+  const firstTitle = isExperience ?"Procedimento" : "Antes";
+  const secondTitle = isExperience ?"Resultado" : "Depois";
 
   return (
     <div className="overflow-hidden rounded-[1.5rem] border border-[#D2C3A6] bg-white">
@@ -169,9 +169,9 @@ function CasePhotoHalf({
   // areia claro (#F2EBDE) com label verde-oliva. Contraste visual claro
   // para leitura antes/depois. Verde-oliva complementa o terroso sem
   // virar rose/azul.
-  const background = tone === "before" ? "#D2C3A6" : "#F2EBDE";
-  const accent = tone === "before" ? "#574433" : "#7A8459";
-  const textTone = tone === "before" ? "#3A2E23" : "#574433";
+  const background = tone === "before" ?"#D2C3A6" : "#F2EBDE";
+  const accent = tone === "before" ?"#574433" : "#7A8459";
+  const textTone = tone === "before" ?"#3A2E23" : "#574433";
 
   return (
     <div className="p-4" style={{ background }}>
@@ -244,7 +244,7 @@ export function ZlCasesSection() {
                 </span>
               </div>
               <div className="mt-4">
-                {item.beforePhoto && item.afterPhoto ? (
+                {item.beforePhoto && item.afterPhoto ?(
                   <ZlCasePhotoPair
                     beforePhoto={item.beforePhoto}
                     afterPhoto={item.afterPhoto}
@@ -271,11 +271,11 @@ export function ZlCasesSection() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Team section â€” v7a: retrato editorial + bio 1a pessoa              */
+/* Team section ? v7a: retrato editorial + bio 1a pessoa              */
 /* ------------------------------------------------------------------ */
 
 /**
- * Avatar ilustrado circular generico â€” usado como fallback pra Jannie
+ * Avatar ilustrado circular generico ? usado como fallback pra Jannie
  * enquanto retrato profissional nao chega (v7b).
  */
 function ZlProfessionalAvatar({ name }: { name: string }) {
@@ -322,20 +322,20 @@ function ZlProfessionalAvatar({ name }: { name: string }) {
  * avatar SVG caso contrario. Bio em primeira pessoa em serif.
  *
  * LGPD: quando `cropProtected` e true, a foto usa object-position que
- * enfatiza maos/jaleco/placa e reduz exposicao de rosto â€” v7a fallback
+ * enfatiza maos/jaleco/placa e reduz exposicao de rosto ? v7a fallback
  * enquanto autorizacao escrita formal nao chega (comentario do Codex
  * edit-manifest). Na v7-earthy, Jannie tem foto wide-shot e usamos
  * customObjectPosition via dedicated prop pra centralizar nela.
  */
 function ZlProfessionalHero({ professional, index }: { professional: ZlProfessional; index: number }) {
   const hasPhoto = Boolean(professional.photo?.src);
-  // v7-earthy BLOCO B: Jannie usa foto wide com paciente â€” agressivo
+  // v7-earthy BLOCO B: Jannie usa foto wide com paciente ? agressivo
   // object-position pra centralizar nela (ela fica na esquerda-centro
   // do frame). Zucarina e close autoridade, crop default.
   const objectPosition = professional.photo?.cropProtected
-    ? "50% 75%"
+    ?"50% 75%"
     : professional.name === "Jannie"
-    ? "35% 60%"
+    ?"35% 60%"
     : "center";
   return (
     <Reveal
@@ -345,7 +345,7 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
     >
       <div className="relative overflow-hidden rounded-[calc(1.8rem-0.375rem)] bg-[linear-gradient(180deg,#FAF7F2_0%,#D2C3A6_100%)]">
         <div className="relative aspect-[3/4] w-full overflow-hidden">
-          {hasPhoto && professional.photo ? (
+          {hasPhoto && professional.photo ?(
             <>
               <Image
                 src={professional.photo.src}
@@ -405,7 +405,7 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
           <p className="mt-4 text-[0.82rem] leading-[1.6] text-[#8B7862]">
             {professional.description}
           </p>
-          {professional.handle ? (
+          {professional.handle ?(
             <p className="mt-3 text-[0.72rem] uppercase tracking-[0.2em] text-[#8B7862]">
               {professional.handle}
             </p>
@@ -417,7 +417,7 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
 }
 
 export function ZlTeamSection() {
-  // v7-earthy BLOCO B: as duas profissionais tem foto real agora â€” volta
+  // v7-earthy BLOCO B: as duas profissionais tem foto real agora ? volta
   // pra grid simetrico 1fr/1fr. Abaixo, bloco de valores + flow full-width.
   // v8-merge B.1: envelope ExactScene + eyebrow rose-mid `#C69184` (secao
   // corporal - equipe/pele).
@@ -437,10 +437,10 @@ export function ZlTeamSection() {
             delay={130}
             className="max-w-[54ch] text-[0.92rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
           >
-            Duas profissionais. Mesmo ritual: leitura cuidadosa do caso, execucao
-            tecnica com delicadeza e orientacao clara. Os nomes â€” Zucarina e
-            Jannie â€” sao citados publicamente pelas pacientes nos reviews do
-            Google 5,0. Aqui voce sabe com quem esta falando.
+            Duas profissionais. Mesmo ritual: leitura cuidadosa do caso, execução
+            técnica com delicadeza e orientação clara. Os nomes - Zucarina e
+            Jannie - são citados publicamente pelas pacientes nos reviews do
+            Google 5,0. Aqui você sabe com quem está falando.
           </Reveal>
         </div>
 
@@ -606,17 +606,17 @@ export function ZlPricingEducationSection() {
                       key={row.label}
                       className={`grid gap-1 rounded-[1rem] px-4 py-2.5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4 ${
                         accent
-                          ? "bg-[linear-gradient(180deg,#E6DBC6_0%,#D2C3A6_100%)] ring-1 ring-[#B89B77]/60"
+                          ?"bg-[linear-gradient(180deg,#E6DBC6_0%,#D2C3A6_100%)] ring-1 ring-[#B89B77]/60"
                           : "bg-[#FAF7F2] ring-1 ring-[#E6DBC6]"
                       }`}
                     >
                       <div>
                         <p className="flex flex-wrap items-center gap-2 text-[0.96rem] font-medium text-[#3A2E23]">
                           {row.label}
-                          {accent ? (
+                          {accent ?(
                             <span className="rounded-full bg-[#574433] px-2 py-0.5 text-[0.54rem] uppercase tracking-[0.18em] text-white shadow-[0_6px_18px_rgba(87,68,51,0.35)]">
                               {group.bucket === "basicos"
-                                ? "Mais vendido"
+                                ?"Mais vendido"
                                 : "Principal"}
                             </span>
                           ) : null}
@@ -643,7 +643,7 @@ export function ZlPricingEducationSection() {
         </div>
 
         {/* Rodape com notas oficiais + Urgencia honesta em 2 colunas
-            horizontais (desktop) â€” evita dead space abaixo do pricing. */}
+            horizontais (desktop) ? evita dead space abaixo do pricing. */}
         <div className="mt-6 grid gap-5 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)] lg:items-start">
           <Reveal
             as="div"
@@ -673,7 +673,7 @@ export function ZlPricingEducationSection() {
             </div>
           </Reveal>
 
-          {/* Urgencia honesta â€” v7-earthy: marrom mais denso. */}
+          {/* Urgencia honesta ? v7-earthy: marrom mais denso. */}
           <Reveal
             as="div"
             delay={240}
@@ -695,7 +695,7 @@ export function ZlPricingEducationSection() {
         </div>
       </div>
 
-      {/* Podologia explicada â€” faixa horizontal abaixo do pricing. */}
+      {/* Podologia explicada ? faixa horizontal abaixo do pricing. */}
       <div className="mx-auto mt-10 max-w-[1440px] border-t border-[#D2C3A6] pt-8">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,2fr)] lg:items-end">
           <div>
@@ -793,7 +793,7 @@ function FaqItem({
       as="div"
       delay={index * 45}
       className={`overflow-hidden rounded-[1.2rem] border bg-white transition-all ${
-        open ? "border-[#B89B77] shadow-[0_18px_44px_rgba(138,108,72,0.18)]" : "border-[#D2C3A6]"
+        open ?"border-[#B89B77] shadow-[0_18px_44px_rgba(138,108,72,0.18)]" : "border-[#D2C3A6]"
       }`}
     >
       <button
@@ -805,16 +805,16 @@ function FaqItem({
         <span className="text-[0.96rem] font-medium text-[#3A2E23]">{q}</span>
         <span
           className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border transition-all ${
-            open ? "border-[#B89B77] bg-[#E6DBC6] text-[#574433]" : "border-[#D2C3A6] bg-white text-[#8B7862]"
+            open ?"border-[#B89B77] bg-[#E6DBC6] text-[#574433]" : "border-[#D2C3A6] bg-white text-[#8B7862]"
           }`}
           aria-hidden="true"
         >
-          <span className={`block h-[1.5px] w-3 bg-current transition-all ${open ? "rotate-0" : "rotate-90"}`} />
+          <span className={`block h-[1.5px] w-3 bg-current transition-all ${open ?"rotate-0" : "rotate-90"}`} />
         </span>
       </button>
       <div
         className={`grid overflow-hidden transition-[grid-template-rows] duration-300 ${
-          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+          open ?"grid-rows-[1fr]" : "grid-rows-[0fr]"
         }`}
       >
         <div className="min-h-0 overflow-hidden px-5 pb-5 text-[0.92rem] leading-[1.68] text-[#5C4A38]">
@@ -849,7 +849,7 @@ export function ZlFinalCtaSection() {
         <div className="relative aspect-[21/10] w-full overflow-hidden rounded-[calc(1.65rem-0.3rem)] md:aspect-[24/10]">
           <Image
             src="/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg"
-            alt="Fachada externa da ZL Podologia em Fortaleza â€” Galeria Jose Bernardo, Av. Bezerra de Menezes, Parquelandia"
+            alt="Fachada externa da ZL Podologia em Fortaleza - Galeria José Bernardo, Av. Bezerra de Menezes, Parquelândia"
             fill
             sizes="(min-width: 1024px) 90vw, 100vw"
             loading="lazy"
@@ -861,7 +861,7 @@ export function ZlFinalCtaSection() {
               Fachada na Av. Bezerra de Menezes
             </p>
             <p className="text-[0.74rem] opacity-80">
-              Galeria JosÃ© Bernardo - ParquelÃ¢ndia
+              Galeria José Bernardo - Parquelândia
             </p>
           </figcaption>
         </div>
@@ -880,7 +880,7 @@ export function ZlFinalCtaSection() {
               className="mt-4 max-w-[14ch] text-[clamp(2.2rem,4vw,3.6rem)] leading-[0.96] tracking-[-0.04em] text-[#3A2E23]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              Agende seu horÃ¡rio pelo WhatsApp.
+              Agende seu horário pelo WhatsApp.
             </h2>
             <p
               className="mt-4 max-w-[30ch] text-[0.98rem] italic leading-[1.55] text-[#7A6244]"
@@ -889,8 +889,8 @@ export function ZlFinalCtaSection() {
               {zlBrandSignature}
             </p>
             <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7] text-[#5C4A38]">
-              VocÃª envia uma mensagem no WhatsApp, a clÃ­nica entende seu caso,
-              informa os horÃ¡rios disponÃ­veis e confirma tudo antes da sua ida.
+              Você envia uma mensagem no WhatsApp, a clínica entende seu caso,
+              informa os horários disponíveis e confirma tudo antes da sua ida.
             </p>
               <div className="mt-6 flex flex-wrap gap-3">
               <ZlPrimaryLink
@@ -918,7 +918,7 @@ export function ZlFinalCtaSection() {
             <meta itemProp="name" content="ZL Podologia" />
             <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
               <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#7A6244]">
-                EndereÃ§o
+                Endereço
               </p>
               <p className="mt-2 text-[1rem] leading-[1.55] text-[#3A2E23]" itemProp="streetAddress">
                 {zlLocation.address}
@@ -936,18 +936,18 @@ export function ZlFinalCtaSection() {
             </div>
             <div className="border-t border-[#D2C3A6] pt-4">
               <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#574433]">
-                HorÃ¡rio de atendimento
+                Horário de atendimento
               </p>
               <ul className="mt-3 grid gap-1.5">
                 {zlHoursRows.map((row) => {
                   const closed = row.tone === "muted";
                   return (
                     <li key={row.day} className="flex items-center justify-between gap-4 text-[0.88rem]">
-                      <span className={closed ? "text-[#8B7862]" : "text-[#3A2E23]"}>{row.day}</span>
+                      <span className={closed ?"text-[#8B7862]" : "text-[#3A2E23]"}>{row.day}</span>
                       <span
                         className={
                           closed
-                            ? "text-[#8B7862]"
+                            ?"text-[#8B7862]"
                             : "font-medium text-[#3a8c70]"
                         }
                       >
@@ -961,7 +961,7 @@ export function ZlFinalCtaSection() {
             <div className="border-t border-[#D2C3A6] pt-4 text-[0.86rem] leading-[1.55] text-[#5C4A38]">
               <p className="flex items-center gap-2">
                 <ZlStarIcon />
-                <span>5,0 com 11 avaliaÃ§Ãµes: cuidado artesanal, uma paciente por vez.</span>
+                <span>5,0 com 11 avaliações: cuidado artesanal, uma paciente por vez.</span>
               </p>
               <p className="mt-2">{zlLocation.note}</p>
               <p className="mt-2">
@@ -1020,7 +1020,7 @@ export function ZlMobileStickyCta() {
 
     <div
       className={`pointer-events-none fixed inset-x-0 bottom-0 z-40 flex justify-center pb-3 transition-all duration-500 [transition-timing-function:var(--ease-haptic)] md:hidden ${
-        visible ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-4 opacity-0"
+        visible ?"translate-y-0 opacity-100" : "pointer-events-none translate-y-4 opacity-0"
       }`}
       aria-hidden={!visible}
     >

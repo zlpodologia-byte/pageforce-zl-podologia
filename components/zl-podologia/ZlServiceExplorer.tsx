@@ -33,7 +33,7 @@ export interface ZlServiceExplorerProps {
 }
 
 /**
- * Tabs internas do card â€” Bloco C v7-earthy (Opcao C do brief).
+ * Tabs internas do card ? Bloco C v7-earthy (Opcao C do brief).
  *
  * 3 abas por servico:
  *  - atendimento: tagline + pain + descricao (promise)
@@ -51,16 +51,16 @@ const SERVICE_TABS: readonly {
   label: string;
   eyebrow: string;
 }[] = [
-  { id: "atendimento", label: "Atendimento", eyebrow: "O que voce vai sentir" },
+  { id: "atendimento", label: "Atendimento", eyebrow: "O que você vai sentir" },
   { id: "protocolo", label: "Protocolo", eyebrow: "Como funciona por dentro" },
-  { id: "agendar", label: "Preco e agendar", eyebrow: "Proximo passo" },
+  { id: "agendar", label: "Preço e agendar", eyebrow: "Próximo passo" },
 ] as const;
 
 /**
- * Service Explorer v7-earthy â€” 6 cards principais + abas internas.
+ * Service Explorer v7-earthy - 6 cards principais + abas internas.
  *
  * Layout: split 2-col onde coluna esquerda tem a foto editorial (50%
- * wide), coluna direita tem as tabs e o conteudo denso. Em mobile empilha
+ * wide), coluna direita tem as tabs e o conteúdo denso. Em mobile empilha
  * foto em cima, tabs embaixo.
  */
 export function ZlServiceExplorer({
@@ -107,7 +107,7 @@ export function ZlServiceExplorer({
                 className="mt-4 text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
               >
-                Abra o servico certo e ja veja valor de entrada e WhatsApp.
+                Abra o serviço certo e já veja valor de entrada e WhatsApp.
               </Reveal>
               <Reveal
                 as="p"
@@ -142,7 +142,7 @@ export function ZlServiceExplorer({
                   aria-pressed={active}
                   className={`group flex shrink-0 items-center gap-3 rounded-[1.1rem] border px-4 py-3 text-left transition-all duration-300 lg:min-w-[16rem] lg:flex-1 lg:justify-between ${
                     active
-                      ? "border-[#B89B77] bg-white shadow-[0_14px_36px_rgba(138,108,72,0.22)]"
+                      ?"border-[#B89B77] bg-white shadow-[0_14px_36px_rgba(138,108,72,0.22)]"
                       : "border-[#D2C3A6] bg-white/70 hover:border-[#B89B77] hover:bg-white"
                   }`}
                 >
@@ -150,7 +150,7 @@ export function ZlServiceExplorer({
                     <span
                       className={`flex h-8 w-8 items-center justify-center rounded-full transition-colors ${
                         active
-                          ? "bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white"
+                          ?"bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white"
                           : "bg-[#E6DBC6] text-[#574433]"
                       }`}
                     >
@@ -160,12 +160,12 @@ export function ZlServiceExplorer({
                       <div className="flex items-center gap-2">
                         <p
                           className={`text-[0.82rem] font-medium tracking-[0.01em] ${
-                            active ? "text-[#3A2E23]" : "text-[#5C4A38]"
+                            active ?"text-[#3A2E23]" : "text-[#5C4A38]"
                           }`}
                         >
                           {service.menuLabel}
                         </p>
-                        {isPriority ? (
+                        {isPriority ?(
                           <span className="rounded-full bg-[#FBF4EF] px-2 py-0.5 text-[0.56rem] uppercase tracking-[0.16em] text-[#B8837A]">
                             Prioridade
                           </span>
@@ -179,7 +179,7 @@ export function ZlServiceExplorer({
                   <span
                     className={`hidden text-[0.9rem] transition-transform duration-300 lg:inline-block ${
                       active
-                        ? "translate-x-0 text-[#574433]"
+                        ?"translate-x-0 text-[#574433]"
                         : "-translate-x-1 text-[#B89B77]"
                     }`}
                     aria-hidden="true"
@@ -206,7 +206,7 @@ export function ZlServiceExplorer({
  *
  * v7-earthy: o componente gerencia seu proprio estado de tab e reseta
  * para "atendimento" quando o servico muda (via `key={activeService.id}`
- * no parent â€” remount garante reset sem effect). Keyboard nav: setas
+ * no parent ? remount garante reset sem effect). Keyboard nav: setas
  * esquerda/direita percorrem as tabs.
  */
 function ServiceCard({ service }: { service: ZlInteractiveService }) {
@@ -223,7 +223,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
   const handleTabKeyDown = (e: React.KeyboardEvent<HTMLButtonElement>, currentIndex: number) => {
     if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
       e.preventDefault();
-      const delta = e.key === "ArrowRight" ? 1 : -1;
+      const delta = e.key === "ArrowRight" ?1 : -1;
       const next = (currentIndex + delta + SERVICE_TABS.length) % SERVICE_TABS.length;
       setTab(SERVICE_TABS[next].id);
       const el = document.getElementById(`tab-${service.id}-${SERVICE_TABS[next].id}`);
@@ -237,18 +237,18 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
       delay={120}
       className={`overflow-hidden rounded-[2rem] border bg-white shadow-[0_28px_70px_rgba(138,108,72,0.14)] ${
         service.premiumStripe
-          ? "border-[rgba(160,131,121,0.45)] ring-1 ring-[rgba(160,131,121,0.25)]"
+          ?"border-[rgba(160,131,121,0.45)] ring-1 ring-[rgba(160,131,121,0.25)]"
           : "border-[#D2C3A6]"
       }`}
     >
       {/* Pre-Wedding eyebrow editorial stripe premium (dourado mantido). */}
-      {service.premiumStripe ? (
+      {service.premiumStripe ?(
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[rgba(160,131,121,0.25)] bg-white px-5 py-3 md:px-7">
           <p
             className="text-[0.62rem] uppercase tracking-[0.32em]"
             style={{ color: "#A08379" }}
           >
-            Experiencia premium
+            Experiência premium
           </p>
           <p
             className="text-[0.78rem] italic tracking-[0.02em]"
@@ -271,7 +271,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               <span
                 className={`rounded-full px-3 py-1 text-[0.68rem] uppercase tracking-[0.2em] ${
                   service.premiumStripe
-                    ? "bg-white text-[#A08379] ring-1 ring-[rgba(160,131,121,0.45)]"
+                    ?"bg-white text-[#A08379] ring-1 ring-[rgba(160,131,121,0.45)]"
                     : "bg-[#E6DBC6] text-[#574433]"
                 }`}
               >
@@ -284,7 +284,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
 
             <h3
               className={`mt-4 text-[clamp(1.6rem,2.5vw,2.4rem)] leading-[1.02] tracking-[-0.03em] text-[#3A2E23] ${
-                service.premiumStripe ? "italic" : ""
+                service.premiumStripe ?"italic" : ""
               }`}
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
@@ -314,7 +314,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
                 )}
                 label={service.ctaLabel}
                 icon={<ZlWhatsappIcon />}
-                tone={service.premiumStripe ? "blush" : "whatsapp"}
+                tone={service.premiumStripe ?"blush" : "whatsapp"}
               />
             </div>
           </div>
@@ -343,12 +343,12 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
                   id={`tab-${service.id}-${t.id}`}
                   aria-selected={active}
                   aria-controls={`panel-${service.id}-${t.id}`}
-                  tabIndex={active ? 0 : -1}
+                  tabIndex={active ?0 : -1}
                   onClick={() => setTab(t.id)}
                   onKeyDown={(e) => handleTabKeyDown(e, idx)}
                   className={`flex-1 rounded-[0.72rem] px-3 py-2 text-[0.78rem] font-medium tracking-[0.02em] transition-all duration-200 ${
                     active
-                      ? "bg-white text-[#3A2E23] shadow-[0_8px_20px_rgba(138,108,72,0.22)] ring-1 ring-[#B89B77]/50"
+                      ?"bg-white text-[#3A2E23] shadow-[0_8px_20px_rgba(138,108,72,0.22)] ring-1 ring-[#B89B77]/50"
                       : "text-[#8B7862] hover:text-[#574433]"
                   }`}
                 >
@@ -363,7 +363,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             {SERVICE_TABS.find((t) => t.id === tab)?.eyebrow}
           </p>
 
-          {/* Painel das tabs â€” todas renderizadas com hidden pra preservar
+          {/* Painel das tabs ? todas renderizadas com hidden pra preservar
               CLS/transicao; aria-controls aponta pra cada uma. */}
           <div
             role="tabpanel"
@@ -372,7 +372,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             hidden={tab !== "atendimento"}
             className="mt-3"
           >
-            {service.tagline ? (
+            {service.tagline ?(
               <p
                 className="text-[0.98rem] italic leading-[1.55] text-[#7A6244]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
@@ -404,7 +404,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             hidden={tab !== "protocolo"}
             className="mt-3"
           >
-            {service.includes && service.includes.length > 0 ? (
+            {service.includes && service.includes.length > 0 ?(
               <div className="rounded-[1.1rem] border border-[#D2C3A6] bg-[#FAF7F2] p-4">
                 <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#3a8c70]">
                   O que entra nesse cuidado
@@ -424,7 +424,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               </div>
             ) : null}
 
-            <div className={service.includes && service.includes.length > 0 ? "mt-5" : ""}>
+            <div className={service.includes && service.includes.length > 0 ?"mt-5" : ""}>
               <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
                 Como funciona o atendimento
               </p>
@@ -471,7 +471,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               </div>
             </div>
 
-            {service.subVariants && service.subVariants.length > 0 ? (
+            {service.subVariants && service.subVariants.length > 0 ?(
               <div className="mt-5 rounded-[1.1rem] border border-[#D2C3A6] bg-white p-4">
                 <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
                   Tambem oferecemos
@@ -514,7 +514,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
       <div
         className={`group relative min-h-[21rem] overflow-hidden rounded-[1.55rem] bg-[#2F241D] shadow-[0_24px_60px_rgba(138,108,72,0.16)] md:min-h-[32rem] ${
           service.premiumStripe
-            ? "ring-1 ring-[rgba(160,131,121,0.32)]"
+            ?"ring-1 ring-[rgba(160,131,121,0.32)]"
             : "ring-1 ring-[#D2C3A6]/55"
         }`}
       >

@@ -14,6 +14,9 @@ const ALLOWED_PREFIXES = [
   "/zl-podologia/",
 ];
 
+const BLOCKED_PUBLIC_FILE_PATTERN =
+  /^\/zl-podologia\/(?:.*\.md|.*\.html|social\/.*\.json)$/i;
+
 const LEGACY_REDIRECTS = new Map<string, string>([
   ["/lab/zl-podologia", "/"],
   ["/lab/zl-podologia/", "/"],
@@ -31,6 +34,10 @@ export function middleware(request: NextRequest) {
 
   if (EXACT_ALLOWED_PATHS.has(pathname)) {
     return NextResponse.next();
+  }
+
+  if (BLOCKED_PUBLIC_FILE_PATTERN.test(pathname)) {
+    return new NextResponse(null, { status: 404 });
   }
 
   if (ALLOWED_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {

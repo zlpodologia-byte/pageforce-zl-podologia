@@ -2,7 +2,7 @@
 
 /**
  * Canonical source for every WhatsApp source tag used by the landing.
- * Keep this list narrow on purpose â€” every new origin should be an
+ * Keep this list narrow on purpose — every new origin should be an
  * explicit entry below so GA4/utm reports stay consistent.
  */
 export type ZlWhatsappSource =
@@ -55,31 +55,31 @@ export function buildWhatsappLink(
 
 export const zlLinks = {
   whatsapp: buildWhatsappLink(
-    "OlÃ¡, quero agendar um horÃ¡rio na ZL Podologia em Fortaleza.",
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
     "hero_primary"
   ),
   whatsappUrgente: buildWhatsappLink(
-    "OlÃ¡, estou com dor ou inflamaÃ§Ã£o e queria uma avaliaÃ§Ã£o na ZL Podologia.",
+    "Olá, estou com dor ou inflamação e queria uma avaliação na ZL Podologia.",
     "cta_final"
   ),
   whatsappConvenios: buildWhatsappLink(
-    "Oi, gostaria de saber quais convÃªnios e condiÃ§Ãµes a ZL Podologia aceita.",
+    "Oi, gostaria de saber quais convênios e condições a ZL Podologia aceita.",
     "convenios"
   ),
   whatsappTopbar: buildWhatsappLink(
-    "OlÃ¡, quero agendar um horÃ¡rio na ZL Podologia em Fortaleza.",
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
     "topbar_mini"
   ),
   whatsappSticky: buildWhatsappLink(
-    "OlÃ¡, quero agendar um horÃ¡rio na ZL Podologia em Fortaleza.",
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
     "sticky_mobile"
   ),
   whatsappFooter: buildWhatsappLink(
-    "OlÃ¡, quero agendar um horÃ¡rio na ZL Podologia em Fortaleza.",
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
     "footer_wa"
   ),
   whatsappFinalCta: buildWhatsappLink(
-    "OlÃ¡, quero agendar um horÃ¡rio na ZL Podologia em Fortaleza.",
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
     "cta_final"
   ),
   whatsappPackages: buildWhatsappLink(
@@ -87,11 +87,11 @@ export const zlLinks = {
     "packages"
   ),
   whatsappNoivaSublime: buildWhatsappLink(
-    "Oi, quero presentear com a experiÃªncia Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
+    "Oi, quero presentear com a experiência Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
     "experience_noiva_sublime"
   ),
   whatsappNoivaMajestosa: buildWhatsappLink(
-    "Oi, quero a experiÃªncia Noiva Majestosa (Pre-Wedding terapÃªutica 50 min, R$ 240).",
+    "Oi, quero a experiência Noiva Majestosa (Pre-Wedding terapêutica 50 min, R$ 240).",
     "experience_noiva_majestosa"
   ),
   whatsappMomentoEssencial: buildWhatsappLink(
@@ -99,13 +99,13 @@ export const zlLinks = {
     "experience_momento_essencial"
   ),
   whatsappExperienciaEncanto: buildWhatsappLink(
-    "Oi, quero presentear com o Vale Presente ExperiÃªncia Encanto (Reflexologia terapÃªutica + cartÃ£o ilustrado personalizado, R$ 160).",
+    "Oi, quero presentear com o Vale Presente Experiência Encanto (Reflexologia terapêutica + cartão ilustrado personalizado, R$ 160).",
     "experience_encanto"
   ),
   whatsappNumber: WHATSAPP_NUMBER,
   // Google Maps: busca oficial que cai direto na ficha certa da ZL em
-  // Fortaleza (Galeria Jos? Bernardo, Parquel?ndia). Prefere-se a busca
-  // por nome para evitar dependencia de shortlinks que podem expirar.
+  // Fortaleza (Galeria José Bernardo, Parquelândia). Prefere-se a busca
+  // por nome para evitar dependência de shortlinks que podem expirar.
   maps: "https://www.google.com/maps/search/ZL+Podologia+Fortaleza",
   googleBusinessProfile: "https://www.google.com/maps/search/ZL+Podologia+Fortaleza",
   instagram: "https://www.instagram.com/zlpodologia/",
@@ -124,9 +124,9 @@ export const zlContact = {
 } as const;
 
 export const zlHeroProof = [
-  { label: "Nota Google", value: "5,0", caption: "11 avaliaÃ§Ãµes pÃºblicas, cuidado artesanal." },
+  { label: "Nota Google", value: "5,0", caption: "11 avaliações públicas, cuidado artesanal." },
   { label: "Atendimento", value: "Ter - Sab", caption: "Fortaleza, hora marcada." },
-  { label: "AvaliaÃ§Ã£o", value: "Leitura clÃ­nica", caption: "Antes do procedimento, sem pressa." },
+  { label: "Avaliação", value: "Leitura clínica", caption: "Antes do procedimento, sem pressa." },
 ] as const;
 
 /* ------------------------------------------------------------------ */
@@ -134,10 +134,10 @@ export const zlHeroProof = [
 /* ------------------------------------------------------------------ */
 
 /**
- * Quatro cartoes de prova editorial abaixo do hero. Paleta rose-wash
- * (`#FBF7F4` bg + `#E6D2C7` borders). Cada item e uma confirmacao
- * concreta - numero, protocolo, postura cl?nica ou endere?o. Denso o
- * suficiente pra ser escaneavel sem virar parede de texto.
+ * Quatro cartões de prova editorial abaixo do hero. Paleta rose-wash
+ * (`#FBF7F4` bg + `#E6D2C7` borders). Cada item é uma confirmação
+ * concreta - número, protocolo, postura clínica ou endereço. Denso o
+ * suficiente pra ser escaneável sem virar parede de texto.
  */
 export type ZlProofStripKind =
   | "google_stars"
@@ -156,14 +156,14 @@ export const zlProofStripItems: readonly ZlProofStripItem[] = [
   {
     kind: "google_stars",
     eyebrow: "5,0 no Google",
-    title: "Nota mÃ¡xima em 11 avaliaÃ§Ãµes pÃºblicas",
-    body: "AvaliaÃ§Ãµes reais e pÃºblicas na ficha oficial da clÃ­nica.",
+    title: "Nota máxima em 11 avaliações públicas",
+    body: "Avaliações reais e públicas na ficha oficial da clínica.",
   },
   {
     kind: "protocol",
     eyebrow: "Protocolo documentado",
-    title: "EspÃ­cula + azul de metileno",
-    body: "Retirada tÃ©cnica com antimicrobiano e fotossensibilizador em casos de unha encravada.",
+    title: "Espícula + azul de metileno",
+    body: "Retirada técnica com antimicrobiano e fotossensibilizador em casos de unha encravada.",
   },
   {
     kind: "individual",
@@ -173,9 +173,9 @@ export const zlProofStripItems: readonly ZlProofStripItem[] = [
   },
   {
     kind: "location",
-    eyebrow: "Fortaleza / ParquelÃ¢ndia",
-    title: "Galeria JosÃ© Bernardo",
-    body: "Av. Bezerra de Menezes, 2203 - Sala 5. Ponto fÃ­sico com rota no Maps.",
+    eyebrow: "Fortaleza / Parquelândia",
+    title: "Galeria José Bernardo",
+    body: "Av. Bezerra de Menezes, 2203 - Sala 5. Ponto físico com rota no Maps.",
   },
 ] as const;
 
@@ -184,59 +184,59 @@ export const zlProofStripItems: readonly ZlProofStripItem[] = [
 /* ------------------------------------------------------------------ */
 
 /**
- * Comparativa educativa extraida do `-exact` + reescrita com voz real da
+ * Comparativa educativa extraída do `-exact` + reescrita com voz real da
  * ZL. Entra entre o Symptom Grid e o Service Explorer - filtra curioso
- * e justifica o preco. Copy em primeira pessoa / factual, sem agredir
+ * e justifica o preço. Copy em primeira pessoa / factual, sem agredir
  * pedicures.
  */
 export const zlComparePodology = {
   eyebrow: "Podologia x pedicure",
-  title: "DiferenÃ§a entre podologia clÃ­nica e pedicure comum.",
+  title: "Diferença entre podologia clínica e pedicure comum.",
   body:
-    "A ZL cuida de unhas, pele e pÃ©s com foco clÃ­nico. Pedicure comum tem foco estÃ©tico e segue outra proposta de atendimento.",
+    "A ZL cuida de unhas, pele e pés com foco clínico. Pedicure comum tem foco estético e segue outra proposta de atendimento.",
   podology: {
-    title: "Podologia clÃ­nica",
+    title: "Podologia clínica",
     subtitle: "O que entra no atendimento da ZL Podologia.",
     items: [
-      "FormaÃ§Ã£o tÃ©cnica reconhecida em podologia.",
+      "Formação técnica reconhecida em podologia.",
       "Instrumental esterilizado em autoclave classe B validada.",
-      "Kit individualizado por atendimento, aberto diante de vocÃª.",
-      "Protocolo documentado com espÃ­cula e azul de metileno em unha encravada.",
+      "Kit individualizado por atendimento, aberto diante de você.",
+      "Protocolo documentado com espícula e azul de metileno em unha encravada.",
       "Leitura do caso antes do procedimento.",
-      "OrientaÃ§Ã£o de continuidade e retorno quando o caso pede.",
+      "Orientação de continuidade e retorno quando o caso pede.",
     ],
   },
   pedicure: {
     title: "Pedicure comum",
-    subtitle: "CaracterÃ­sticas tÃ­picas da pedicure cosmÃ©tica.",
+    subtitle: "Características típicas da pedicure cosmética.",
     items: [
-      "Sem formaÃ§Ã£o tÃ©cnica especÃ­fica em podologia.",
+      "Sem formação técnica específica em podologia.",
       "Instrumental nem sempre esterilizado em autoclave validada.",
-      "Foco estÃ©tico em corte, lixamento e esmaltaÃ§Ã£o.",
-      "Sem protocolo clÃ­nico para casos como unha encravada ou fungos.",
-      "NÃ£o realiza leitura clÃ­nica antes do acabamento.",
-      "Sem registro profissional regulamentado como podÃ³loga.",
+      "Foco estético em corte, lixamento e esmaltação.",
+      "Sem protocolo clínico para casos como unha encravada ou fungos.",
+      "Não realiza leitura clínica antes do acabamento.",
+      "Sem registro profissional regulamentado como podóloga.",
     ],
   },
 } as const;
 
-// Tagline oficial da ZL Podologia (copy real extraida do Instagram @zlpodologia).
-export const zlBrandTagline = "PÃ©s bem cuidados fazem toda a diferenÃ§a";
+// Tagline oficial da ZL Podologia (copy real extraída do Instagram @zlpodologia).
+export const zlBrandTagline = "Pés bem cuidados fazem toda a diferença";
 
 // Micro-assinatura da marca (fechamento natural usado pela ZL em posts).
 export const zlBrandSignature =
-  "Cuidar dos pÃ©s Ã© cuidar da sua qualidade de vida.";
+  "Cuidar dos pés é cuidar da sua qualidade de vida.";
 
-// Mantido vazio para remover ruÃ­do redundante do hero sem quebrar o map atual.
+// Mantido vazio para remover ruído redundante do hero sem quebrar o map atual.
 export const zlHeroChips = [] as const;
 
-// Micro-review usado no hero â€” prova imediata (Fix 2 da reflexao E).
-// Fonte: Ivia D., avalia??o publica no Google (nota 5 / 5).
+// Micro-review usado no hero — prova imediata (Fix 2 da reflexão E).
+// Fonte: Ivia D., avaliação pública no Google (nota 5 / 5).
 export const zlHeroMicroReview = {
   quote:
     "Ambiente organizado e acolhedor. Zucarina, profissional competente e delicada.",
   author: "Ivia D.",
-  source: "avaliaÃ§Ã£o pÃºblica no Google",
+  source: "avaliação pública no Google",
 } as const;
 
 // Mini destaques que aparecem logo abaixo do hero (barra de confiança rápida).
@@ -247,7 +247,7 @@ export const zlQuickStrip = [
   { label: "WhatsApp", body: "Resposta rápida para agendar ou tirar dúvida." },
 ] as const;
 
-// Promessa editorial do topo: 2 queixas de urgÃªncia + 2 continuidades.
+// Promessa editorial do topo: 2 queixas de urgência + 2 continuidades.
 export const zlPromessaPivot =
   "Unha encravada e fungos costumam pedir resposta mais rápida. Órtese e laser entram quando o caso precisa de continuidade.";
 
@@ -268,18 +268,18 @@ export type ZlServiceId =
   | "diabetic";
 
 /**
- * Cards principais do Service Explorer na v7-final â€” 6 cards, ordem
- * obrigatoria por prioridade comercial (catalogo F confirmado pela
+ * Cards principais do Service Explorer na v7-final — 6 cards, ordem
+ * obrigatória por prioridade comercial (catálogo F confirmado pela
  * Zucarina em 2026-04-21):
  *
- * 1. Unha encravada â€” produto principal de conversao
- * 2. Fungos â€” recorrencia + gap de venda declarado
- * 3. ?rtese â€” diferencial t?cnico (promovido de sub-variante v7a)
- * 4. Laserterapia â€” alto valor percebido (promovido de sub-variante v7a)
- * 5. Podoprofilaxia â€” porta de entrada, mais volumoso hoje
- * 6. Reflexologia podal â€” bem-estar
+ * 1. Unha encravada — produto principal de conversão
+ * 2. Fungos — recorrência + gap de venda declarado
+ * 3. Órtese — diferencial técnico (promovido de sub-variante v7a)
+ * 4. Laserterapia — alto valor percebido (promovido de sub-variante v7a)
+ * 5. Podoprofilaxia — porta de entrada, mais volumoso hoje
+ * 6. Reflexologia podal — bem-estar
  *
- * P? diab?tico NAO entra como card principal (default: sub-variante de
+ * Pé diabético não entra como card principal (default: sub-variante de
  * Podoprofilaxia + linha no Pricing). Pre-Wedding removido do Explorer
  * e mencionado apenas como oferta premium discreta no Pricing/Ambiente.
  */
@@ -292,7 +292,7 @@ export const ZL_MAIN_SERVICE_IDS: readonly ZlServiceId[] = [
   "reflexology",
 ] as const;
 
-// A6 deve consumir esta lista para limitar o badge "PrioritÃ¡rio" a 2 serviÃ§os.
+// A6 deve consumir esta lista para limitar o badge "Prioritário" a 2 serviços.
 export const ZL_PRIORITY_SERVICE_IDS: readonly ZlServiceId[] = [
   "ingrown",
   "fungus",
@@ -322,9 +322,9 @@ export interface ZlInteractiveService {
    */
   includes?: readonly string[];
   /**
-   * Sub-variantes listadas como "Tambem oferecemos" dentro do card. Usado
-   * na v7-final pra encaixar encravada-com-inflama??o, massagem, verruga
-   * plantar, atendimento idosos, p? diab?tico dentro dos cards corretos.
+   * Sub-variantes listadas como "Também oferecemos" dentro do card. Usado
+   * na v7-final pra encaixar encravada-com-inflamação, massagem, verruga
+   * plantar, atendimento idosos, pé diabético dentro dos cards corretos.
    */
   subVariants?: readonly {
     title: string;
@@ -333,16 +333,16 @@ export interface ZlInteractiveService {
   }[];
   /**
    * Foto real dedicada ao card. Quando presente, o Explorer renderiza a
-   * foto ao inves da arte 2D â€” fica mais autentico e sustenta autoridade
-   * cl?nica. `alt` deve ser descritivo pro SEO + acessibilidade.
+   * foto ao invés da arte 2D — fica mais autêntico e sustenta autoridade
+   * clínica. `alt` deve ser descritivo pro SEO + acessibilidade.
    */
   photo?: {
     src: string;
     alt: string;
   };
   /**
-   * Tratamento visual premium (eyebrow dourado + borda tintada) â€” reservado
-   * pra quando/se Pre-Wedding voltar como card. Na v7-final nao ha card
+   * Tratamento visual premium (eyebrow dourado + borda tintada) — reservado
+   * pra quando/se Pre-Wedding voltar como card. Na v7-final não há card
    * premiumStripe ativo.
    */
   premiumStripe?: boolean;
@@ -616,8 +616,8 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       "Oi, quero saber sobre a reflexologia podal para relaxar na ZL Podologia.",
     whatsappSource: "explorer_reflexology",
   },
-  // P? diab?tico definido como servi?o completo (usado em sub-variante de
-  // Podoprofilaxia + linha do Pricing). NAO entra em ZL_MAIN_SERVICE_IDS.
+  // Pé diabético definido como serviço completo (usado em sub-variante de
+  // Podoprofilaxia + linha do Pricing). Não entra em ZL_MAIN_SERVICE_IDS.
   {
     id: "diabetic",
     menuLabel: "Pé diabético",
@@ -654,14 +654,14 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
 ] as const;
 
 /**
- * Cases com antes/depois reais â€” v7-refine.
+ * Cases com antes/depois reais — v7-refine.
  *
  * Agora cada card carrega fotos reais da ZL (antes + depois) quando
- * disponivel, via campos `beforePhoto` / `afterPhoto`. O texto `before`
+ * disponível, via campos `beforePhoto` / `afterPhoto`. O texto `before`
  * / `after` continua servindo como legenda explicativa abaixo das imagens.
  *
- * Para Podoprofilaxia (sem antes/depois visual obvio) a copy e "Experiencia
- * de atendimento" â€” mostramos procedimento em andamento + resultado pos.
+ * Para Podoprofilaxia (sem antes/depois visual óbvio) a copy é "Experiência
+ * de atendimento" — mostramos procedimento em andamento + resultado pós.
  */
 export interface ZlIllustratedCasePhoto {
   src: string;
@@ -727,9 +727,9 @@ export const zlIllustratedCases: readonly ZlIllustratedCase[] = [
 ] as const;
 
 /**
- * Pricing v7-final â€” 3 buckets (Basicos / Intermediarios / Avan?ados)
- * reescritos a partir do catalogo F oficial. Linhas em pares
- * servi?o + valor/faixa, com nota curta onde faz sentido.
+ * Pricing v7-final — 3 buckets (Básicos / Intermediários / Avançados)
+ * reescritos a partir do catálogo F oficial. Linhas em pares
+ * serviço + valor/faixa, com nota curta onde faz sentido.
  */
 export type ZlPricingBucket = "basicos" | "intermediarios" | "avancados";
 
@@ -861,57 +861,57 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
 ] as const;
 
 /**
- * Rodape do Pricing â€” notas finais (pacotes, plano mensal, Pre-Wedding,
- * pagamento). Centraliza a copy pra nao dispersar detalhes.
+ * Rodapé do Pricing — notas finais (pacotes, plano mensal, Pre-Wedding,
+ * pagamento). Centraliza a copy pra não dispersar detalhes.
  */
 export const zlPricingFooterNotes = [
-  "AvaliaÃ§Ã£o inicial: R$ 69 para entender o caso antes do procedimento.",
-  "Pacotes e plano mensal de cuidados sÃ£o montados no WhatsApp conforme o caso.",
-  "TambÃ©m hÃ¡ experiÃªncias e presentes sob medida, inclusive Pre-Wedding terapÃªutica.",
-  "Pagamento em dinheiro ou cartÃ£o; em alguns serviÃ§os o cartÃ£o acrescenta R$ 5.",
+  "Avaliação inicial: R$ 69 para entender o caso antes do procedimento.",
+  "Pacotes e plano mensal de cuidados são montados no WhatsApp conforme o caso.",
+  "Também há experiências e presentes sob medida, inclusive Pre-Wedding terapêutica.",
+  "Pagamento em dinheiro ou cartão; em alguns serviços o cartão acrescenta R$ 5.",
 ] as const;
 
-// Legacy flat pricing â€” mantido como re-export pra cobrir refs antigas,
-// mas nao e mais fonte de verdade. Usar `zlPricingGroups`.
+// Legacy flat pricing — mantido como re-export pra cobrir refs antigas,
+// mas não é mais fonte de verdade. Usar `zlPricingGroups`.
 export const zlPricing: readonly ZlPricingRow[] = zlPricingGroups.flatMap(
   (g) => g.rows
 );
 
 export const zlTeamValues = [
   "Atendimento humanizado do primeiro contato ao retorno.",
-  "PodÃ³logas qualificadas, como jÃ¡ aparece nos ativos pÃºblicos da marca.",
-  "Ritual de cuidado que combina tÃ©cnica, delicadeza e orientaÃ§Ã£o clara.",
+  "Podólogas qualificadas, como já aparece nos ativos públicos da marca.",
+  "Ritual de cuidado que combina técnica, delicadeza e orientação clara.",
   "Sala reservada, hora marcada e sem correria entre pacientes.",
 ] as const;
 
 /**
- * Urgencia honesta (Fix 6 da reflexao E) â€” converte a "pequenez" da ZL
+ * Urgência honesta (Fix 6 da reflexão E) — converte a "pequenez" da ZL
  * (11 reviews) em vantagem narrativa. Usado na Faixa Fiduciaria e na
- * secao de Equipe/Pricing conforme espaco permitir.
+ * seção de Equipe/Pricing conforme espaço permitir.
  */
 export const zlUrgencyCopy = {
   title: "Uma paciente por vez.",
   body:
-    "Atendimento individualizado â€” por isso mantemos nota 5,0 com 11 avaliaÃ§Ãµes pÃºblicas no Google.",
+    "Atendimento individualizado — por isso mantemos nota 5,0 com 11 avaliações públicas no Google.",
 } as const;
 
 /**
- * Profissionais da ZL Podologia confirmadas publicamente em avaliacoes
- * do Google e no Instagram da cl?nica. A bio e em primeira pessoa, em
- * torno de 50-70 palavras, combinando linguagem publica dos reviews
- * com voz da propria ZL (copy do IG). Nao inventar CRT, formacao, anos
- * de experiencia ou especialidades sem fonte da propria ZL.
+ * Profissionais da ZL Podologia confirmadas publicamente em avaliações
+ * do Google e no Instagram da clínica. A bio é em primeira pessoa, em
+ * torno de 50-70 palavras, combinando linguagem pública dos reviews
+ * com voz da própria ZL (copy do IG). Não inventar CRT, formação, anos
+ * de experiência ou especialidades sem fonte da própria ZL.
  */
 export interface ZlProfessional {
   name: string;
   role: string;
-  /** Curta descricao em palavras j? publicas nos reviews do Google. */
+  /** Curta descrição em palavras já públicas nos reviews do Google. */
   description: string;
   /** Bio em primeira pessoa (50-70 palavras). */
   bio: string;
-  /** Identificador textual exibido na secao. */
+  /** Identificador textual exibido na seção. */
   handle?: string;
-  /** Path da foto quando ha retrato disponivel; fallback vai pro avatar SVG. */
+  /** Path da foto quando há retrato disponível; fallback vai pro avatar SVG. */
   photo?: {
     src: string;
     alt: string;
@@ -919,7 +919,7 @@ export interface ZlProfessional {
      * Indica se o crop esconde o rosto (LGPD fallback). True = usar crop
      * editorial lateral/parcial; false = retrato completo liberado.
      *
-     * Na v7-final a foto pro (profissional-close-autoridade-pro) e
+     * Na v7-final a foto pro (profissional-close-autoridade-pro) é
      * autorizada, portanto cropProtected = false.
      */
     cropProtected?: boolean;
@@ -929,51 +929,51 @@ export interface ZlProfessional {
 export const zlProfessionals: readonly ZlProfessional[] = [
   {
     name: "Zucarina",
-    role: "PodÃ³loga responsÃ¡vel",
+    role: "Podóloga responsável",
     description:
-      "Profissional competente que trata o cliente com atenÃ§Ã£o e delicadeza, nas palavras das pacientes.",
-    bio: "Eu sou a Zucarina. Cuido dos pÃ©s de cada paciente como se fossem Ãºnicos, uma por vez, com tempo para ouvir o caso antes de colocar a mÃ£o no instrumental. Gosto de explicar o que estou fazendo e por quÃª, porque pÃ© bem cuidado Ã© pÃ© entendido. Aqui na ZL, em Fortaleza, vocÃª nÃ£o vai ser mais uma ficha.",
-    // v7-earthy: foto close-autoridade-pro (jaleco branco + touca descartavel
-    // + mascara cirurgica + oculos pretos) confirmada pelo Yuri como sendo
-    // da Zucarina em 2026-04-21. cropProtected=false pq e autorizada.
+      "Profissional competente que trata o cliente com atenção e delicadeza, nas palavras das pacientes.",
+    bio: "Eu sou a Zucarina. Cuido dos pés de cada paciente como se fossem únicos, uma por vez, com tempo para ouvir o caso antes de colocar a mão no instrumental. Gosto de explicar o que estou fazendo e por quê, porque pé bem cuidado é pé entendido. Aqui na ZL, em Fortaleza, você não vai ser mais uma ficha.",
+    // v7-earthy: foto close-autoridade-pro (jaleco branco + touca descartável
+    // + máscara cirúrgica + óculos pretos) confirmada pelo Yuri como sendo
+    // da Zucarina em 2026-04-21. cropProtected=false pq é autorizada.
     photo: {
       src: "/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
-      alt: "Zucarina, podÃ³loga responsÃ¡vel da ZL Podologia, em close clÃ­nico com EPI completo â€” jaleco branco, touca descartÃ¡vel e mÃ¡scara cirÃºrgica â€” em Fortaleza",
+      alt: "Zucarina, podóloga responsável da ZL Podologia, em close clínico com EPI completo — jaleco branco, touca descartável e máscara cirúrgica — em Fortaleza",
       cropProtected: false,
     },
   },
   {
     name: "Jannie",
-    role: "PodÃ³loga",
+    role: "Podóloga",
     description:
-      "Atenciosa e cuidadosa no atendimento â€” citada nominalmente nas avaliaÃ§Ãµes pÃºblicas da clÃ­nica. Atende com EPI completo (jaleco verde, Ã³culos).",
-    bio: "Eu sou a Jannie. Entro junto no cuidado de cada paciente â€” protocolo, atenÃ§Ã£o individual e o mesmo ritmo calmo que a ZL construiu. As pacientes costumam dizer que sou atenciosa, e Ã© assim mesmo que eu quero que vocÃª sinta o atendimento: tempo, explicaÃ§Ã£o e mÃ£o firme onde o caso pede.",
+      "Atenciosa e cuidadosa no atendimento — citada nominalmente nas avaliações públicas da clínica. Atende com EPI completo (jaleco verde, óculos).",
+    bio: "Eu sou a Jannie. Entro junto no cuidado de cada paciente — protocolo, atenção individual e o mesmo ritmo calmo que a ZL construiu. As pacientes costumam dizer que sou atenciosa, e é assim mesmo que eu quero que você sinta o atendimento: tempo, explicação e mão firme onde o caso pede.",
     handle: "@jannier.silva412",
-    // v7-earthy BLOCO B: foto real da Jannie em jannie-retrato.jpg â€” wide
+    // v7-earthy BLOCO B: foto real da Jannie em jannie-retrato.jpg — wide
     // shot top-down da sala onde Jannie aparece sentada de jaleco verde,
-    // oculos e cabelo preto curto, a esquerda-centro do frame. O crop via
+    // óculos e cabelo preto curto, à esquerda-centro do frame. O crop via
     // object-position customizado no ZlProfessionalHero centraliza nela.
-    // cropProtected=false â€” autorizacao LGPD j? coberta pela mesma politica.
+    // cropProtected=false — autorização LGPD já coberta pela mesma política.
     photo: {
       src: "/zl-podologia/social/equipe/jannie-retrato.jpg",
-      alt: "Jannie, podÃ³loga da ZL Podologia, atendendo uma paciente na sala da clÃ­nica em Fortaleza â€” jaleco verde, Ã³culos, atenÃ§Ã£o individualizada",
+      alt: "Jannie, podóloga da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
       cropProtected: false,
     },
   },
 ] as const;
 
 export const zlTeamHeadline = {
-  eyebrow: "Quem cuida dos seus pÃ©s",
-  title: "Zucarina e Jannie, as podÃ³logas da ZL em Fortaleza.",
+  eyebrow: "Quem cuida dos seus pés",
+  title: "Zucarina e Jannie, as podólogas da ZL em Fortaleza.",
   body:
-    "Duas profissionais, mesmo ritual: leitura cuidadosa do caso, execuÃ§Ã£o tÃ©cnica com delicadeza e orientaÃ§Ã£o de retorno. Nome e atenÃ§Ã£o individual sÃ£o parte da nota 5,0.",
+    "Duas profissionais, mesmo ritual: leitura cuidadosa do caso, execução técnica com delicadeza e orientação de retorno. Nome e atenção individual são parte da nota 5,0.",
 } as const;
 
 export const zlConsultFlow = [
-  "VocÃª chega com hora marcada, com o motivo do atendimento jÃ¡ entendido.",
-  "A consulta comeÃ§a pela avaliaÃ§Ã£o do pÃ©, da unha e do nÃ­vel de desconforto.",
+  "Você chega com hora marcada, com o motivo do atendimento já entendido.",
+  "A consulta começa pela avaliação do pé, da unha e do nível de desconforto.",
   "A profissional executa o cuidado principal e explica o que pede continuidade.",
-  "Se fizer sentido, o retorno jÃ¡ sai sugerido dentro do mesmo ciclo.",
+  "Se fizer sentido, o retorno já sai sugerido dentro do mesmo ciclo.",
 ] as const;
 
 export const zlPodologyFacts = [
@@ -1046,7 +1046,7 @@ export const zlLocation = {
   // localizar a entrada certa da sala na avenida.
   landmark: "Galeria José Bernardo",
   // Coordenadas reais da ficha do Google Business (plus code 7C7P+M7
-  // Parquel?ndia). Usadas pelo Schema.org e pela politica de imagens.
+  // Parquelândia). Usadas pelo Schema.org e pela política de imagens.
   latitude: -3.7358889,
   longitude: -38.5643333,
   hours: "Terça a sexta, 09:00 às 16:00. Sábado, 09:00 às 12:00.",
@@ -1064,8 +1064,8 @@ export const zlHoursRows = [
 ] as const;
 
 /**
- * Hor?rio em formato schema.org (Tu-Fr 09:00-16:00, Sa 09:00-12:00).
- * Fonte de verdade unica pra JSON-LD + microdata.
+ * Horário em formato schema.org (Tu-Fr 09:00-16:00, Sa 09:00-12:00).
+ * Fonte de verdade única pra JSON-LD + microdata.
  */
 export const zlScheduleSchema = [
   { day: "Tuesday", open: "09:00", close: "16:00" },
@@ -1076,9 +1076,9 @@ export const zlScheduleSchema = [
 ] as const;
 
 /**
- * Hor?rio em formato numerico pra usar no calculo de "aberto agora"
- * (ZlOpenStatus, Fix 1 da reflexao E). JavaScript Date.getDay() usa
- * 0 = Domingo, 1 = Segunda, ..., 6 = Sabado.
+ * Horário em formato numérico pra usar no cálculo de "aberto agora"
+ * (ZlOpenStatus, Fix 1 da reflexão E). JavaScript Date.getDay() usa
+ * 0 = Domingo, 1 = Segunda, ..., 6 = Sábado.
  */
 export interface ZlOpenHoursSlot {
   dayIndex: number;
@@ -1139,7 +1139,7 @@ export const zlFiduciaryBarItems: readonly ZlFiduciaryBarItem[] = [
     },
   },
   {
-    // "Aberto agora" â€” renderizado dinamicamente (ZlOpenStatus). Os
+    // "Aberto agora" — renderizado dinamicamente (ZlOpenStatus). Os
     // valores aqui servem de fallback SSR/no-JS.
     kind: "open_status",
     eyebrow: "Agenda",
@@ -1160,14 +1160,14 @@ export const zlFiduciaryBarItems: readonly ZlFiduciaryBarItem[] = [
   },
 ] as const;
 
-// Backwards-compat: TrustBar legacy (nao usado mais pela landing v7a, mas
+// Backwards-compat: TrustBar legacy (não usado mais pela landing v7a, mas
 // ainda exportado pra cobertura de refs que possam sobrar).
 export type ZlTrustBarItemKind = ZlFiduciaryBarItemKind;
 export type ZlTrustBarItem = ZlFiduciaryBarItem;
 export const zlTrustBarItems = zlFiduciaryBarItems;
 
 /* ------------------------------------------------------------------ */
-/* Biosseguranca section                                               */
+/* Biossegurança section                                               */
 /* ------------------------------------------------------------------ */
 
 export type ZlBiosafetyItemKind =
@@ -1186,27 +1186,27 @@ export const zlBiosafetyItems: readonly ZlBiosafetyItem[] = [
   {
     kind: "autoclave",
     title: "Autoclave classe B",
-    body: "EsterilizaÃ§Ã£o validada de todo instrumental, com ciclo monitorado.",
+    body: "Esterilização validada de todo instrumental, com ciclo monitorado.",
   },
   {
     kind: "ultrasound",
-    title: "Lavagem ultrassÃ´nica",
-    body: "RemoÃ§Ã£o mecÃ¢nica de resÃ­duos antes de cada ciclo de esterilizaÃ§Ã£o.",
+    title: "Lavagem ultrassônica",
+    body: "Remoção mecânica de resíduos antes de cada ciclo de esterilização.",
   },
   {
     kind: "kit",
     title: "Instrumental individualizado",
-    body: "Kit Ãºnico por atendimento: nada circula entre pacientes.",
+    body: "Kit único por atendimento: nada circula entre pacientes.",
   },
   {
     kind: "disposable",
-    title: "DescartÃ¡veis de classe hospitalar",
-    body: "LÃ¢mina, lixa e gaze abertas Ã  vista, diante de vocÃª.",
+    title: "Descartáveis de classe hospitalar",
+    body: "Lâmina, lixa e gaze abertas à vista, diante de você.",
   },
 ] as const;
 
 export const zlBiosafetyNote =
-  "Protocolos conforme diretrizes da Anvisa. Sua seguranÃ§a na ZL Podologia Fortaleza nÃ£o Ã© opcional.";
+  "Protocolos conforme diretrizes da Anvisa. Sua segurança na ZL Podologia Fortaleza não é opcional.";
 
 /* ------------------------------------------------------------------ */
 /* Symptom-to-Solution                                                 */
@@ -1270,16 +1270,16 @@ export const zlSymptoms: readonly ZlSymptom[] = [
 ] as const;
 
 /* ------------------------------------------------------------------ */
-/* Diagnostic Quiz (3 perguntas) â€” v7a: pergunta 2 = localizacao      */
+/* Diagnostic Quiz (3 perguntas) — v7a: pergunta 2 = localização      */
 /* ------------------------------------------------------------------ */
 
 export interface ZlQuizOption {
   value: string;
   label: string;
   /**
-   * Servi?o mapeado por opcao. Quando a opcao e selecionada, entra como
+   * Serviço mapeado por opção. Quando a opção é selecionada, entra como
    * voto no roteamento do resultado. A pergunta 1 (concern) tem maior
-   * peso; pergunta 2 (localizacao) desempata; pergunta 3 (history) ajusta.
+   * peso; pergunta 2 (localização) desempata; pergunta 3 (history) ajusta.
    */
   service?: ZlServiceId;
 }
@@ -1339,11 +1339,11 @@ export const zlQuizCopy = {
 } as const;
 
 /**
- * Recomendacao por servi?o com base nas 3 respostas. Algoritmo simples:
- * 1) Coleta votos das opcoes que trazem `service` anexado (concern +
+ * Recomendação por serviço com base nas 3 respostas. Algoritmo simples:
+ * 1) Coleta votos das opções que trazem `service` anexado (concern +
  *    location).
- * 2) Servi?o com maior contagem vence. Empate: concern prevalece.
- * 3) Fallback final: podoprofilaxia (servi?o vitrine).
+ * 2) Serviço com maior contagem vence. Empate: concern prevalece.
+ * 3) Fallback final: podoprofilaxia (serviço vitrine).
  */
 export function recommendServiceFromQuiz(answers: {
   concern: string;
@@ -1362,11 +1362,11 @@ export function recommendServiceFromQuiz(answers: {
     votes[service] = (votes[service] ?? 0) + weight;
   };
 
-  // Pergunta 1 tem peso 2 (dor maior que localizacao).
+  // Pergunta 1 tem peso 2 (dor maior que localização).
   addVote(concernOption?.service, 2);
   addVote(locationOption?.service, 1);
 
-  // Historia de cirurgia = puxar pra encravada (caso cronico).
+  // História de cirurgia = puxar pra encravada (caso crônico).
   if (answers.history === "cirurgia") {
     addVote("ingrown", 1);
   }
@@ -1389,18 +1389,18 @@ export function buildQuizWhatsappLink(answers: {
   const serviceObj = zlInteractiveServices.find((s) => s.id === service);
   const serviceName = serviceObj?.menuLabel ?? "avaliação geral";
   const msg = `Oi, respondi a triagem da ZL Podologia. Queixa: ${answers.concern}. Onde incomoda: ${answers.location}. Já tentei: ${answers.history}. Cuidado sugerido: ${serviceName}. Quero agendar uma avaliação.`;
-  // Mantem UTM padrao + source quiz_result pra GA4.
+  // Mantém UTM padrão + source quiz_result pra GA4.
   return buildWhatsappLink(msg, "quiz_result");
 }
 
 /* ------------------------------------------------------------------ */
-/* Jornada do Heroi - depoimentos reais do Google                      */
+/* Jornada do Herói - depoimentos reais do Google                      */
 /* ------------------------------------------------------------------ */
 
 /**
- * Depoimentos publicos reais, coletados das avaliacoes publicas do perfil
- * da ZL Podologia no Google Maps (Fortaleza, 5,0 com 11 avaliacoes).
- * Por serem reviews publicos, podem ser citados textualmente.
+ * Depoimentos públicos reais, coletados das avaliações públicas do perfil
+ * da ZL Podologia no Google Maps (Fortaleza, 5,0 com 11 avaliações).
+ * Por serem reviews públicos, podem ser citados textualmente.
  */
 export interface ZlTestimonial {
   firstName: string;
@@ -1409,11 +1409,11 @@ export interface ZlTestimonial {
   body: string;
   rating: 5;
   /**
-   * Microlinha exibida no rodape do card para reforcar a origem publica
-   * da avalia??o (Google) e o volume atual da cl?nica.
+   * Microlinha exibida no rodapé do card para reforçar a origem pública
+   * da avaliação (Google) e o volume atual da clínica.
    */
   source: string;
-  /** Data aproximada pra marcacao Schema.org (nao exibida no card). */
+  /** Data aproximada pra marcação Schema.org (não exibida no card). */
   datePublished: string;
 }
 
@@ -1422,35 +1422,35 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     firstName: "Ivia D.",
     fullAuthor: "Ivia Dias",
     caption: "Cliente verificada - Google",
-    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenÃ§Ã£o e delicadeza. Jannie Ã© muito atenciosa. ServiÃ§o para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
+    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Jannie é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
     rating: 5,
-    source: "AvaliaÃ§Ã£o pÃºblica no Google - 5,0 com 11 avaliaÃ§Ãµes",
+    source: "Avaliação pública no Google - 5,0 com 11 avaliações",
     datePublished: "2025-11-01",
   },
   {
     firstName: "Jarlon S.",
     fullAuthor: "Jarlon Silva",
     caption: "Cliente verificado - Google",
-    body: "O serviÃ§o foi Ã³timo. Fui bem atendido por uma podÃ³loga muito competente e cuidadosa. O lugar era limpo e organizado, o que deixou tudo mais agradÃ¡vel. O tratamento foi eficaz e os preÃ§os justos. Recomendo para quem quer cuidar bem dos pÃ©s.",
+    body: "O serviço foi ótimo. Fui bem atendido por uma podóloga muito competente e cuidadosa. O lugar era limpo e organizado, o que deixou tudo mais agradável. O tratamento foi eficaz e os preços justos. Recomendo para quem quer cuidar bem dos pés.",
     rating: 5,
-    source: "AvaliaÃ§Ã£o pÃºblica no Google - 5,0 com 11 avaliaÃ§Ãµes",
+    source: "Avaliação pública no Google - 5,0 com 11 avaliações",
     datePublished: "2025-04-01",
   },
   {
     firstName: "Daiane S.",
     fullAuthor: "Daiane Santos",
     caption: "Cliente verificada - Google (Local Guide)",
-    body: "Excelente atendimento. ServiÃ§o com preÃ§o justo e de qualidade. Realizei uma profilaxia e gostei muito do resultado.",
+    body: "Excelente atendimento. Serviço com preço justo e de qualidade. Realizei uma profilaxia e gostei muito do resultado.",
     rating: 5,
-    source: "AvaliaÃ§Ã£o pÃºblica no Google - 5,0 com 11 avaliaÃ§Ãµes",
+    source: "Avaliação pública no Google - 5,0 com 11 avaliações",
     datePublished: "2025-07-01",
   },
 ] as const;
 
 export const zlTestimonialsCopy = {
-  eyebrow: "AvaliaÃ§Ãµes pÃºblicas",
-  title: "Pacientes que avaliaram a clÃ­nica no Google.",
-  body: "Depoimentos pÃºblicos da ficha da ZL Podologia, com nota 5,0 em 11 avaliaÃ§Ãµes.",
+  eyebrow: "Avaliações públicas",
+  title: "Pacientes que avaliaram a clínica no Google.",
+  body: "Depoimentos públicos da ficha da ZL Podologia, com nota 5,0 em 11 avaliações.",
   allReviewsCta: "Ver todos os 11 no Google",
 } as const;
 
@@ -1459,40 +1459,40 @@ export const zlTestimonialsCopy = {
 /* ------------------------------------------------------------------ */
 
 /**
- * URL canonica da landing. Usada no metadata + em Schema.org. Centralizar
+ * URL canônica da landing. Usada no metadata + em Schema.org. Centralizar
  * aqui evita drift quando migrar para subdomain/root em v7b.
  */
-export const ZL_CANONICAL_URL = "https://zlpodologia.com.br";
+export const ZL_CANONICAL_URL = "https://www.zlpodologia.com.br";
 
 /**
- * Palavras-chave locais espalhadas no copy das secoes principais (hero,
- * promessa, biosseguranca, explorer, FAQ). Mantido aqui pra referencia +
- * possivel uso em metadata.keywords. Nao usa-las em keyword-stuffing â€” o
- * principio e: 1x natural por secao, onde cabe.
+ * Palavras-chave locais espalhadas no copy das seções principais (hero,
+ * promessa, biossegurança, explorer, FAQ). Mantido aqui pra referência +
+ * possível uso em metadata.keywords. Não usá-las em keyword-stuffing — o
+ * princípio é: 1x natural por seção, onde cabe.
  */
 export const zlLocalKeywords = [
   "podologia em Fortaleza",
-  "pod?loga Parquel?ndia",
+  "podóloga Parquelândia",
   "unha encravada Fortaleza",
-  "cl?nica de p?s Fortaleza CE",
-  "atendimento podologico Bezerra de Menezes",
+  "clínica de pés Fortaleza CE",
+  "atendimento podológico Bezerra de Menezes",
   "reflexologia podal Fortaleza",
   "podoprofilaxia Fortaleza",
   "laserterapia para fungos Fortaleza",
-  "?rtese unha Fortaleza",
-  "cuidado p? diab?tico Fortaleza",
-  "pre-wedding terapeutico noiva Fortaleza",
-  "vale presente aniversario reflexologia",
+  "órtese unha Fortaleza",
+  "cuidado pé diabético Fortaleza",
+  "pre-wedding terapêutico noiva Fortaleza",
+  "vale presente aniversário reflexologia",
 ] as const;
 
 /* ------------------------------------------------------------------ */
-/* v9: Experiencias e Presentes â€” Pre-Wedding + Vale Presente          */
+/* v9: Experiências e Presentes — Pre-Wedding + Vale Presente          */
 /* ------------------------------------------------------------------ */
 
 /**
  * Ofertas premium confirmadas pela Zucarina em 2026-04-22. Consolidadas
- * em UMA secao dedicada "Experiencias e Presentes" com 2 grupos (4 cards).
- * Pre-Wedding saiu do Pricing footer notes e Vale Presente e novidade v9.
+ * em UMA seção dedicada "Experiências e Presentes" com 2 grupos (4 cards).
+ * Pre-Wedding saiu do Pricing footer notes e Vale Presente é novidade v9.
  */
 export interface ZlExperienceCard {
   id: "noiva_sublime" | "noiva_majestosa" | "momento_essencial" | "experiencia_encanto";
@@ -1517,17 +1517,17 @@ export interface ZlExperienceCard {
 }
 
 export const zlExperienciasPresentes = {
-  eyebrow: "PRESENTES E EXPERIÃŠNCIAS",
+  eyebrow: "PRESENTES E EXPERIÊNCIAS",
   title: "Presentear ou desacelerar com a assinatura da ZL",
   subtitle:
-    "Reflexologia, escalda-pÃ©s e rituais de cuidado que podem virar presente digital ou pausa antes do casamento.",
+    "Reflexologia, escalda-pés e rituais de cuidado que podem virar presente digital ou pausa antes do casamento.",
   groups: [
     {
       id: "pre_wedding" as const,
       eyebrow: "CUIDADO PARA NOIVA",
       title: "Para chegar mais leve ao grande dia",
       intro:
-        "Reflexologia e escalda-pÃ©s pensados para aliviar a tensÃ£o dos preparativos e desacelerar com calma.",
+        "Reflexologia e escalda-pés pensados para aliviar a tensão dos preparativos e desacelerar com calma.",
       cards: [
         {
           id: "noiva_sublime" as const,
@@ -1537,19 +1537,19 @@ export const zlExperienciasPresentes = {
           duration: "50 minutos",
           includes: [
             "Reflexologia Podal Relaxante",
-            "Escalda-pÃ©s terapÃªutico como mimo",
-            "AmbientaÃ§Ã£o acolhedora",
+            "Escalda-pés terapêutico como mimo",
+            "Ambientação acolhedora",
           ],
           price: "R$ 180",
           priceValue: 180,
           ctaLabel: "Quero presentear Noiva Sublime",
           whatsappLink: buildWhatsappLink(
-            "Oi, quero presentear com a experiÃªncia Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
+            "Oi, quero presentear com a experiência Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
             "experience_noiva_sublime"
           ),
           image: {
             src: "/zl-podologia/generated/v10/value-offer/experience-noiva-sublime.jpg",
-            alt: "ComposiÃ§Ã£o editorial clara com toalhas, bowl terapÃªutico e vela usada para contextualizar a experiÃªncia Noiva Sublime da ZL Podologia",
+            alt: "Composição editorial clara com toalhas, bowl terapêutico e vela usada para contextualizar a experiência Noiva Sublime da ZL Podologia",
             coverLayout: "editorial_full_bleed",
             coverTone: "ritual_claro",
             focalPoint: "52% 58%",
@@ -1558,27 +1558,27 @@ export const zlExperienciasPresentes = {
         {
           id: "noiva_majestosa" as const,
           group: "pre_wedding" as const,
-          eyebrow: "PRE-WEDDING TERAPÃŠUTICA",
+          eyebrow: "PRE-WEDDING TERAPÊUTICA",
           title: "Noiva Majestosa",
           duration: "50 minutos",
           includes: [
-            "Reflexologia Podal TerapÃªutica (cuidado profundo)",
-            "Escalda-pÃ©s especial",
-            "AmbientaÃ§Ã£o diferenciada",
+            "Reflexologia Podal Terapêutica (cuidado profundo)",
+            "Escalda-pés especial",
+            "Ambientação diferenciada",
             "Mimo especial preparado para a noiva",
           ],
           price: "R$ 240",
           priceValue: 240,
           featured: true,
           featuredLabel: "Mais escolhida pelas noivas",
-          ctaLabel: "Quero a experiÃªncia Noiva Majestosa",
+          ctaLabel: "Quero a experiência Noiva Majestosa",
           whatsappLink: buildWhatsappLink(
-            "Oi, quero a experiÃªncia Noiva Majestosa (Pre-Wedding terapÃªutica 50 min, R$ 240).",
+            "Oi, quero a experiência Noiva Majestosa (Pre-Wedding terapêutica 50 min, R$ 240).",
             "experience_noiva_majestosa"
           ),
           image: {
             src: "/zl-podologia/generated/v10/value-offer/experience-noiva-majestosa.jpg",
-            alt: "ComposiÃ§Ã£o editorial terrosa com bowl ritual, velas e textura premium usada para contextualizar a experiÃªncia Noiva Majestosa da ZL Podologia",
+            alt: "Composição editorial terrosa com bowl ritual, velas e textura premium usada para contextualizar a experiência Noiva Majestosa da ZL Podologia",
             coverLayout: "editorial_full_bleed",
             coverTone: "ritual_profundo",
             focalPoint: "50% 48%",
@@ -1591,7 +1591,7 @@ export const zlExperienciasPresentes = {
       eyebrow: "VALE-PRESENTE",
       title: "Presente digital com cuidado real",
       intro:
-        "Duas opÃ§Ãµes prontas para presentear com reflexologia e um ritual calmo. A versÃ£o Encanto adiciona cartÃ£o personalizado.",
+        "Duas opções prontas para presentear com reflexologia e um ritual calmo. A versão Encanto adiciona cartão personalizado.",
       cards: [
         {
           id: "momento_essencial" as const,
@@ -1601,8 +1601,8 @@ export const zlExperienciasPresentes = {
           duration: "50 minutos",
           includes: [
             "Reflexologia Podal Relaxante",
-            "Escalda-pÃ©s com mimo especial",
-            "AmbientaÃ§Ã£o acolhedora",
+            "Escalda-pés com mimo especial",
+            "Ambientação acolhedora",
             "Vale presente digital",
           ],
           price: "R$ 120",
@@ -1614,7 +1614,7 @@ export const zlExperienciasPresentes = {
           ),
           image: {
             src: "/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.jpg",
-            alt: "Vale Presente Momento Essencial em envelope claro com amarraÃ§Ã£o delicada e composiÃ§Ã£o editorial suave",
+            alt: "Vale Presente Momento Essencial em envelope claro com amarração delicada e composição editorial suave",
             coverLayout: "editorial_full_bleed",
             coverTone: "presente_suave",
             focalPoint: "50% 52%",
@@ -1624,27 +1624,27 @@ export const zlExperienciasPresentes = {
           id: "experiencia_encanto" as const,
           group: "vale_presente" as const,
           eyebrow: "PRESENTE PREMIUM",
-          title: "Vale Presente ExperiÃªncia Encanto",
+          title: "Vale Presente Experiência Encanto",
           duration: "50 minutos",
           includes: [
-            "Reflexologia Podal TerapÃªutica",
-            "Escalda-pÃ©s especial",
-            "AmbientaÃ§Ã£o diferenciada",
+            "Reflexologia Podal Terapêutica",
+            "Escalda-pés especial",
+            "Ambientação diferenciada",
             "Vale presente em PDF personalizado",
-            "CartÃ£o ilustrado personalizado",
+            "Cartão ilustrado personalizado",
           ],
           price: "R$ 160",
           priceValue: 160,
           featured: true,
-          featuredLabel: "CartÃ£o Disney personalizado",
-          ctaLabel: "Presentear ExperiÃªncia Encanto",
+          featuredLabel: "Cartão Disney personalizado",
+          ctaLabel: "Presentear Experiência Encanto",
           whatsappLink: buildWhatsappLink(
-            "Oi, quero presentear com o Vale Presente ExperiÃªncia Encanto (Reflexologia terapÃªutica + cartÃ£o ilustrado personalizado, R$ 160).",
+            "Oi, quero presentear com o Vale Presente Experiência Encanto (Reflexologia terapêutica + cartão ilustrado personalizado, R$ 160).",
             "experience_encanto"
           ),
           image: {
             src: "/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.jpg",
-            alt: "Vale Presente ExperiÃªncia Encanto em envelope premium com lacre terroso e composiÃ§Ã£o editorial de presente",
+            alt: "Vale Presente Experiência Encanto em envelope premium com lacre terroso e composição editorial de presente",
             coverLayout: "editorial_full_bleed",
             coverTone: "presente_assinatura",
             focalPoint: "50% 50%",
@@ -1654,7 +1654,7 @@ export const zlExperienciasPresentes = {
     },
   ],
   closing:
-    "Todas as experiÃªncias tÃªm hora marcada e podem ser ajustadas no WhatsApp.",
+    "Todas as experiências têm hora marcada e podem ser ajustadas no WhatsApp.",
 } as const;
 
 export type ZlExperienceGroup = (typeof zlExperienciasPresentes.groups)[number];

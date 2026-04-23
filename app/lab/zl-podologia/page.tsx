@@ -17,11 +17,11 @@ import {
 /* ------------------------------------------------------------------ */
 
 const description =
-  "Podologia clinica em Fortaleza (Parquelandia) para unha encravada, fungos, podoprofilaxia e reflexologia. 5,0 no Google, cuidado humanizado com Zucarina e Jannie. Agende pelo WhatsApp.";
+  "Podologia clínica em Fortaleza (Parquelândia) para unha encravada, fungos, podoprofilaxia e reflexologia. 5,0 no Google, cuidado humanizado com Zucarina e Jannie. Agende pelo WhatsApp.";
 
 export const metadata: Metadata = {
   title:
-    "ZL Podologia - Podologia clinica em Fortaleza | Av. Bezerra de Menezes, Parquelandia",
+    "ZL Podologia - Podologia clínica em Fortaleza | Av. Bezerra de Menezes, Parquelândia",
   description,
   keywords: zlLocalKeywords as unknown as string[],
   authors: [{ name: "ZL Podologia" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     siteName: "ZL Podologia Fortaleza",
     title:
-      "ZL Podologia - Podologia clinica humanizada em Fortaleza / Parquelandia",
+      "ZL Podologia - Podologia clínica humanizada em Fortaleza / Parquelândia",
     description,
     url: ZL_CANONICAL_URL,
     images: [
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: "/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
         width: 1200,
         height: 1256,
-        alt: "Zucarina, podologa da ZL Podologia Fortaleza, em atendimento clinico com jaleco, touca, mascara e luvas",
+        alt: "Zucarina, podóloga da ZL Podologia Fortaleza, em atendimento clínico com jaleco, touca, máscara e luvas",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ZL Podologia - Fortaleza (Parquelandia) | 5,0 no Google",
+    title: "ZL Podologia - Fortaleza (Parquelândia) | 5,0 no Google",
     description,
     images: [
       "/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
@@ -114,13 +114,13 @@ function buildSchemaGraph(): JsonLdObject {
       // v8-hero-swap: imagem principal schema agora e a Zucarina em
       // atendimento clinico (hero da landing). hero-editorial-tagline
       // segue como 2o na galeria oficial.
-      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
-      "https://zlpodologia.com.br/zl-podologia/social/marca/hero-editorial-tagline.jpg",
-      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
-      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
-      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/marca/hero-editorial-tagline.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg",
     ],
-    logo: "https://zlpodologia.com.br/zl-podologia/social/marca/logo-oficial.jpg",
+    logo: "https://www.zlpodologia.com.br/zl-podologia/social/marca/logo-oficial.jpg",
     url: ZL_CANONICAL_URL,
     telephone: "+5585994358505",
     email: zlContact.email,
@@ -210,14 +210,14 @@ function buildSchemaGraph(): JsonLdObject {
   const webPage: JsonLdObject = {
     "@type": "WebPage",
     "@id": `${ZL_CANONICAL_URL}#webpage`,
-    name: "ZL Podologia - Podologia clinica em Fortaleza",
+    name: "ZL Podologia - Podologia clínica em Fortaleza",
     description,
     url: ZL_CANONICAL_URL,
     inLanguage: "pt-BR",
     isPartOf: {
       "@type": "WebSite",
       name: "ZL Podologia Fortaleza",
-      url: "https://zlpodologia.com.br/",
+      url: "https://www.zlpodologia.com.br/",
     },
     about: { "@id": `${ZL_CANONICAL_URL}#business` },
     publisher: { "@id": `${ZL_CANONICAL_URL}#business` },
@@ -227,26 +227,26 @@ function buildSchemaGraph(): JsonLdObject {
     "@type": "Person",
     "@id": `${ZL_CANONICAL_URL}#zucarina`,
     name: "Zucarina",
-    jobTitle: "Podologa",
+    jobTitle: "Podóloga",
     worksFor: { "@id": `${ZL_CANONICAL_URL}#business` },
     description:
-      "Profissional competente que trata o cliente com atencao e delicadeza, nas palavras das pacientes.",
+      "Profissional competente que trata o cliente com atenção e delicadeza, nas palavras das pacientes.",
     // v7-final: foto pro autorizada (Codex manifest).
     image:
-      "https://zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
   };
 
   const janniePerson: JsonLdObject = {
     "@type": "Person",
     "@id": `${ZL_CANONICAL_URL}#jannie`,
     name: "Jannie",
-    jobTitle: "Podologa",
+    jobTitle: "Podóloga",
     worksFor: { "@id": `${ZL_CANONICAL_URL}#business` },
     description:
-      "Atenciosa e cuidadosa no atendimento - citada nominalmente nas avaliacoes publicas da clinica.",
+      "Atenciosa e cuidadosa no atendimento - citada nominalmente nas avaliações públicas da clínica.",
     // v7-earthy: Jannie agora tem retrato autorizado.
     image:
-      "https://zlpodologia.com.br/zl-podologia/social/equipe/jannie-retrato.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/equipe/jannie-retrato.jpg",
   };
 
   return {

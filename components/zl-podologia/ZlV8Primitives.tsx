@@ -40,7 +40,7 @@ export function ZlSceneEnvelope({
 }) {
   const palette =
     tone === "rose-wash"
-      ? "bg-[#FBF7F4] border-[#E6D2C7]"
+      ?"bg-[#FBF7F4] border-[#E6D2C7]"
       : "bg-white border-[#E6DBC6]";
   return (
     <div
@@ -182,16 +182,16 @@ export function ZlCompareColumn({
   items: readonly string[];
   good: boolean;
 }) {
-  const iconColor = good ? "#1d9e75" : "#e24b4a";
-  const borderColor = good ? "#cbe6d9" : "#f2cecb";
-  const bg = good ? "#f4fbf7" : "#fdf4f3";
+  const iconColor = good ?"#1d9e75" : "#e24b4a";
+  const borderColor = good ?"#cbe6d9" : "#f2cecb";
+  const bg = good ?"#f4fbf7" : "#fdf4f3";
   return (
     <div
       className="rounded-[1.4rem] border p-5 md:p-6"
       style={{ background: bg, borderColor }}
     >
       <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
-        {good ? "ZL Podologia" : "Pedicure comum"}
+        {good ?"ZL Podologia" : "Pedicure comum"}
       </p>
       <h3
         className="mt-2 text-[clamp(1.3rem,1.9vw,1.7rem)] leading-[1.15] tracking-[-0.02em] text-[#3A2E23]"
@@ -213,7 +213,7 @@ export function ZlCompareColumn({
               className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full"
               style={{ color: iconColor }}
             >
-              {good ? (
+              {good ?(
                 <svg
                   viewBox="0 0 24 24"
                   className="h-5 w-5"

@@ -9,19 +9,19 @@ import { buildWhatsappLink } from "@/components/zl-podologia/zlPodologiaContent"
 import { ZlSceneEnvelope } from "@/components/zl-podologia/ZlV8Primitives";
 
 /**
- * Storyteller autonomo da unha encravada â€” v7a.
+ * Storyteller autônomo da unha encravada - v7a.
  *
- * Promovido de card dentro do Service Explorer para secao autonoma na
- * posicao 6 (apos Explorer, antes de Biosseguranca). Ancora visual do
- * protocolo da ZL. 5 slides, cada um com numero romano I-V em Fraunces
- * serif italico + legenda e badge de etapa.
+ * Promovido de card dentro do Service Explorer para seção autônoma na
+ * posição 6 (após Explorer, antes de Biossegurança). Âncora visual do
+ * protocolo da ZL. 5 slides, cada um com número romano I-V em Fraunces
+ * serif itálico + legenda e badge de etapa.
  *
  * Motion:
  *  - Desktop (hover + fine pointer): horizontal scroll-snap com
  *    auto-highlight do slide central (IntersectionObserver atrela visual +
  *    dispara evento `storyteller_card_view` por card).
  *  - Mobile: snap-scroll de 1 slide por viewport (touch + swipe).
- *  - prefers-reduced-motion: empilhamento simples sem auto-avanco.
+ *  - prefers-reduced-motion: empilhamento simples sem auto-avanço.
  *
  * Texto dourado das imagens originais preservado (parte da arte).
  */
@@ -37,50 +37,50 @@ interface StorytellerSlide {
 const SLIDES: readonly StorytellerSlide[] = [
   {
     src: "/zl-podologia/social/antes-depois/encravada-01-chegada.jpg",
-    alt: "Chegada do caso de unha encravada na ZL Podologia Fortaleza â€” dois pes, duas unhas dos halux com inflamacao",
+    alt: "Chegada do caso de unha encravada na ZL Podologia Fortaleza - dois pés, duas unhas dos hálux com inflamação",
     romanNumeral: "I",
     step: "Chegada",
     caption:
-      "I. Chegada. Duas unhas dos halux, muita dor ao calcar, inflamacao visivel na borda.",
+      "I. Chegada. Duas unhas dos hálux, muita dor ao calçar, inflamação visível na borda.",
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-02-diagnostico.jpg",
-    alt: "Leitura clinica das unhas encravadas â€” diagnostico visual antes do procedimento",
+    alt: "Leitura clínica das unhas encravadas - diagnóstico visual antes do procedimento",
     romanNumeral: "II",
-    step: "Diagnostico",
+    step: "Diagnóstico",
     caption:
-      "II. Leitura do caso. Unhas profundamente encravadas, limpeza cuidadosa da area antes de seguir.",
+      "II. Leitura do caso. Unhas profundamente encravadas, limpeza cuidadosa da área antes de seguir.",
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-03-remocao-espicula.jpg",
-    alt: "Retirada tecnica da espicula da unha encravada com instrumental profissional na ZL Podologia",
+    alt: "Retirada técnica da espícula da unha encravada com instrumental profissional na ZL Podologia",
     romanNumeral: "III",
-    step: "Remocao",
+    step: "Remoção",
     caption:
-      "III. Retirada da espicula com tecnica adequada, para aliviar a dor sem gerar novo trauma.",
+      "III. Retirada da espícula com técnica adequada, para aliviar a dor sem gerar novo trauma.",
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-04-azul-metileno.jpg",
-    alt: "Aplicacao de azul de metileno com fotossensibilizador apos remocao da espicula",
+    alt: "Aplicação de azul de metileno com fotossensibilizador após remoção da espícula",
     romanNumeral: "IV",
     step: "Protocolo",
     caption:
-      "IV. Aplicacao de azul de metileno com fotossensibilizador â€” acao antimicrobiana e apoio a recuperacao.",
+      "IV. Aplicação de azul de metileno com fotossensibilizador - ação antimicrobiana e apoio à recuperação.",
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-05-alivio-bandagem.jpg",
-    alt: "Alivio da dor e bandagem protetiva apos o atendimento de unha encravada na ZL Podologia Fortaleza",
+    alt: "Alívio da dor e bandagem protetiva após o atendimento de unha encravada na ZL Podologia Fortaleza",
     romanNumeral: "V",
-    step: "Alivio",
+    step: "Alívio",
     caption:
-      "V. Area protegida, bandagem tecnica e orientacao de retorno â€” alivio real, nao pontual.",
+      "V. Área protegida, bandagem técnica e orientação de retorno - alívio real, não pontual.",
   },
 ];
 
 export function ZlIngrownStoryteller() {
   const trackRef = useRef<HTMLDivElement | null>(null);
 
-  // IntersectionObserver on each slide â€” emits `storyteller_card_view`.
+  // IntersectionObserver on each slide - emits `storyteller_card_view`.
   useEffect(() => {
     if (typeof window === "undefined") return;
     const track = trackRef.current;
@@ -156,8 +156,8 @@ export function ZlIngrownStoryteller() {
             className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
           >
             Caso real publicado pela ZL no Instagram. Da chegada em dor a bandagem
-            final: os cinco momentos que resumem o cuidado â€” e por que a dor
-            alivia logo, mas a manutencao e que impede de voltar.
+            final: os cinco momentos que resumem o cuidado - e por que a dor
+            alivia logo, mas a manutenção é que impede de voltar.
           </Reveal>
         </div>
 
@@ -184,8 +184,8 @@ export function ZlIngrownStoryteller() {
                   loading="lazy"
                   className="object-cover transition-transform duration-[900ms] [transition-timing-function:var(--ease-haptic)] group-hover:scale-[1.03]"
                 />
-                {/* Roman numeral in the corner â€” Fraunces serif, large,
-                    italic. Its the signature of the section. */}
+                {/* Roman numeral in the corner - Fraunces serif, large,
+                    italic. It is the signature of the section. */}
                 <span
                   className="pointer-events-none absolute right-3 top-3 select-none text-[2.4rem] leading-none text-white/90 drop-shadow-[0_6px_18px_rgba(87,68,51,0.5)]"
                   style={{
@@ -210,16 +210,16 @@ export function ZlIngrownStoryteller() {
           ))}
         </div>
 
-        {/* Ancora explicativa + CTA. */}
+          {/* Âncora explicativa + CTA. */}
         <Reveal
           as="div"
           delay={120}
           className="mt-8 grid gap-6 rounded-[1.6rem] border border-[#D2C3A6] bg-white/80 p-5 backdrop-blur-sm md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] md:items-center md:p-6"
         >
           <p className="text-[0.95rem] leading-[1.7] text-[#5C4A38]">
-            Esse caso foi fotografado <strong className="font-medium text-[#3A2E23]">com autorizacao da paciente</strong>. O
-            protocolo â€” retirada da espicula + azul de metileno com
-            fotossensibilizador â€” e o mesmo aplicado em 100% dos atendimentos
+            Esse caso foi fotografado <strong className="font-medium text-[#3A2E23]">com autorização da paciente</strong>. O
+            protocolo - retirada da espícula + azul de metileno com
+            fotossensibilizador - é o mesmo aplicado em 100% dos atendimentos
             de unha encravada na ZL Podologia, em Fortaleza.
           </p>
           <div className="flex flex-wrap items-center gap-3 md:justify-end">

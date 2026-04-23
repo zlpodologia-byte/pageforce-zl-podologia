@@ -1,5 +1,5 @@
 export const SITE_NAME = "ZL Podologia";
-export const SITE_URL = "https://zlpodologia.com.br";
+export const SITE_URL = "https://www.zlpodologia.com.br";
 export const SITE_DESCRIPTION =
   "Podologia clínica em Fortaleza, com atendimento individual, cuidado humanizado e foco em unha encravada, fungos, podoprofilaxia e reflexologia.";
 export const DEFAULT_OG_IMAGE_PATH = "/opengraph-image";

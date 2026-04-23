@@ -13,15 +13,15 @@ export function ZlPrimaryLink({ href, label, icon, tone = "whatsapp" }: ZlCtaLin
   // no enum pra nao quebrar refs; semantica visual e o que muda).
   const toneClasses =
     tone === "blush"
-      ? "bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white shadow-[0_16px_40px_rgba(122,98,68,0.28)] hover:shadow-[0_20px_52px_rgba(122,98,68,0.36)]"
+      ?"bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white shadow-[0_16px_40px_rgba(122,98,68,0.28)] hover:shadow-[0_20px_52px_rgba(122,98,68,0.36)]"
       : tone === "ghost"
-      ? "border border-[#D2C3A6] bg-white text-[#3A2E23] hover:border-[#B89B77]"
+      ?"border border-[#D2C3A6] bg-white text-[#3A2E23] hover:border-[#B89B77]"
       : "bg-[linear-gradient(135deg,#25d366_0%,#128c7e_100%)] text-white shadow-[0_16px_40px_rgba(18,140,126,0.28)] hover:shadow-[0_20px_52px_rgba(18,140,126,0.36)]";
 
   // Trailing icon circle.
   const iconCircleTone =
     tone === "ghost"
-      ? "bg-[#3A2E23]/6 text-[#3A2E23]"
+      ?"bg-[#3A2E23]/6 text-[#3A2E23]"
       : "bg-white/20 text-white";
 
   return (
@@ -31,7 +31,7 @@ export function ZlPrimaryLink({ href, label, icon, tone = "whatsapp" }: ZlCtaLin
       rel="noreferrer"
       className={`group inline-flex items-center gap-2 rounded-full pl-6 pr-2 py-2 text-[0.82rem] font-medium tracking-[0.04em] transition-all duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-0.5 active:scale-[0.98] ${toneClasses}`}
     >
-      {icon ? <span className="flex h-4 w-4 items-center justify-center">{icon}</span> : null}
+      {icon ?<span className="flex h-4 w-4 items-center justify-center">{icon}</span> : null}
       <span className="py-1">{label}</span>
       <span
         className={`flex h-8 w-8 items-center justify-center rounded-full ${iconCircleTone} transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] group-hover:translate-x-1 group-hover:-translate-y-[1px] group-hover:scale-105`}
@@ -53,7 +53,7 @@ export function ZlSecondaryLink({ href, label, icon }: ZlCtaLinkProps) {
       rel="noreferrer"
       className="group inline-flex items-center gap-2 rounded-full border border-[#D2C3A6] bg-white/80 px-5 py-3 text-[0.78rem] font-medium tracking-[0.04em] text-[#5C4A38] backdrop-blur-sm transition-all duration-500 [transition-timing-function:var(--ease-haptic)] hover:border-[#B89B77] hover:bg-white hover:text-[#3A2E23] active:scale-[0.98]"
     >
-      {icon ? <span className="flex h-4 w-4 items-center justify-center text-[#7A6244]">{icon}</span> : null}
+      {icon ?<span className="flex h-4 w-4 items-center justify-center text-[#7A6244]">{icon}</span> : null}
       <span>{label}</span>
     </Link>
   );

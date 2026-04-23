@@ -4,7 +4,7 @@ import type { ZlServiceId } from "@/components/zl-podologia/zlPodologiaContent";
 // v7-earthy: paleta reescrita em tons terrosos warm. Os nomes originais
 // (rose/blush/peach/salmon) sao mantidos pra nao quebrar refs spread pelas
 // artworks SVG abaixo, mas os valores apontam para a paleta terrosa v7-
-// earthy â€” caramelo/taupe/areia/bege em vez de azul/rose.
+// earthy ? caramelo/taupe/areia/bege em vez de azul/rose.
 const palette = {
   ink: "#3A2E23",
   rose: "#B89B77",
@@ -147,10 +147,10 @@ export function ZlHeroArtwork() {
       {/* Top-left glass note */}
       <GlassNote className="left-5 top-5 max-w-[12.5rem]" tone="rose">
         <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#7A6244]">
-          Fortaleza / Parquelandia
+          Fortaleza / Parquelândia
         </p>
         <p className="mt-2 text-[0.95rem] leading-[1.4] text-[#3A2E23]">
-          Podologia clinica com leitura do caso, alivio e continuidade.
+          Podologia clínica com leitura do caso, alívio e continuidade.
         </p>
       </GlassNote>
 
@@ -237,7 +237,7 @@ function renderServiceSvg(kind: ZlServiceId): ReactNode {
       return <ReflexologySvg />;
     case "diabetic":
       // Pe diabetico usa a ilustracao "sensitive" (pele sensivel /
-      // cuidado extra) â€” mesmo vocabulario visual.
+      // cuidado extra) ? mesmo vocabulario visual.
       return <SensitiveSvg />;
   }
 }
@@ -282,7 +282,7 @@ function FungusSvg() {
       <path d="M70 230h500" stroke="#D2C3A6" strokeWidth="3" strokeLinecap="round" strokeDasharray="4 8" />
       {[80, 250, 420, 560].map((x, i) => (
         <g key={x}>
-          <circle cx={x} cy="230" r="10" fill={i === 0 ? "#9A7F5C" : i === 3 ? "#7A8459" : "#D2C3A6"} />
+          <circle cx={x} cy="230" r="10" fill={i === 0 ?"#9A7F5C" : i === 3 ?"#7A8459" : "#D2C3A6"} />
           <text x={x} y="262" textAnchor="middle" fontSize="11" fill="#8B7862">
             {["Hoje", "30 dias", "60 dias", "90 dias"][i]}
           </text>
@@ -584,9 +584,9 @@ function CaseHalf({
 }) {
   // v7-earthy: ANTES em taupe (#D2C3A6) com label marrom escuro, DEPOIS
   // em areia claro (#F2EBDE) com label verde-oliva.
-  const background = tone === "before" ? "#D2C3A6" : "#F2EBDE";
-  const accent = tone === "before" ? "#574433" : "#7A8459";
-  const textTone = tone === "before" ? "#3A2E23" : "#574433";
+  const background = tone === "before" ?"#D2C3A6" : "#F2EBDE";
+  const accent = tone === "before" ?"#574433" : "#7A8459";
+  const textTone = tone === "before" ?"#3A2E23" : "#574433";
 
   return (
     <div className="p-5" style={{ background }}>
@@ -599,7 +599,7 @@ function CaseHalf({
       <div className="mt-4 overflow-hidden rounded-[1.1rem] border border-white/70 bg-white/70 p-4">
         <svg viewBox="0 0 260 160" className="h-auto w-full" aria-hidden="true">
           <rect width="260" height="160" fill="transparent" />
-          {tone === "before" ? (
+          {tone === "before" ?(
             <>
               <path
                 d="M60 118c0-40 14-76 44-98 22-16 48-20 76-10"
@@ -644,7 +644,7 @@ function GlassNote({
   tone?: "rose" | "blue";
 }) {
   const ring =
-    tone === "blue" ? "ring-[#D2C3A6]" : "ring-[#E6DBC6]";
+    tone === "blue" ?"ring-[#D2C3A6]" : "ring-[#E6DBC6]";
   return (
     <div
       className={`absolute rounded-[1.3rem] bg-white/88 p-3.5 shadow-[0_18px_46px_rgba(87,68,51,0.08)] ring-1 backdrop-blur-sm ${ring} ${className}`}

@@ -37,7 +37,7 @@ export function ZlCookieBanner() {
     // Propagate choice to gtag, if loaded.
     if (typeof window !== "undefined" && typeof window.gtag === "function") {
       window.gtag("consent", "update", {
-        analytics_storage: choice === "accepted" ? "granted" : "denied",
+        analytics_storage: choice === "accepted" ?"granted" : "denied",
       });
     }
   };
@@ -48,11 +48,11 @@ export function ZlCookieBanner() {
     <div
       role="dialog"
       aria-live="polite"
-      aria-label="Preferencias de cookies"
+      aria-label="Preferências de cookies"
       className="pointer-events-auto fixed bottom-4 right-4 z-50 w-[min(92vw,22rem)] rounded-[1.1rem] border border-[#D2C3A6] bg-white/95 p-3.5 text-[0.82rem] leading-[1.5] text-[#5C4A38] shadow-[0_20px_52px_rgba(87,68,51,0.18)] backdrop-blur-sm sm:bottom-6 sm:right-6"
     >
       <p className="pr-1">
-        A ZL usa cookies basicos (GA4) para entender como voce navega. Sem
+        A ZL usa cookies básicos (GA4) para entender como você navega. Sem
         vender dados.
       </p>
       <div className="mt-2.5 flex items-center justify-end gap-2">

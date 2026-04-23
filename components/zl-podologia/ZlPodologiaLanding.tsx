@@ -66,8 +66,8 @@ export function ZlPodologiaLanding() {
   }, []);
 
   return (
-    <div className="relative bg-[#F2EBDE] pb-16 text-[#3A2E23] md:pb-0">
-      {/* Scoped Lenis smooth scroll ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â respects reduced-motion and skips
+    <div id="top" className="relative bg-[#F2EBDE] pb-16 text-[#3A2E23] md:pb-0">
+      {/* Scoped Lenis smooth scroll - respects reduced-motion and skips
           touch devices to keep battery cost nil on mobile. */}
       <ZlSmoothScroll />
 
@@ -75,7 +75,7 @@ export function ZlPodologiaLanding() {
           without forcing repaints in scroll containers. */}
       <div className="zl-grain" aria-hidden="true" />
 
-      {/* Analytics (GA4 + IO-based scroll events) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â safe no-op when
+      {/* Analytics (GA4 + IO-based scroll events) - safe no-op when
           NEXT_PUBLIC_GA_ID is not configured. */}
       <ZlAnalytics />
 
@@ -98,7 +98,7 @@ export function ZlPodologiaLanding() {
         onPick={handlePickSymptom}
       />
 
-      {/* [2] Faixa Fiduciaria consolidada (v7a ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 5 celulas) */}
+      {/* [2] Faixa Fiduciaria consolidada (v7a - 5 celulas) */}
 
       {/* [3] Promessa institucional */}
 
@@ -114,7 +114,7 @@ export function ZlPodologiaLanding() {
         onChange={setActiveServiceId}
       />
 
-      {/* [6] Storyteller Encravada ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â secao autonoma */}
+      {/* [6] Storyteller Encravada - secao autonoma */}
       <ZlIngrownStoryteller />
 
       {/* [7] Biosseguranca */}
@@ -135,9 +135,9 @@ export function ZlPodologiaLanding() {
       {/* [12] Pricing + Education */}
       <ZlValueSection />
 
-      {/* [12.5] Experiencias e Presentes (v9 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Pre-Wedding + Vale Presente) */}
+      {/* [12.5] Experiências e presentes (v9 - Pre-Wedding + Vale Presente) */}
 
-      {/* [13] Quiz diagnostico (antes do FAQ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â decisao v7a) */}
+      {/* [13] Quiz diagnóstico (antes do FAQ - decisão v7a) */}
       <ZlDiagnosticQuiz />
 
       {/* [14] FAQ */}
@@ -191,7 +191,7 @@ function ZlHeroExactSwap() {
             <div className="mt-5 grid gap-8 lg:mt-7 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-stretch xl:gap-12">
               <Reveal as="div">
                 <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#B8837A]">
-                  Podologia clÃ­nica em Fortaleza
+                  Podologia clínica em Fortaleza
                 </p>
 
                 <ZlHeroHeadline />
@@ -201,10 +201,10 @@ function ZlHeroExactSwap() {
                   size="md"
                   className="mt-4 max-w-[34ch] text-[1rem] leading-[1.65] text-[#5C4A38] sm:text-[1.02rem]"
                 >
-                  Podologia clÃ­nica para unha encravada, fungos, podoprofilaxia,
-                  Ã³rtese, laserterapia e reflexologia. AvaliaÃ§Ã£o, procedimento e
-                  orientaÃ§Ã£o de retorno em um atendimento calmo e humano, na
-                  Av. Bezerra de Menezes - ParquelÃ¢ndia.
+                  Podologia clínica para unha encravada, fungos, podoprofilaxia,
+                  órtese, laserterapia e reflexologia. Avaliação, procedimento e
+                  orientação de retorno em um atendimento calmo e humano, na
+                  Av. Bezerra de Menezes - Parquelândia.
                 </BodyText>
 
                 <div className="mt-5">
@@ -301,7 +301,7 @@ function ZlHeroExactSwap() {
                   <div className="relative aspect-[0.98] flex-1 lg:aspect-auto lg:min-h-[620px]">
                     <Image
                       src="/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg"
-                      alt="Zucarina, podologa da ZL Podologia Fortaleza, em atendimento clinico com jaleco branco, touca, mascara, oculos e luvas, segurando o pe da paciente com precisao"
+                      alt="Zucarina, podóloga da ZL Podologia Fortaleza, em atendimento clínico com jaleco branco, touca, máscara, óculos e luvas, segurando o pé da paciente com precisão"
                       fill
                       priority
                       sizes="(min-width: 1024px) 50vw, 100vw"
@@ -354,9 +354,9 @@ function ZlExactStyleTopbar() {
 
   return (
     <header className="flex items-center justify-between gap-5">
-      {/* Brand mark ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â logo + "ZL / Podologia". */}
+      {/* Brand mark - logo + "ZL / Podologia". */}
       <a
-        href="#"
+        href="#top"
         aria-label="ZL Podologia"
         className="group relative flex shrink-0 items-center pr-2"
       >
@@ -373,7 +373,7 @@ function ZlExactStyleTopbar() {
         </span>
       </a>
 
-      {/* Nav expandida ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â lg+. */}
+      {/* Nav expandida - lg+. */}
       <nav className="hidden flex-1 items-center justify-center gap-6 lg:flex xl:gap-7">
         {navItems.map((item) => (
           <a
@@ -386,7 +386,7 @@ function ZlExactStyleTopbar() {
         ))}
       </nav>
 
-      {/* CTA primario ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Agendar avaliacao. */}
+      {/* CTA primário - Agendar avaliação. */}
       <a
         href={zlLinks.whatsappTopbar}
         target="_blank"
@@ -448,7 +448,7 @@ function ZlHeroHeadline() {
         className="block"
         style={{
           fontVariationSettings: settled
-            ? "'opsz' 144, 'SOFT' 100"
+            ?"'opsz' 144, 'SOFT' 100"
             : "'opsz' 14, 'SOFT' 0",
           transition: "font-variation-settings 1100ms var(--ease-haptic)",
           willChange: "font-variation-settings",
@@ -461,7 +461,7 @@ function ZlHeroHeadline() {
           className="italic text-[#B8837A]"
           style={{ fontStyle: "italic" }}
         >
-          pÃ©s
+          pés
         </span>{" "}
         que
         <br />
@@ -470,7 +470,7 @@ function ZlHeroHeadline() {
           className="italic text-[#B8837A]"
           style={{ fontStyle: "italic" }}
         >
-          alÃ­vio
+          alívio
         </span>
         .
       </span>
@@ -480,7 +480,7 @@ function ZlHeroHeadline() {
 
 /**
  * Footer with the official logo as the closing gesture. Inclui link
- * "Politica de uso de imagens" (LGPD) e NAP consistente.
+ * "Política de uso de imagens" (LGPD) e NAP consistente.
  */
 function ZlFooter() {
   return (
@@ -562,7 +562,7 @@ function ZlFooter() {
               href={`mailto:${zlContact.email}`}
               className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/20 backdrop-blur-sm hover:bg-white/15"
             >
-              <span aria-hidden="true">ÃƒÂ¢Ã…â€œÃ¢â‚¬Â°</span>
+              <span aria-hidden="true">✉</span>
               <span>{zlContact.email}</span>
             </a>
           </div>
@@ -578,13 +578,13 @@ function ZlFooter() {
               href={zlLinks.imagePolicy}
               className="text-white/70 underline-offset-4 hover:underline"
             >
-              PolÃ­tica de uso de imagens
+              Política de uso de imagens
             </Link>
             <p
               className="italic text-white/70"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              PÃ©s bem cuidados fazem toda a diferenÃ§a.
+              Pés bem cuidados fazem toda a diferença.
             </p>
           </div>
         </div>

@@ -97,7 +97,7 @@ export function ZlCasesSection() {
                     </p>
 
                     <div className="mt-4">
-                      {item.beforePhoto && item.afterPhoto ? (
+                      {item.beforePhoto && item.afterPhoto ?(
                         <CasePhotoPair
                           caseTitle={item.title}
                           beforePhoto={item.beforePhoto}
@@ -140,21 +140,21 @@ function CasePhotoPair({
   afterLabel: string;
   tag: string;
 }) {
-  const isExperience = tag === "ExperiÃªncia";
+  const isExperience = tag === "Experiência";
 
   return (
     <div className="grid gap-3 md:grid-cols-2">
       <CasePhotoFigure
         caseTitle={caseTitle}
         tone="before"
-        title={isExperience ? "Procedimento" : "Antes"}
+        title={isExperience ?"Procedimento" : "Antes"}
         body={beforeLabel}
         photo={beforePhoto}
       />
       <CasePhotoFigure
         caseTitle={caseTitle}
         tone="after"
-        title={isExperience ? "Resultado" : "Depois"}
+        title={isExperience ?"Resultado" : "Depois"}
         body={afterLabel}
         photo={afterPhoto}
       />
@@ -177,7 +177,7 @@ function CasePhotoFigure({
 }) {
   const palette =
     tone === "before"
-      ? {
+      ?{
           chipBg: "bg-[#F3E6D7]",
           chipText: "text-[#6B5547]",
           frameBg: "bg-[#F2E7D9]",
@@ -223,7 +223,7 @@ function CasePhotoFigure({
 function getCaseFigureConfig(caseTitle: string, tone: "before" | "after") {
   if (caseTitle === "Unha encravada") {
     return tone === "before"
-      ? {
+      ?{
           aspectClass: "aspect-[3/4]",
           objectPosition: "50% 34%",
           scale: 1.3,
@@ -237,7 +237,7 @@ function getCaseFigureConfig(caseTitle: string, tone: "before" | "after") {
 
   if (caseTitle === "Fungos nas unhas") {
     return tone === "before"
-      ? {
+      ?{
           aspectClass: "aspect-[4/5]",
           objectPosition: "50% 38%",
           scale: 1.08,
@@ -251,7 +251,7 @@ function getCaseFigureConfig(caseTitle: string, tone: "before" | "after") {
 
   if (caseTitle === "Podoprofilaxia") {
     return tone === "before"
-      ? {
+      ?{
           aspectClass: "aspect-[4/5]",
           objectPosition: "58% 50%",
           scale: 1.08,

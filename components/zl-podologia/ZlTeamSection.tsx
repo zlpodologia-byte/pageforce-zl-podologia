@@ -111,7 +111,7 @@ function LeadProfessionalCard({
       <div className="grid gap-0 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)]">
         <div className="contents">
           <div className="relative min-h-[25rem] overflow-hidden bg-[#F4E8DA] md:min-h-[31rem] lg:min-h-[34rem]">
-            {hasPhoto && professional.photo ? (
+            {hasPhoto && professional.photo ?(
               <>
                 <Image
                   src={professional.photo.src}
@@ -237,7 +237,7 @@ function SupportProfessionalCard({
       <div className="grid gap-0 md:grid-cols-[minmax(0,0.98fr)_minmax(0,1.02fr)] md:items-stretch">
         <div className="relative min-h-[20rem] overflow-hidden bg-[#F4E8DA] md:min-h-[24rem]">
           <div className="relative h-full overflow-hidden">
-            {hasPhoto && professional.photo ? (
+            {hasPhoto && professional.photo ?(
               <>
                 <Image
                   src={professional.photo.src}
@@ -294,7 +294,7 @@ function SupportProfessionalCard({
           <p className="mt-3 text-[0.76rem] leading-[1.46] text-[#8B7862]">
             {professional.description}
           </p>
-          {professional.handle ? (
+          {professional.handle ?(
             <p className="mt-3 text-[0.68rem] uppercase tracking-[0.18em] text-[#8B7862]">
               {professional.handle}
             </p>

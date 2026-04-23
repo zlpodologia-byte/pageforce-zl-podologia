@@ -88,19 +88,19 @@ function ExperienceCard({ card }: ExperienceCardProps) {
     <article
       className={`relative flex flex-col overflow-hidden rounded-[24px] border bg-white transition-all duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-[2px] ${
         card.featured
-          ? "border-[#B8837A]/40 shadow-[0_18px_50px_rgba(184,131,122,0.18)]"
+          ?"border-[#B8837A]/40 shadow-[0_18px_50px_rgba(184,131,122,0.18)]"
           : "border-[#E6D2C7] shadow-[0_12px_35px_rgba(154,127,92,0.08)]"
       }`}
     >
       {/* Featured badge */}
-      {card.featured && card.featuredLabel ? (
+      {card.featured && card.featuredLabel ?(
         <div className="absolute right-3 top-3 z-10 rounded-full bg-[#B8837A] px-3 py-1 text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-white">
           {card.featuredLabel}
         </div>
       ) : null}
 
       {/* Imagem do card */}
-      {card.image ? (
+      {card.image ?(
         <div className="relative h-48 w-full overflow-hidden bg-[#F2EBDE] md:h-52">
           <Image
             src={card.image.src}
@@ -154,7 +154,7 @@ function ExperienceCard({ card }: ExperienceCardProps) {
             rel="noopener noreferrer"
             className={`group inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-[0.85rem] font-semibold transition-all duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98] ${
               card.featured
-                ? "bg-[#3a8c70] text-white hover:bg-[#2f7a60]"
+                ?"bg-[#3a8c70] text-white hover:bg-[#2f7a60]"
                 : "border border-[#3A2E23] bg-white text-[#3A2E23] hover:bg-[#3A2E23] hover:text-white"
             }`}
             data-analytics="wa_click"

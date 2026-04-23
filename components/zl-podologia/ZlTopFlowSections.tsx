@@ -249,7 +249,7 @@ export function ZlDecisionGuideSection({
                       aria-pressed={active}
                       className={`h-full w-full rounded-[1.35rem] border p-5 text-left transition-all duration-300 ${
                         active
-                          ? "border-[#B8837A] bg-white shadow-[0_18px_42px_rgba(109,73,58,0.12)]"
+                          ?"border-[#B8837A] bg-white shadow-[0_18px_42px_rgba(109,73,58,0.12)]"
                           : "border-[#E6D7CB] bg-white/70 hover:border-[#CDA999] hover:bg-white"
                       }`}
                     >
@@ -263,7 +263,7 @@ export function ZlDecisionGuideSection({
                         {symptom.body}
                       </p>
                       <span className="mt-5 flex items-center justify-between gap-3 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-[#7A6244]">
-                        <span>{active ? "Cuidado indicado" : "Ver indicação"}</span>
+                        <span>{active ?"Cuidado indicado" : "Ver indicação"}</span>
                         <span aria-hidden="true">{"->"}</span>
                       </span>
                     </button>
