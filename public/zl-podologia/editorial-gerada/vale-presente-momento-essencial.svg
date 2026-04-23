@@ -1,0 +1,55 @@
+<svg width="1600" height="2000" viewBox="0 0 1600 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="240" y1="120" x2="1360" y2="1880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCF7F1"/>
+      <stop offset="1" stop-color="#F1E1D1"/>
+    </linearGradient>
+    <linearGradient id="card" x1="350" y1="360" x2="1240" y2="1580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDFC"/>
+      <stop offset="1" stop-color="#F6EDE4"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D98B7C"/>
+      <stop offset="1" stop-color="#B87467"/>
+    </linearGradient>
+    <filter id="shadow" x="246" y="286" width="1108" height="1508" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="32"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.321569 0 0 0 0 0.227451 0 0 0 0 0.168627 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="2000" fill="url(#bg)"/>
+  <circle cx="1236" cy="360" r="220" fill="#E9D4BF" fill-opacity="0.72"/>
+  <circle cx="316" cy="1566" r="188" fill="#E8CDBB" fill-opacity="0.6"/>
+  <rect x="118" y="118" width="1364" height="1764" rx="64" fill="#F6EBDC" fill-opacity="0.44" stroke="#E7D7C7"/>
+  <g filter="url(#shadow)">
+    <rect x="310" y="350" width="980" height="1380" rx="52" fill="url(#card)"/>
+    <rect x="310.75" y="350.75" width="978.5" height="1378.5" rx="51.25" stroke="#E6D7C8" stroke-width="1.5"/>
+    <rect x="380" y="430" width="290" height="48" rx="24" fill="url(#chip)"/>
+    <text x="432" y="462" fill="white" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="0.16em">VALE PRESENTE</text>
+    <text x="380" y="598" fill="#3D2F23" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="700">Momento</text>
+    <text x="380" y="708" fill="#3D2F23" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="700">Essencial</text>
+    <text x="382" y="786" fill="#7F6451" font-family="Arial, Helvetica, sans-serif" font-size="38" letter-spacing="0.1em">REFLEXOLOGIA RELAXANTE • 50 MINUTOS</text>
+    <rect x="380" y="860" width="840" height="2" fill="#E6D7C8"/>
+    <g fill="#5E4B3C" font-family="Arial, Helvetica, sans-serif" font-size="42">
+      <circle cx="412" cy="974" r="9" fill="#B8837A"/>
+      <text x="448" y="988">Reflexologia podal relaxante</text>
+      <circle cx="412" cy="1064" r="9" fill="#B8837A"/>
+      <text x="448" y="1078">Escalda-pés com mimo especial</text>
+      <circle cx="412" cy="1154" r="9" fill="#B8837A"/>
+      <text x="448" y="1168">Vale digital para presentear sem sair de casa</text>
+    </g>
+    <rect x="380" y="1280" width="840" height="214" rx="32" fill="#F7EFE8"/>
+    <rect x="420" y="1322" width="288" height="130" rx="24" fill="#E9D5C5"/>
+    <text x="460" y="1370" fill="#6A5443" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="0.18em">RITUAL PREPARADO</text>
+    <text x="460" y="1418" fill="#3D2F23" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-style="italic">Relax Sole</text>
+    <text x="760" y="1368" fill="#7F6451" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="0.14em">PRESENTE DE BEM-ESTAR</text>
+    <text x="760" y="1424" fill="#5E4B3C" font-family="Arial, Helvetica, sans-serif" font-size="34">Ideal para pausa, aniversário</text>
+    <text x="760" y="1468" fill="#5E4B3C" font-family="Arial, Helvetica, sans-serif" font-size="34">e carinho de quem cuida.</text>
+    <text x="380" y="1604" fill="#A17C63" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="0.22em">ZL PODOLOGIA • FORTALEZA</text>
+  </g>
+</svg>

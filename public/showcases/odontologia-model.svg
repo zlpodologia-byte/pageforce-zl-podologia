@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <rect width="960" height="600" fill="#ffffff"/>
+  <!-- nav -->
+  <rect x="0" y="0" width="960" height="60" fill="#ffffff"/>
+  <g fill="#0c1220">
+    <rect x="32" y="24" width="110" height="14" rx="3"/>
+  </g>
+  <g fill="#64748b">
+    <rect x="420" y="26" width="50" height="8" rx="4"/>
+    <rect x="486" y="26" width="60" height="8" rx="4"/>
+    <rect x="562" y="26" width="54" height="8" rx="4"/>
+  </g>
+  <rect x="820" y="16" width="116" height="28" rx="6" fill="#0c1220"/>
+  <text x="838" y="35" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Marcar avaliacao</text>
+  <line x1="0" y1="60" x2="960" y2="60" stroke="#cfe4ee"/>
+  <!-- hero -->
+  <g transform="translate(0,60)">
+    <rect width="960" height="280" fill="#ffffff"/>
+    <rect width="960" height="280" fill="#cfe4ee" opacity="0.3"/>
+    <text x="48" y="90" font-family="Georgia, serif" font-size="44" fill="#0c1220">Cada sorriso</text>
+    <text x="48" y="140" font-family="Georgia, serif" font-size="44" fill="#0c1220">tem seu</text>
+    <text x="48" y="190" font-family="Georgia, serif" font-size="44" fill="#0c1220" font-style="italic">proprio plano.</text>
+    <rect x="48" y="220" width="140" height="40" rx="6" fill="#0c1220"/>
+    <text x="68" y="245" font-family="Arial, sans-serif" font-size="13" fill="#ffffff">Avaliacao gratuita</text>
+    <!-- arc -->
+    <g transform="translate(760,150)">
+      <path d="M -120 0 Q -120 -100 0 -100 Q 120 -100 120 0" fill="none" stroke="#0c1220" stroke-width="1.5"/>
+      <g fill="#ffffff" stroke="#0c1220" stroke-width="1">
+        <rect x="-110" y="-18" width="20" height="24" rx="5"/>
+        <rect x="-84" y="-40" width="20" height="28" rx="5"/>
+        <rect x="-58" y="-60" width="20" height="30" rx="6"/>
+        <rect x="-32" y="-76" width="20" height="32" rx="6"/>
+        <rect x="-6" y="-80" width="20" height="32" rx="6"/>
+        <rect x="20" y="-76" width="20" height="32" rx="6"/>
+        <rect x="46" y="-60" width="20" height="30" rx="6"/>
+        <rect x="72" y="-40" width="20" height="28" rx="5"/>
+        <rect x="98" y="-18" width="20" height="24" rx="5"/>
+      </g>
+      <rect x="-6" y="-80" width="20" height="32" rx="6" fill="#cfe4ee"/>
+    </g>
+  </g>
+  <!-- cards -->
+  <g transform="translate(0,360)">
+    <g>
+      <rect x="32" y="16" width="296" height="160" rx="10" fill="#ffffff" stroke="#cfe4ee" stroke-width="1.5"/>
+      <circle cx="72" cy="56" r="18" fill="#cfe4ee"/>
+      <path d="M 62 56 L 70 64 L 84 48" stroke="#0c1220" stroke-width="2.5" fill="none"/>
+      <rect x="56" y="96" width="216" height="10" rx="4" fill="#d8dce0"/>
+      <rect x="56" y="116" width="170" height="10" rx="4" fill="#d8dce0"/>
+    </g>
+    <g>
+      <rect x="332" y="16" width="296" height="160" rx="10" fill="#ffffff" stroke="#cfe4ee" stroke-width="1.5"/>
+      <rect x="356" y="40" width="32" height="32" rx="5" fill="#cfe4ee"/>
+      <line x1="356" y1="56" x2="388" y2="56" stroke="#0c1220" stroke-width="1.5"/>
+      <line x1="372" y1="40" x2="372" y2="72" stroke="#0c1220" stroke-width="1.5"/>
+      <rect x="356" y="96" width="216" height="10" rx="4" fill="#d8dce0"/>
+      <rect x="356" y="116" width="190" height="10" rx="4" fill="#d8dce0"/>
+    </g>
+    <g>
+      <rect x="632" y="16" width="296" height="160" rx="10" fill="#ffffff" stroke="#cfe4ee" stroke-width="1.5"/>
+      <g transform="translate(672,56)">
+        <rect x="-16" y="-14" width="10" height="16" rx="3" fill="#cfe4ee"/>
+        <rect x="-4" y="-18" width="10" height="20" rx="3" fill="#cfe4ee"/>
+        <rect x="8" y="-14" width="10" height="16" rx="3" fill="#cfe4ee"/>
+      </g>
+      <rect x="656" y="96" width="216" height="10" rx="4" fill="#d8dce0"/>
+      <rect x="656" y="116" width="160" height="10" rx="4" fill="#d8dce0"/>
+    </g>
+  </g>
+  <!-- trust -->
+  <g transform="translate(0,520)">
+    <rect width="960" height="80" fill="#0c1220"/>
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="140" cy="40" r="10"/>
+      <rect x="160" y="34" width="120" height="5" rx="2"/>
+      <rect x="160" y="44" width="90" height="5" rx="2"/>
+      <circle cx="430" cy="40" r="10"/>
+      <rect x="450" y="34" width="120" height="5" rx="2"/>
+      <rect x="450" y="44" width="80" height="5" rx="2"/>
+      <circle cx="720" cy="40" r="10"/>
+      <rect x="740" y="34" width="120" height="5" rx="2"/>
+      <rect x="740" y="44" width="100" height="5" rx="2"/>
+    </g>
+  </g>
+</svg>

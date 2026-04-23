@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <rect width="960" height="600" fill="#1a2340"/>
+  <!-- nav -->
+  <rect width="960" height="60" fill="#0c1220"/>
+  <rect x="32" y="22" width="130" height="16" rx="3" fill="#2d9d8a"/>
+  <g fill="#ffffff" opacity="0.65">
+    <rect x="420" y="26" width="50" height="8" rx="4"/>
+    <rect x="486" y="26" width="60" height="8" rx="4"/>
+    <rect x="562" y="26" width="54" height="8" rx="4"/>
+    <rect x="632" y="26" width="48" height="8" rx="4"/>
+  </g>
+  <rect x="820" y="16" width="116" height="28" rx="6" fill="#2d9d8a"/>
+  <text x="846" y="35" font-family="Arial, sans-serif" font-size="12" fill="#0c1220">Agendar</text>
+  <line x1="0" y1="60" x2="960" y2="60" stroke="#2d9d8a" opacity="0.3"/>
+  <!-- hero -->
+  <g transform="translate(0,60)">
+    <rect width="960" height="280" fill="#1a2340"/>
+    <g stroke="#2d9d8a" stroke-width="0.6" opacity="0.25">
+      <line x1="0" y1="40" x2="960" y2="40"/>
+      <line x1="0" y1="90" x2="960" y2="90"/>
+      <line x1="0" y1="140" x2="960" y2="140"/>
+      <line x1="0" y1="190" x2="960" y2="190"/>
+      <line x1="0" y1="240" x2="960" y2="240"/>
+    </g>
+    <text x="48" y="90" font-family="Georgia, serif" font-size="44" fill="#f4f6f5">Leitura que</text>
+    <text x="48" y="140" font-family="Georgia, serif" font-size="44" fill="#2d9d8a" font-style="italic">encurta</text>
+    <text x="48" y="190" font-family="Georgia, serif" font-size="44" fill="#f4f6f5">diagnosticos.</text>
+    <rect x="48" y="220" width="160" height="40" rx="6" fill="#2d9d8a"/>
+    <text x="80" y="245" font-family="Arial, sans-serif" font-size="13" fill="#0c1220">Agendar exame</text>
+    <!-- silhouette panel -->
+    <g transform="translate(720,140)">
+      <rect x="-140" y="-110" width="280" height="230" rx="10" fill="#0c1220" stroke="#2d9d8a" stroke-width="0.8"/>
+      <ellipse cx="0" cy="-50" rx="30" ry="36" fill="none" stroke="#2d9d8a" stroke-width="1.5"/>
+      <path d="M -60 50 Q -60 -12 0 -12 Q 60 -12 60 50 Z" fill="none" stroke="#2d9d8a" stroke-width="1.5"/>
+      <circle cx="0" cy="20" r="20" fill="none" stroke="#2d9d8a" opacity="0.5"/>
+      <circle cx="0" cy="20" r="6" fill="#2d9d8a"/>
+      <rect x="-140" y="-4" width="280" height="3" fill="#2d9d8a" opacity="0.7"/>
+    </g>
+  </g>
+  <!-- cards -->
+  <g transform="translate(0,360)">
+    <g>
+      <rect x="32" y="16" width="296" height="160" rx="10" fill="#0c1220" stroke="#2d9d8a" opacity="0.95"/>
+      <g stroke="#2d9d8a" fill="none" stroke-width="2" transform="translate(72,56)">
+        <circle r="18"/>
+        <line x1="13" y1="13" x2="26" y2="26"/>
+      </g>
+      <rect x="56" y="96" width="216" height="10" rx="4" fill="#ffffff" opacity="0.15"/>
+      <rect x="56" y="116" width="170" height="10" rx="4" fill="#ffffff" opacity="0.15"/>
+    </g>
+    <g>
+      <rect x="332" y="16" width="296" height="160" rx="10" fill="#0c1220" stroke="#2d9d8a" opacity="0.95"/>
+      <g transform="translate(372,56)">
+        <rect x="-18" y="-12" width="36" height="24" rx="3" fill="none" stroke="#2d9d8a" stroke-width="2"/>
+        <line x1="-18" y1="0" x2="18" y2="0" stroke="#2d9d8a" stroke-width="1" stroke-dasharray="3 3"/>
+      </g>
+      <rect x="356" y="96" width="216" height="10" rx="4" fill="#ffffff" opacity="0.15"/>
+      <rect x="356" y="116" width="190" height="10" rx="4" fill="#ffffff" opacity="0.15"/>
+    </g>
+    <g>
+      <rect x="632" y="16" width="296" height="160" rx="10" fill="#0c1220" stroke="#2d9d8a" opacity="0.95"/>
+      <g transform="translate(672,56)">
+        <polyline points="-20,8 -8,-6 4,4 20,-14" fill="none" stroke="#2d9d8a" stroke-width="2.5"/>
+      </g>
+      <rect x="656" y="96" width="216" height="10" rx="4" fill="#ffffff" opacity="0.15"/>
+      <rect x="656" y="116" width="160" height="10" rx="4" fill="#ffffff" opacity="0.15"/>
+    </g>
+  </g>
+  <!-- trust -->
+  <g transform="translate(0,520)">
+    <rect width="960" height="80" fill="#0c1220"/>
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="140" cy="40" r="10"/>
+      <rect x="160" y="34" width="120" height="5" rx="2"/>
+      <rect x="160" y="44" width="90" height="5" rx="2"/>
+      <circle cx="430" cy="40" r="10"/>
+      <rect x="450" y="34" width="120" height="5" rx="2"/>
+      <rect x="450" y="44" width="80" height="5" rx="2"/>
+      <circle cx="720" cy="40" r="10"/>
+      <rect x="740" y="34" width="120" height="5" rx="2"/>
+      <rect x="740" y="44" width="100" height="5" rx="2"/>
+    </g>
+  </g>
+</svg>

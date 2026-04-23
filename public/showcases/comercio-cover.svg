@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <rect width="480" height="320" fill="#f4f6f5"/>
+  <!-- product tile grid -->
+  <g transform="translate(40,50)">
+    <g>
+      <rect width="120" height="100" rx="8" fill="#ffffff" stroke="#d8dce0"/>
+      <rect x="12" y="12" width="96" height="50" rx="4" fill="#c2410c" opacity="0.18"/>
+      <circle cx="40" cy="37" r="12" fill="#c2410c"/>
+      <rect x="12" y="74" width="74" height="6" rx="3" fill="#0c1220"/>
+      <rect x="12" y="86" width="50" height="6" rx="3" fill="#d8dce0"/>
+    </g>
+    <g transform="translate(135,0)">
+      <rect width="120" height="100" rx="8" fill="#ffffff" stroke="#d8dce0"/>
+      <rect x="12" y="12" width="96" height="50" rx="4" fill="#c2410c" opacity="0.3"/>
+      <rect x="24" y="22" width="48" height="30" rx="4" fill="#c2410c"/>
+      <rect x="12" y="74" width="80" height="6" rx="3" fill="#0c1220"/>
+      <rect x="12" y="86" width="44" height="6" rx="3" fill="#d8dce0"/>
+    </g>
+    <g transform="translate(270,0)">
+      <rect width="120" height="100" rx="8" fill="#ffffff" stroke="#d8dce0"/>
+      <rect x="12" y="12" width="96" height="50" rx="4" fill="#c2410c" opacity="0.22"/>
+      <polygon points="40,20 68,20 74,52 34,52" fill="#c2410c"/>
+      <rect x="12" y="74" width="70" height="6" rx="3" fill="#0c1220"/>
+      <rect x="12" y="86" width="54" height="6" rx="3" fill="#d8dce0"/>
+    </g>
+    <g transform="translate(0,115)">
+      <rect width="120" height="100" rx="8" fill="#ffffff" stroke="#d8dce0"/>
+      <rect x="12" y="12" width="96" height="50" rx="4" fill="#c2410c" opacity="0.18"/>
+      <path d="M 30 50 L 42 30 L 56 44 L 68 26 L 86 50 Z" fill="#c2410c"/>
+      <rect x="12" y="74" width="70" height="6" rx="3" fill="#0c1220"/>
+      <rect x="12" y="86" width="50" height="6" rx="3" fill="#d8dce0"/>
+    </g>
+    <g transform="translate(135,115)">
+      <rect width="120" height="100" rx="8" fill="#ffffff" stroke="#d8dce0"/>
+      <rect x="12" y="12" width="96" height="50" rx="4" fill="#c2410c" opacity="0.3"/>
+      <circle cx="60" cy="37" r="18" fill="#c2410c"/>
+      <rect x="12" y="74" width="84" height="6" rx="3" fill="#0c1220"/>
+      <rect x="12" y="86" width="50" height="6" rx="3" fill="#d8dce0"/>
+    </g>
+    <g transform="translate(270,115)">
+      <rect width="120" height="100" rx="8" fill="#ffffff" stroke="#d8dce0"/>
+      <rect x="12" y="12" width="96" height="50" rx="4" fill="#c2410c" opacity="0.22"/>
+      <rect x="30" y="22" width="60" height="30" rx="15" fill="#c2410c"/>
+      <rect x="12" y="74" width="74" height="6" rx="3" fill="#0c1220"/>
+      <rect x="12" y="86" width="40" height="6" rx="3" fill="#d8dce0"/>
+    </g>
+  </g>
+  <!-- neighborhood tag -->
+  <g transform="translate(330,32)">
+    <path d="M 0 0 L 96 0 L 120 14 L 96 28 L 0 28 Z" fill="#c2410c"/>
+    <circle cx="12" cy="14" r="4" fill="#f4f6f5"/>
+    <text x="22" y="18" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">Bairro Centro</text>
+  </g>
+  <text x="24" y="298" font-family="Georgia, serif" font-size="20" fill="#0c1220">Comercio &amp; varejo</text>
+</svg>

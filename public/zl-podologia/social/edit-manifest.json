@@ -1,0 +1,83 @@
+[
+  {
+    "source_path": "public/zl-podologia/social/ambiente/escalda-pes-02.jpg",
+    "target_path": "public/zl-podologia/social/edited/ambiente/escalda-pes-02-hd.jpg",
+    "prompt": "Edit this real ZL Podologia photo into a premium editorial wellness image. Preserve the exact real feet, hands, jeans, chair, wood foot bath, petals and clinic context. Relight softly, clean minor distractions, keep skin texture real, no beauty filter, no extra objects, no invented text.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "CROP-AR", "TONE-MATCH", "UPSCALE"],
+    "status": "success",
+    "notes": "Approved for Ambiente. Exported as progressive JPG q88 at 2048x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/ambiente/sala-wide-topdown.jpg",
+    "target_path": "public/zl-podologia/social/edited/ambiente/sala-wide-topdown-hd.jpg",
+    "prompt": "Edit this real ZL Podologia clinic photo into a premium editorial wide shot. Preserve the exact real podologist, patient, green uniform, gold badge, treatment bed, wood basin, side table and room geometry. Improve lighting, remove small clutter only, keep identity and proportions intact, no fake text, no extra objects.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "CLEAN-BG", "TONE-MATCH", "UPSCALE"],
+    "status": "flagged",
+    "notes": "Usable and visually approved, but flagged for LGPD because practitioner and patient are recognizable. Exported as progressive JPG q88 at 2048x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/ambiente/zulcarina-atendendo-01.jpg",
+    "target_path": "public/zl-podologia/social/edited/ambiente/zulcarina-atendendo-01-hd.jpg",
+    "prompt": "Edit this real ZL Podologia treatment photo into a calm premium clinical editorial image. Preserve the exact real podologist, patient pose, green uniform, gold badge, treatment device and room context. Improve light and polish, clean only small distractions, keep anatomy and identity unchanged, no invented text or objects.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "CLEAN-BG", "TONE-MATCH", "UPSCALE"],
+    "status": "flagged",
+    "notes": "Usable and visually approved, but flagged for LGPD because the podologist face is recognizable and the patient is identifiable in context. Exported as progressive JPG q88 at 1365x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/atendimento/reflexologia-sola-01.jpg",
+    "target_path": "public/zl-podologia/social/edited/atendimento/reflexologia-sola-01-hd.jpg",
+    "prompt": "Edit this real reflexology photo into a premium therapeutic close-up. Preserve the exact real foot, hands and gesture, add only subtle depth separation, relight softly, keep skin texture natural, no beauty filter, no extra fingers, no fake text, no scene invention.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "DOF-ADD", "TONE-MATCH", "UPSCALE"],
+    "status": "success",
+    "notes": "Approved as real-photo support for Reflexologia. Exported as progressive JPG q88 at 1365x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/procedimentos/fresa-jaleco-zl.jpg",
+    "target_path": "public/zl-podologia/social/edited/procedimentos/fresa-jaleco-zl-hd.jpg",
+    "prompt": "Edit this real ZL Podologia clinical procedure photo into a premium editorial square. Preserve the exact gloved hands, black motor handpiece, metallic cable, green uniform and gold ZL badge with the same shape, color and position. Relight and polish only, remove tiny distractions if present, no logo changes, no fake text, no tool hallucination.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "TONE-MATCH", "REMOVE-TEXT", "UPSCALE"],
+    "status": "success",
+    "notes": "Approved as HD upgrade for the current hero overlap and Biosseguranca image. Exported as progressive JPG q88 at 2048x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/procedimentos/instrumental-bandeja.jpg",
+    "target_path": "public/zl-podologia/social/edited/procedimentos/instrumental-bandeja-hd.jpg",
+    "prompt": "Edit this real ZL Podologia support photo into a premium clinical still life. Preserve the exact real motor device, metallic attachments, wood tray, green uniform and badge. Improve lighting and micro-contrast, keep shapes and materials real, no extra tools, no fake text, no artificial redesign.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "DOF-ADD", "TONE-MATCH", "UPSCALE"],
+    "status": "success",
+    "notes": "Approved as support image for instrumental and Biosseguranca. Exported as progressive JPG q88 at 1536x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/procedimentos/motor-fresa-detalhe.jpg",
+    "target_path": "public/zl-podologia/social/edited/procedimentos/motor-fresa-detalhe-hd.jpg",
+    "prompt": "Edit this real ZL Podologia procedure detail into a premium clinical close-up. Preserve the exact real foot, black device, support hand, green uniform and procedure context. Improve light and tonal consistency, keep skin texture real, no beauty filter, no extra fingers, no tool hallucination, no text invention.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "CROP-AR", "TONE-MATCH", "UPSCALE"],
+    "status": "success",
+    "notes": "Approved as real-photo support for Podoprofilaxia and procedure detail modules. Exported as progressive JPG q88 at 1536x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/procedimentos/retirada-espicula-pro.jpg",
+    "target_path": "public/zl-podologia/social/edited/procedimentos/retirada-espicula-pro-hd.jpg",
+    "prompt": "Edit this real ZL Podologia procedure photo into a premium clinical editorial image. Preserve the exact real foot, hands, tool position, white uniform and treatment context. Improve lighting, keep anatomy and instrument geometry intact, keep skin texture natural, no hallucinated tools, no fake text, no beautification.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "DOF-ADD", "TONE-MATCH", "UPSCALE"],
+    "status": "success",
+    "notes": "Approved as the strongest real-photo support for unha encravada procedure detail. Exported as progressive JPG q88 at 1536x2048."
+  },
+  {
+    "source_path": "public/zl-podologia/social/ambiente/zulcarina-atendendo-02.jpg",
+    "target_path": "public/zl-podologia/social/edited/ambiente/zulcarina-atendendo-02-hd.jpg",
+    "prompt": "Use case: identity-preserve. Asset type: landing page institutional professional photo. Primary request: edit the most recently shown real photo of the ZL podologist in service. Scene/backdrop: real ZL clinic room with light gray tile walls, white round side table, tablet on stand, black treatment bed, wooden foot bath. Subject: the exact same real ZL podologist, same face, same body proportions, same short dark hair, same glasses, same hoop earring, same green uniform, same gold ZL badge, same treatment device, same seated posture while attending the patient's foot. Style/medium: real photo edit, premium clinical editorial, natural and restrained. Composition/framing: keep the same camera perspective, same top-down diagonal composition, same spatial logic, same relation between podologist, patient leg, side table and room. Lighting/mood: subtly refine the existing light only; cleaner exposure, softer highlight handling, slightly calmer tonal balance, believable clinic lighting. No dramatic relighting. Color palette: clean off-whites, natural skin tones, faithful green uniform, muted neutral clinic tones. Materials/textures: preserve real skin texture, tile texture, fabric texture, matte black bed surface, real metallic and plastic tool surfaces. Constraints: this is a real photo edit, not a reimagining. Preserve the exact real person, exact anatomy, exact room geometry, exact object proportions, exact branding and exact treatment context. Clean only minor distractions if needed. Keep the scene authentic and grounded. Avoid: no face beautification, no skin smoothing, no body reshaping, no extra fingers, no altered badge, no invented decor, no fake luxury redesign, no cinematic color cast, no dreamy glow, no illustration look, no AI sheen, no text.",
+    "model": "Codex in-app latest image runtime (exact model id not surfaced)",
+    "operations": ["RELIGHT", "TONE-MATCH", "UPSCALE"],
+    "status": "flagged",
+    "notes": "Approved as the strongest current professional-in-action image of Zulcarina, but flagged for LGPD because the practitioner is clearly recognizable and the patient is identifiable in context. Useful as institutional support, not as a formal headshot. Exported as progressive JPG q88 at 1536x2048."
+  }
+]

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  hero-figures.svg — original line-drawn illustration for the home hero.
+  Two stylized figures, solid-fill silhouettes on the leading figure, line-only on the trailing one.
+  Intentional imbalance mirrors the "architect + collaborator" motif used by the studio brief.
+  Groups are named for M3 idle-animation: head, arm-up, arm-down, torso, legs.
+
+  Drawing conventions:
+  - Single color: currentColor (inherits from surrounding text color)
+  - 1.6px stroke as baseline; 0.8px for fine detail lines
+  - All paths are original hand-authored geometry; no trace of any third-party asset
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Two stylized figures standing together">
+
+  <!-- Figure 1: architect (solid legs, articulated torso) -->
+  <g class="figure figure-1" transform="translate(110,60)">
+    <g class="head">
+      <!-- round head with subtle jaw -->
+      <path d="M92 40 C92 16, 58 16, 58 40 C58 60, 70 72, 75 72 L75 82 L85 82 L85 72 C90 72, 102 60, 102 40 Z" stroke-width="1.6"/>
+      <!-- hair cap -->
+      <path d="M58 38 C60 24, 92 22, 100 34 C98 28, 92 18, 75 18 C62 18, 55 28, 58 38 Z" fill="currentColor" stroke="none"/>
+      <!-- closed eyes (soft arcs) -->
+      <path d="M67 42 C69 40, 73 40, 75 42" stroke-width="1.2"/>
+      <path d="M85 42 C87 40, 91 40, 93 42" stroke-width="1.2"/>
+    </g>
+
+    <g class="torso">
+      <!-- shirt outline -->
+      <path d="M60 84 C60 96, 55 102, 50 110 L50 190 L130 190 L130 110 C125 102, 120 96, 120 84" stroke-width="1.6"/>
+      <!-- v-neck -->
+      <path d="M78 84 L90 96 L102 84" stroke-width="1.2"/>
+      <!-- overall strap lines (solid body section) -->
+      <path d="M74 96 L74 190 M106 96 L106 190" stroke-width="1.4"/>
+      <!-- solid overall fill -->
+      <path d="M74 100 L106 100 L106 190 L74 190 Z" fill="currentColor" stroke="none"/>
+    </g>
+
+    <g class="arm-left" transform-origin="60 96">
+      <path d="M60 96 C50 110, 44 130, 42 160 L42 220 L52 220 L54 160 C58 138, 62 120, 68 108" stroke-width="1.6"/>
+    </g>
+
+    <g class="arm-right" transform-origin="120 96">
+      <path d="M120 96 C132 112, 138 130, 138 160 L136 220 L126 220 L126 160 C124 138, 118 120, 112 108" stroke-width="1.6"/>
+    </g>
+
+    <g class="legs">
+      <!-- trousers, solid -->
+      <path d="M50 190 L50 360 L82 360 L86 220 L94 220 L98 360 L130 360 L130 190 Z" fill="currentColor" stroke="none"/>
+      <!-- fine center seam (light) -->
+      <path d="M90 200 L90 350" stroke="#ffffff" stroke-width="1" opacity="0.35"/>
+      <!-- shoes -->
+      <path d="M44 360 L44 378 L88 378 L88 360" stroke-width="1.6" fill="none"/>
+      <path d="M92 360 L92 378 L136 378 L136 360" stroke-width="1.6" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Figure 2: collaborator, pointing up (line-only, striped skirt) -->
+  <g class="figure figure-2" transform="translate(260,84)">
+    <g class="head">
+      <!-- bun on top -->
+      <circle cx="80" cy="12" r="10" fill="currentColor" stroke="none"/>
+      <!-- head outline -->
+      <path d="M98 40 C98 16, 62 16, 62 40 C62 60, 74 72, 79 72 L79 82 L89 82 L89 72 C94 72, 104 60, 104 40 Z" stroke-width="1.6"/>
+      <!-- small smile hint -->
+      <path d="M75 56 C78 58, 82 58, 85 56" stroke-width="1.2"/>
+    </g>
+
+    <g class="arm-pointing" transform-origin="120 98">
+      <!-- upper arm -->
+      <path d="M120 98 C138 88, 154 60, 158 28" stroke-width="1.6"/>
+      <!-- forearm with pointing hand -->
+      <path d="M158 28 L160 14 M154 20 L160 14 L166 18" stroke-width="1.6"/>
+    </g>
+
+    <g class="arm-resting">
+      <path d="M60 96 C52 116, 48 140, 48 170 L50 220 L60 220 L62 170 C64 144, 70 124, 76 112" stroke-width="1.6"/>
+    </g>
+
+    <g class="torso">
+      <path d="M62 84 L62 130 L118 130 L118 84" stroke-width="1.6"/>
+      <!-- scoop neckline -->
+      <path d="M74 84 C80 94, 100 94, 106 84" stroke-width="1.2"/>
+    </g>
+
+    <g class="skirt">
+      <!-- a-line -->
+      <path d="M62 130 L36 330 L144 330 L118 130 Z" stroke-width="1.6"/>
+      <!-- striped horizontal bands (subtle) -->
+      <path d="M54 170 L126 170" stroke-width="1"/>
+      <path d="M51 200 L129 200" stroke-width="1"/>
+      <path d="M48 230 L132 230" stroke-width="1"/>
+      <path d="M45 260 L135 260" stroke-width="1"/>
+      <path d="M42 290 L138 290" stroke-width="1"/>
+    </g>
+
+    <g class="legs">
+      <!-- thin lower legs -->
+      <path d="M62 330 L62 376" stroke-width="1.6"/>
+      <path d="M118 330 L118 376" stroke-width="1.6"/>
+      <!-- flat shoes -->
+      <path d="M52 376 L72 376 L72 382 L52 382 Z" stroke-width="1.6"/>
+      <path d="M108 376 L128 376 L128 382 L108 382 Z" stroke-width="1.6"/>
+    </g>
+  </g>
+
+  <!-- Subtle ground marker (decorative) -->
+  <line x1="100" y1="462" x2="420" y2="462" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Floor punctuation dot (per F1 pagination aesthetic) -->
+  <circle cx="260" cy="488" r="2.4" fill="currentColor" stroke="none"/>
+</svg>

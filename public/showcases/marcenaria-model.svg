@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <rect width="960" height="600" fill="#f0ead4"/>
+  <rect width="960" height="60" fill="#f0ead4"/>
+  <rect x="32" y="22" width="120" height="16" rx="3" fill="#0c1220"/>
+  <g fill="#a0662d">
+    <rect x="420" y="26" width="50" height="8" rx="4"/>
+    <rect x="486" y="26" width="60" height="8" rx="4"/>
+    <rect x="562" y="26" width="54" height="8" rx="4"/>
+    <rect x="632" y="26" width="48" height="8" rx="4"/>
+  </g>
+  <rect x="820" y="16" width="116" height="28" rx="6" fill="#a0662d"/>
+  <text x="842" y="35" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Pedir projeto</text>
+  <line x1="0" y1="60" x2="960" y2="60" stroke="#a0662d" opacity="0.4"/>
+  <g transform="translate(0,60)">
+    <rect width="960" height="280" fill="#f0ead4"/>
+    <text x="48" y="90" font-family="Georgia, serif" font-size="44" fill="#0c1220">Cada peca,</text>
+    <text x="48" y="140" font-family="Georgia, serif" font-size="44" fill="#a0662d" font-style="italic">uma historia</text>
+    <text x="48" y="190" font-family="Georgia, serif" font-size="44" fill="#0c1220">em madeira.</text>
+    <rect x="48" y="220" width="140" height="40" rx="6" fill="#0c1220"/>
+    <text x="72" y="245" font-family="Arial, sans-serif" font-size="13" fill="#ffffff">Ver portfolio</text>
+    <!-- technical drawing panel -->
+    <g transform="translate(570,40)">
+      <rect width="360" height="208" fill="#ffffff" stroke="#a0662d" stroke-width="2"/>
+      <g transform="translate(180,110)" stroke="#a0662d" stroke-width="2.2" fill="none" stroke-linecap="round">
+        <rect x="-60" y="-10" width="120" height="20" rx="2" fill="#a0662d" fill-opacity="0.25"/>
+        <line x1="-48" y1="-10" x2="-48" y2="-60"/>
+        <line x1="48" y1="-10" x2="48" y2="-60"/>
+        <line x1="-48" y1="-60" x2="48" y2="-60"/>
+        <line x1="-40" y1="-46" x2="40" y2="-46"/>
+        <line x1="-40" y1="-32" x2="40" y2="-32"/>
+        <line x1="-40" y1="-20" x2="40" y2="-20"/>
+        <line x1="-52" y1="10" x2="-52" y2="60"/>
+        <line x1="52" y1="10" x2="52" y2="60"/>
+        <line x1="-36" y1="10" x2="-36" y2="44"/>
+      </g>
+      <g stroke="#a0662d" stroke-width="1" stroke-dasharray="3 3">
+        <line x1="30" y1="30" x2="180" y2="30"/>
+        <line x1="30" y1="22" x2="30" y2="38"/>
+        <line x1="180" y1="22" x2="180" y2="38"/>
+      </g>
+      <text x="80" y="24" font-family="Arial, sans-serif" font-size="10" fill="#a0662d">L 1.80m</text>
+      <rect x="0" y="168" width="360" height="40" fill="#a0662d"/>
+      <rect x="14" y="182" width="120" height="6" rx="3" fill="#f0ead4"/>
+      <rect x="14" y="194" width="80" height="5" rx="2" fill="#f0ead4" opacity="0.7"/>
+      <rect x="290" y="180" width="56" height="18" rx="3" fill="#f0ead4"/>
+    </g>
+  </g>
+  <g transform="translate(0,360)">
+    <g>
+      <rect x="32" y="16" width="296" height="160" rx="10" fill="#ffffff" stroke="#a0662d" stroke-width="1.5"/>
+      <g transform="translate(72,56)" fill="#a0662d">
+        <rect x="-18" y="-12" width="36" height="10" rx="2"/>
+        <rect x="-18" y="0" width="36" height="3"/>
+        <rect x="-14" y="4" width="28" height="14"/>
+      </g>
+      <rect x="56" y="96" width="216" height="10" rx="4" fill="#d8dce0"/>
+      <rect x="56" y="116" width="170" height="10" rx="4" fill="#d8dce0"/>
+    </g>
+    <g>
+      <rect x="332" y="16" width="296" height="160" rx="10" fill="#ffffff" stroke="#a0662d" stroke-width="1.5"/>
+      <g transform="translate(372,56)" stroke="#a0662d" stroke-width="2" fill="none">
+        <rect x="-20" y="-16" width="40" height="32" rx="3"/>
+        <line x1="-20" y1="-4" x2="20" y2="-4"/>
+        <line x1="0" y1="-16" x2="0" y2="16"/>
+      </g>
+      <rect x="356" y="96" width="216" height="10" rx="4" fill="#d8dce0"/>
+      <rect x="356" y="116" width="190" height="10" rx="4" fill="#d8dce0"/>
+    </g>
+    <g>
+      <rect x="632" y="16" width="296" height="160" rx="10" fill="#ffffff" stroke="#a0662d" stroke-width="1.5"/>
+      <g transform="translate(672,56)" fill="#a0662d">
+        <path d="M -16 10 L -8 -14 L 8 -14 L 16 10 Z"/>
+        <rect x="-20" y="10" width="40" height="6"/>
+      </g>
+      <rect x="656" y="96" width="216" height="10" rx="4" fill="#d8dce0"/>
+      <rect x="656" y="116" width="160" height="10" rx="4" fill="#d8dce0"/>
+    </g>
+  </g>
+  <g transform="translate(0,520)">
+    <rect width="960" height="80" fill="#0c1220"/>
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="140" cy="40" r="10"/>
+      <rect x="160" y="34" width="120" height="5" rx="2"/>
+      <rect x="160" y="44" width="90" height="5" rx="2"/>
+      <circle cx="430" cy="40" r="10"/>
+      <rect x="450" y="34" width="120" height="5" rx="2"/>
+      <rect x="450" y="44" width="80" height="5" rx="2"/>
+      <circle cx="720" cy="40" r="10"/>
+      <rect x="740" y="34" width="120" height="5" rx="2"/>
+      <rect x="740" y="44" width="100" height="5" rx="2"/>
+    </g>
+  </g>
+</svg>

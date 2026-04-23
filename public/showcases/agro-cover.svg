@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <rect width="480" height="320" fill="#d9c49a"/>
+  <!-- field stripes (talhões) -->
+  <g>
+    <rect x="0" y="50" width="480" height="40" fill="#5f7a3f"/>
+    <rect x="0" y="94" width="480" height="28" fill="#5f7a3f" opacity="0.75"/>
+    <rect x="0" y="126" width="480" height="44" fill="#5f7a3f" opacity="0.55"/>
+    <rect x="0" y="174" width="480" height="24" fill="#5f7a3f" opacity="0.85"/>
+    <rect x="0" y="202" width="480" height="48" fill="#5f7a3f" opacity="0.65"/>
+    <rect x="0" y="254" width="480" height="20" fill="#5f7a3f" opacity="0.9"/>
+  </g>
+  <!-- pin (regional) -->
+  <g transform="translate(340,130)">
+    <path d="M 0 -44 C 22 -44 30 -26 30 -14 C 30 6 0 36 0 36 C 0 36 -30 6 -30 -14 C -30 -26 -22 -44 0 -44 Z" fill="#0c1220"/>
+    <circle cx="0" cy="-16" r="10" fill="#d9c49a"/>
+    <circle cx="0" cy="-16" r="4" fill="#0c1220"/>
+  </g>
+  <!-- plant chip -->
+  <g transform="translate(30,270)">
+    <rect width="120" height="26" rx="13" fill="#d9c49a"/>
+    <g transform="translate(18,13)" fill="#5f7a3f">
+      <path d="M 0 6 Q -8 -4 -10 -12 Q -2 -10 0 -2 Q 2 -10 10 -12 Q 8 -4 0 6 Z"/>
+    </g>
+    <rect x="34" y="10" width="74" height="6" rx="3" fill="#0c1220"/>
+  </g>
+  <!-- header chip -->
+  <rect x="30" y="22" width="120" height="20" rx="4" fill="#0c1220"/>
+  <text x="42" y="36" font-family="Arial, sans-serif" font-size="11" fill="#d9c49a">Safra 25/26</text>
+  <text x="24" y="310" font-family="Georgia, serif" font-size="20" fill="#0c1220">Agricola &amp; agro</text>
+</svg>

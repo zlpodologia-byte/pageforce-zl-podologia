@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  desk-person.svg — original line drawing for the M7 contact grid.
+  Intent: a calm studio desk scene that mirrors the home illustration language
+  without reusing any reference geometry or external source material.
+  Conventions:
+  - currentColor only
+  - single stroke weight
+  - line-only forms
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Line drawing of a person seated at a desk">
+  <path d="M82 428 H648" opacity="0.28"/>
+
+  <!-- Desk -->
+  <path d="M264 206 H556"/>
+  <path d="M286 206 V428"/>
+  <path d="M538 206 V428"/>
+  <path d="M410 206 V428" opacity="0.24"/>
+  <path d="M286 286 H538" opacity="0.18"/>
+
+  <!-- Monitor + notebook -->
+  <rect x="402" y="112" width="108" height="74" rx="6"/>
+  <path d="M456 186 V206"/>
+  <path d="M432 206 H480"/>
+  <path d="M310 192 L368 182"/>
+  <path d="M314 205 L372 195" opacity="0.3"/>
+
+  <!-- Chair -->
+  <path d="M214 270 C214 240 240 224 270 224 H288"/>
+  <path d="M222 270 V336"/>
+  <path d="M256 270 V332"/>
+  <path d="M198 428 H286"/>
+  <path d="M238 336 V428"/>
+
+  <!-- Person -->
+  <circle cx="256" cy="122" r="28"/>
+  <path d="M234 114 C240 98 268 96 280 112"/>
+  <path d="M242 150 C228 166 222 188 222 214 V280"/>
+  <path d="M272 150 C286 168 292 188 292 214 V274"/>
+  <path d="M222 210 C244 220 270 220 292 210"/>
+  <path d="M224 226 C246 238 268 238 290 226" opacity="0.3"/>
+  <path d="M292 206 C324 214 340 232 350 254"/>
+  <path d="M350 254 C360 248 372 246 386 246"/>
+  <path d="M222 216 C192 228 178 250 178 280"/>
+  <path d="M208 282 L150 352"/>
+  <path d="M292 274 L298 340"/>
+  <path d="M236 278 L234 356"/>
+  <path d="M234 356 L212 428"/>
+  <path d="M298 340 L330 428"/>
+  <path d="M198 428 H226"/>
+  <path d="M320 428 H348"/>
+
+  <!-- Desk objects -->
+  <path d="M526 180 C540 168 558 170 568 182 C578 194 576 214 562 226"/>
+  <path d="M562 226 C548 214 548 194 560 184"/>
+  <path d="M566 178 V144"/>
+  <path d="M578 150 C590 138 608 138 620 150"/>
+  <path d="M620 150 C608 162 590 162 578 150"/>
+  <path d="M332 152 C340 140 358 136 374 142 C392 148 398 166 394 184"/>
+  <path d="M342 190 C358 174 384 176 398 194"/>
+
+  <!-- Window frame -->
+  <rect x="94" y="78" width="96" height="126" rx="16" opacity="0.5"/>
+  <path d="M142 78 V204" opacity="0.5"/>
+  <path d="M94 142 H190" opacity="0.5"/>
+</svg>
