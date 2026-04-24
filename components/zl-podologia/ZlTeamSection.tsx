@@ -110,7 +110,7 @@ function TeamProfessionalCard({
       delay={delay}
       className="grid h-full gap-5 border-t border-[#DCCFC2] pt-5 md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]"
     >
-      <div className="zl-integrated-photo zl-photo-feather min-h-[34rem]">
+      <div className="zl-integrated-photo zl-photo-feather min-h-[30rem] md:min-h-[32rem]">
         {hasPhoto && professional.photo ?(
           <>
             <Image
@@ -539,7 +539,7 @@ function getProfessionalImagePosition(professional: ZlProfessional) {
   }
 
   if (professional.name === "Jannie") {
-    return "34% 58%";
+    return "14% 38%";
   }
 
   return "center";

@@ -352,24 +352,19 @@ export function ZlAmbienteSection() {
           ))}
         </div>
 
-        {/* v8-hero-swap / Bloco B (Opcao A): peca editorial oficial
-            `hero-editorial-tagline` (tagline dourada "Pes bem cuidados
-            fazem toda a diferenca") reposicionada aqui no Ambiente como
-            assinatura visual da secao ? antes ela era o hero, agora e
-            a pagina dupla editorial antes do Equipe/Pricing. */}
         <Reveal
           as="figure"
           delay={240}
-          className="mt-8 grid gap-6 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] md:items-center"
+          className="mt-8 grid gap-8 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.85fr)] md:items-center"
         >
-          <div className="zl-integrated-photo zl-photo-feather aspect-[0.9] w-full">
+          <div className="zl-signature-photo aspect-[1.5] w-full">
             <Image
-              src="/zl-podologia/social/marca/hero-editorial-tagline.jpg"
-              alt="Peça editorial oficial da ZL Podologia Fortaleza com a tagline Pés bem cuidados fazem toda a diferença em tipografia serifada dourada sobre pernas femininas em luz natural"
+              src="/zl-podologia/social/antes-depois/feet-clean-02.jpg"
+              alt="Pés bem cuidados em composição clara, com leitura editorial suave para a assinatura da ZL Podologia"
               fill
               sizes="(min-width: 1024px) 48vw, 90vw"
               loading="lazy"
-              className="object-cover"
+              className="object-cover object-[50%_54%]"
             />
           </div>
           <figcaption className="flex flex-col gap-3 md:pr-4">

@@ -339,6 +339,7 @@ export interface ZlInteractiveService {
   photo?: {
     src: string;
     alt: string;
+    objectPosition?: string;
   };
   /**
    * Tratamento visual premium (eyebrow dourado + borda tintada) — reservado
@@ -608,8 +609,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/atendimento/reflexologia-paciente-sessão-pro.jpg",
+      src: "/zl-podologia/social/edited-pro/atendimento/reflexologia-paciente-sessao-pro.jpg",
       alt: "Sessão de reflexologia podal com paciente em repouso na ZL Podologia Fortaleza",
+      objectPosition: "62% 50%",
     },
     ctaLabel: "Quero um momento de pausa",
     ctaWhatsappMessage:

@@ -440,7 +440,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             </div>
 
             <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#8B7862]">
-              Apoio visual ideal: {service.visualSupport}
+              {service.visualSupport}
             </p>
           </div>
 
@@ -523,6 +523,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
           fill
           sizes="(min-width: 1024px) 32vw, (min-width: 640px) 80vw, 100vw"
           loading="lazy"
+          style={{ objectPosition: service.photo.objectPosition ?? "center" }}
           className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
         />
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(28,20,15,0.08)_0%,rgba(28,20,15,0.2)_30%,rgba(28,20,15,0.5)_62%,rgba(22,16,12,0.92)_100%)]" />
@@ -536,7 +537,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
         <div className="absolute inset-x-0 bottom-0 p-4 md:p-5">
           <div className="max-w-[20rem] rounded-[1.15rem] border border-white/12 bg-[linear-gradient(180deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0.09)_100%)] p-4 backdrop-blur-[2px]">
             <p className="text-[0.58rem] uppercase tracking-[0.2em] text-[#F0C3BA]">
-              Apoio visual
+              Na clínica
             </p>
             <p className="mt-2 text-[0.82rem] leading-[1.48] text-white/80">
               {service.visualSupport}
