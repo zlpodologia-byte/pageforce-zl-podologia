@@ -37,7 +37,7 @@ export function ZlCasesSection() {
               </div>
 
               <div className="mt-7 grid gap-5 lg:grid-cols-[minmax(0,1.12fr)_minmax(18rem,0.88fr)] lg:items-stretch">
-                <figure className="zl-integrated-photo">
+                <figure className="zl-integrated-photo zl-photo-feather">
                   <div className="relative aspect-[16/9]">
                     <Image
                       src="/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg"
@@ -184,7 +184,7 @@ function CasePhotoFigure({
   return (
     <figure>
       <div
-        className={`zl-integrated-photo ${figureConfig.aspectClass}`}
+        className={`zl-integrated-photo zl-photo-feather ${figureConfig.aspectClass}`}
       >
         <Image
           src={photo.src}

@@ -166,7 +166,7 @@ export function ZlIngrownStoryteller() {
               data-index={idx}
               className="group relative w-[82%] shrink-0 snap-center transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-1 sm:w-[55%] lg:w-auto"
             >
-              <div className="zl-integrated-photo aspect-[4/5] w-full">
+              <div className="zl-integrated-photo zl-photo-feather aspect-[4/5] w-full">
                 <Image
                   src={slide.src}
                   alt={slide.alt}

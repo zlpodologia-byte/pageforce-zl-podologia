@@ -188,7 +188,7 @@ export function ZlValueSection() {
           <Reveal
             as="div"
             delay={220}
-            className="rounded-[1.75rem] border border-[#DCCFC2] bg-[linear-gradient(180deg,#FFFDFB_0%,#FBF6F1_100%)] p-5 shadow-[0_18px_48px_rgba(109,73,58,0.06)] md:p-6"
+            className="border-y border-[#DCCFC2] py-6"
           >
             <p className="text-[0.66rem] uppercase tracking-[0.28em] text-[#B8837A]">
               Continuidade e presentes
@@ -234,8 +234,8 @@ export function ZlValueSection() {
             </div>
           </Reveal>
 
-          <div>
-            <div className="grid gap-4 md:grid-cols-2 md:items-start">
+          <div className="lg:pt-2">
+            <div className="grid gap-5 md:grid-cols-2 md:items-start">
               {featuredExperienceCards.map((card, index) => (
                 <Reveal
                   key={card.id}
@@ -276,7 +276,7 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
       : "Vale-presente";
 
   return (
-    <article className="zl-integrated-photo group flex h-full min-h-[25rem] flex-col">
+    <article className="zl-integrated-photo group flex h-full min-h-[26rem] flex-col">
       {card.image ?(
         <div className="absolute inset-0 overflow-hidden bg-[#F2EBDE]">
           <Image
@@ -304,7 +304,7 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
           ) : null}
         </div>
 
-        <div className="rounded-[1.45rem] border border-white/12 bg-[linear-gradient(180deg,rgba(255,255,255,0.02)_0%,rgba(255,255,255,0.07)_100%)] p-4 backdrop-blur-[2px] md:p-5">
+        <div className="p-1 md:p-2">
           <p className="text-[0.62rem] uppercase tracking-[0.22em] text-[#F0C3BA]">
             {card.eyebrow}
           </p>
@@ -367,77 +367,59 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
 function PackageOrbitPreview() {
   return (
     <div className="mt-6 border-t border-[#DCCFC2] pt-6">
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1.08fr)_minmax(280px,0.92fr)]">
-        <div className="zl-integrated-photo min-h-[16rem] lg:min-h-[18rem]">
-          <Image
-            src="/zl-podologia/generated/v10/value-offer/value-package-orbit-premium.jpg"
-            alt="Imagem de apoio para retorno, pacote e presente da ZL Podologia"
-            fill
-            sizes="(min-width: 1024px) 56vw, 100vw"
-            className="object-cover"
-          />
-          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(21,16,12,0.06)_0%,rgba(21,16,12,0.1)_30%,rgba(21,16,12,0.55)_74%,rgba(10,8,6,0.9)_100%)]" />
-          <div className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6E5B4B] shadow-[0_10px_24px_rgba(22,16,12,0.12)]">
-            Retornos, pacotes e presentes
-          </div>
-          <div className="absolute inset-x-0 bottom-0 p-4">
-            <div className="max-w-[22rem] rounded-[1.2rem] border border-white/12 bg-[linear-gradient(180deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0.1)_100%)] p-4 backdrop-blur-[2px]">
-              <p className="text-[0.58rem] uppercase tracking-[0.18em] text-[#F0C3BA]">
-                Pacotes, vales e retornos
-              </p>
-              <p className="mt-2 text-[1rem] leading-[1.12] tracking-[-0.03em] text-white md:text-[1.12rem]">
-                Retornos, pacotes e vales organizados em um só lugar.
-              </p>
-              <p className="mt-2 text-[0.76rem] leading-[1.48] text-white/78">
-                Retornos, presentes e experiências especiais ficam separados
-                dos procedimentos clínicos.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="rounded-[1.4rem] border border-white/8 bg-[linear-gradient(180deg,#2A2019_0%,#201813_100%)] p-4">
-          <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#F0C3BA]">
-            Experiências e presentes
+      <figure className="zl-integrated-photo zl-photo-feather min-h-[18rem]">
+        <Image
+          src="/zl-podologia/generated/v10/value-offer/value-package-orbit-premium.jpg"
+          alt="Imagem de apoio para retorno, pacote e presente da ZL Podologia"
+          fill
+          sizes="(min-width: 1024px) 34vw, 100vw"
+          className="object-cover"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(21,16,12,0.06)_0%,rgba(21,16,12,0.22)_44%,rgba(10,8,6,0.74)_100%)]" />
+        <figcaption className="absolute inset-x-0 bottom-0 p-4 text-white">
+          <p className="text-[0.58rem] uppercase tracking-[0.2em] text-[#F0C3BA]">
+            Pacotes, vales e retornos
           </p>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-2">
-            {valueOfferCovers.map((cover) => (
-              <div
-                key={cover.title}
-                className="grid grid-cols-[4.5rem_minmax(0,1fr)] gap-3 rounded-[1.1rem] border border-white/8 bg-white/5 p-2.5"
-              >
-                <div className="relative h-16 overflow-hidden rounded-[0.9rem] bg-[#34271F]">
-                  <Image
-                    src={cover.src}
-                    alt={cover.alt}
-                    fill
-                    sizes="72px"
-                    className="object-cover"
-                    style={{ objectPosition: cover.objectPosition }}
-                  />
-                </div>
-                <div className="min-w-0">
-                  <p className="text-[0.6rem] uppercase tracking-[0.18em] text-[#F0C3BA]">
-                    {cover.kicker}
-                  </p>
-                  <p className="mt-1 text-[0.88rem] leading-[1.12] text-white">
-                    {cover.title}
-                  </p>
-                  <p className="mt-1 text-[0.68rem] leading-[1.35] text-white/72">
-                    {cover.subtitle}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="mt-2 max-w-[22rem] text-[1.05rem] leading-[1.18] tracking-[-0.03em]">
+            Continuidade e presente sem misturar com procedimento clínico.
+          </p>
+        </figcaption>
+      </figure>
 
-          <div className="mt-4 rounded-[1.1rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0.08)_100%)] p-4">
-            <p className="text-[0.76rem] leading-[1.5] text-white/84">
-              Presentes e experiências especiais ficam ao lado dos retornos e
-              das combinações de cuidado.
-            </p>
-          </div>
-        </div>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        {valueOfferCovers.map((cover) => (
+          <figure key={cover.title} className="group min-w-0">
+            <div className="zl-editorial-thumb zl-photo-feather aspect-[5/4]">
+              <Image
+                src={cover.src}
+                alt={cover.alt}
+                fill
+                sizes="(min-width: 1024px) 12vw, 45vw"
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.035]"
+                style={{ objectPosition: cover.objectPosition }}
+              />
+              <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_48%,rgba(58,46,35,0.55)_100%)]" />
+              <span className="absolute left-3 top-3 rounded-full bg-white/88 px-2.5 py-1 text-[0.52rem] uppercase tracking-[0.16em] text-[#6E5B4B]">
+                {cover.kicker}
+              </span>
+            </div>
+            <figcaption className="mt-2">
+              <p className="text-[0.78rem] font-medium leading-[1.18] text-[#3A2E23]">
+                {cover.title}
+              </p>
+              <p className="mt-1 text-[0.68rem] leading-[1.38] text-[#6E5B4B]">
+                {cover.subtitle}
+              </p>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <div className="mt-4 border-l border-[#DCCFC2] pl-4">
+        <p className="text-[0.78rem] leading-[1.55] text-[#5C4A38]">
+          Presentes e experiências especiais ficam ao lado dos retornos e das
+          combinações de cuidado, sem ocupar espaço dos procedimentos clínicos.
+        </p>
       </div>
     </div>
   );

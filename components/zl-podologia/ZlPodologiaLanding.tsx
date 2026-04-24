@@ -300,7 +300,7 @@ function ZlHeroExactSwap() {
               <Reveal as="div" delay={100} className="relative flex h-full overflow-visible">
                 <div className="relative ml-auto flex h-full w-full max-w-[760px] flex-col overflow-visible">
                   <div className="pointer-events-none absolute -inset-6 rounded-[3rem] bg-[radial-gradient(circle_at_50%_48%,rgba(184,131,122,0.2),transparent_64%)] blur-2xl" />
-                  <div className="zl-integrated-photo aspect-[1.02] flex-1 lg:aspect-auto lg:min-h-[680px]">
+                  <div className="zl-hero-photo-field aspect-[1.02] flex-1 lg:aspect-auto lg:min-h-[700px]">
                     <Image
                       src="/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg"
                       alt="Zucarina, podóloga da ZL Podologia Fortaleza, em atendimento clínico com jaleco branco, touca, máscara, óculos e luvas, segurando o pé da paciente com precisão"
@@ -309,10 +309,9 @@ function ZlHeroExactSwap() {
                       sizes="(min-width: 1024px) 50vw, 100vw"
                       className="object-cover object-[52%_34%]"
                     />
-                    <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(102deg,rgba(251,247,242,0.54)_0%,rgba(251,247,242,0.18)_28%,rgba(251,247,242,0)_56%,rgba(251,247,242,0.06)_100%)]" />
                   </div>
 
-                  <div className="pointer-events-none absolute bottom-6 left-6 rounded-[1.35rem] border border-white/50 bg-white/78 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.1)] backdrop-blur-sm">
+                  <div className="pointer-events-none absolute bottom-6 left-10 z-10 rounded-[1.35rem] border border-white/45 bg-white/70 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.08)] backdrop-blur-sm">
                     <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#B8837A]">
                       Fortaleza
                     </p>
@@ -330,7 +329,7 @@ function ZlHeroExactSwap() {
                     </p>
                   </div>
 
-                  <div className="pointer-events-none absolute bottom-6 right-6 hidden rounded-full border border-white/55 bg-white/62 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
+                  <div className="pointer-events-none absolute bottom-6 right-6 z-10 hidden rounded-full border border-white/55 bg-white/62 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
                     Atendimento clínico
                   </div>
 

@@ -39,49 +39,164 @@ export function ZlTeamSection() {
               </Reveal>
             </div>
 
-            <div className="mt-8 grid gap-5 lg:grid-cols-[minmax(0,1.04fr)_minmax(0,0.96fr)] lg:items-start">
-              <LeadProfessionalCard professional={leadProfessional} />
-
-              <div className="grid gap-5">
-                <SupportProfessionalCard professional={supportProfessional} />
-
-                <Reveal
-                  as="div"
-                  delay={220}
-                  className="grid gap-6 border-t border-[#E6D7CB] pt-5 md:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] md:gap-8"
-                >
-                  <div>
-                    <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#7A6244]">
-                      O que sustenta esse atendimento
-                    </p>
-                    <div className="mt-4">
-                      <TeamContextRail items={zlTeamValues} />
-                    </div>
-                  </div>
-
-                  <div className="md:border-l md:border-[#E6D7CB] md:pl-8">
-                    <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#574433]">
-                      Como o serviço acontece na prática
-                    </p>
-                    <ol className="mt-4 grid gap-3">
-                      {zlConsultFlow.map((item, index) => (
-                        <li key={item} className="flex gap-3">
-                          <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.72rem] font-medium text-[#574433]">
-                            {index + 1}
-                          </span>
-                          <p className="text-[0.82rem] leading-[1.5] text-[#5C4A38]">
-                            {item}
-                          </p>
-                        </li>
-                      ))}
-                    </ol>
-                  </div>
-                </Reveal>
-              </div>
+            <div className="mt-8 grid gap-6 lg:grid-cols-2 lg:items-stretch">
+              <TeamProfessionalCard professional={leadProfessional} delay={80} />
+              <TeamProfessionalCard professional={supportProfessional} delay={140} />
             </div>
+
+            <Reveal
+              as="div"
+              delay={220}
+              className="mt-8 grid gap-6 border-t border-[#E6D7CB] pt-6 md:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] md:gap-8"
+            >
+              <div>
+                <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#7A6244]">
+                  O que sustenta esse atendimento
+                </p>
+                <div className="mt-4">
+                  <TeamContextRail items={zlTeamValues} />
+                </div>
+              </div>
+
+              <div className="md:border-l md:border-[#E6D7CB] md:pl-8">
+                <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#574433]">
+                  Como o serviço acontece na prática
+                </p>
+                <ol className="mt-4 grid gap-3">
+                  {zlConsultFlow.map((item, index) => (
+                    <li key={item} className="flex gap-3">
+                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.72rem] font-medium text-[#574433]">
+                        {index + 1}
+                      </span>
+                      <p className="text-[0.82rem] leading-[1.5] text-[#5C4A38]">
+                        {item}
+                      </p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </Reveal>
         </div>
       </div>
     </section>
+  );
+}
+
+function TeamProfessionalCard({
+  professional,
+  delay,
+}: {
+  professional: ZlProfessional;
+  delay: number;
+}) {
+  const hasPhoto = Boolean(professional.photo?.src);
+  const objectPosition = getProfessionalImagePosition(professional);
+  const isLead = professional.name === "Zucarina";
+  const careProofPoints = isLead
+    ?[
+        "Leitura cuidadosa do caso antes do instrumental.",
+        "Explicação clara do que será feito e do retorno.",
+        "Hora marcada, sala reservada e uma paciente por vez.",
+      ]
+    : [
+        "Apoio ao atendimento com EPI completo.",
+        "Continuidade do mesmo protocolo da ZL.",
+        "Ritmo calmo e atenção individual no retorno.",
+      ];
+
+  return (
+    <Reveal
+      as="article"
+      delay={delay}
+      className="grid h-full gap-5 border-t border-[#DCCFC2] pt-5 md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]"
+    >
+      <div className="zl-integrated-photo zl-photo-feather min-h-[34rem]">
+        {hasPhoto && professional.photo ?(
+          <>
+            <Image
+              src={professional.photo.src}
+              alt={professional.photo.alt}
+              fill
+              sizes="(min-width: 1024px) 24vw, 100vw"
+              loading="lazy"
+              style={{ objectPosition }}
+              className="object-cover"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.06)_0%,transparent_32%,rgba(58,46,35,0.78)_100%)]" />
+            <div className="absolute left-4 top-4 rounded-full bg-white/88 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
+              {isLead ?"Podóloga responsável" : "Continuidade clínica"}
+            </div>
+            <div className="absolute inset-x-0 bottom-0 p-5 text-white">
+              <p className="text-[0.58rem] uppercase tracking-[0.24em] text-white/78">
+                {professional.role}
+              </p>
+              <h3
+                className="mt-2 text-[clamp(2rem,3vw,2.85rem)] leading-[0.94] tracking-[-0.035em]"
+                style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
+              >
+                {professional.name}
+              </h3>
+              <p className="mt-2 max-w-[24ch] text-[0.78rem] leading-[1.42] text-white/86">
+                {isLead
+                  ?"Leitura do caso, instrumental e condução clínica do atendimento."
+                  : "Apoio ao cuidado, presença real e continuidade do protocolo."}
+              </p>
+            </div>
+          </>
+        ) : (
+          <div className="flex h-full w-full items-center justify-center p-8">
+            <div className="h-32 w-32">
+              <ProfessionalAvatar name={professional.name} />
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="flex min-w-0 flex-col justify-between gap-5 py-1 md:py-3">
+        <div>
+          <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#B8837A]">
+            {isLead ?"Liderança clínica" : "Apoio no cuidado contínuo"}
+          </p>
+          <p className="mt-3 max-w-[30ch] text-[1rem] leading-[1.5] text-[#3A2E23]">
+            {getProfessionalExcerpt(professional)}
+          </p>
+        </div>
+
+        <div className="border-t border-[#E6D8CB] pt-4">
+          <p
+            className="max-w-[32ch] text-[0.88rem] italic leading-[1.55] text-[#5C4A38]"
+            style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
+          >
+            &ldquo;{getProfessionalQuote(professional)}&rdquo;
+          </p>
+          <p className="mt-4 text-[0.78rem] leading-[1.52] text-[#8B7862]">
+            {professional.description}
+          </p>
+          {professional.handle ?(
+            <p className="mt-3 text-[0.68rem] uppercase tracking-[0.18em] text-[#8B7862]">
+              {professional.handle}
+            </p>
+          ) : null}
+        </div>
+
+        <div className="border-l border-[#DCCFC2] pl-4">
+          <p className="text-[0.62rem] uppercase tracking-[0.2em] text-[#7A6244]">
+            O que a paciente encontra
+          </p>
+          <div className="mt-3 grid gap-2.5">
+            {careProofPoints.map((item) => (
+              <p
+                key={item}
+                className="flex gap-2.5 text-[0.78rem] leading-[1.46] text-[#5C4A38]"
+              >
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#B89B77]" />
+                <span>{item}</span>
+              </p>
+            ))}
+          </div>
+        </div>
+      </div>
+    </Reveal>
   );
 }
 

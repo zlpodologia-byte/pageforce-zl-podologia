@@ -103,7 +103,7 @@ export function ZlBiosafetySection() {
 
             {/* Photo card ? rotativo-procedimento-pro. */}
             <Reveal as="div" delay={260} className="mt-6">
-              <div className="zl-integrated-photo aspect-[5/4] w-full">
+              <div className="zl-integrated-photo zl-photo-feather aspect-[5/4] w-full">
                 <Image
                   src="/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg"
                   alt="Atendimento clínico na ZL Podologia em Fortaleza: motor rotativo profissional em uso e mão enluvada com EPI completo"
@@ -167,7 +167,7 @@ export function ZlBiosafetySection() {
               delay={280}
               className="sm:col-span-2"
             >
-              <div className="zl-integrated-photo aspect-[16/10] w-full">
+              <div className="zl-integrated-photo zl-photo-feather aspect-[16/10] w-full">
                 <Image
                   src="/zl-podologia/social/edited-pro/procedimentos/bandagem-instrumental-pro.jpg"
                   alt="Bandagem e instrumental em uso durante atendimento na ZL Podologia Fortaleza - kit individualizado por paciente"
@@ -328,7 +328,7 @@ export function ZlAmbienteSection() {
               delay={idx * 80}
               className={`group relative transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-1 ${photo.rotate}`}
             >
-              <div className="zl-integrated-photo aspect-[4/5] w-full">
+              <div className="zl-integrated-photo zl-photo-feather aspect-[4/5] w-full">
                 <Image
                   src={photo.src}
                   alt={photo.alt}
@@ -362,7 +362,7 @@ export function ZlAmbienteSection() {
           delay={240}
           className="mt-8 grid gap-6 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] md:items-center"
         >
-          <div className="zl-integrated-photo aspect-[0.9] w-full">
+          <div className="zl-integrated-photo zl-photo-feather aspect-[0.9] w-full">
             <Image
               src="/zl-podologia/social/marca/hero-editorial-tagline.jpg"
               alt="Peça editorial oficial da ZL Podologia Fortaleza com a tagline Pés bem cuidados fazem toda a diferença em tipografia serifada dourada sobre pernas femininas em luz natural"

@@ -511,7 +511,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
   if (service.photo) {
     return (
       <div
-        className={`zl-integrated-photo group min-h-[21rem] md:min-h-[32rem] ${
+        className={`zl-integrated-photo zl-photo-feather group min-h-[21rem] md:min-h-[32rem] ${
           service.premiumStripe
             ?"ring-1 ring-[rgba(160,131,121,0.32)]"
             : "ring-1 ring-[#D2C3A6]/55"

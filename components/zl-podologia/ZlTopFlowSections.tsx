@@ -150,7 +150,7 @@ export function ZlLegitimacySection() {
                   <Reveal
                     as="figure"
                     delay={260}
-                    className="zl-integrated-photo self-start"
+                    className="zl-integrated-photo zl-photo-feather self-start"
                   >
                     <div className="relative aspect-[4/3]">
                       <Image
