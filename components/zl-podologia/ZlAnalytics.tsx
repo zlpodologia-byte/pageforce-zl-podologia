@@ -3,6 +3,9 @@
 import Script from "next/script";
 import { useEffect, useRef } from "react";
 
+const ZL_EVENT_ENDPOINT = "/api/zl-events";
+const ZL_SESSION_STORAGE_KEY = "zl_funnel_session_id";
+
 /**
  * GA4 + eventos analytics da landing da ZL v7a.
  *
@@ -56,6 +59,51 @@ interface ZlTrackEventParams {
   [key: string]: string | number | boolean | undefined;
 }
 
+function getZlSessionId(): string | undefined {
+  try {
+    const existing = window.localStorage.getItem(ZL_SESSION_STORAGE_KEY);
+    if (existing) return existing;
+
+    const next =
+      typeof window.crypto?.randomUUID === "function"
+        ? window.crypto.randomUUID()
+        : `zl-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+
+    window.localStorage.setItem(ZL_SESSION_STORAGE_KEY, next);
+    return next;
+  } catch {
+    return undefined;
+  }
+}
+
+function sendZlServerEvent(payload: Record<string, unknown>): void {
+  const serverPayload = {
+    ...payload,
+    page_path: `${window.location.pathname}${window.location.search}`,
+    session_id: getZlSessionId(),
+  };
+  const body = JSON.stringify(serverPayload);
+
+  try {
+    if (typeof window.navigator.sendBeacon === "function") {
+      const sent = window.navigator.sendBeacon(
+        ZL_EVENT_ENDPOINT,
+        new Blob([body], { type: "application/json" })
+      );
+      if (sent) return;
+    }
+
+    void fetch(ZL_EVENT_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body,
+      keepalive: true,
+    }).catch(() => undefined);
+  } catch {
+    // Analytics must never break navigation or CTA clicks.
+  }
+}
+
 declare global {
   interface Window {
     // gtag is injected by the GA script when `NEXT_PUBLIC_GA_ID` is set.
@@ -87,6 +135,7 @@ export function trackZlEvent(
   };
   window.dataLayer = window.dataLayer ?? [];
   window.dataLayer.push(payload);
+  sendZlServerEvent(payload);
 
   // Gtag direct (GA4) when loaded.
   if (typeof window.gtag === "function") {

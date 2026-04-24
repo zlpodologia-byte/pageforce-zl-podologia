@@ -53,6 +53,14 @@ test.describe("ZL WhatsApp attribution", () => {
   test("service choices and detail tabs publish funnel events", async ({
     page,
   }) => {
+    const serverEvents: Array<Record<string, unknown>> = [];
+
+    await page.route("**/api/zl-events", async (route) => {
+      const body = route.request().postDataJSON() as Record<string, unknown>;
+      serverEvents.push(body);
+      await route.fulfill({ status: 204, body: "" });
+    });
+
     await page.addInitScript(() => {
       window.dataLayer = [];
     });
@@ -89,5 +97,54 @@ test.describe("ZL WhatsApp attribution", () => {
         tab: "agendar",
       })
     );
+
+    await expect
+      .poll(() =>
+        serverEvents.some(
+          (event) =>
+            event.event === "service_select" &&
+            event.service === "reflexology" &&
+            event.source === "service_menu" &&
+            typeof event.session_id === "string"
+        )
+      )
+      .toBe(true);
+
+    await expect
+      .poll(() =>
+        serverEvents.some(
+          (event) =>
+            event.event === "tab_select" &&
+            event.service === "reflexology" &&
+            event.tab === "agendar" &&
+            event.page_path === "/"
+        )
+      )
+      .toBe(true);
+  });
+
+  test("server funnel endpoint validates event payloads", async ({
+    request,
+  }) => {
+    const valid = await request.post("/api/zl-events", {
+      data: {
+        event: "service_select",
+        source: "service_menu",
+        service: "reflexology",
+        page_path: "/",
+        session_id: "test-session",
+      },
+    });
+
+    expect(valid.status()).toBe(204);
+
+    const invalid = await request.post("/api/zl-events", {
+      data: {
+        event: "unknown_event",
+        source: "service_menu",
+      },
+    });
+
+    expect(invalid.status()).toBe(400);
   });
 });
