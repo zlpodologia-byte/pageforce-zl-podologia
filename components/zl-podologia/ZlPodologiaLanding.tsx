@@ -311,7 +311,7 @@ function ZlHeroExactSwap() {
                     />
                   </div>
 
-                  <div className="pointer-events-none absolute bottom-6 left-10 z-10 rounded-[1.35rem] border border-white/45 bg-white/70 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.08)] backdrop-blur-sm">
+                  <div className="pointer-events-none absolute bottom-6 left-10 z-10 rounded-[0.45rem] border-l border-white/45 bg-white/70 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.08)] backdrop-blur-sm">
                     <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#B8837A]">
                       Fortaleza
                     </p>
@@ -329,7 +329,7 @@ function ZlHeroExactSwap() {
                     </p>
                   </div>
 
-                  <div className="pointer-events-none absolute bottom-6 right-6 z-10 hidden rounded-full border border-white/55 bg-white/62 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
+                  <div className="pointer-events-none absolute bottom-6 right-6 z-10 hidden rounded-[0.35rem] border border-white/55 bg-white/62 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
                     Atendimento clínico
                   </div>
 

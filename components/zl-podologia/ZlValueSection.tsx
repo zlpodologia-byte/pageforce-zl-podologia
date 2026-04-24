@@ -294,7 +294,7 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
 
       <div className="relative flex h-full flex-1 flex-col justify-between p-4 md:p-5">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-white/88 px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] text-[#6E5B4B]">
+          <span className="rounded-[0.35rem] bg-white/88 px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] text-[#6E5B4B]">
             {contextLabel}
           </span>
           {featuredLabel ?(
@@ -399,7 +399,7 @@ function PackageOrbitPreview() {
                 style={{ objectPosition: cover.objectPosition }}
               />
               <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_48%,rgba(58,46,35,0.55)_100%)]" />
-              <span className="absolute left-3 top-3 rounded-full bg-white/88 px-2.5 py-1 text-[0.52rem] uppercase tracking-[0.16em] text-[#6E5B4B]">
+              <span className="absolute left-3 top-3 rounded-[0.35rem] bg-white/88 px-2.5 py-1 text-[0.52rem] uppercase tracking-[0.16em] text-[#6E5B4B]">
                 {cover.kicker}
               </span>
             </div>

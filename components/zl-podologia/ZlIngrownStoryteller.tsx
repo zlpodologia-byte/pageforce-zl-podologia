@@ -187,7 +187,7 @@ export function ZlIngrownStoryteller() {
                 >
                   {slide.romanNumeral}
                 </span>
-                <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2 py-0.5 text-[0.58rem] font-medium uppercase tracking-[0.18em] text-[#574433] shadow-[0_6px_18px_rgba(87,68,51,0.18)]">
+                <span className="absolute left-3 top-3 rounded-[0.35rem] bg-white/90 px-2 py-0.5 text-[0.58rem] font-medium uppercase tracking-[0.18em] text-[#574433] shadow-[0_6px_18px_rgba(87,68,51,0.18)]">
                   {slide.step}
                 </span>
               </div>

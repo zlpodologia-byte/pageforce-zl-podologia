@@ -123,7 +123,7 @@ function TeamProfessionalCard({
               className="object-cover"
             />
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.06)_0%,transparent_32%,rgba(58,46,35,0.78)_100%)]" />
-            <div className="absolute left-4 top-4 rounded-full bg-white/88 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
+            <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
               {isLead ?"Podóloga responsável" : "Continuidade clínica"}
             </div>
             <div className="absolute inset-x-0 bottom-0 p-5 text-white">
@@ -235,7 +235,7 @@ function LeadProfessionalCard({
                 />
                 <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.12)_0%,transparent_34%,rgba(58,46,35,0.82)_100%)]" />
                 <div className="absolute left-4 top-4 flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-white/90 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
+                  <span className="rounded-[0.35rem] bg-white/90 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
                     {professional.role}
                   </span>
                 </div>
@@ -359,7 +359,7 @@ function SupportProfessionalCard({
                   style={{ objectPosition }}
                   className="object-cover"
                 />
-                <div className="absolute left-4 top-4 rounded-full border border-white/35 bg-white/12 px-3 py-1 text-[0.56rem] uppercase tracking-[0.2em] text-white backdrop-blur-sm">
+                <div className="absolute left-4 top-4 rounded-[0.35rem] border border-white/35 bg-white/12 px-3 py-1 text-[0.56rem] uppercase tracking-[0.2em] text-white backdrop-blur-sm">
                   Continuidade clínica
                 </div>
               </>

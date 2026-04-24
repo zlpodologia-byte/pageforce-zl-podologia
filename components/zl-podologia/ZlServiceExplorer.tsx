@@ -511,11 +511,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
   if (service.photo) {
     return (
       <div
-        className={`zl-integrated-photo zl-photo-feather group min-h-[21rem] md:min-h-[32rem] ${
-          service.premiumStripe
-            ?"ring-1 ring-[rgba(160,131,121,0.32)]"
-            : "ring-1 ring-[#D2C3A6]/55"
-        }`}
+        className="zl-integrated-photo zl-photo-feather group min-h-[21rem] md:min-h-[32rem]"
       >
         <Image
           src={service.photo.src}
@@ -529,13 +525,13 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(28,20,15,0.08)_0%,rgba(28,20,15,0.2)_30%,rgba(28,20,15,0.5)_62%,rgba(22,16,12,0.92)_100%)]" />
 
         <div className="absolute left-4 top-4 right-4 flex flex-wrap items-center justify-between gap-2">
-          <p className="rounded-full bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#5C4A38] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
+          <p className="rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#5C4A38] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
             {service.visualLabel}
           </p>
         </div>
 
         <div className="absolute inset-x-0 bottom-0 p-4 md:p-5">
-          <div className="max-w-[20rem] rounded-[1.15rem] border border-white/12 bg-[linear-gradient(180deg,rgba(255,255,255,0.03)_0%,rgba(255,255,255,0.09)_100%)] p-4 backdrop-blur-[2px]">
+          <div className="max-w-[20rem] border-l border-white/25 bg-[linear-gradient(90deg,rgba(255,255,255,0.1)_0%,rgba(255,255,255,0.02)_100%)] px-4 py-3 backdrop-blur-[2px]">
             <p className="text-[0.58rem] uppercase tracking-[0.2em] text-[#F0C3BA]">
               Na clínica
             </p>

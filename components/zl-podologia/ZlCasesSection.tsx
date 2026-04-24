@@ -48,7 +48,7 @@ export function ZlCasesSection() {
                       className="object-cover"
                     />
                     <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(28,20,15,0.1)_0%,rgba(28,20,15,0.18)_40%,rgba(22,16,12,0.78)_100%)]" />
-                    <div className="absolute left-4 top-4 rounded-full bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#5C4A38] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
+                    <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#5C4A38] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
                       Sala de atendimento
                     </div>
                     <figcaption className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
@@ -200,7 +200,7 @@ function CasePhotoFigure({
         />
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.28)_100%)]" />
         <span
-          className={`absolute left-3 top-3 rounded-full px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] ${palette.chipBg} ${palette.chipText}`}
+          className={`absolute left-3 top-3 rounded-[0.35rem] px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] ${palette.chipBg} ${palette.chipText}`}
         >
           {title}
         </span>

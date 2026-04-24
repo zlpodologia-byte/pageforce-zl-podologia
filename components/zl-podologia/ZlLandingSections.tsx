@@ -1024,7 +1024,7 @@ export function ZlMobileStickyCta() {
       }`}
       aria-hidden={!visible}
     >
-      <div className="pointer-events-auto mx-3 flex w-full max-w-md items-center gap-2 rounded-full border border-[#D2C3A6] bg-white/95 p-1.5 shadow-[0_18px_46px_rgba(87,68,51,0.22)] backdrop-blur-sm">
+      <div className="pointer-events-auto mx-3 flex w-[calc(100%-1.5rem)] max-w-md items-center gap-2 rounded-full border border-[#D2C3A6] bg-white/95 p-1.5 shadow-[0_18px_46px_rgba(87,68,51,0.22)] backdrop-blur-sm">
         <a
           href={zlLinks.phoneTel}
           onClick={() => trackZlEvent("phone_click", { source: "sticky_mobile" })}

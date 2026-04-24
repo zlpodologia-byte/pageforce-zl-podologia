@@ -30,27 +30,19 @@ export type ZlWhatsappSource =
   | "experience_encanto";
 
 /**
- * Build a WhatsApp wa.me link with an encoded message body and standardized
- * UTM parameters. Every WhatsApp entry point on the landing must pass
- * through this helper so the `utm_content` is a known source value.
+ * Build a WhatsApp link with an encoded patient-facing message body.
  *
  * Using `api.whatsapp.com/send?phone=...` here (not `wa.me`) because the
  * classic endpoint is more resilient across iOS Safari + in-app browsers
- * and accepts unescaped query parameters. Keeping UTMs *outside* the
- * text body keeps GA4 attribution clean on the destination page (if one
- * ever forwards the link into a landing).
+ * and accepts unescaped query parameters. Attribution stays in the site's
+ * GA events; never append internal source tags to the message the patient sees.
  */
 export function buildWhatsappLink(
   message: string,
   source: ZlWhatsappSource = "cta_final"
 ): string {
-  const utmPayload = `\n\n_Origem: landing v7-final (${source})_`;
-  const composed = `${message}${utmPayload}`;
-  // Note: the UTM query string below is for external parsers that may
-  // follow the redirect chain. WhatsApp itself strips unknown params,
-  // but keeping them here keeps the tag surface readable in analytics
-  // referrer logs and makes QA easier.
-  return `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(composed)}&utm_source=landing&utm_medium=whatsapp&utm_campaign=v7final&utm_content=${source}`;
+  void source;
+  return `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(message)}`;
 }
 
 export const zlLinks = {
@@ -1154,9 +1146,10 @@ export const zlFiduciaryBarItems: readonly ZlFiduciaryBarItem[] = [
     title: "WhatsApp direto",
     body: "Resposta rápida no (85) 9 9435-8505.",
     cta: {
-      href: "https://api.whatsapp.com/send?phone=5585994358505&text=" +
-        encodeURIComponent("Olá, quero agendar um horário na ZL Podologia em Fortaleza.") +
-        "&utm_source=landing&utm_medium=whatsapp&utm_campaign=v7final&utm_content=fiduciary_bar",
+      href: buildWhatsappLink(
+        "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
+        "fiduciary_bar"
+      ),
       label: "Falar agora",
     },
   },

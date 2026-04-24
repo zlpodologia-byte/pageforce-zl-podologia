@@ -85,6 +85,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overscroll-behavior: none;
+  overflow-x: clip;
   /* Tabular numerals for data-heavy areas (prices, counts, proof)
      render consistently without breaking prose. */
   font-feature-settings: "ss01", "cv11";
@@ -185,10 +186,23 @@ body.menu-open {
 .zl-integrated-photo {
   position: relative;
   overflow: hidden;
-  border-radius: clamp(1.7rem, 2.8vw, 3.4rem);
+  border-radius: clamp(0.65rem, 1.1vw, 1.35rem);
   background: #2f241d;
-  box-shadow: 0 18px 52px rgba(109, 73, 58, 0.1);
+  box-shadow: 0 14px 38px rgba(109, 73, 58, 0.08);
   isolation: isolate;
+}
+
+.zl-photo-feather::after,
+.zl-signature-photo::after,
+.zl-hero-photo-field::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(242, 235, 222, 0.2) 0%, transparent 10%, transparent 90%, rgba(242, 235, 222, 0.16) 100%),
+    linear-gradient(180deg, transparent 62%, rgba(242, 235, 222, 0.24) 100%);
 }
 
 .zl-integrated-photo img {
@@ -206,32 +220,19 @@ body.menu-open {
   position: relative;
   overflow: hidden;
   background: transparent;
-  border-radius: clamp(5rem, 10vw, 12rem) clamp(1.8rem, 4vw, 4.5rem)
-    clamp(1.6rem, 3vw, 3rem) clamp(9rem, 18vw, 19rem);
+  border-radius: clamp(0.7rem, 1.2vw, 1.4rem);
   isolation: isolate;
 }
 
 .zl-hero-photo-field::before {
   content: "";
   position: absolute;
-  inset: -10% -4% -8% -18%;
+  inset: 0;
   z-index: 1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse at 4% 52%, rgba(245, 237, 229, 0.98) 0%, rgba(245, 237, 229, 0.72) 20%, rgba(245, 237, 229, 0.08) 45%, transparent 66%),
-    linear-gradient(90deg, rgba(245, 237, 229, 0.92) 0%, rgba(245, 237, 229, 0.34) 25%, transparent 56%);
-}
-
-.zl-hero-photo-field::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  background:
-    linear-gradient(90deg, rgba(245, 237, 229, 0.82) 0%, rgba(245, 237, 229, 0.3) 18%, transparent 46%),
-    linear-gradient(180deg, transparent 62%, rgba(244, 237, 227, 0.46) 100%),
-    radial-gradient(circle at 86% 14%, rgba(255, 255, 255, 0.2), transparent 30%);
+    linear-gradient(90deg, rgba(245, 237, 229, 0.8) 0%, rgba(245, 237, 229, 0.32) 18%, transparent 44%),
+    linear-gradient(180deg, transparent 68%, rgba(244, 237, 227, 0.42) 100%);
 }
 
 .zl-hero-photo-field img {
@@ -241,20 +242,20 @@ body.menu-open {
 
 @supports ((mask-image: linear-gradient(#000, transparent)) or (-webkit-mask-image: linear-gradient(#000, transparent))) {
   .zl-hero-photo-field {
-    -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.4) 8%, #000 19%, #000 96%, rgba(0, 0, 0, 0.88) 100%);
-    mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.4) 8%, #000 19%, #000 96%, rgba(0, 0, 0, 0.88) 100%);
+    -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, #000 12%, #000 100%);
+    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, #000 12%, #000 100%);
   }
 
   .zl-photo-feather {
-    -webkit-mask-image: radial-gradient(ellipse at 50% 48%, #000 0%, #000 74%, rgba(0, 0, 0, 0.9) 88%, transparent 100%);
-    mask-image: radial-gradient(ellipse at 50% 48%, #000 0%, #000 74%, rgba(0, 0, 0, 0.9) 88%, transparent 100%);
+    -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.82) 0%, #000 8%, #000 92%, rgba(0, 0, 0, 0.82) 100%);
+    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.82) 0%, #000 8%, #000 92%, rgba(0, 0, 0, 0.82) 100%);
   }
 }
 
 .zl-editorial-thumb {
   position: relative;
   overflow: hidden;
-  border-radius: clamp(1rem, 1.8vw, 1.45rem);
+  border-radius: clamp(0.55rem, 0.9vw, 0.95rem);
   background: #f2ebde;
   box-shadow: 0 14px 34px rgba(109, 73, 58, 0.08);
 }
@@ -262,24 +263,31 @@ body.menu-open {
 .zl-signature-photo {
   position: relative;
   overflow: hidden;
-  border-radius: clamp(1.8rem, 4vw, 4rem);
+  border-radius: clamp(0.65rem, 1.1vw, 1.35rem);
   background: transparent;
   isolation: isolate;
 }
 
-.zl-signature-photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    linear-gradient(90deg, transparent 0%, transparent 62%, rgba(242, 235, 222, 0.18) 100%),
-    linear-gradient(180deg, transparent 68%, rgba(242, 235, 222, 0.2) 100%);
-}
-
 @supports ((mask-image: linear-gradient(#000, transparent)) or (-webkit-mask-image: linear-gradient(#000, transparent))) {
   .zl-signature-photo {
-    -webkit-mask-image: radial-gradient(ellipse at 48% 48%, #000 0%, #000 78%, rgba(0, 0, 0, 0.88) 90%, transparent 100%);
-    mask-image: radial-gradient(ellipse at 48% 48%, #000 0%, #000 78%, rgba(0, 0, 0, 0.88) 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.78) 0%, #000 10%, #000 90%, rgba(0, 0, 0, 0.78) 100%);
+    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.78) 0%, #000 10%, #000 90%, rgba(0, 0, 0, 0.78) 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  .zl-integrated-photo,
+  .zl-hero-photo-field,
+  .zl-editorial-thumb,
+  .zl-signature-photo {
+    border-radius: 0.55rem;
+  }
+
+  .zl-photo-feather::after,
+  .zl-signature-photo::after,
+  .zl-hero-photo-field::after {
+    background:
+      linear-gradient(90deg, rgba(242, 235, 222, 0.16) 0%, transparent 8%, transparent 92%, rgba(242, 235, 222, 0.14) 100%),
+      linear-gradient(180deg, transparent 68%, rgba(242, 235, 222, 0.2) 100%);
   }
 }
