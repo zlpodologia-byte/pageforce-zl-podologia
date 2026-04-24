@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Reveal } from "@/components/reveal/Reveal";
-import { ZlSceneEnvelope } from "@/components/zl-podologia/ZlV8Primitives";
 import {
   zlConsultFlow,
   zlProfessionals,
@@ -21,9 +20,8 @@ export function ZlTeamSection() {
       id="equipe"
       className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
     >
-      <div className="container-x relative mx-auto max-w-[1400px] px-3 sm:px-4 md:px-6">
-        <ZlSceneEnvelope>
-          <div className="bg-white px-5 py-8 sm:px-8 md:px-10 md:py-10 lg:px-14 lg:py-12">
+      <div className="container-x relative mx-auto max-w-[1600px]">
+        <div className="py-8 md:py-10 lg:py-12">
             <div className="grid gap-7 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:items-end">
               <SectionIntro
                 eyebrow={zlTeamHeadline.eyebrow}
@@ -35,10 +33,9 @@ export function ZlTeamSection() {
                 delay={130}
                 className="max-w-[50ch] text-[0.88rem] leading-[1.62] text-[#5C4A38] lg:justify-self-end"
               >
-                A Zucarina segura a frente clínica. A Jannie entra como
-                continuidade real de atendimento, com presença documental e o
-                mesmo padrão de cuidado da ZL. As duas aparecem com imagem
-                própria, sem retrato artificial para preencher a seção.
+                Zucarina conduz a frente clínica. Jannie apoia a continuidade
+                do cuidado, mantendo protocolo, EPI e atenção individual no
+                mesmo ritmo calmo da clínica.
               </Reveal>
             </div>
 
@@ -82,8 +79,7 @@ export function ZlTeamSection() {
                 </Reveal>
               </div>
             </div>
-          </div>
-        </ZlSceneEnvelope>
+        </div>
       </div>
     </section>
   );
@@ -106,11 +102,11 @@ function LeadProfessionalCard({
     <Reveal
       as="article"
       delay={80}
-      className="overflow-hidden rounded-[1.7rem] border border-[#DCCFC2] bg-[linear-gradient(180deg,#FFFDFB_0%,#F4E8DA_100%)] shadow-[0_24px_60px_rgba(138,108,72,0.08)]"
+      className="border-t border-[#DCCFC2] pt-5"
     >
       <div className="grid gap-0 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)]">
         <div className="contents">
-          <div className="relative min-h-[25rem] overflow-hidden bg-[#F4E8DA] md:min-h-[31rem] lg:min-h-[34rem]">
+          <div className="zl-integrated-photo min-h-[25rem] md:min-h-[31rem] lg:min-h-[34rem]">
             {hasPhoto && professional.photo ?(
               <>
                 <Image
@@ -232,10 +228,10 @@ function SupportProfessionalCard({
     <Reveal
       as="article"
       delay={140}
-      className="overflow-hidden rounded-[1.7rem] border border-[#DCCFC2] bg-[linear-gradient(180deg,#FFFDFB_0%,#F5EADD_100%)] shadow-[0_18px_46px_rgba(138,108,72,0.08)]"
+      className="border-t border-[#DCCFC2] pt-5"
     >
       <div className="grid gap-0 md:grid-cols-[minmax(0,0.98fr)_minmax(0,1.02fr)] md:items-stretch">
-        <div className="relative min-h-[20rem] overflow-hidden bg-[#F4E8DA] md:min-h-[24rem]">
+        <div className="zl-integrated-photo min-h-[20rem] md:min-h-[24rem]">
           <div className="relative h-full overflow-hidden">
             {hasPhoto && professional.photo ?(
               <>

@@ -12,7 +12,6 @@ import {
   BodyText,
   DisplayHeading,
   EyebrowLabel,
-  SectionEnvelope,
 } from "@/components/zl-podologia/system";
 import {
   zlComparePodology,
@@ -65,12 +64,11 @@ export function ZlLegitimacySection() {
   };
 
   return (
-    <section className="relative border-t border-[#DCCFC2] bg-[#F4EDE3] py-8 lg:py-10">
-      <div className="container-x mx-auto max-w-[1400px]">
-        <div className="overflow-hidden rounded-[2.4rem] border border-[#E6D7CB] bg-white shadow-[0_34px_90px_rgba(109,73,58,0.12)]">
-          <div className="relative">
-            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_12%_0%,rgba(240,215,207,0.58),transparent_28%),radial-gradient(circle_at_86%_6%,rgba(230,219,198,0.62),transparent_30%),linear-gradient(180deg,#fffdfb_0%,#fbf6f1_100%)]" />
-            <div className="relative grid gap-8 px-5 py-8 sm:px-8 md:px-10 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:items-start lg:gap-10 lg:px-14 lg:py-12">
+    <section className="relative border-t border-[#DCCFC2] bg-[linear-gradient(180deg,#F4EDE3_0%,#FBF7F2_100%)] py-12 lg:py-16">
+      <div className="container-x mx-auto max-w-[1600px]">
+        <div className="relative">
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-[linear-gradient(90deg,transparent,#DCCFC2,transparent)]" />
+            <div className="relative grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-start lg:gap-14">
               <div>
                 <Reveal as="div" delay={0}>
                   <EyebrowLabel tone="accent">Clínica, endereço e horário</EyebrowLabel>
@@ -103,7 +101,7 @@ export function ZlLegitimacySection() {
                     target="_blank"
                     rel="noreferrer"
                     onClick={handleMapsClick}
-                    className="inline-flex items-center gap-2 rounded-full border border-[#E6D7CB] bg-white px-5 py-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-[#5C4A38] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#CDA999]"
+                    className="inline-flex items-center gap-2 rounded-full border border-[#E6D7CB] bg-white/70 px-5 py-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-[#5C4A38] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#CDA999]"
                   >
                     <ZlPinIcon />
                     <span>Ver endereço</span>
@@ -152,7 +150,7 @@ export function ZlLegitimacySection() {
                   <Reveal
                     as="figure"
                     delay={260}
-                    className="self-start overflow-hidden rounded-[1.7rem] border border-[#E6D7CB] bg-[#F2EBDE]"
+                    className="zl-integrated-photo self-start"
                   >
                     <div className="relative aspect-[4/3]">
                       <Image
@@ -178,7 +176,7 @@ export function ZlLegitimacySection() {
                     <Reveal
                       as="div"
                       delay={320}
-                      className="rounded-[1.45rem] border border-[#E6D7CB] bg-[#FBF7F4] p-5"
+                      className="border-l border-[#D2B7AA] bg-transparent py-1 pl-5"
                     >
                       <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#8F6E63]">
                         Endereço
@@ -192,7 +190,7 @@ export function ZlLegitimacySection() {
                     <Reveal
                       as="div"
                       delay={380}
-                      className="rounded-[1.45rem] border border-[#E6D7CB] bg-[#FAF7F2] p-5"
+                      className="border-l border-[#D2B7AA] bg-transparent py-1 pl-5"
                     >
                       <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#8F6E63]">
                         Status agora
@@ -208,7 +206,6 @@ export function ZlLegitimacySection() {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
@@ -221,7 +218,7 @@ export function ZlDecisionGuideSection({
 }: ZlDecisionGuideSectionProps) {
   return (
     <section className="relative border-t border-[#DCCFC2] bg-[#FAF7F2] py-10 lg:py-12">
-      <div className="container-x mx-auto max-w-[1400px]">
+      <div className="container-x mx-auto max-w-[1600px]">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)] lg:items-start lg:gap-10">
           <div>
             <Reveal as="div">
@@ -247,10 +244,10 @@ export function ZlDecisionGuideSection({
                       type="button"
                       onClick={() => onPick(symptom.primaryService)}
                       aria-pressed={active}
-                      className={`h-full w-full rounded-[1.35rem] border p-5 text-left transition-all duration-300 ${
+                      className={`h-full w-full rounded-[1rem] border p-5 text-left transition-all duration-300 ${
                         active
-                          ?"border-[#B8837A] bg-white shadow-[0_18px_42px_rgba(109,73,58,0.12)]"
-                          : "border-[#E6D7CB] bg-white/70 hover:border-[#CDA999] hover:bg-white"
+                          ?"border-[#B8837A] bg-white/78 shadow-[0_14px_32px_rgba(109,73,58,0.08)]"
+                          : "border-[#E6D7CB] bg-white/35 hover:border-[#CDA999] hover:bg-white/68"
                       }`}
                     >
                       <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#8F6E63]">
@@ -273,13 +270,7 @@ export function ZlDecisionGuideSection({
             </div>
           </div>
 
-          <SectionEnvelope
-            as="aside"
-            tone="paper"
-            padding="md"
-            elevated={false}
-            className="self-start"
-          >
+          <aside className="self-start border-l border-[#DCCFC2] pl-6 lg:pl-8">
             <div className="grid gap-5">
               <Reveal as="div" delay={0}>
                 <p className="text-[0.66rem] uppercase tracking-[0.28em] text-[#B8837A]">
@@ -339,7 +330,7 @@ export function ZlDecisionGuideSection({
                 </div>
               </div>
             </div>
-          </SectionEnvelope>
+          </aside>
         </div>
       </div>
     </section>

@@ -6,7 +6,6 @@ import { Reveal } from "@/components/reveal/Reveal";
 import { ZlPrimaryLink, ZlWhatsappIcon } from "@/components/zl-podologia/ZlCtaLink";
 import { trackZlEvent } from "@/components/zl-podologia/ZlAnalytics";
 import { buildWhatsappLink } from "@/components/zl-podologia/zlPodologiaContent";
-import { ZlSceneEnvelope } from "@/components/zl-podologia/ZlV8Primitives";
 
 /**
  * Storyteller autônomo da unha encravada - v7a.
@@ -121,16 +120,8 @@ export function ZlIngrownStoryteller() {
       aria-labelledby="zl-storyteller-title"
       className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
     >
-      {/* v8-merge B.1: envelope ExactScene wrap para elevar o
-          storyteller a peca editorial. Fundo do section fica `#F2EBDE`
-          (terroso v7) e o cartao branco com radius 34px e shadow warm
-          envolve todo o conteudo. Mantem gradiente bege por dentro pra
-          preservar mood v7-earthy. */}
-      <div className="container-x relative mx-auto max-w-[1400px] px-3 sm:px-4 md:px-6">
-        <ZlSceneEnvelope>
-          <div className="relative">
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,#FAF7F2_0%,#E6DBC6_100%)]" />
-            <div className="relative px-5 py-8 sm:px-8 md:px-10 md:py-10 lg:px-14 lg:py-12">
+      <div className="container-x relative mx-auto max-w-[1600px]">
+        <div className="relative py-8 md:py-10 lg:py-12">
               <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
             <Reveal
@@ -173,9 +164,9 @@ export function ZlIngrownStoryteller() {
               delay={idx * 70}
               data-storyteller-card=""
               data-index={idx}
-              className="group relative w-[82%] shrink-0 snap-center rounded-[1.4rem] bg-white p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_24px_58px_-24px_rgba(138,108,72,0.4)] transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-1 sm:w-[55%] lg:w-auto"
+              className="group relative w-[82%] shrink-0 snap-center transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-1 sm:w-[55%] lg:w-auto"
             >
-              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[calc(1.4rem-0.375rem)]">
+              <div className="zl-integrated-photo aspect-[4/5] w-full">
                 <Image
                   src={slide.src}
                   alt={slide.alt}
@@ -214,7 +205,7 @@ export function ZlIngrownStoryteller() {
         <Reveal
           as="div"
           delay={120}
-          className="mt-8 grid gap-6 rounded-[1.6rem] border border-[#D2C3A6] bg-white/80 p-5 backdrop-blur-sm md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] md:items-center md:p-6"
+          className="mt-8 grid gap-6 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] md:items-center"
         >
           <p className="text-[0.95rem] leading-[1.7] text-[#5C4A38]">
             Esse caso foi fotografado <strong className="font-medium text-[#3A2E23]">com autorização da paciente</strong>. O
@@ -232,12 +223,10 @@ export function ZlIngrownStoryteller() {
         </Reveal>
 
         <p className="mt-5 text-[0.74rem] italic leading-[1.55] text-[#7A6244]">
-          Fotos publicadas pela propria ZL Podologia no Instagram oficial. Texto
+          Fotos publicadas pela própria ZL Podologia no Instagram oficial. Texto
           dourado faz parte da arte original.
         </p>
-            </div>
-          </div>
-        </ZlSceneEnvelope>
+        </div>
       </div>
     </section>
   );

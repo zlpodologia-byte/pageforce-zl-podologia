@@ -103,23 +103,21 @@ export function ZlBiosafetySection() {
 
             {/* Photo card ? rotativo-procedimento-pro. */}
             <Reveal as="div" delay={260} className="mt-6">
-              <div className="relative rounded-[1.5rem] bg-[#E6DBC6] p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_22px_52px_-24px_rgba(138,108,72,0.4)]">
-                <div className="relative aspect-[5/4] w-full overflow-hidden rounded-[calc(1.5rem-0.375rem)]">
-                  <Image
-                    src="/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg"
-                    alt="Atendimento clinico na ZL Podologia em Fortaleza: motor rotativo profissional em uso e mao enluvada com EPI completo"
-                    fill
-                    sizes="(min-width: 1024px) 38vw, 100vw"
-                    loading="lazy"
-                    className="object-cover"
-                  />
-                  <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.55)_100%)]" />
-                  <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 px-4 pb-3 text-white">
-                    <p className="text-[0.66rem] uppercase tracking-[0.24em]">
-                      Atendimento real ZL
-                    </p>
-                    <p className="text-[0.7rem] opacity-80">Instrumental rastreado</p>
-                  </div>
+              <div className="zl-integrated-photo aspect-[5/4] w-full">
+                <Image
+                  src="/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg"
+                  alt="Atendimento clínico na ZL Podologia em Fortaleza: motor rotativo profissional em uso e mão enluvada com EPI completo"
+                  fill
+                  sizes="(min-width: 1024px) 38vw, 100vw"
+                  loading="lazy"
+                  className="object-cover"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.55)_100%)]" />
+                <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 px-4 pb-3 text-white">
+                  <p className="text-[0.66rem] uppercase tracking-[0.24em]">
+                    Atendimento real ZL
+                  </p>
+                  <p className="text-[0.7rem] opacity-80">Instrumental rastreado</p>
                 </div>
               </div>
             </Reveal>
@@ -167,9 +165,9 @@ export function ZlBiosafetySection() {
             <Reveal
               as="figure"
               delay={280}
-              className="sm:col-span-2 overflow-hidden rounded-[1.4rem] border border-[#D2C3A6] bg-white p-1.5 shadow-[0_20px_48px_-20px_rgba(138,108,72,0.32)]"
+              className="sm:col-span-2"
             >
-              <div className="relative aspect-[16/10] w-full overflow-hidden rounded-[calc(1.4rem-0.375rem)]">
+              <div className="zl-integrated-photo aspect-[16/10] w-full">
                 <Image
                   src="/zl-podologia/social/edited-pro/procedimentos/bandagem-instrumental-pro.jpg"
                   alt="Bandagem e instrumental em uso durante atendimento na ZL Podologia Fortaleza - kit individualizado por paciente"
@@ -295,12 +293,8 @@ export function ZlAmbienteSection() {
       aria-label="Ambiente da clínica ZL Podologia em Fortaleza"
       className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
     >
-      {/* v8-merge B.1: envelope ExactScene wrap na secao Ambiente.
-          Fundo interno preservado em `#FAF7F2`. Eyebrow rose-mid
-          `#C69184` (secao corporal - clima/pele). */}
-      <div className="container-x mx-auto max-w-[1400px] px-3 sm:px-4 md:px-6">
-        <ZlSceneEnvelope>
-          <div className="relative px-5 py-8 sm:px-8 md:px-10 md:py-10 lg:px-14 lg:py-12 bg-[#FAF7F2]">
+      <div className="container-x mx-auto max-w-[1600px]">
+        <div className="relative py-8 md:py-10 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
             <Reveal as="p" className="text-[0.66rem] uppercase tracking-[0.26em] text-[#C69184]">
@@ -332,9 +326,9 @@ export function ZlAmbienteSection() {
               key={photo.src}
               as="figure"
               delay={idx * 80}
-              className={`group relative rounded-[1.8rem] bg-white p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_28px_72px_-28px_rgba(138,108,72,0.35)] transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-1 ${photo.rotate}`}
+              className={`group relative transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-1 ${photo.rotate}`}
             >
-              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[calc(1.8rem-0.375rem)]">
+              <div className="zl-integrated-photo aspect-[4/5] w-full">
                 <Image
                   src={photo.src}
                   alt={photo.alt}
@@ -366,9 +360,9 @@ export function ZlAmbienteSection() {
         <Reveal
           as="figure"
           delay={240}
-          className="mt-8 grid gap-6 rounded-[1.8rem] bg-white p-5 ring-1 ring-[#D2C3A6] shadow-[0_28px_72px_-28px_rgba(138,108,72,0.35)] md:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] md:items-center md:p-6"
+          className="mt-8 grid gap-6 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] md:items-center"
         >
-          <div className="relative aspect-[0.9] w-full overflow-hidden rounded-[1.2rem]">
+          <div className="zl-integrated-photo aspect-[0.9] w-full">
             <Image
               src="/zl-podologia/social/marca/hero-editorial-tagline.jpg"
               alt="Peça editorial oficial da ZL Podologia Fortaleza com a tagline Pés bem cuidados fazem toda a diferença em tipografia serifada dourada sobre pernas femininas em luz natural"
@@ -394,8 +388,7 @@ export function ZlAmbienteSection() {
             </p>
           </figcaption>
         </Reveal>
-          </div>
-        </ZlSceneEnvelope>
+        </div>
       </div>
     </section>
   );

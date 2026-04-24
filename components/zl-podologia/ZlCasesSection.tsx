@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Reveal } from "@/components/reveal/Reveal";
 import { ZlCaseArtwork } from "@/components/zl-podologia/ZlClinicIllustrations";
-import { ZlSceneEnvelope } from "@/components/zl-podologia/ZlV8Primitives";
 import {
   zlIllustratedCases,
   type ZlIllustratedCasePhoto,
@@ -18,11 +17,8 @@ const proofServiceContext: Record<string, string> = {
 export function ZlCasesSection() {
   return (
     <section className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10">
-      <div className="container-x relative mx-auto max-w-[1400px] px-3 sm:px-4 md:px-6">
-        <ZlSceneEnvelope>
-          <div className="relative">
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,#E6DBC6_0%,#FAF7F2_100%)]" />
-            <div className="relative px-5 py-8 sm:px-8 md:px-10 md:py-10 lg:px-14 lg:py-12">
+      <div className="container-x relative mx-auto max-w-[1600px]">
+        <div className="relative py-8 md:py-10 lg:py-12">
               <div className="grid gap-7 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
                 <SectionIntro
                   eyebrow="Casos reais"
@@ -41,7 +37,7 @@ export function ZlCasesSection() {
               </div>
 
               <div className="mt-7 grid gap-5 lg:grid-cols-[minmax(0,1.12fr)_minmax(18rem,0.88fr)] lg:items-stretch">
-                <figure className="relative overflow-hidden rounded-[1.6rem] border border-[rgba(198,145,132,0.18)] bg-[#2F241D] shadow-[0_18px_44px_rgba(138,108,72,0.12)]">
+                <figure className="zl-integrated-photo">
                   <div className="relative aspect-[16/9]">
                     <Image
                       src="/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg"
@@ -63,7 +59,7 @@ export function ZlCasesSection() {
                   </div>
                 </figure>
 
-                <div className="rounded-[1.6rem] border border-[#E8DDD0] bg-white/78 p-5 shadow-[0_16px_42px_rgba(138,108,72,0.08)]">
+                <div className="border-l border-[#DCCFC2] py-1 pl-5">
                   <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#7A6244]">
                     Como observar
                   </p>
@@ -79,9 +75,9 @@ export function ZlCasesSection() {
                 {zlIllustratedCases.map((item, index) => (
                   <Reveal
                     key={item.title}
-                    as="article"
-                    delay={index * 80}
-                    className="rounded-[1.55rem] border border-[rgba(198,145,132,0.2)] bg-white/92 p-4 shadow-[0_16px_42px_rgba(138,108,72,0.08)] md:p-5"
+                  as="article"
+                  delay={index * 80}
+                    className="border-t border-[#DCCFC2] pt-4"
                   >
                     <div className="flex items-center justify-between gap-3">
                       <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#B8837A]">
@@ -117,9 +113,7 @@ export function ZlCasesSection() {
                   </Reveal>
                 ))}
               </div>
-            </div>
-          </div>
-        </ZlSceneEnvelope>
+        </div>
       </div>
     </section>
   );
@@ -180,19 +174,17 @@ function CasePhotoFigure({
       ?{
           chipBg: "bg-[#F3E6D7]",
           chipText: "text-[#6B5547]",
-          frameBg: "bg-[#F2E7D9]",
         }
       : {
           chipBg: "bg-[#EEF3E8]",
           chipText: "text-[#62704A]",
-          frameBg: "bg-[#F7F3EC]",
         };
   const figureConfig = getCaseFigureConfig(caseTitle, tone);
 
   return (
-    <figure className="rounded-[1.3rem] border border-[#E8DDD0] bg-[#FBF7F2] p-2.5">
+    <figure>
       <div
-        className={`relative overflow-hidden rounded-[1rem] ${palette.frameBg} ${figureConfig.aspectClass}`}
+        className={`zl-integrated-photo ${figureConfig.aspectClass}`}
       >
         <Image
           src={photo.src}

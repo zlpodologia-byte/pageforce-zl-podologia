@@ -276,7 +276,7 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
       : "Vale-presente";
 
   return (
-    <article className="group relative flex h-full min-h-[25rem] flex-col overflow-hidden rounded-[1.75rem] border border-[#DCCFC2] bg-[#2F241D] shadow-[0_22px_56px_rgba(109,73,58,0.12)]">
+    <article className="zl-integrated-photo group flex h-full min-h-[25rem] flex-col">
       {card.image ?(
         <div className="absolute inset-0 overflow-hidden bg-[#F2EBDE]">
           <Image
@@ -366,9 +366,9 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
 
 function PackageOrbitPreview() {
   return (
-    <div className="mt-6 overflow-hidden rounded-[1.85rem] border border-[#E6D7CB] bg-[#1E1712] shadow-[0_22px_56px_rgba(109,73,58,0.14)]">
-      <div className="grid gap-0 lg:grid-cols-[minmax(0,1.08fr)_minmax(280px,0.92fr)]">
-        <div className="relative min-h-[16rem] overflow-hidden bg-[#241B15] lg:min-h-[18rem]">
+    <div className="mt-6 border-t border-[#DCCFC2] pt-6">
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1.08fr)_minmax(280px,0.92fr)]">
+        <div className="zl-integrated-photo min-h-[16rem] lg:min-h-[18rem]">
           <Image
             src="/zl-podologia/generated/v10/value-offer/value-package-orbit-premium.jpg"
             alt="Imagem de apoio para retorno, pacote e presente da ZL Podologia"
@@ -396,7 +396,7 @@ function PackageOrbitPreview() {
           </div>
         </div>
 
-        <div className="border-t border-white/8 bg-[linear-gradient(180deg,#2A2019_0%,#201813_100%)] p-4 lg:border-l lg:border-t-0">
+        <div className="rounded-[1.4rem] border border-white/8 bg-[linear-gradient(180deg,#2A2019_0%,#201813_100%)] p-4">
           <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#F0C3BA]">
             Experiências e presentes
           </p>

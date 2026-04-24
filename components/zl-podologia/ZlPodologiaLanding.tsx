@@ -180,15 +180,16 @@ export function ZlPodologiaLanding() {
  */
 function ZlHeroExactSwap() {
   return (
-    <section className="relative px-3 py-3 sm:px-4 md:px-6 md:py-4">
-      <div className="mx-auto max-w-[1400px] overflow-hidden rounded-[34px] border border-[#eee0d7] bg-white shadow-[0_30px_90px_rgba(109,73,58,0.12)] bg-[linear-gradient(180deg,#fffdfc_0%,#fbf6f2_100%)]">
+    <section className="relative isolate overflow-visible bg-[linear-gradient(180deg,#F5EDE5_0%,#FBF7F2_52%,#F4EDE3_100%)] px-0 py-0">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_4%_0%,rgba(240,215,207,0.78),transparent_28%),radial-gradient(circle_at_88%_8%,rgba(228,201,190,0.55),transparent_25%),linear-gradient(90deg,rgba(255,255,255,0.34)_0%,transparent_36%,rgba(255,255,255,0.28)_100%)]" />
+      <div className="mx-auto max-w-[1680px] overflow-visible">
         <div className="relative">
-          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_0%,rgba(240,215,207,0.75),transparent_30%),radial-gradient(circle_at_88%_12%,rgba(228,201,190,0.5),transparent_24%),radial-gradient(circle_at_54%_100%,rgba(245,229,220,0.95),transparent_40%)]" />
+          <div className="pointer-events-none absolute inset-x-6 top-0 h-px bg-[linear-gradient(90deg,transparent,#E3CFC4,transparent)]" />
 
-          <div className="relative px-5 pb-6 pt-4 sm:px-8 md:px-10 md:pb-8 md:pt-5 lg:px-14 lg:pb-10 lg:pt-6 xl:px-16">
+          <div className="relative px-5 pb-12 pt-5 sm:px-8 md:px-10 md:pb-14 md:pt-7 lg:px-14 lg:pb-16 lg:pt-8 xl:px-[4.5rem] 2xl:px-20">
             <ZlExactStyleTopbar />
 
-            <div className="mt-5 grid gap-8 lg:mt-7 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-stretch xl:gap-12">
+            <div className="mt-8 grid gap-10 lg:mt-10 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] lg:items-stretch xl:gap-16">
               <Reveal as="div">
                 <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#B8837A]">
                   Podologia clínica em Fortaleza
@@ -199,7 +200,7 @@ function ZlHeroExactSwap() {
                 <BodyText
                   as="p"
                   size="md"
-                  className="mt-4 max-w-[34ch] text-[1rem] leading-[1.65] text-[#5C4A38] sm:text-[1.02rem]"
+                  className="mt-5 max-w-[38ch] text-[1rem] leading-[1.65] text-[#5C4A38] sm:text-[1.04rem]"
                 >
                   Podologia clínica para unha encravada, fungos, podoprofilaxia,
                   órtese, laserterapia e reflexologia. Avaliação, procedimento e
@@ -207,7 +208,7 @@ function ZlHeroExactSwap() {
                   Av. Bezerra de Menezes - Parquelândia.
                 </BodyText>
 
-                <div className="mt-5">
+                <div className="mt-6">
                   <p className="text-[0.62rem] uppercase tracking-[0.26em] text-[#3a8c70]">
                     Atendimento imediato
                   </p>
@@ -260,7 +261,7 @@ function ZlHeroExactSwap() {
                 <Reveal
                   as="figure"
                   delay={180}
-                  className="mt-5 max-w-[46ch] border-l-2 border-[#B8837A] pl-4"
+                  className="mt-7 max-w-[48ch] border-l border-[#B8837A]/70 pl-5"
                 >
                   <blockquote
                     className="text-[0.92rem] italic leading-[1.55] text-[#5C4A38]"
@@ -273,7 +274,7 @@ function ZlHeroExactSwap() {
                   </figcaption>
                 </Reveal>
 
-                <div className="mt-5 grid gap-4 sm:grid-cols-3">
+                <div className="mt-7 grid gap-5 border-t border-[#E5D2C7] pt-5 sm:grid-cols-3">
                   {zlHeroProof.map((item, idx) => (
                     <Reveal key={item.label} as="div" delay={220 + idx * 40}>
                       <p className="text-[0.62rem] uppercase tracking-[0.26em] text-[#8B7862]">
@@ -296,21 +297,22 @@ function ZlHeroExactSwap() {
                 </div>
               </Reveal>
 
-              <Reveal as="div" delay={100} className="relative flex h-full">
-                <div className="relative ml-auto flex h-full w-full max-w-[660px] flex-col overflow-hidden rounded-[34px] border border-[#f0ddd4] bg-[#faf5f0] shadow-[0_30px_90px_rgba(121,79,65,0.18)]">
-                  <div className="relative aspect-[0.98] flex-1 lg:aspect-auto lg:min-h-[620px]">
+              <Reveal as="div" delay={100} className="relative flex h-full overflow-visible">
+                <div className="relative ml-auto flex h-full w-full max-w-[760px] flex-col overflow-visible">
+                  <div className="pointer-events-none absolute -inset-6 rounded-[3rem] bg-[radial-gradient(circle_at_50%_48%,rgba(184,131,122,0.2),transparent_64%)] blur-2xl" />
+                  <div className="zl-integrated-photo aspect-[1.02] flex-1 lg:aspect-auto lg:min-h-[680px]">
                     <Image
                       src="/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg"
                       alt="Zucarina, podóloga da ZL Podologia Fortaleza, em atendimento clínico com jaleco branco, touca, máscara, óculos e luvas, segurando o pé da paciente com precisão"
                       fill
                       priority
                       sizes="(min-width: 1024px) 50vw, 100vw"
-                      className="object-cover object-[55%_35%]"
+                      className="object-cover object-[52%_34%]"
                     />
+                    <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(102deg,rgba(251,247,242,0.54)_0%,rgba(251,247,242,0.18)_28%,rgba(251,247,242,0)_56%,rgba(251,247,242,0.06)_100%)]" />
                   </div>
-                  <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(102deg,rgba(255,251,248,0.6)_0%,rgba(255,251,248,0.25)_28%,rgba(255,251,248,0.04)_56%,rgba(255,251,248,0.08)_100%)]" />
 
-                  <div className="pointer-events-none absolute bottom-5 left-5 rounded-[22px] border border-white/70 bg-white/85 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.12)] backdrop-blur-sm">
+                  <div className="pointer-events-none absolute bottom-6 left-6 rounded-[1.35rem] border border-white/50 bg-white/78 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.1)] backdrop-blur-sm">
                     <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#B8837A]">
                       Fortaleza
                     </p>
@@ -328,11 +330,11 @@ function ZlHeroExactSwap() {
                     </p>
                   </div>
 
-                  <div className="pointer-events-none absolute bottom-5 right-5 hidden rounded-full border border-white/70 bg-white/70 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
-                    Atendimento clinico
+                  <div className="pointer-events-none absolute bottom-6 right-6 hidden rounded-full border border-white/55 bg-white/62 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
+                    Atendimento clínico
                   </div>
 
-                  <ZlHeroSquiggle className="pointer-events-none absolute -bottom-2 -right-2 h-40 w-40 text-white/86 md:h-48 md:w-48" />
+                  <ZlHeroSquiggle className="pointer-events-none absolute -bottom-3 -right-3 h-40 w-40 text-white/82 md:h-48 md:w-48" />
                 </div>
               </Reveal>
             </div>
@@ -353,7 +355,7 @@ function ZlExactStyleTopbar() {
   ];
 
   return (
-    <header className="flex items-center justify-between gap-5">
+    <header className="flex items-center justify-between gap-4 overflow-visible xl:gap-8">
       {/* Brand mark - logo + "ZL / Podologia". */}
       <a
         href="#top"
@@ -373,13 +375,13 @@ function ZlExactStyleTopbar() {
         </span>
       </a>
 
-      {/* Nav expandida - lg+. */}
-      <nav className="hidden flex-1 items-center justify-center gap-6 lg:flex xl:gap-7">
+      {/* Nav expandida apenas em desktop largo para não comprimir logo e CTA. */}
+      <nav className="hidden flex-1 items-center justify-center gap-5 min-[1760px]:flex min-[1760px]:gap-7">
         {navItems.map((item) => (
           <a
             key={item.label}
             href={item.href}
-            className="whitespace-nowrap text-[0.72rem] uppercase tracking-[0.18em] text-[#78645e] transition-colors hover:text-[#d48678]"
+            className="whitespace-nowrap text-[0.72rem] uppercase tracking-[0.16em] text-[#78645e] transition-colors hover:text-[#d48678] 2xl:tracking-[0.18em]"
           >
             {item.label}
           </a>
@@ -392,7 +394,7 @@ function ZlExactStyleTopbar() {
         target="_blank"
         rel="noreferrer"
         onClick={() => trackZlEvent("wa_click", { source: "topbar_cta" })}
-        className="inline-flex items-center gap-2 rounded-full border border-[#e5cec5] bg-white px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-[#41322d] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#d6a69a] sm:px-5 sm:py-3 sm:text-[0.78rem]"
+        className="inline-flex shrink-0 items-center gap-2 rounded-full border border-[#e5cec5] bg-white/86 px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.14em] text-[#41322d] shadow-[0_12px_32px_rgba(109,73,58,0.07)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#d6a69a] sm:px-5 sm:py-3 sm:text-[0.78rem]"
       >
         <svg
           viewBox="0 0 24 24"
@@ -438,7 +440,7 @@ function ZlHeroHeadline() {
     <Reveal
       as="h1"
       delay={80}
-      className="mt-4 max-w-[13ch] text-[clamp(3.4rem,8.4vw,7.25rem)] leading-[0.9] tracking-[-0.035em] text-[#3A2E23]"
+      className="mt-4 max-w-[11ch] text-[clamp(3.6rem,8.2vw,7.4rem)] leading-[0.9] tracking-[-0.04em] text-[#3A2E23]"
       style={{
         fontFamily: "var(--font-display)",
         fontWeight: 500,
@@ -462,15 +464,6 @@ function ZlHeroHeadline() {
           style={{ fontStyle: "italic" }}
         >
           pés
-        </span>{" "}
-        que
-        <br />
-        pedem{" "}
-        <span
-          className="italic text-[#B8837A]"
-          style={{ fontStyle: "italic" }}
-        >
-          alívio
         </span>
         .
       </span>

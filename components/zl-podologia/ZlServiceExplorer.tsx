@@ -99,7 +99,7 @@ export function ZlServiceExplorer({
                 as="p"
                 className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
               >
-                Escolha pelo caso
+                Serviços
               </Reveal>
               <Reveal
                 as="h2"
@@ -107,15 +107,15 @@ export function ZlServiceExplorer({
                 className="mt-4 text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
               >
-                Abra o serviço certo e já veja valor de entrada e WhatsApp.
+                Escolha o cuidado que combina com o seu momento.
               </Reveal>
               <Reveal
                 as="p"
                 delay={130}
                 className="mt-5 max-w-[28ch] text-[0.98rem] leading-[1.7] text-[#5C4A38]"
               >
-                Casos de dor e recorrencia ficam na frente. Rotina e bem-estar
-                continuam aqui, mas sem competir com quem ja chegou decidido.
+                Dor, alteração na unha, manutenção e bem-estar seguem por
+                caminhos simples para você entender o próximo passo.
               </Reveal>
             </div>
 
@@ -124,9 +124,8 @@ export function ZlServiceExplorer({
               delay={120}
               className="max-w-[42ch] text-[0.88rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
             >
-              O menu prioriza os casos de maior decisao comercial. O card
-              abaixo mostra entrada, CTA e protocolo sem abrir tres superficies
-              concorrentes ao mesmo tempo.
+              Cada opção mostra o que será avaliado, como o atendimento acontece
+              e como agendar com segurança.
             </Reveal>
           </div>
 
@@ -235,10 +234,10 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
     <Reveal
       as="div"
       delay={120}
-      className={`overflow-hidden rounded-[2rem] border bg-white shadow-[0_28px_70px_rgba(138,108,72,0.14)] ${
+      className={`relative border-t border-[#D2C3A6] pt-6 ${
         service.premiumStripe
-          ?"border-[rgba(160,131,121,0.45)] ring-1 ring-[rgba(160,131,121,0.25)]"
-          : "border-[#D2C3A6]"
+          ?"ring-1 ring-[rgba(160,131,121,0.18)]"
+          : ""
       }`}
     >
       {/* Pre-Wedding eyebrow editorial stripe premium (dourado mantido). */}
@@ -258,7 +257,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               color: "#7A6244",
             }}
           >
-            60 minutos so seus
+            60 minutos só seus
           </p>
         </div>
       ) : null}
@@ -298,7 +297,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
 
           <div className="flex shrink-0 flex-col gap-2 sm:items-end">
             <p className="text-[0.62rem] uppercase tracking-[0.2em] text-[#8B7862]">
-              Entrada oficial
+              Valor inicial
             </p>
             <p
               className="text-[1.18rem] leading-none tracking-[-0.02em] text-[#3A2E23]"
@@ -454,7 +453,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
           >
             <div className="rounded-[1.1rem] border border-[#B89B77] bg-[linear-gradient(180deg,#E6DBC6_0%,#D2C3A6_100%)] p-4">
               <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#574433]">
-                Preco oficial
+                Preço oficial
               </p>
               <p className="mt-2 text-[1.3rem] font-medium leading-[1.2] text-[#3A2E23]" style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}>
                 {service.price}
@@ -474,7 +473,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             {service.subVariants && service.subVariants.length > 0 ?(
               <div className="mt-5 rounded-[1.1rem] border border-[#D2C3A6] bg-white p-4">
                 <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
-                  Tambem oferecemos
+                  Também oferecemos
                 </p>
                 <ul className="mt-3 grid gap-3">
                   {service.subVariants.map((variant) => (
@@ -512,7 +511,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
   if (service.photo) {
     return (
       <div
-        className={`group relative min-h-[21rem] overflow-hidden rounded-[1.55rem] bg-[#2F241D] shadow-[0_24px_60px_rgba(138,108,72,0.16)] md:min-h-[32rem] ${
+        className={`zl-integrated-photo group min-h-[21rem] md:min-h-[32rem] ${
           service.premiumStripe
             ?"ring-1 ring-[rgba(160,131,121,0.32)]"
             : "ring-1 ring-[#D2C3A6]/55"
