@@ -15,6 +15,8 @@ import { useEffect, useRef } from "react";
  *
  * Eventos canonicos (v7a):
  * - wa_click (source, service?)
+ * - service_select (source, service)
+ * - tab_select (service, tab)
  * - maps_click
  * - phone_click
  * - quiz_start
@@ -30,6 +32,8 @@ import { useEffect, useRef } from "react";
 
 export type ZlTrackEventName =
   | "wa_click"
+  | "service_select"
+  | "tab_select"
   | "maps_click"
   | "phone_click"
   | "quiz_start"
@@ -45,6 +49,7 @@ export type ZlTrackEventName =
 interface ZlTrackEventParams {
   source?: string;
   service?: string;
+  tab?: string;
   step?: number;
   card_index?: number;
   recommended_service?: string;

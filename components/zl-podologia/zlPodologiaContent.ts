@@ -1,48 +1,61 @@
-﻿const WHATSAPP_NUMBER = "5585994358505";
+﻿export const ZL_WHATSAPP_NUMBER = "5585994358505";
 
 /**
  * Canonical source for every WhatsApp source tag used by the landing.
  * Keep this list narrow on purpose — every new origin should be an
  * explicit entry below so GA4/utm reports stay consistent.
  */
-export type ZlWhatsappSource =
-  | "hero_primary"
-  | "topbar_mini"
-  | "sticky_mobile"
-  | "explorer_ingrown"
-  | "explorer_fungus"
-  | "explorer_orthosis"
-  | "explorer_laser"
-  | "explorer_podoprofilaxia"
-  | "explorer_reflexology"
-  | "explorer_diabetic"
-  | "quiz_result"
-  | "cta_final"
-  | "footer_wa"
-  | "storyteller_ingrown"
-  | "faq_wa"
-  | "convenios"
-  | "fiduciary_bar"
-  | "packages"
-  | "experience_noiva_sublime"
-  | "experience_noiva_majestosa"
-  | "experience_momento_essencial"
-  | "experience_encanto";
+export const ZL_WHATSAPP_SOURCES = [
+  "hero_primary",
+  "topbar_mini",
+  "sticky_mobile",
+  "explorer_ingrown",
+  "explorer_fungus",
+  "explorer_orthosis",
+  "explorer_laser",
+  "explorer_podoprofilaxia",
+  "explorer_reflexology",
+  "explorer_diabetic",
+  "quiz_result",
+  "cta_final",
+  "footer_wa",
+  "storyteller_ingrown",
+  "faq_wa",
+  "convenios",
+  "fiduciary_bar",
+  "packages",
+  "experience_noiva_sublime",
+  "experience_noiva_majestosa",
+  "experience_momento_essencial",
+  "experience_encanto",
+] as const;
+
+export type ZlWhatsappSource = (typeof ZL_WHATSAPP_SOURCES)[number];
+
+const ZL_WHATSAPP_SOURCE_SET = new Set<string>(ZL_WHATSAPP_SOURCES);
+
+export function isZlWhatsappSource(
+  value: string | null | undefined
+): value is ZlWhatsappSource {
+  return Boolean(value && ZL_WHATSAPP_SOURCE_SET.has(value));
+}
 
 /**
- * Build a WhatsApp link with an encoded patient-facing message body.
+ * Build an internal WhatsApp redirect link with an encoded patient-facing
+ * message body.
  *
- * Using `api.whatsapp.com/send?phone=...` here (not `wa.me`) because the
- * classic endpoint is more resilient across iOS Safari + in-app browsers
- * and accepts unescaped query parameters. Attribution stays in the site's
- * GA events; never append internal source tags to the message the patient sees.
+ * Attribution stays in `/api/wa` + GA events; never append internal source
+ * tags to the message the patient sees.
  */
 export function buildWhatsappLink(
   message: string,
   source: ZlWhatsappSource = "cta_final"
 ): string {
-  void source;
-  return `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(message)}`;
+  const params = new URLSearchParams({
+    source,
+    text: message,
+  });
+  return `/api/wa?${params.toString()}`;
 }
 
 export const zlLinks = {
@@ -94,7 +107,7 @@ export const zlLinks = {
     "Oi, quero presentear com o Vale Presente Experiência Encanto (Reflexologia terapêutica + cartão ilustrado personalizado, R$ 160).",
     "experience_encanto"
   ),
-  whatsappNumber: WHATSAPP_NUMBER,
+  whatsappNumber: ZL_WHATSAPP_NUMBER,
   // Google Maps: busca oficial que cai direto na ficha certa da ZL em
   // Fortaleza (Galeria José Bernardo, Parquelândia). Prefere-se a busca
   // por nome para evitar dependência de shortlinks que podem expirar.
@@ -346,8 +359,8 @@ export interface ZlInteractiveService {
    */
   ctaWhatsappMessage: string;
   /**
-   * Origem UTM pra este card (explorer_<service>). Usado pelo builder de
-   * WhatsApp quando gera o link do CTA.
+   * Origem interna pra este card (explorer_<service>). Usado pelo redirect
+   * `/api/wa` e pelos eventos de funil, sem aparecer para a paciente.
    */
   whatsappSource: ZlWhatsappSource;
 }

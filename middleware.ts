@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 
 const EXACT_ALLOWED_PATHS = new Set([
   "/",
+  "/api/wa",
   "/politica-de-imagens",
   "/robots.txt",
   "/sitemap.xml",

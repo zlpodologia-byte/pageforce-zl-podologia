@@ -85,6 +85,10 @@ export function ZlServiceExplorer({
     if (activeId === undefined) {
       setInternalId(id);
     }
+    trackZlEvent("service_select", {
+      source: "service_menu",
+      service: id,
+    });
     onChange?.(id);
   };
 
@@ -211,6 +215,14 @@ export function ZlServiceExplorer({
 function ServiceCard({ service }: { service: ZlInteractiveService }) {
   const [tab, setTab] = useState<ServiceTabId>("atendimento");
 
+  const handleTabSelect = (nextTab: ServiceTabId) => {
+    setTab(nextTab);
+    trackZlEvent("tab_select", {
+      service: service.id,
+      tab: nextTab,
+    });
+  };
+
   const handleCtaClick = () => {
     trackZlEvent("wa_click", {
       source: service.whatsappSource,
@@ -224,7 +236,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
       e.preventDefault();
       const delta = e.key === "ArrowRight" ?1 : -1;
       const next = (currentIndex + delta + SERVICE_TABS.length) % SERVICE_TABS.length;
-      setTab(SERVICE_TABS[next].id);
+      handleTabSelect(SERVICE_TABS[next].id);
       const el = document.getElementById(`tab-${service.id}-${SERVICE_TABS[next].id}`);
       if (el) (el as HTMLButtonElement).focus();
     }
@@ -343,7 +355,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
                   aria-selected={active}
                   aria-controls={`panel-${service.id}-${t.id}`}
                   tabIndex={active ?0 : -1}
-                  onClick={() => setTab(t.id)}
+                  onClick={() => handleTabSelect(t.id)}
                   onKeyDown={(e) => handleTabKeyDown(e, idx)}
                   className={`flex-1 rounded-[0.72rem] px-3 py-2 text-[0.78rem] font-medium tracking-[0.02em] transition-all duration-200 ${
                     active
