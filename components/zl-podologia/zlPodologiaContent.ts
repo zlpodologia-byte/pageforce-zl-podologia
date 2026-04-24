@@ -28,6 +28,10 @@ export const ZL_WHATSAPP_SOURCES = [
   "experience_noiva_majestosa",
   "experience_momento_essencial",
   "experience_encanto",
+  "gbp_website",
+  "gbp_appointment",
+  "gbp_post_launch",
+  "gbp_maps",
 ] as const;
 
 export type ZlWhatsappSource = (typeof ZL_WHATSAPP_SOURCES)[number];
@@ -86,6 +90,18 @@ export const zlLinks = {
   whatsappFinalCta: buildWhatsappLink(
     "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
     "cta_final"
+  ),
+  whatsappGoogleBusinessWebsite: buildWhatsappLink(
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
+    "gbp_website"
+  ),
+  whatsappGoogleBusinessAppointment: buildWhatsappLink(
+    "Olá, quero agendar um horário na ZL Podologia em Fortaleza.",
+    "gbp_appointment"
+  ),
+  whatsappGoogleBusinessPostLaunch: buildWhatsappLink(
+    "Olá, vi o site novo da ZL Podologia e quero agendar um horário em Fortaleza.",
+    "gbp_post_launch"
   ),
   whatsappPackages: buildWhatsappLink(
     "Oi, gostaria de saber sobre pacotes e plano mensal de cuidados na ZL Podologia.",
