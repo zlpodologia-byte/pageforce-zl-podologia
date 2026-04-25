@@ -52,19 +52,19 @@ const SLIDES: readonly StorytellerSlide[] = [
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-03-remocao-espicula.jpg",
-    alt: "Retirada técnica da espícula da unha encravada com instrumental profissional na ZL Podologia",
+    alt: "Alívio técnico da unha encravada com instrumental profissional na ZL Podologia",
     romanNumeral: "III",
-    step: "Remoção",
+    step: "Alívio",
     caption:
-      "III. Retirada da espícula com técnica adequada, para aliviar a dor sem gerar novo trauma.",
+      "III. Alívio da parte da unha que está pressionando a pele, com técnica para reduzir novo trauma.",
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-04-azul-metileno.jpg",
-    alt: "Aplicação de azul de metileno com fotossensibilizador após remoção da espícula",
+    alt: "Cuidado complementar após o procedimento de unha encravada na ZL Podologia",
     romanNumeral: "IV",
-    step: "Protocolo",
+    step: "Cuidado",
     caption:
-      "IV. Aplicação de azul de metileno com fotossensibilizador - ação antimicrobiana e apoio à recuperação.",
+      "IV. Cuidado complementar quando indicado, com orientação de recuperação e retorno.",
   },
   {
     src: "/zl-podologia/social/antes-depois/encravada-05-alivio-bandagem.jpg",
@@ -209,9 +209,9 @@ export function ZlIngrownStoryteller() {
         >
           <p className="text-[0.95rem] leading-[1.7] text-[#5C4A38]">
             Esse caso foi fotografado <strong className="font-medium text-[#3A2E23]">com autorização da paciente</strong>. O
-            protocolo - retirada da espícula + azul de metileno com
-            fotossensibilizador - é o mesmo aplicado em 100% dos atendimentos
-            de unha encravada na ZL Podologia, em Fortaleza.
+            protocolo combina alívio técnico, proteção da área e orientação de
+            retorno quando necessário nos atendimentos de unha encravada da ZL
+            Podologia, em Fortaleza.
           </p>
           <div className="flex flex-wrap items-center gap-3 md:justify-end">
             <ZlPrimaryLink

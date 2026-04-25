@@ -58,7 +58,7 @@ export function ZlExactHeroPage() {
 
             <ExactActionButton
               href={zlLinks.whatsappTopbar}
-              label="Agendar avaliacao"
+              label="Agendar horario"
               kind="secondary"
               icon="calendar"
             />
@@ -91,7 +91,7 @@ export function ZlExactHeroPage() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <ExactActionButton
                   href={zlLinks.whatsapp}
-                  label="Agendar avaliacao"
+                  label="Agendar horario"
                   icon="calendar"
                 />
                 <ExactActionButton

@@ -68,7 +68,7 @@ export const zlLinks = {
     "hero_primary"
   ),
   whatsappUrgente: buildWhatsappLink(
-    "Olá, estou com dor ou inflamação e queria uma avaliação na ZL Podologia.",
+    "Olá, estou com dor ou inflamação e queria um atendimento na ZL Podologia.",
     "cta_final"
   ),
   whatsappConvenios: buildWhatsappLink(
@@ -147,7 +147,7 @@ export const zlContact = {
 export const zlHeroProof = [
   { label: "Nota Google", value: "5,0", caption: "11 avaliações públicas, cuidado artesanal." },
   { label: "Atendimento", value: "Ter - Sab", caption: "Fortaleza, hora marcada." },
-  { label: "Avaliação", value: "Leitura clínica", caption: "Antes do procedimento, sem pressa." },
+  { label: "Triagem", value: "Leitura clínica", caption: "Relato e foto quando ajuda." },
 ] as const;
 
 /* ------------------------------------------------------------------ */
@@ -182,9 +182,9 @@ export const zlProofStripItems: readonly ZlProofStripItem[] = [
   },
   {
     kind: "protocol",
-    eyebrow: "Protocolo documentado",
-    title: "Espícula + azul de metileno",
-    body: "Retirada técnica com antimicrobiano e fotossensibilizador em casos de unha encravada.",
+    eyebrow: "Conduta explicada",
+    title: "Você entende cada etapa",
+    body: "A podóloga avalia o canto da unha, explica o cuidado indicado e orienta o retorno quando necessário.",
   },
   {
     kind: "individual",
@@ -201,42 +201,41 @@ export const zlProofStripItems: readonly ZlProofStripItem[] = [
 ] as const;
 
 /* ------------------------------------------------------------------ */
-/* v8-merge: Comparativa Podologia x Pedicure                          */
+/* v8-merge: Benefícios da podologia clínica                           */
 /* ------------------------------------------------------------------ */
 
 /**
- * Comparativa educativa extraída do `-exact` + reescrita com voz real da
- * ZL. Entra entre o Symptom Grid e o Service Explorer - filtra curioso
- * e justifica o preço. Copy em primeira pessoa / factual, sem agredir
- * pedicures.
+ * Bloco educativo extraído do `-exact` + reescrito com voz real da ZL.
+ * Entra entre o Symptom Grid e o Service Explorer - contextualiza o
+ * cuidado sem comparar com outras profissões.
  */
 export const zlComparePodology = {
-  eyebrow: "Podologia x pedicure",
-  title: "Diferença entre podologia clínica e pedicure comum.",
+  eyebrow: "Podologia clínica",
+  title: "Cuidado técnico para pés, unhas e pele.",
   body:
-    "A ZL cuida de unhas, pele e pés com foco clínico. Pedicure comum tem foco estético e segue outra proposta de atendimento.",
+    "Na ZL, o atendimento começa pela escuta da queixa e pela leitura do caso. A paciente entende o que será feito, quando precisa de procedimento e quando faz sentido retornar.",
   podology: {
-    title: "Podologia clínica",
-    subtitle: "O que entra no atendimento da ZL Podologia.",
+    title: "No atendimento clínico",
+    subtitle: "O que sustenta o cuidado da ZL Podologia.",
     items: [
-      "Formação técnica reconhecida em podologia.",
-      "Instrumental esterilizado em autoclave classe B validada.",
-      "Kit individualizado por atendimento, aberto diante de você.",
-      "Protocolo documentado com espícula e azul de metileno em unha encravada.",
-      "Leitura do caso antes do procedimento.",
-      "Orientação de continuidade e retorno quando o caso pede.",
+      "Zucarina é a podóloga responsável pela leitura e condução clínica.",
+      "Instrumental esterilizado e kit individualizado por atendimento.",
+      "Explicação clara do cuidado indicado antes de começar.",
+      "Procedimento definido conforme queixa, foto enviada e leitura presencial.",
+      "Orientação de cuidados em casa e retorno quando o caso pede.",
+      "Atendimento com hora marcada, sem correria entre pacientes.",
     ],
   },
-  pedicure: {
-    title: "Pedicure comum",
-    subtitle: "Características típicas da pedicure cosmética.",
+  triage: {
+    title: "Antes do horário",
+    subtitle: "Como a clínica direciona o próximo passo.",
     items: [
-      "Sem formação técnica específica em podologia.",
-      "Instrumental nem sempre esterilizado em autoclave validada.",
-      "Foco estético em corte, lixamento e esmaltação.",
-      "Sem protocolo clínico para casos como unha encravada ou fungos.",
-      "Não realiza leitura clínica antes do acabamento.",
-      "Sem registro profissional regulamentado como podóloga.",
+      "Você explica a queixa pelo WhatsApp, sem precisar decidir sozinho.",
+      "A foto ajuda a orientar a conversa quando o caso permite.",
+      "Dor, inflamação, fungos e calos recebem direcionamento específico.",
+      "A clínica indica o serviço mais adequado antes de reservar o horário.",
+      "O retorno só é sugerido quando faz sentido para o caso.",
+      "Jannie atua na reflexologia podal e no bem-estar complementar.",
     ],
   },
 } as const;
@@ -389,36 +388,36 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     price: "R$ 150 (simples) | R$ 200 (com inflamação)",
     pain: "Dor que impede de caminhar direito, inflamação persistente e corte errado em casa que só piora.",
     promise:
-      "Limpeza cuidadosa da área, retirada da espícula (o pedaço da unha que penetra a pele) com técnica adequada para aliviar a dor sem gerar novo trauma, e aplicação de azul de metileno com fotossensibilizador - que tem ação antimicrobiana e acelera a recuperação.",
+      "A podóloga avalia o canto da unha, identifica o que está causando dor e explica o cuidado indicado antes de começar. Quando há necessidade, remove a parte da unha que machuca a pele com técnica adequada e orienta o retorno para reduzir a chance de voltar a encravar.",
     visualLabel: "Protocolo real para aliviar a dor",
-    visualSupport: "Leitura do caso, retirada da espícula e retorno orientado.",
+    visualSupport: "Leitura do caso, alívio da dor e orientação de retorno.",
     highlights: [
       "Queixa que mais costuma chegar com urgência.",
-      "Protocolo com azul de metileno e fotossensibilizador (ação antimicrobiana real).",
+      "Conduta explicada em linguagem simples antes do procedimento.",
       "Pode abrir caminho para órtese e retorno quando indicado, para não voltar a encravar.",
     ],
     steps: [
-      "Limpeza completa da região com técnica adequada.",
-      "Retirada da espícula sem trauma adicional.",
-      "Aplicação de azul de metileno com fotossensibilizador.",
-      "Orientação pós-procedimento e agendamento da manutenção.",
+      "Escuta da queixa e leitura do canto da unha.",
+      "Higienização e preparo da região com técnica adequada.",
+      "Alívio da parte que está pressionando ou machucando a pele.",
+      "Orientação pós-procedimento e retorno quando necessário.",
     ],
     includes: [
-      "Avaliação do canto da unha e grau de inflamação",
-      "Protocolo com azul de metileno e fotossensibilizador (ação antimicrobiana)",
+      "Leitura do canto da unha e do grau de desconforto",
+      "Procedimento indicado conforme o estado do dedo",
       "Orientação de calçado e cuidado em casa nos primeiros dias",
-      "Agendamento da manutenção periódica para não voltar a encravar",
+      "Sugestão de retorno quando houver risco de voltar a encravar",
     ],
     subVariants: [
       {
         title: "Encravada com inflamação",
         price: "R$ 200",
-        body: "Quando a avaliação mostra inflamação ou infecção localizada, o protocolo ganha etapas extras e o valor sobe - a critério da podóloga.",
+        body: "Quando há inflamação ou infecção localizada, a conduta exige mais cuidado e o valor sobe - sempre explicado antes do procedimento.",
       },
     ],
     photo: {
       src: "/zl-podologia/social/edited-pro/procedimentos/frontal-instrumento-fino-pro.jpg",
-      alt: "Profissional da ZL Podologia fazendo retirada de espícula de unha encravada com instrumento fino e técnica precisa em Fortaleza",
+      alt: "Profissional da ZL Podologia cuidando de unha encravada com instrumento fino e técnica precisa em Fortaleza",
     },
     ctaLabel: "Quero aliviar essa dor",
     ctaWhatsappMessage:
@@ -722,14 +721,14 @@ export const zlIllustratedCases: readonly ZlIllustratedCase[] = [
     tag: "Protocolo",
     before: "Unha opaca, grossa ou frágil, sem clareza de tratamento.",
     after: "Protocolo definido, acompanhamento visual e leitura honesta do tempo.",
-    note: "Protocolo com azul de metileno documentado: hálux isolado após o início do tratamento e par de pés após o protocolo.",
+    note: "Registro visual do início do cuidado e acompanhamento do aspecto da unha ao longo do protocolo.",
     beforePhoto: {
       src: "/zl-podologia/social/procedimentos/azul-metileno-04.jpg",
-      alt: "Antes: hálux com unha amarelada e aplicação de azul de metileno - estado após o início do tratamento de fungos na ZL Podologia Fortaleza",
+      alt: "Antes: hálux com alteração de cor e aspecto da unha no início do protocolo para fungos na ZL Podologia Fortaleza",
     },
     afterPhoto: {
       src: "/zl-podologia/social/procedimentos/azul-metileno-05-par.jpg",
-      alt: "Depois: dois pés lado a lado após protocolo de azul de metileno para fungos nas unhas na ZL Podologia Fortaleza",
+      alt: "Depois: dois pés lado a lado durante acompanhamento do protocolo para fungos nas unhas na ZL Podologia Fortaleza",
     },
   },
   {
@@ -780,7 +779,7 @@ export const zlValueSectionCopy = {
 export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
   {
     bucket: "basicos",
-    title: "Avaliação, manutenção e prevenção",
+    title: "Triagem, manutenção e prevenção",
     subtitle: "Para começar o cuidado ou manter o pé em ordem.",
     rows: [
       {
@@ -800,9 +799,9 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
         note: "Camada de hidratação profunda com parafina para pele ressecada.",
       },
       {
-        label: "Avaliação inicial",
-        price: "R$ 69",
-        note: "Leitura clínica do caso antes do procedimento.",
+        label: "Triagem prévia no WhatsApp",
+        price: "Sem cobrança isolada",
+        note: "Você explica a queixa, pode enviar foto e recebe direcionamento para o procedimento adequado.",
       },
     ],
   },
@@ -814,7 +813,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
       {
         label: "Unha encravada simples",
         price: "R$ 150",
-        note: "Retirada da espícula com técnica + azul de metileno. Produto principal.",
+        note: "Alívio técnico da parte que machuca a pele, com orientação de retorno.",
         tone: "accent",
       },
       {
@@ -888,7 +887,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
  * pagamento). Centraliza a copy pra não dispersar detalhes.
  */
 export const zlPricingFooterNotes = [
-  "Avaliação inicial: R$ 69 para entender o caso antes do procedimento.",
+  "A clínica não cobra avaliação isolada: o primeiro direcionamento acontece pelo WhatsApp, com relato e foto quando ajuda.",
   "Pacotes e plano mensal de cuidados são montados no WhatsApp conforme o caso.",
   "Também há experiências e presentes sob medida, inclusive Pre-Wedding terapêutica.",
   "Pagamento em dinheiro ou cartão; em alguns serviços o cartão acrescenta R$ 5.",
@@ -902,7 +901,7 @@ export const zlPricing: readonly ZlPricingRow[] = zlPricingGroups.flatMap(
 
 export const zlTeamValues = [
   "Atendimento humanizado do primeiro contato ao retorno.",
-  "Podólogas qualificadas, como já aparece nos ativos públicos da marca.",
+  "Podóloga responsável na condução clínica e reflexologista podal no cuidado complementar.",
   "Ritual de cuidado que combina técnica, delicadeza e orientação clara.",
   "Sala reservada, hora marcada e sem correria entre pacientes.",
 ] as const;
@@ -967,10 +966,10 @@ export const zlProfessionals: readonly ZlProfessional[] = [
   },
   {
     name: "Jannie",
-    role: "Podóloga",
+    role: "Reflexologista podal",
     description:
-      "Atenciosa e cuidadosa no atendimento — citada nominalmente nas avaliações públicas da clínica. Atende com EPI completo (jaleco verde, óculos).",
-    bio: "Eu sou a Jannie. Entro junto no cuidado de cada paciente — protocolo, atenção individual e o mesmo ritmo calmo que a ZL construiu. As pacientes costumam dizer que sou atenciosa, e é assim mesmo que eu quero que você sinta o atendimento: tempo, explicação e mão firme onde o caso pede.",
+      "Reflexologista podal da ZL, atenciosa no cuidado de bem-estar e continuidade da experiência da clínica.",
+    bio: "Eu sou a Jannie. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
     handle: "@jannier.silva412",
     // v7-earthy BLOCO B: foto real da Jannie em jannie-retrato.jpg — wide
     // shot top-down da sala onde Jannie aparece sentada de jaleco verde,
@@ -979,7 +978,7 @@ export const zlProfessionals: readonly ZlProfessional[] = [
     // cropProtected=false — autorização LGPD já coberta pela mesma política.
     photo: {
       src: "/zl-podologia/social/equipe/jannie-retrato.jpg",
-      alt: "Jannie, podóloga da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
+      alt: "Jannie, reflexologista podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
       cropProtected: false,
     },
   },
@@ -987,9 +986,9 @@ export const zlProfessionals: readonly ZlProfessional[] = [
 
 export const zlTeamHeadline = {
   eyebrow: "Quem cuida dos seus pés",
-  title: "Zucarina e Jannie, as podólogas da ZL em Fortaleza.",
+  title: "Zucarina na podologia clínica e Jannie na reflexologia podal.",
   body:
-    "Duas profissionais, mesmo ritual: leitura cuidadosa do caso, execução técnica com delicadeza e orientação de retorno. Nome e atenção individual são parte da nota 5,0.",
+    "Zucarina conduz os procedimentos de podologia. Jannie atua na reflexologia podal e no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
 } as const;
 
 export const zlConsultFlow = [
@@ -1002,15 +1001,15 @@ export const zlConsultFlow = [
 export const zlPodologyFacts = [
   {
     title: "O que a podologia trata",
-    body: "Podologia cuida e previne problemas nos pés, nas unhas e na pele. Vai muito além do acabamento estético da pedicure.",
+    body: "Podologia cuida e previne problemas nos pés, nas unhas e na pele, com foco técnico, orientação e continuidade quando necessário.",
   },
   {
     title: "Quando procurar ajuda",
-    body: "Dor ao andar, unha encravada, calos, fungos, fissuras ou pés sensíveis já são bons motivos para buscar uma avaliação.",
+    body: "Dor ao andar, unha encravada, calos, fungos, fissuras ou pés sensíveis já são bons motivos para buscar atendimento.",
   },
   {
-    title: "Pedicure x podologia",
-    body: "A pedicure tem foco estético. A podologia trabalha leitura clínica, prevenção e cuidado técnico do problema.",
+    title: "Cuidado clínico, não só aparência",
+    body: "A ZL observa dor, pele, unha, sensibilidade, histórico e rotina para indicar o procedimento mais adequado.",
   },
   {
     title: "Quando o caso pede continuidade",
@@ -1029,7 +1028,7 @@ export const zlFaq = [
   },
   {
     q: "Qual a diferença entre avaliação e procedimento?",
-    a: "A avaliação (R$ 69) é a leitura do caso: a profissional entende o que está acontecendo e indica o cuidado certo. O procedimento é a execução do cuidado em si, com valor conforme o serviço.",
+    a: "A clínica não trabalha com avaliação avulsa paga. Normalmente você explica a queixa pelo WhatsApp, pode enviar uma foto e recebe um direcionamento prévio. No atendimento presencial, a podóloga confirma o caso e executa o procedimento indicado, com valor conforme o serviço.",
   },
   {
     q: "Faz acompanhamento para fungos?",
@@ -1357,8 +1356,8 @@ export const zlQuizCopy = {
   resultEyebrow: "Resumo inicial",
   resultTitle: "Seu caso em resumo.",
   resultBody:
-    "Leve este resumo para uma avaliação de R$ 69. A profissional já recebe o histórico básico antes do atendimento.",
-  resultCta: "Levar resumo para avaliação de R$ 69",
+    "Leve este resumo para o WhatsApp da ZL. A clínica usa essas informações, e uma foto quando ajuda, para direcionar o procedimento mais adequado antes do horário.",
+  resultCta: "Enviar resumo pelo WhatsApp",
   progress: (step: number, total: number) => `${step} de ${total}`,
 } as const;
 
@@ -1411,8 +1410,8 @@ export function buildQuizWhatsappLink(answers: {
 }): string {
   const service = recommendServiceFromQuiz(answers);
   const serviceObj = zlInteractiveServices.find((s) => s.id === service);
-  const serviceName = serviceObj?.menuLabel ?? "avaliação geral";
-  const msg = `Oi, respondi a triagem da ZL Podologia. Queixa: ${answers.concern}. Onde incomoda: ${answers.location}. Já tentei: ${answers.history}. Cuidado sugerido: ${serviceName}. Quero agendar uma avaliação.`;
+  const serviceName = serviceObj?.menuLabel ?? "atendimento";
+  const msg = `Oi, respondi a triagem da ZL Podologia. Queixa: ${answers.concern}. Onde incomoda: ${answers.location}. Já tentei: ${answers.history}. Cuidado sugerido: ${serviceName}. Quero agendar um horário.`;
   // Mantém UTM padrão + source quiz_result pra GA4.
   return buildWhatsappLink(msg, "quiz_result");
 }

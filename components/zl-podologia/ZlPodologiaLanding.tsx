@@ -104,8 +104,8 @@ export function ZlPodologiaLanding() {
 
       {/* [4] Symptom-to-Solution grid */}
 
-      {/* [4.5] v8-merge: Comparativa Podologia x Pedicure -
-          secao educativa que filtra curioso e justifica o preco antes
+      {/* [4.5] v8-merge: Beneficios da podologia clinica -
+          secao educativa que contextualiza o cuidado antes
           do Service Explorer. */}
 
       {/* [5] Service Explorer (6 cards principais) */}
@@ -165,7 +165,7 @@ export function ZlPodologiaLanding() {
  * - Envelope branco rounded-[34px] + border rose-pale + shadow terroso.
  * - Background radial gradient creme + rose-wash imersivo.
  * - Topbar integrada (logo ZL esquerda, nav expandida ao centro,
- *   "Agendar avaliacao" CTA direita).
+ *   "Agendar horario" CTA direita).
  * - H1 editorial massivo Fraunces clamp(3.2rem,7vw,6rem) com "pes" e
  *   "alivio" em italico rose `#B8837A`. Mantem animacao variable-font
  *   opsz 14->144 + SOFT 0->100 em 1.1s.
@@ -387,7 +387,7 @@ function ZlExactStyleTopbar() {
         ))}
       </nav>
 
-      {/* CTA primário - Agendar avaliação. */}
+      {/* CTA primário - Agendar atendimento. */}
       <a
         href={zlLinks.whatsappTopbar}
         target="_blank"
@@ -406,7 +406,7 @@ function ZlExactStyleTopbar() {
           <rect x="4" y="5.5" width="16" height="14" rx="2" />
           <path d="M8 3.8v3.4M16 3.8v3.4M4 9.2h16" strokeLinecap="round" />
         </svg>
-        <span className="hidden xs:inline">Agendar avaliação</span>
+        <span className="hidden xs:inline">Agendar horário</span>
         <span className="inline xs:hidden">Agendar</span>
       </a>
     </header>

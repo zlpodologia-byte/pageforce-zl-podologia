@@ -33,9 +33,9 @@ export function ZlTeamSection() {
                 delay={130}
                 className="max-w-[50ch] text-[0.88rem] leading-[1.62] text-[#5C4A38] lg:justify-self-end"
               >
-                Zucarina conduz a frente clínica. Jannie apoia a continuidade
-                do cuidado, mantendo protocolo, EPI e atenção individual no
-                mesmo ritmo calmo da clínica.
+                Zucarina conduz a frente clínica da podologia. Jannie atua
+                como reflexologista podal, mantendo acolhimento, EPI e atenção
+                individual no mesmo ritmo calmo da clínica.
               </Reveal>
             </div>
 
@@ -99,9 +99,9 @@ function TeamProfessionalCard({
         "Hora marcada, sala reservada e uma paciente por vez.",
       ]
     : [
-        "Apoio ao atendimento com EPI completo.",
-        "Continuidade do mesmo protocolo da ZL.",
-        "Ritmo calmo e atenção individual no retorno.",
+        "Reflexologia podal com atenção ao ritmo da paciente.",
+        "Cuidado complementar de bem-estar dentro da experiência ZL.",
+        "Acolhimento, EPI e sala preparada para atendimento individual.",
       ];
 
   return (
@@ -124,7 +124,7 @@ function TeamProfessionalCard({
             />
             <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.06)_0%,transparent_32%,rgba(58,46,35,0.78)_100%)]" />
             <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
-              {isLead ?"Podóloga responsável" : "Continuidade clínica"}
+              {isLead ?"Podóloga responsável" : "Reflexologia podal"}
             </div>
             <div className="absolute inset-x-0 bottom-0 p-5 text-white">
               <p className="text-[0.58rem] uppercase tracking-[0.24em] text-white/78">
@@ -139,7 +139,7 @@ function TeamProfessionalCard({
               <p className="mt-2 max-w-[24ch] text-[0.78rem] leading-[1.42] text-white/86">
                 {isLead
                   ?"Leitura do caso, instrumental e condução clínica do atendimento."
-                  : "Apoio ao cuidado, presença real e continuidade do protocolo."}
+                  : "Reflexologia podal, bem-estar e continuidade da experiência."}
               </p>
             </div>
           </>
@@ -155,7 +155,7 @@ function TeamProfessionalCard({
       <div className="flex min-w-0 flex-col justify-between gap-5 py-1 md:py-3">
         <div>
           <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#B8837A]">
-            {isLead ?"Liderança clínica" : "Apoio no cuidado contínuo"}
+            {isLead ?"Liderança clínica" : "Reflexologia podal"}
           </p>
           <p className="mt-3 max-w-[30ch] text-[1rem] leading-[1.5] text-[#3A2E23]">
             {getProfessionalExcerpt(professional)}
@@ -360,7 +360,7 @@ function SupportProfessionalCard({
                   className="object-cover"
                 />
                 <div className="absolute left-4 top-4 rounded-[0.35rem] border border-white/35 bg-white/12 px-3 py-1 text-[0.56rem] uppercase tracking-[0.2em] text-white backdrop-blur-sm">
-                  Continuidade clínica
+                  Reflexologia podal
                 </div>
               </>
             ) : (
@@ -382,8 +382,7 @@ function SupportProfessionalCard({
                 {professional.name}
               </p>
               <p className="mt-2 max-w-[22ch] text-[0.72rem] leading-[1.4] text-white/82">
-                Continuidade com presença documental e o mesmo ritmo calmo da
-                ZL.
+                Reflexologia podal, bem-estar e o mesmo ritmo calmo da ZL.
               </p>
             </div>
           </div>
@@ -391,7 +390,7 @@ function SupportProfessionalCard({
 
         <div className="flex h-full flex-col justify-between p-5 md:p-6">
           <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#B8837A]">
-            Continuidade de atendimento
+            Reflexologia podal
           </p>
           <p
             className="mt-3 max-w-[24ch] text-[0.98rem] leading-[1.45] text-[#3A2E23]"
@@ -413,8 +412,8 @@ function SupportProfessionalCard({
 
           <div className="mt-4 border-t border-[#E6D8CB] pt-4">
             <p className="text-[0.76rem] leading-[1.45] text-[#5C4A38]">
-              Atendimento com EPI completo, explicação limpa do cuidado e o
-              mesmo ritmo calmo que sustenta a ZL no Google 5,0.
+              Reflexologia podal com EPI completo, acolhimento e o mesmo ritmo
+              calmo que sustenta a ZL no Google 5,0.
             </p>
           </div>
         </div>
@@ -539,7 +538,7 @@ function getProfessionalImagePosition(professional: ZlProfessional) {
   }
 
   if (professional.name === "Jannie") {
-    return "14% 38%";
+    return "28% 40%";
   }
 
   return "center";
@@ -551,7 +550,7 @@ function getProfessionalExcerpt(professional: ZlProfessional) {
   }
 
   if (professional.name === "Jannie") {
-    return "Protocolo, atenção individual e o mesmo ritmo calmo que a ZL construiu.";
+    return "Reflexologia podal e bem-estar complementar com o mesmo ritmo calmo da ZL.";
   }
 
   return professional.description;
@@ -563,7 +562,7 @@ function getProfessionalQuote(professional: ZlProfessional) {
   }
 
   if (professional.name === "Jannie") {
-    return "Tempo, explicação e mão firme onde o caso pede.";
+    return "Atenção, pausa e cuidado para o corpo desacelerar pelos pés.";
   }
 
   return professional.bio;

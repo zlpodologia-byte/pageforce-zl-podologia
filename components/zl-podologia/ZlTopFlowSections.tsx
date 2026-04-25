@@ -31,9 +31,9 @@ const legitimacySignals = [
     body: zlProofStripItems[0].title,
   },
   {
-    eyebrow: "Avaliação inicial",
+    eyebrow: "Triagem prévia",
     value: zlHeroProof[2].value,
-    body: "Antes do procedimento, com calma e explicação do caso.",
+    body: "Antes do procedimento, pelo WhatsApp, com relato e foto quando ajuda.",
   },
   {
     eyebrow: "Localização",
@@ -80,7 +80,7 @@ export function ZlLegitimacySection() {
                 </Reveal>
                 <Reveal as="div" delay={140} className="mt-5 max-w-[38ch]">
                   <BodyText as="p" size="md">
-                    A ZL atende com avaliação antes do procedimento, horário
+                    A ZL atende com triagem prévia pelo WhatsApp, horário
                     marcado e cuidado individual em Fortaleza.
                   </BodyText>
                 </Reveal>
@@ -94,7 +94,7 @@ export function ZlLegitimacySection() {
                     className="inline-flex items-center gap-2 rounded-full border border-[#D97E73] bg-[#D97E73] px-5 py-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-white shadow-[0_16px_36px_rgba(217,126,115,0.22)] transition-all duration-300 hover:-translate-y-0.5"
                   >
                     <ZlWhatsappIcon />
-                    <span>Agendar avaliação</span>
+                    <span>Agendar atendimento</span>
                   </a>
                   <a
                     href={zlLinks.maps}
@@ -309,19 +309,19 @@ export function ZlDecisionGuideSection({
 
                 <div className="border-t border-[#E6D7CB] pt-4">
                   <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#B8837A]">
-                    {zlComparePodology.pedicure.title}
+                    {zlComparePodology.triage.title}
                   </p>
                   <p className="mt-1 text-[0.76rem] uppercase tracking-[0.18em] text-[#7A6244]">
-                    {zlComparePodology.pedicure.subtitle}
+                    {zlComparePodology.triage.subtitle}
                   </p>
                   <ul className="mt-3 grid gap-2.5">
-                    {zlComparePodology.pedicure.items.slice(0, 3).map((item) => (
+                    {zlComparePodology.triage.items.slice(0, 3).map((item) => (
                       <li
                         key={item}
                         className="flex items-start gap-2.5 text-[0.9rem] leading-[1.55] text-[#5C4A38]"
                       >
                         <span className="mt-1 h-4 w-4 shrink-0 rounded-full bg-[#F6E4E0] text-center text-[0.66rem] font-medium leading-4 text-[#B45E57]">
-                          -
+                          +
                         </span>
                         <span>{item}</span>
                       </li>

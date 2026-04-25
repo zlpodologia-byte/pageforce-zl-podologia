@@ -107,7 +107,7 @@ export function ZlExactServicesPage() {
             />
             <ZlExactCasePair
               title="Diagnostico e protocolo"
-              body="Leitura tecnica do caso e aplicacao do protocolo de cuidado com azul de metileno e suporte clinico."
+              body="Leitura tecnica do caso, cuidado indicado e orientacao de retorno quando necessario."
               beforeSrc="/zl-podologia/social/antes-depois/encravada-02-diagnostico.jpg"
               afterSrc="/zl-podologia/social/antes-depois/encravada-04-azul-metileno.jpg"
             />
@@ -201,7 +201,7 @@ export function ZlExactServicesPage() {
                 className="mt-4 max-w-[12ch] text-[clamp(2.4rem,4vw,4rem)] leading-[0.92] tracking-[-0.05em] text-[#32261f]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
               >
-                Agende sua avaliacao e de o primeiro passo para pes saudaveis e sem dor.
+                Agende seu atendimento e de o primeiro passo para pes saudaveis e sem dor.
               </h3>
               <div className="mt-6 grid gap-3 text-[0.94rem] leading-[1.6] text-[#6d5a4c]">
                 <p>Atendimento humanizado</p>
@@ -209,7 +209,7 @@ export function ZlExactServicesPage() {
                 <p>Ambiente seguro e acolhedor</p>
               </div>
               <div className="mt-7 flex flex-wrap gap-3">
-                <ExactActionButton href={zlLinks.whatsappFinalCta} label="Agendar avaliacao" />
+                <ExactActionButton href={zlLinks.whatsappFinalCta} label="Agendar horario" />
                 <ExactActionButton href={zlLinks.maps} label="Falar pelo mapa" kind="secondary" icon="pin" />
               </div>
             </div>

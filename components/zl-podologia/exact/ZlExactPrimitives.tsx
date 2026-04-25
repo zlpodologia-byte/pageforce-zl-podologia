@@ -69,7 +69,7 @@ export function ExactTopHeader() {
           href="#contato"
           className="inline-flex items-center rounded-full bg-[#EF9F27] px-5 py-3 text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-white shadow-[0_16px_32px_-20px_rgba(239,159,39,0.8)] transition-transform hover:-translate-y-0.5"
         >
-          Agendar avaliacao
+          Agendar horario
         </a>
       </div>
     </header>
@@ -266,4 +266,3 @@ export function FootLineArt() {
     </svg>
   );
 }
-

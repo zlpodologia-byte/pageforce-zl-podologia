@@ -1047,20 +1047,19 @@ function ProofStripIcon({ kind }: { kind: ZlProofStripKind }) {
 }
 
 /* ------------------------------------------------------------------ */
-/* v8-merge: Comparativa Podologia x Pedicure                          */
+/* v8-merge: Benefícios da podologia clínica                           */
 /* ------------------------------------------------------------------ */
 
 /**
- * Secao educativa que filtra curioso e justifica o preco. Entra entre o
- * Symptom Grid (posicao 4) e o Service Explorer (posicao 5). Paleta:
- * eyebrow rose `#B8837A`, coluna Podologia com checks verde `#1d9e75`,
- * coluna Pedicure com X vermelho `#e24b4a`. Backgrounds terrosos v7.
+ * Secao educativa que contextualiza a podologia clinica sem comparar
+ * com outras profissoes. Entra entre o Symptom Grid (posicao 4) e o
+ * Service Explorer (posicao 5).
  */
 export function ZlCompareSection() {
   return (
     <section
       id="comparativa"
-      aria-label="Comparativa entre podologia clínica e pedicure comum"
+      aria-label="Benefícios da podologia clínica na ZL"
       className="relative border-t border-[#D2C3A6] bg-[#FAF7F2]"
     >
       <div className="container-x mx-auto max-w-[1440px] py-12 lg:py-14">
@@ -1101,9 +1100,9 @@ export function ZlCompareSection() {
           </Reveal>
           <Reveal as="div" delay={160}>
             <ZlCompareColumn
-              title={zlComparePodology.pedicure.title}
-              subtitle={zlComparePodology.pedicure.subtitle}
-              items={zlComparePodology.pedicure.items}
+              title={zlComparePodology.triage.title}
+              subtitle={zlComparePodology.triage.subtitle}
+              items={zlComparePodology.triage.items}
               good={false}
             />
           </Reveal>

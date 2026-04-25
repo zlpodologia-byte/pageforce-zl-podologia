@@ -9,8 +9,8 @@ import {
   zlExactAudienceCards,
   zlExactEducationCards,
   zlExactJourney,
-  zlExactPedicureBullets,
   zlExactPodologyBullets,
+  zlExactTriageBullets,
 } from "@/components/zl-podologia/exact/ZlExactTrustData";
 import { zlLinks } from "@/components/zl-podologia/zlPodologiaContent";
 
@@ -23,7 +23,7 @@ export function ZlExactTrustKnowledgeSection() {
             <ExactSectionHeader
               eyebrow="O que e podologia?"
               title="Muito alem da estetica. E saude dos pes."
-              body="A podologia cuida e previne alteracoes nos pes e unhas. Alivia dores, trata causas e melhora sua qualidade de vida com seguranca."
+              body="A podologia cuida e previne alteracoes nos pes e unhas. Alivia dores, organiza o cuidado e melhora sua qualidade de vida com seguranca."
             />
             <div className="mt-7 rounded-[2rem] border border-[#e7d7cc] bg-[#faf4ef] p-5 shadow-[0_16px_40px_rgba(123,98,78,0.08)]">
               <div className="relative aspect-[1.45] overflow-hidden rounded-[1.4rem] border border-[#e7d7cc] bg-white">
@@ -39,7 +39,7 @@ export function ZlExactTrustKnowledgeSection() {
                   <p className="text-[0.72rem] uppercase tracking-[0.22em] text-[#9a7f5c]">Saude dos pes</p>
                   <p className="mt-2 text-[0.9rem] leading-[1.6] text-[#5f4d40]">
                     Dor ao andar, unha encravada, calos, fungos, fissuras e pes
-                    sensiveis sao bons motivos para buscar avaliacao.
+                    sensiveis sao bons motivos para buscar atendimento.
                   </p>
                 </div>
               </div>
@@ -48,17 +48,17 @@ export function ZlExactTrustKnowledgeSection() {
 
           <div className="rounded-[2rem] border border-[#e7d7cc] bg-[#fcf8f4] p-5 shadow-[0_16px_40px_rgba(123,98,78,0.08)]">
             <p className="text-[0.68rem] uppercase tracking-[0.26em] text-[#9a7f5c]">
-              Podologia x pedicure
+              Podologia clinica
             </p>
             <h3
               className="mt-4 text-[clamp(1.8rem,3vw,2.7rem)] leading-[0.98] tracking-[-0.04em] text-[#32261f]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
-              Entenda a diferenca
+              Entenda como a ZL direciona o cuidado
             </h3>
             <div className="mt-6 grid gap-4 md:grid-cols-2">
               <ZlExactComparePanel title="Podologia" items={zlExactPodologyBullets} good />
-              <ZlExactComparePanel title="Pedicure" items={zlExactPedicureBullets} good={false} />
+              <ZlExactComparePanel title="Antes do horario" items={zlExactTriageBullets} good />
             </div>
           </div>
         </div>

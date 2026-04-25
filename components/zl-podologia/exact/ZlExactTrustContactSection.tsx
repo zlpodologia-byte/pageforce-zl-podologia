@@ -22,7 +22,7 @@ export function ZlExactTrustContactSection() {
             <ExactSectionHeader
               eyebrow="Duvidas frequentes"
               title="Respostas para suas principais duvidas."
-              body="Abaixo estao as perguntas que mais aparecem antes de fechar uma avaliacao."
+              body="Abaixo estao as perguntas que mais aparecem antes de agendar um atendimento."
             />
             <div className="mt-7 space-y-3">
               {zlFaq.slice(0, 5).map((item, index) => {
@@ -106,11 +106,11 @@ export function ZlExactTrustContactSection() {
               Seus pes te levam longe. A gente cuida do caminho.
             </h3>
             <p className="mt-4 max-w-[36ch] text-[0.98rem] leading-[1.75] text-[#6d5a4c]">
-              Agende sua avaliacao e sinta o alivio de caminhar com mais
+              Agende seu atendimento e sinta o alivio de caminhar com mais
               leveza, seguranca e orientacao de verdade.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <ExactActionButton href={zlLinks.whatsappFinalCta} label="Agendar avaliacao" />
+              <ExactActionButton href={zlLinks.whatsappFinalCta} label="Agendar horario" />
               <ExactActionButton
                 href={zlLinks.whatsapp}
                 label="Falar no WhatsApp"

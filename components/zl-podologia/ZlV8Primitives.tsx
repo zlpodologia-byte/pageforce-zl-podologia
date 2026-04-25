@@ -168,8 +168,9 @@ export function ZlProofStripCard({
 /* ------------------------------------------------------------------ */
 
 /**
- * Two-column list used in the "Podologia x Pedicure" compare section.
- * Uses exact tokens (#1d9e75 check, #e24b4a cross) but sits on v7 cards.
+ * Two-column list used in the podology benefits section.
+ * Uses two positive tones so the section educates without attacking
+ * adjacent professions.
  */
 export function ZlCompareColumn({
   title,
@@ -182,16 +183,16 @@ export function ZlCompareColumn({
   items: readonly string[];
   good: boolean;
 }) {
-  const iconColor = good ?"#1d9e75" : "#e24b4a";
-  const borderColor = good ?"#cbe6d9" : "#f2cecb";
-  const bg = good ?"#f4fbf7" : "#fdf4f3";
+  const iconColor = good ?"#1d9e75" : "#B8837A";
+  const borderColor = good ?"#cbe6d9" : "#eadfd8";
+  const bg = good ?"#f4fbf7" : "#fffaf4";
   return (
     <div
       className="rounded-[1.4rem] border p-5 md:p-6"
       style={{ background: bg, borderColor }}
     >
       <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
-        {good ?"ZL Podologia" : "Pedicure comum"}
+        {good ?"Cuidado clínico" : "Direcionamento"}
       </p>
       <h3
         className="mt-2 text-[clamp(1.3rem,1.9vw,1.7rem)] leading-[1.15] tracking-[-0.02em] text-[#3A2E23]"
@@ -213,39 +214,21 @@ export function ZlCompareColumn({
               className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full"
               style={{ color: iconColor }}
             >
-              {good ?(
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="12" r="9" />
-                  <path
-                    d="m8.5 12.3 2.2 2.2 4.8-5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="12" r="9" />
-                  <path
-                    d="m9 9 6 6m0-6-6 6"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              )}
+              <svg
+                viewBox="0 0 24 24"
+                className="h-5 w-5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path
+                  d="m8.5 12.3 2.2 2.2 4.8-5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </span>
             <span>{item}</span>
           </li>

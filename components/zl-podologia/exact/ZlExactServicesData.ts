@@ -42,8 +42,8 @@ export const zlExactCareSteps: readonly {
   body: string;
   icon: ExactGlyphKind;
 }[] = [
-  { title: "Avaliacao", body: "Entendemos seu caso, historico e queixas.", icon: "check" },
-  { title: "Diagnostico", body: "Identificamos a causa e definimos o melhor plano.", icon: "spark" },
+  { title: "Leitura do caso", body: "Entendemos sua queixa, historico e contexto.", icon: "check" },
+  { title: "Direcionamento", body: "Definimos o cuidado mais adequado para o momento.", icon: "spark" },
   { title: "Tratamento", body: "Aplicamos as tecnicas e tecnologias indicadas.", icon: "foot" },
   { title: "Manutencao", body: "Acompanhamento para garantir resultados duradouros.", icon: "shield" },
 ] as const;
@@ -53,7 +53,7 @@ export const zlExactPricingCards: readonly {
   price: string;
   note: string;
 }[] = [
-  { title: "Avaliacao podologica", price: "R$ 69", note: "Avaliacao completa dos pes e plano de cuidado." },
+  { title: "Triagem pelo WhatsApp", price: "Sem cobranca isolada", note: "Relato da queixa, foto quando ajuda e direcao para o procedimento adequado." },
   { title: "Podoprofilaxia", price: "R$ 129", note: "Higienizacao completa, remocao de calosidades e prevencao." },
   { title: "Unha encravada", price: "R$ 149 a R$ 199", note: "Tratamento conservador com alivio da dor e correcao." },
   { title: "Fungos nas unhas", price: "R$ 149", note: "Sessao com protocolo orientado e possibilidades de continuidade." },

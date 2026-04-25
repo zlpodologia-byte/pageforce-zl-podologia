@@ -42,7 +42,7 @@ export function ZlExactTrustHero() {
                     <p className="mt-1 text-[1rem] font-medium text-[#32261F]">{lead.name}</p>
                   </div>
                   <div className="border-t border-[#E8D9CE] pt-3 sm:border-l sm:border-t-0 sm:pl-4 sm:pt-0">
-                    <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#9A7F5C]">Podóloga</p>
+                    <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#9A7F5C]">Reflexologista podal</p>
                     <p className="mt-1 text-[1rem] font-medium text-[#32261F]">{partner.name}</p>
                   </div>
                 </div>
@@ -59,4 +59,3 @@ export function ZlExactTrustHero() {
     </section>
   );
 }
-

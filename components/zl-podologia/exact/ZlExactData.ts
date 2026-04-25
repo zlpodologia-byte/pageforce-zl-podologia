@@ -62,7 +62,7 @@ export const exactHeroCopy = {
   body:
     "Protocolos clinicos individualizados, tecnologia avancada e um olhar cuidadoso para cada detalhe da sua saude.",
   badge: "Fortaleza / Parquelandia",
-  cta: "AGENDAR AVALIACAO",
+  cta: "AGENDAR HORARIO",
 } as const;
 
 export const exactServiceCards: readonly ExactServiceCard[] = [
@@ -136,7 +136,7 @@ export const exactCaseCards: readonly ExactCaseCard[] = [
     note: "Tratamento com leitura continua e apoio de laser quando indicado. O resultado depende da continuidade.",
     beforePhoto: {
       src: "/zl-podologia/social/procedimentos/azul-metileno-04.jpg",
-      alt: "Antes: unha com fungo em leitura clinica inicial e aplicacao de azul de metileno na ZL Podologia",
+      alt: "Antes: unha com fungo em leitura clinica inicial na ZL Podologia",
     },
     afterPhoto: {
       src: "/zl-podologia/social/procedimentos/azul-metileno-05-par.jpg",
@@ -164,13 +164,13 @@ export const exactCaseCards: readonly ExactCaseCard[] = [
 export const exactSteps: readonly ExactStepCard[] = [
   {
     key: "assessment",
-    title: "Avaliacao",
+    title: "Leitura do caso",
     body: "Entendemos seu caso, historico e queixas.",
     icon: "clipboard",
   },
   {
     key: "diagnosis",
-    title: "Diagnostico",
+    title: "Direcionamento",
     body: "Identificamos a causa e definimos o melhor plano.",
     icon: "search",
   },
@@ -191,9 +191,9 @@ export const exactSteps: readonly ExactStepCard[] = [
 
 export const exactPricingCards: readonly ExactPricingCard[] = [
   {
-    title: "Avaliacao Podologica",
-    price: "R$ 69",
-    body: "Avaliacao completa dos pes e plano de cuidado.",
+    title: "Triagem pelo WhatsApp",
+    price: "Sem cobranca isolada",
+    body: "Relato da queixa, foto quando ajuda e direcionamento para o procedimento adequado.",
     action: "Agendar agora",
     tone: "default",
   },
@@ -236,7 +236,7 @@ export const exactPricingNotes = [
 ] as const;
 
 export const exactPricingFooter =
-  "*Valores sujeitos a avaliacao clinica. Consulte condicoes de parcelamento na recepcao.";
+  "*Valores confirmados conforme o procedimento indicado. Consulte condicoes pelo WhatsApp.";
 
 export const exactFinalCtaBullets = [
   "Atendimento humanizado",
@@ -246,10 +246,9 @@ export const exactFinalCtaBullets = [
 
 export const exactFinalCtaCopy = {
   eyebrow: "PRONTA PARA CUIDAR DE VOCE?",
-  title: "Agende sua avaliacao e de o primeiro passo para pes saudaveis e sem dor.",
+  title: "Agende seu atendimento e de o primeiro passo para pes saudaveis e sem dor.",
   body:
     "Atendimento humanizado, explicacao clara do caso e retorno orientado para cada necessidade.",
-  primary: "AGENDAR AVALIACAO",
+  primary: "AGENDAR HORARIO",
   secondary: "FALAR PELO WHATSAPP",
 } as const;
-

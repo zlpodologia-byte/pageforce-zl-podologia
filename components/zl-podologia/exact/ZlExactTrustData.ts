@@ -8,32 +8,32 @@ export const zlExactAudienceCards = [
 ] as const;
 
 export const zlExactJourney = [
-  "Voce agenda sua avaliacao",
+  "Voce fala com a clinica pelo WhatsApp",
   "Recebemos voce com acolhimento e escuta",
-  "Avaliamos e indicamos o melhor tratamento",
+  "Lemos o caso e indicamos o melhor cuidado",
   "Realizamos o cuidado com tecnica e seguranca",
   "Voce sai com orientacoes personalizadas",
   "Acompanhamento para prevencao e resultados duradouros",
 ] as const;
 
 export const zlExactPodologyBullets = [
-  "Formacao em saude",
-  "Avalia, previne e trata",
+  "Zucarina conduz a podologia clinica",
+  "Leitura do caso antes do procedimento",
   "Indicado para dores e alteracoes",
   "Atendimento clinico e personalizado",
 ] as const;
 
-export const zlExactPedicureBullets = [
-  "Foco estetico",
-  "Nao trata patologias",
-  "Nao realiza diagnostico",
-  "Nao substitui atendimento clinico",
+export const zlExactTriageBullets = [
+  "Queixa organizada antes do horario",
+  "Foto ajuda quando o caso permite",
+  "Direcionamento para o servico adequado",
+  "Retorno sugerido quando faz sentido",
 ] as const;
 
 export const zlExactEducationCards = [
   {
-    title: "5 sinais de que voce precisa de uma avaliacao podologica",
-    body: "Dor, espicula, corte errado ou repeticao de encravamento ja pedem leitura clinica.",
+    title: "5 sinais de que voce precisa de atendimento podologico",
+    body: "Dor, borda inflamada, corte errado ou repeticao de encravamento ja pedem leitura clinica.",
     src: "/zl-podologia/social/edited-pro/procedimentos/aplicador-transparente-pro.jpg",
   },
   {
