@@ -23,6 +23,7 @@
     "zl:measure": "node scripts/zl-measure-fullpage.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "framer-motion": "^11.15.0",
     "gsap": "^3.12.5",
     "lenis": "^1.1.20",

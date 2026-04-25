@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { display, sans } from "@/lib/fonts";
 import {
@@ -46,6 +47,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${display.variable} ${sans.variable}`}>
       <body>
         {children}
+        <Analytics />
         <script
           id="organization-jsonld"
           type="application/ld+json"
