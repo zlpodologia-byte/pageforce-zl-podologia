@@ -13,7 +13,7 @@ export function ZlExactTrustHero() {
     <section className="border-b border-[#E7D7CC] bg-white/90">
       <div className="mx-auto grid max-w-[1440px] gap-8 px-4 pb-10 pt-8 lg:grid-cols-[0.92fr_1.08fr] lg:px-8 lg:pt-10">
         <Reveal as="div" className="flex flex-col justify-end">
-          <p className="text-[0.72rem] uppercase tracking-[0.3em] text-[#9A7F5C]">Cuidado que transforma</p>
+          <p className="text-[0.72rem] uppercase tracking-[0.3em] text-[#174F3F]">Cuidado que transforma</p>
           <h1 className="mt-5 max-w-[12ch] text-[clamp(3rem,6vw,5.6rem)] leading-[0.92] tracking-[-0.05em]" style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}>
             {zlTeamHeadline.title}
           </h1>
@@ -38,11 +38,11 @@ export function ZlExactTrustHero() {
               <div className="absolute bottom-4 left-4 right-4 rounded-[1.4rem] border border-white/60 bg-white/90 p-4 backdrop-blur">
                 <div className="grid gap-3 sm:grid-cols-2">
                   <div>
-                    <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#9A7F5C]">Podóloga responsável</p>
+                    <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#174F3F]">Podóloga responsável</p>
                     <p className="mt-1 text-[1rem] font-medium text-[#32261F]">{lead.name}</p>
                   </div>
                   <div className="border-t border-[#E8D9CE] pt-3 sm:border-l sm:border-t-0 sm:pl-4 sm:pt-0">
-                    <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#9A7F5C]">Reflexologista podal</p>
+                    <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#174F3F]">Reflexologista podal</p>
                     <p className="mt-1 text-[1rem] font-medium text-[#32261F]">{partner.name}</p>
                   </div>
                 </div>

@@ -11,13 +11,13 @@ import type { ReactNode } from "react";
  *    like a catalogo impresso without replacing the v7 bege outer wash.
  *
  *  - `ZlHeroOverlayCard` - editorial caption card placed over the hero
- *    photo. Uses rose `#B8837A` eyebrow + Fraunces italic body.
+ *    photo. Uses rose `#0F6B46` eyebrow + Fraunces italic body.
  *
  *  - `ZlHeroSquiggle` - 4 dots + 2 SVG curves, white/86 tint, placed on
  *    bottom-right of the hero photo to sign authorship.
  *
  * Palette discipline: these primitives only use the v8 fusion rose tokens
- * (`#B8837A`, `#C69184`, `#E6D2C7`, `#FFF4EF`, `#FBF7F4`). They never
+ * (`#0F6B46`, `#0F6B46`, `#E6D2C7`, `#FFF4EF`, `#FBF7F4`). They never
  * reach the legacy ambar `#EF9F27` from the `-exact` variant.
  */
 
@@ -41,10 +41,10 @@ export function ZlSceneEnvelope({
   const palette =
     tone === "rose-wash"
       ?"bg-[#FBF7F4] border-[#E6D2C7]"
-      : "bg-white border-[#E6DBC6]";
+      : "bg-white border-[#EFEAE4]";
   return (
     <div
-      className={`overflow-hidden rounded-[34px] border ${palette} shadow-[0_30px_90px_rgba(109,73,58,0.12)] ${className}`}
+      className={`overflow-hidden rounded-[34px] border ${palette} shadow-[0_30px_90px_rgba(23,79,63,0.12)] ${className}`}
     >
       {children}
     </div>
@@ -62,12 +62,12 @@ export function ZlSceneEnvelope({
  */
 export function ZlHeroOverlayCard() {
   return (
-    <div className="pointer-events-none absolute bottom-4 left-4 hidden rounded-[22px] border border-white/70 bg-white/82 p-3.5 shadow-[0_14px_32px_rgba(124,78,63,0.12)] backdrop-blur-sm sm:block md:bottom-5 md:left-5 md:p-4">
-      <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#B8837A] md:text-[0.66rem]">
+    <div className="pointer-events-none absolute bottom-4 left-4 hidden rounded-[22px] border border-white/70 bg-white/82 p-3.5 shadow-[0_14px_32px_rgba(23,79,63,0.12)] backdrop-blur-sm sm:block md:bottom-5 md:left-5 md:p-4">
+      <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#0F6B46] md:text-[0.66rem]">
         Fortaleza
       </p>
       <p
-        className="mt-1 text-[0.96rem] leading-[1.18] text-[#3A2E23] md:text-[1.05rem] md:leading-[1.2]"
+        className="mt-1 text-[0.96rem] leading-[1.18] text-[#26302B] md:text-[1.05rem] md:leading-[1.2]"
         style={{
           fontFamily: "var(--font-display)",
           fontWeight: 400,
@@ -146,17 +146,17 @@ export function ZlProofStripCard({
 }) {
   return (
     <div className="relative flex flex-col gap-3 border-t border-[#E6D2C7] px-5 py-5 first:border-t-0 md:border-t-0 md:border-r md:last:border-r-0">
-      <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#B8837A]">
+      <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#0F6B46]">
         {eyebrow}
       </p>
       <h3
-        className="text-[1.05rem] leading-[1.18] tracking-[-0.02em] text-[#3A2E23]"
+        className="text-[1.05rem] leading-[1.18] tracking-[-0.02em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {title}
       </h3>
-      <p className="text-[0.86rem] leading-[1.6] text-[#5C4A38]">{body}</p>
-      <span className="mt-auto flex h-10 w-10 items-center justify-center rounded-full border border-[#E6D2C7] bg-white text-[#C69184]">
+      <p className="text-[0.86rem] leading-[1.6] text-[#6F746F]">{body}</p>
+      <span className="mt-auto flex h-10 w-10 items-center justify-center rounded-full border border-[#E6D2C7] bg-white text-[#0F6B46]">
         {icon}
       </span>
     </div>
@@ -183,31 +183,31 @@ export function ZlCompareColumn({
   items: readonly string[];
   good: boolean;
 }) {
-  const iconColor = good ?"#1d9e75" : "#B8837A";
-  const borderColor = good ?"#cbe6d9" : "#eadfd8";
+  const iconColor = good ?"#1d9e75" : "#0F6B46";
+  const borderColor = good ?"#cbe6d9" : "#D9DAD7";
   const bg = good ?"#f4fbf7" : "#fffaf4";
   return (
     <div
       className="rounded-[1.4rem] border p-5 md:p-6"
       style={{ background: bg, borderColor }}
     >
-      <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
+      <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#0F6B46]">
         {good ?"Cuidado clínico" : "Direcionamento"}
       </p>
       <h3
-        className="mt-2 text-[clamp(1.3rem,1.9vw,1.7rem)] leading-[1.15] tracking-[-0.02em] text-[#3A2E23]"
+        className="mt-2 text-[clamp(1.3rem,1.9vw,1.7rem)] leading-[1.15] tracking-[-0.02em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {title}
       </h3>
-      <p className="mt-2 text-[0.88rem] leading-[1.6] text-[#5C4A38]">
+      <p className="mt-2 text-[0.88rem] leading-[1.6] text-[#6F746F]">
         {subtitle}
       </p>
       <ul className="mt-5 space-y-3">
         {items.map((item) => (
           <li
             key={item}
-            className="flex items-start gap-3 text-[0.92rem] leading-[1.55] text-[#3A2E23]"
+            className="flex items-start gap-3 text-[0.92rem] leading-[1.55] text-[#26302B]"
           >
             <span
               aria-hidden="true"

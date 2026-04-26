@@ -9,19 +9,19 @@ type ZlCtaLinkProps = {
 };
 
 export function ZlPrimaryLink({ href, label, icon, tone = "whatsapp" }: ZlCtaLinkProps) {
-  // v7-earthy: tone "blush" virou variante terracota/marrom (mantem o nome
-  // no enum pra nao quebrar refs; semantica visual e o que muda).
+  // Mantem o enum legado, mas a semantica visual agora segue a marca ZL:
+  // verde institucional, porcelana e linhas clinicas discretas.
   const toneClasses =
     tone === "blush"
-      ?"bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white shadow-[0_16px_40px_rgba(122,98,68,0.28)] hover:shadow-[0_20px_52px_rgba(122,98,68,0.36)]"
+      ?"bg-[linear-gradient(135deg,#174F3F_0%,#0F6B46_100%)] text-white shadow-[0_16px_40px_rgba(23,79,63,0.24)] hover:shadow-[0_20px_52px_rgba(23,79,63,0.32)]"
       : tone === "ghost"
-      ?"border border-[#D2C3A6] bg-white text-[#3A2E23] hover:border-[#B89B77]"
-      : "bg-[linear-gradient(135deg,#25d366_0%,#128c7e_100%)] text-white shadow-[0_16px_40px_rgba(18,140,126,0.28)] hover:shadow-[0_20px_52px_rgba(18,140,126,0.36)]";
+      ?"border border-[#D9DAD7] bg-white text-[#0F6B46] hover:border-[#0F6B46]"
+      : "bg-[linear-gradient(135deg,#0F6B46_0%,#174F3F_100%)] text-white shadow-[0_16px_40px_rgba(15,107,70,0.24)] hover:shadow-[0_20px_52px_rgba(15,107,70,0.32)]";
 
   // Trailing icon circle.
   const iconCircleTone =
     tone === "ghost"
-      ?"bg-[#3A2E23]/6 text-[#3A2E23]"
+      ?"bg-[#0F6B46]/8 text-[#0F6B46]"
       : "bg-white/20 text-white";
 
   return (
@@ -51,9 +51,9 @@ export function ZlSecondaryLink({ href, label, icon }: ZlCtaLinkProps) {
       href={href}
       target="_blank"
       rel="noreferrer"
-      className="group inline-flex items-center gap-2 rounded-full border border-[#D2C3A6] bg-white/80 px-5 py-3 text-[0.78rem] font-medium tracking-[0.04em] text-[#5C4A38] backdrop-blur-sm transition-all duration-500 [transition-timing-function:var(--ease-haptic)] hover:border-[#B89B77] hover:bg-white hover:text-[#3A2E23] active:scale-[0.98]"
+      className="group inline-flex items-center gap-2 rounded-full border border-[#D9DAD7] bg-white/84 px-5 py-3 text-[0.78rem] font-medium tracking-[0.04em] text-[#26302B] backdrop-blur-sm transition-all duration-500 [transition-timing-function:var(--ease-haptic)] hover:border-[#0F6B46] hover:bg-white hover:text-[#0F6B46] active:scale-[0.98]"
     >
-      {icon ?<span className="flex h-4 w-4 items-center justify-center text-[#7A6244]">{icon}</span> : null}
+      {icon ?<span className="flex h-4 w-4 items-center justify-center text-[#0F6B46]">{icon}</span> : null}
       <span>{label}</span>
     </Link>
   );

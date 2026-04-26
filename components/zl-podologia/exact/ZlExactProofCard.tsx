@@ -17,7 +17,7 @@ export function ProofCard({
 
   return (
     <div className="min-h-full border-b border-[#EADDD6] p-5 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0">
-      <p className="text-[0.68rem] uppercase tracking-[0.24em] text-[#C69184]">
+      <p className="text-[0.68rem] uppercase tracking-[0.24em] text-[#0F6B46]">
         {eyebrow}
       </p>
       <p

@@ -20,23 +20,36 @@ export function ZlFooterSection() {
     `${zlLocation.streetAddress}, ${zlLocation.district}, ${zlLocation.city}`
   )}&hl=pt-BR&z=17&output=embed`;
   const footerPillClassName =
-    "inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/20 backdrop-blur-sm transition-colors hover:bg-white/15";
+    "inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/18 backdrop-blur-sm transition-colors hover:bg-white/15";
 
   return (
-    <footer className="relative border-t border-[#574433] bg-[#3A2E23] text-white/85">
+    <footer className="relative border-t border-[#8EA08E]/35 bg-[#174F3F] text-white/86">
       <div className="container-x mx-auto max-w-[1440px] py-9 lg:py-11">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,0.84fr)_minmax(0,1.16fr)] lg:items-stretch">
           <div className="flex h-full flex-col gap-6">
             <div className="flex flex-col gap-5">
-              <span className="relative flex h-[4.35rem] w-[17rem] max-w-full shrink-0 overflow-hidden">
-                <Image
-                  src="/zl-podologia/brand/logo-premium-dark-2026-04-22.png"
-                  alt="Marca reformulada da ZL Podologia"
-                  fill
-                  sizes="(min-width: 1024px) 272px, 220px"
-                  className="object-contain object-left"
-                />
-              </span>
+              <div className="flex items-center gap-4">
+                <span className="relative flex h-16 w-16 shrink-0 overflow-hidden rounded-full border border-white/20 bg-white shadow-[0_14px_32px_rgba(0,0,0,0.12)]">
+                  <Image
+                    src="/zl-podologia/brand/zl-logo-green-seal-2026-04-26.png"
+                    alt="Marca da ZL Podologia"
+                    fill
+                    sizes="64px"
+                    className="object-cover"
+                  />
+                </span>
+                <div>
+                  <p
+                    className="text-[1.75rem] leading-[0.9] tracking-[0.08em] text-white"
+                    style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}
+                  >
+                    ZL
+                  </p>
+                  <p className="mt-1 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-white/74">
+                    Podologia
+                  </p>
+                </div>
+              </div>
 
               <div itemScope itemType="https://schema.org/LocalBusiness">
                 <meta itemProp="name" content="ZL Podologia" />
@@ -100,7 +113,7 @@ export function ZlFooterSection() {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/15 bg-[linear-gradient(180deg,rgba(255,255,255,0.08)_0%,rgba(255,255,255,0.03)_100%)] shadow-[0_22px_54px_rgba(15,10,6,0.18)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/15 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(255,255,255,0.035)_100%)] shadow-[0_22px_54px_rgba(8,32,25,0.2)]">
             <iframe
               title="Previa do mapa da ZL Podologia em Fortaleza"
               src={footerMapPreviewSrc}
@@ -108,7 +121,7 @@ export function ZlFooterSection() {
               loading="lazy"
               tabIndex={-1}
             />
-            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(58,46,35,0.14)_0%,rgba(58,46,35,0.52)_100%)]" />
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(23,79,63,0.12)_0%,rgba(23,79,63,0.56)_100%)]" />
 
             <a
               href={zlLinks.maps}
@@ -124,7 +137,7 @@ export function ZlFooterSection() {
                 <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[0.62rem] uppercase tracking-[0.2em] text-white/88 backdrop-blur-sm">
                   Mapa oficial
                 </span>
-                <span className="inline-flex items-center gap-2 rounded-full bg-[#D97E73] px-3 py-1.5 text-[0.68rem] font-medium uppercase tracking-[0.14em] text-white shadow-[0_12px_28px_rgba(217,126,115,0.24)]">
+                <span className="inline-flex items-center gap-2 rounded-full bg-[#0F6B46] px-3 py-1.5 text-[0.68rem] font-medium uppercase tracking-[0.14em] text-white shadow-[0_12px_28px_rgba(15,107,70,0.24)]">
                   <ZlPinIcon />
                   <span>Abrir no Google Maps</span>
                 </span>

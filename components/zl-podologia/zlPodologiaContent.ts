@@ -14,6 +14,8 @@ export const ZL_WHATSAPP_SOURCES = [
   "explorer_orthosis",
   "explorer_laser",
   "explorer_podoprofilaxia",
+  "explorer_plantar_wart",
+  "explorer_tungiasis",
   "explorer_reflexology",
   "explorer_diabetic",
   "quiz_result",
@@ -104,7 +106,7 @@ export const zlLinks = {
     "gbp_post_launch"
   ),
   whatsappPackages: buildWhatsappLink(
-    "Oi, gostaria de saber sobre pacotes e plano mensal de cuidados na ZL Podologia.",
+    "Oi, gostaria de saber sobre um plano de cuidado personalizado na ZL Podologia.",
     "packages"
   ),
   whatsappNoivaSublime: buildWhatsappLink(
@@ -147,7 +149,7 @@ export const zlContact = {
 export const zlHeroProof = [
   { label: "Nota Google", value: "5,0", caption: "11 avaliações públicas, cuidado artesanal." },
   { label: "Atendimento", value: "Ter - Sab", caption: "Fortaleza, hora marcada." },
-  { label: "Triagem", value: "Leitura clínica", caption: "Relato e foto quando ajuda." },
+  { label: "Triagem", value: "Leitura clínica", caption: "Direcionamento antes do horário." },
 ] as const;
 
 /* ------------------------------------------------------------------ */
@@ -235,7 +237,7 @@ export const zlComparePodology = {
       "Dor, inflamação, fungos e calos recebem direcionamento específico.",
       "A clínica indica o serviço mais adequado antes de reservar o horário.",
       "O retorno só é sugerido quando faz sentido para o caso.",
-      "Jannie atua na reflexologia podal e no bem-estar complementar.",
+      "Jannié atua na reflexologia podal e no bem-estar complementar.",
     ],
   },
 } as const;
@@ -284,6 +286,8 @@ export type ZlServiceId =
   | "orthosis"
   | "laser"
   | "podoprofilaxia"
+  | "plantar_wart"
+  | "tungiasis"
   | "reflexology"
   | "diabetic";
 
@@ -297,7 +301,9 @@ export type ZlServiceId =
  * 3. Órtese — diferencial técnico (promovido de sub-variante v7a)
  * 4. Laserterapia — alto valor percebido (promovido de sub-variante v7a)
  * 5. Podoprofilaxia — porta de entrada, mais volumoso hoje
- * 6. Reflexologia podal — bem-estar
+ * 6. Verruga plantar — lesão dolorosa na sola do pé
+ * 7. Tungíase — bicho de pé, atendimento local direcionado
+ * 8. Reflexologia podal — bem-estar
  *
  * Pé diabético não entra como card principal (default: sub-variante de
  * Podoprofilaxia + linha no Pricing). Pre-Wedding removido do Explorer
@@ -309,6 +315,8 @@ export const ZL_MAIN_SERVICE_IDS: readonly ZlServiceId[] = [
   "orthosis",
   "laser",
   "podoprofilaxia",
+  "plantar_wart",
+  "tungiasis",
   "reflexology",
 ] as const;
 
@@ -383,10 +391,10 @@ export interface ZlInteractiveService {
 export const zlInteractiveServices: readonly ZlInteractiveService[] = [
   {
     id: "ingrown",
-    menuLabel: "Unha encravada",
-    title: "Alívio para unha encravada em Fortaleza",
-    price: "R$ 150 (simples) | R$ 200 (com inflamação)",
-    pain: "Dor que impede de caminhar direito, inflamação persistente e corte errado em casa que só piora.",
+    menuLabel: "Onicocriptose",
+    title: "Unha encravada (onicocriptose)",
+    price: "Grau 1: a partir de R$ 150 | Graus 2 e 3: a partir de R$ 200",
+    pain: "Dor, inflamação e sensibilidade ao calçar ou caminhar.",
     promise:
       "A podóloga avalia o canto da unha, identifica o que está causando dor e explica o cuidado indicado antes de começar. Quando há necessidade, remove a parte da unha que machuca a pele com técnica adequada e orienta o retorno para reduzir a chance de voltar a encravar.",
     visualLabel: "Protocolo real para aliviar a dor",
@@ -403,6 +411,8 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       "Orientação pós-procedimento e retorno quando necessário.",
     ],
     includes: [
+      "Grau 1: a partir de R$ 150",
+      "Graus 2 e 3: a partir de R$ 200",
       "Leitura do canto da unha e do grau de desconforto",
       "Procedimento indicado conforme o estado do dedo",
       "Orientação de calçado e cuidado em casa nos primeiros dias",
@@ -410,9 +420,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     ],
     subVariants: [
       {
-        title: "Encravada com inflamação",
-        price: "R$ 200",
-        body: "Quando há inflamação ou infecção localizada, a conduta exige mais cuidado e o valor sobe - sempre explicado antes do procedimento.",
+        title: "Graus 2 e 3",
+        price: "A partir de R$ 200",
+        body: "Quando há inflamação mais evidente, a conduta exige mais cuidado e o valor é explicado antes do procedimento.",
       },
     ],
     photo: {
@@ -426,18 +436,18 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
   },
   {
     id: "fungus",
-    menuLabel: "Fungos",
-    title: "Protocolo para fungos nas unhas",
+    menuLabel: "Onicomicose",
+    title: "Onicomicose (fungos)",
     price: "R$ 100 por unha por sessão",
-    pain: "Unha amarelada, grossa, frágil e receio de mostrar os pés.",
+    pain: "Unha amarelada, grossa, frágil ou com odor persistente.",
     promise:
-      "Leitura do caso, protocolo estruturado e expectativa honesta sobre tempo de resposta. O laser entra como camada complementar quando o caso indica - parte dos tratamentos avançados de fungos (R$ 100 por sessão).",
+      "Tratamento para eliminar fungos e recuperar a saúde das unhas com leitura do caso, protocolo estruturado e expectativa honesta sobre tempo de resposta. O laser entra como camada complementar quando o caso indica.",
     visualLabel: "Protocolo com acompanhamento",
     visualSupport: "Tratamento organizado sessão a sessão, sem promessa milagrosa.",
     highlights: [
       "Melhora pede continuidade, não sessão solta.",
       "Conversa honesta sobre tempo e cuidado em casa.",
-      "Pacotes de tratamento são montados conforme o caso.",
+      "Planos de cuidado são montados conforme o caso.",
     ],
     steps: [
       "Leitura inicial do aspecto da unha e do histórico.",
@@ -448,7 +458,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       {
         title: "Tratamento avançado de fungos",
         price: "R$ 100 por sessão",
-        body: "Casos que pedem protocolo mais intenso, com avaliação podológica aprofundada antes de iniciar.",
+        body: "Casos que pedem protocolo mais intenso, com leitura clínica antes de iniciar.",
       },
     ],
     photo: {
@@ -461,10 +471,10 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
   },
   {
     id: "orthosis",
-    menuLabel: "Órtese",
-    title: "Órtese para correção da curvatura da unha",
+    menuLabel: "Órtese ungueal",
+    title: "Órtese ungueal (anteparos)",
     price: "R$ 60 (simples) | R$ 100 (metálica) por unha",
-    pain: "Unha que volta a encravar a cada semana e dor recorrente.",
+    pain: "Correção da curvatura da unha, aliviando a dor e prevenindo encravamento.",
     promise:
       "Quando o caso pede, a órtese ajuda a reorganizar a curvatura e deixa a recuperação mais confortável. Existem duas versões: órtese simples (R$ 60 por unha) e órtese metálica (R$ 100 por unha), escolhidas a partir da avaliação do canto da unha.",
     visualLabel: "Correção de curvatura",
@@ -536,7 +546,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     menuLabel: "Podoprofilaxia",
     title: "Podoprofilaxia completa (profilaxia técnica)",
     price: "R$ 100 dinheiro | R$ 105 cartão",
-    pain: "Calos, aspereza, desconforto e pés pesados no fim do dia.",
+    pain: "Limpeza e cuidados preventivos para manter os pés saudáveis.",
     promise:
       "Cuidado completo de pele e unhas - a profilaxia técnica dos pés - com limpeza, corte técnico, desbaste e hidratação em uma só sessão. Serviço mais vendido hoje e porta de entrada mais volumosa da clínica.",
     visualLabel: "Cuidado completo de pele e unhas",
@@ -569,9 +579,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
         body: "Sessão adaptada ao caso - paciência, ritmo próprio e atenção à pele mais fina.",
       },
       {
-        title: "Remoção de verruga plantar",
-        price: "R$ 100 por sessão",
-        body: "Tratamento local quando a avaliação identifica a necessidade.",
+        title: "Verruga plantar",
+        price: "Direcionamento pelo WhatsApp",
+        body: "Dor ao pisar causada por lesão na sola do pé, com cuidado definido conforme a avaliação do caso.",
       },
     ],
     photo: {
@@ -583,20 +593,78 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     whatsappSource: "explorer_podoprofilaxia",
   },
   {
+    id: "plantar_wart",
+    menuLabel: "Verruga plantar",
+    title: "Verruga plantar",
+    price: "Direcionamento pelo WhatsApp",
+    pain: "Dor ao pisar causada por lesão na sola do pé.",
+    promise:
+      "A clínica entende a queixa, observa a região e direciona o cuidado adequado quando há suspeita de verruga plantar. O procedimento e a continuidade são definidos conforme a avaliação do caso.",
+    visualLabel: "Lesão dolorosa na sola do pé",
+    visualSupport: "Leitura local, cuidado direcionado e orientação de retorno.",
+    highlights: [
+      "Procure atendimento quando a dor aparece ao apoiar o pé.",
+      "A foto pelo WhatsApp ajuda a orientar a conversa inicial.",
+      "A conduta presencial é explicada antes do procedimento.",
+    ],
+    steps: [
+      "Escuta da queixa e observação da região dolorida.",
+      "Confirmação presencial do cuidado indicado.",
+      "Orientação sobre retorno e cuidados em casa.",
+    ],
+    photo: {
+      src: "/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
+      alt: "Atendimento técnico da ZL Podologia em Fortaleza para cuidado local nos pés",
+    },
+    ctaLabel: "Quero avaliar essa dor",
+    ctaWhatsappMessage:
+      "Oi, estou com dor na sola do pé e queria orientação da ZL Podologia.",
+    whatsappSource: "explorer_plantar_wart",
+  },
+  {
+    id: "tungiasis",
+    menuLabel: "Tungíase",
+    title: "Tungíase (Bicho de pé)",
+    price: "Direcionamento pelo WhatsApp",
+    pain: "Lesão dolorosa na pele causada por parasita.",
+    promise:
+      "Quando há suspeita de tungíase, a ZL orienta o próximo passo pelo WhatsApp e confirma presencialmente a conduta adequada. O foco é cuidado seguro, higiene da região e orientação clara.",
+    visualLabel: "Cuidado local com segurança",
+    visualSupport: "Direcionamento prévio e procedimento conforme o caso.",
+    highlights: [
+      "A clínica pode orientar pelo WhatsApp antes de reservar o horário.",
+      "O procedimento é definido com leitura presencial da região.",
+      "A orientação em casa evita manipulação inadequada.",
+    ],
+    steps: [
+      "Você explica a queixa e pode enviar foto quando ajuda.",
+      "A profissional confirma o cuidado indicado presencialmente.",
+      "A orientação final explica higiene, proteção e retorno se necessário.",
+    ],
+    photo: {
+      src: "/zl-podologia/social/edited-pro/procedimentos/pos-cuidado-curativo-pro.jpg",
+      alt: "Cuidado local com curativo técnico e orientação na ZL Podologia Fortaleza",
+    },
+    ctaLabel: "Quero orientação",
+    ctaWhatsappMessage:
+      "Oi, estou com suspeita de bicho de pé e queria orientação da ZL Podologia.",
+    whatsappSource: "explorer_tungiasis",
+  },
+  {
     id: "reflexology",
     menuLabel: "Reflexologia",
-    title: "Reflexologia podal (Relaxante e Terapêutica)",
+    title: "Reflexologia podal (Relaxante e terapêutica)",
     price: "R$ 80 a R$ 150",
     tagline:
       "Talvez o que seu corpo esteja pedindo seja só um momento de cuidado e pausa.",
     pain: "Estresse constante, cansaço no corpo, ansiedade, dores crônicas, tensão muscular e necessidade de relaxar de verdade.",
     promise:
-      "A reflexologia podal usa estímulos em pontos específicos dos pés ligados a diferentes partes do corpo. Como reflexoterapeuta, realizo atendimentos personalizados em duas modalidades: Relaxante (para descanso e alívio do dia a dia) e Terapêutica (pontos reflexos de órgãos e sistemas, como apoio para dores crônicas, ansiedade, fibromialgia e desequilíbrios). Cada sessão é direcionada à sua necessidade - terapia complementar que busca estimular o equilíbrio natural do corpo.",
+      "A reflexologia podal pode seguir duas frentes: Relaxante, para pausa e descanso, e Terapêutica, com pontos dirigidos conforme a necessidade. Jannié conduz o atendimento como reflexoterapeuta podal, com escuta individual, ritmo calmo e foco em bem-estar.",
     visualLabel: "Pausa guiada para o corpo",
     visualSupport: "Ritmo calmo, pontos dirigidos e ambiente terapêutico.",
     highlights: [
-      "Duas modalidades: Relaxante (descanso) e Terapêutica (pontos reflexos dirigidos).",
-      "Terapia complementar com autoridade de reflexoterapeuta.",
+      "Relaxante: Técnica suave que promove relaxamento e alívio do estresse.",
+      "Terapêutica: Estimulação de pontos específicos para equilíbrio e bem-estar do organismo.",
       "Atende quem chega por bem-estar e quem chega com dor crônica ou ansiedade.",
     ],
     steps: [
@@ -606,8 +674,8 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       "Momento de pausa: você sai mais leve, mais presente e com o corpo em equilíbrio.",
     ],
     includes: [
-      "Modalidade Relaxante: estresse, cansaço físico e mental, descanso profundo",
-      "Modalidade Terapêutica: dores crônicas, tensão muscular, ansiedade, fibromialgia, desequilíbrios",
+      "Relaxante: Técnica suave que promove relaxamento e alívio do estresse",
+      "Terapêutica: Estimulação de pontos específicos para equilíbrio e bem-estar do organismo",
       "Sessão personalizada respeitando necessidade individual",
       "Ambiente calmo, sem pressa entre pacientes",
     ],
@@ -615,12 +683,12 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       {
         title: "Reflexologia Relaxante",
         price: "R$ 80 a R$ 100",
-        body: "Para excesso de estresse, cansaço do dia a dia e necessidade de descanso profundo.",
+        body: "Técnica suave que promove relaxamento e alívio do estresse.",
       },
       {
         title: "Reflexologia Terapêutica",
         price: "R$ 100 a R$ 150",
-        body: "Pontos reflexos dirigidos a órgãos e sistemas. Apoia alívio de dores crônicas, ansiedade, fibromialgia e desequilíbrios do organismo.",
+        body: "Estimulação de pontos específicos para equilíbrio e bem-estar do organismo.",
       },
       {
         title: "Massagem terapêutica",
@@ -719,16 +787,16 @@ export const zlIllustratedCases: readonly ZlIllustratedCase[] = [
   {
     title: "Fungos nas unhas",
     tag: "Protocolo",
-    before: "Unha opaca, grossa ou frágil, sem clareza de tratamento.",
-    after: "Protocolo definido, acompanhamento visual e leitura honesta do tempo.",
-    note: "Registro visual do início do cuidado e acompanhamento do aspecto da unha ao longo do protocolo.",
+    before: "Alteração visível na unha, com espessamento e mudança de cor.",
+    after: "Registro de acompanhamento para orientar o protocolo e a continuidade.",
+    note: "Registro clínico autorizado para mostrar alteração ungueal e acompanhamento do aspecto da unha ao longo do protocolo.",
     beforePhoto: {
-      src: "/zl-podologia/social/procedimentos/azul-metileno-04.jpg",
-      alt: "Antes: hálux com alteração de cor e aspecto da unha no início do protocolo para fungos na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/fungos-protocolo-2026-04-26-01.jpeg",
+      alt: "Registro autorizado de caso de fungos nas unhas com alteração de cor e espessamento antes do direcionamento clínico na ZL Podologia Fortaleza",
     },
     afterPhoto: {
-      src: "/zl-podologia/social/procedimentos/azul-metileno-05-par.jpg",
-      alt: "Depois: dois pés lado a lado durante acompanhamento do protocolo para fungos nas unhas na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/fungos-protocolo-2026-04-26-02.jpeg",
+      alt: "Registro autorizado de acompanhamento de caso de fungos nas unhas na ZL Podologia Fortaleza",
     },
   },
   {
@@ -773,7 +841,7 @@ export const zlValueSectionCopy = {
   eyebrow: "Valores e continuidade",
   title: "Valores, retornos e continuidade do cuidado.",
   body:
-    "Valores dos atendimentos, retornos, pacotes e presentes da ZL, com clareza sobre cada etapa.",
+    "Valores dos atendimentos, retornos, plano de cuidado personalizado e presentes da ZL, com clareza sobre cada etapa.",
 } as const;
 
 export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
@@ -791,7 +859,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
       {
         label: "Desbaste de calos (isolado)",
         price: "R$ 100",
-        note: "Remoção pontual de calos e calosidades fora do pacote de profilaxia.",
+        note: "Remoção pontual de calos e calosidades fora da podoprofilaxia completa.",
       },
       {
         label: "Hidratação de parafina",
@@ -811,25 +879,30 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
     subtitle: "Quando o pé já pede procedimento técnico e alívio rápido.",
     rows: [
       {
-        label: "Unha encravada simples",
-        price: "R$ 150",
-        note: "Alívio técnico da parte que machuca a pele, com orientação de retorno.",
+        label: "Unha encravada (onicocriptose) - Grau 1",
+        price: "A partir de R$ 150",
+        note: "Dor inicial ou desconforto localizado, com orientação de retorno.",
         tone: "accent",
       },
       {
-        label: "Unha encravada com inflamação",
-        price: "R$ 200",
-        note: "Protocolo mais intenso a critério da avaliação podológica.",
+        label: "Unha encravada (onicocriptose) - Graus 2 e 3",
+        price: "A partir de R$ 200",
+        note: "Quando há inflamação mais evidente, a conduta exige mais cuidado.",
       },
       {
         label: "Tratamento de fungos (onicomicose)",
         price: "R$ 100 por unha por sessão",
-        note: "Protocolo progressivo - resultado exige continuidade e cuidado em casa.",
+        note: "Tratamento para eliminar fungos e recuperar a saúde das unhas com continuidade e cuidado em casa.",
       },
       {
-        label: "Remoção de verruga plantar",
-        price: "R$ 100 por sessão",
-        note: "Tratamento local quando a avaliação identifica a necessidade.",
+        label: "Verruga plantar",
+        price: "Direcionamento pelo WhatsApp",
+        note: "Dor ao pisar causada por lesão na sola do pé, com conduta definida conforme o caso.",
+      },
+      {
+        label: "Tungíase (Bicho de pé)",
+        price: "Direcionamento pelo WhatsApp",
+        note: "Lesão dolorosa na pele causada por parasita, com conduta definida conforme o caso.",
       },
       {
         label: "Atendimento para idosos",
@@ -861,12 +934,12 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
       {
         label: "Tratamento avançado de fungos",
         price: "R$ 100 por sessão",
-        note: "Protocolo mais intenso - requer avaliação podológica aprofundada.",
+        note: "Protocolo mais intenso - requer leitura clínica antes de iniciar.",
       },
       {
         label: "Reflexologia podal",
-        price: "R$ 80 a R$ 100",
-        note: "Camada de bem-estar com contexto terapêutico.",
+        price: "R$ 80 a R$ 150",
+        note: "Relaxante e terapêutica, conforme necessidade indicada no atendimento.",
       },
       {
         label: "Massagem terapêutica",
@@ -883,12 +956,12 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
 ] as const;
 
 /**
- * Rodapé do Pricing — notas finais (pacotes, plano mensal, Pre-Wedding,
+ * Rodapé do Pricing — notas finais (plano de cuidado, Pre-Wedding,
  * pagamento). Centraliza a copy pra não dispersar detalhes.
  */
 export const zlPricingFooterNotes = [
   "A clínica não cobra avaliação isolada: o primeiro direcionamento acontece pelo WhatsApp, com relato e foto quando ajuda.",
-  "Pacotes e plano mensal de cuidados são montados no WhatsApp conforme o caso.",
+  "Seu plano de cuidado personalizado é montado no atendimento para garantir melhores resultados e continuidade dos cuidados.",
   "Também há experiências e presentes sob medida, inclusive Pre-Wedding terapêutica.",
   "Pagamento em dinheiro ou cartão; em alguns serviços o cartão acrescenta R$ 5.",
 ] as const;
@@ -901,7 +974,7 @@ export const zlPricing: readonly ZlPricingRow[] = zlPricingGroups.flatMap(
 
 export const zlTeamValues = [
   "Atendimento humanizado do primeiro contato ao retorno.",
-  "Podóloga responsável na condução clínica e reflexologista podal no cuidado complementar.",
+  "Podóloga responsável na condução clínica e reflexoterapeuta podal no cuidado complementar.",
   "Ritual de cuidado que combina técnica, delicadeza e orientação clara.",
   "Sala reservada, hora marcada e sem correria entre pacientes.",
 ] as const;
@@ -965,20 +1038,20 @@ export const zlProfessionals: readonly ZlProfessional[] = [
     },
   },
   {
-    name: "Jannie",
-    role: "Reflexologista podal",
+    name: "Jannié",
+    role: "Reflexoterapeuta podal",
     description:
-      "Reflexologista podal da ZL, atenciosa no cuidado de bem-estar e continuidade da experiência da clínica.",
-    bio: "Eu sou a Jannie. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
+      "Reflexoterapeuta podal da ZL, atenciosa no cuidado de bem-estar e continuidade da experiência da clínica.",
+    bio: "Eu sou a Jannié. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
     handle: "@jannier.silva412",
-    // v7-earthy BLOCO B: foto real da Jannie em jannie-retrato.jpg — wide
-    // shot top-down da sala onde Jannie aparece sentada de jaleco verde,
+    // v7-earthy BLOCO B: foto real da Jannié em jannie-retrato.jpg — wide
+    // shot top-down da sala onde Jannié aparece sentada de jaleco verde,
     // óculos e cabelo preto curto, à esquerda-centro do frame. O crop via
     // object-position customizado no ZlProfessionalHero centraliza nela.
     // cropProtected=false — autorização LGPD já coberta pela mesma política.
     photo: {
       src: "/zl-podologia/social/equipe/jannie-retrato.jpg",
-      alt: "Jannie, reflexologista podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
+      alt: "Jannié, reflexoterapeuta podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
       cropProtected: false,
     },
   },
@@ -986,9 +1059,9 @@ export const zlProfessionals: readonly ZlProfessional[] = [
 
 export const zlTeamHeadline = {
   eyebrow: "Quem cuida dos seus pés",
-  title: "Zucarina na podologia clínica e Jannie na reflexologia podal.",
+  title: "Zucarina na podologia clínica e Jannié na reflexologia podal.",
   body:
-    "Zucarina conduz os procedimentos de podologia. Jannie atua na reflexologia podal e no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
+    "Zucarina conduz os procedimentos de podologia. Jannié atua como reflexoterapeuta podal no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
 } as const;
 
 export const zlConsultFlow = [
@@ -1024,7 +1097,7 @@ export const zlFaq = [
   },
   {
     q: "Atende casos com dor ou unha inflamada?",
-    a: "Sim. Esses são justamente os casos prioritários: o ideal é avaliar logo para evitar piora e orientar a continuidade. Unha encravada simples: R$ 150. Com inflamação: R$ 200 (a critério da avaliação).",
+    a: "Sim. Esses são justamente os casos prioritários: o ideal é avaliar logo para evitar piora e orientar a continuidade. Unha encravada (onicocriptose): grau 1 a partir de R$ 150; graus 2 e 3 a partir de R$ 200, conforme o caso.",
   },
   {
     q: "Qual a diferença entre avaliação e procedimento?",
@@ -1039,8 +1112,8 @@ export const zlFaq = [
     a: "Atende sim, com cuidado extra na avaliação, segurança e orientação de manutenção. Pé diabético: R$ 120. Atendimento para idosos: R$ 100 a R$ 180 conforme o caso.",
   },
   {
-    q: "Tem pacotes de tratamento ou plano mensal?",
-    a: "Sim, há pacotes de tratamento e plano mensal de cuidados sob consulta. O acompanhamento é organizado conforme o caso, com preço personalizado. É só perguntar pelo WhatsApp.",
+    q: "Como funciona o plano de cuidado?",
+    a: "Sim. A ZL monta seu plano de cuidado personalizado no atendimento para garantir melhores resultados e continuidade dos cuidados. É só perguntar pelo WhatsApp.",
   },
   {
     q: "Posso agendar pelo WhatsApp?",
@@ -1238,7 +1311,11 @@ export const zlBiosafetyNote =
 export type ZlSymptomKind =
   | "pain"
   | "odor"
+  | "orthosis"
+  | "laser"
   | "heel"
+  | "wart"
+  | "tungiasis"
   | "prevention"
   | "eventos";
 
@@ -1257,38 +1334,59 @@ export interface ZlSymptom {
 export const zlSymptoms: readonly ZlSymptom[] = [
   {
     kind: "pain",
-    title: "Dor e inflamação",
-    body: "Dor ao calçar, unha encravando ou borda inflamada que não cede.",
+    title: "Onicocriptose (unha encravada)",
+    body: "Dor, inflamação e sensibilidade ao calçar ou caminhar.",
     primaryService: "ingrown",
-    related: ["Unha encravada", "Órtese"],
+    related: ["Dor", "Inflamação"],
   },
   {
     kind: "odor",
-    title: "Alterações e odor",
-    body: "Unha amarelada, grossa, frágil ou com odor persistente.",
+    title: "Onicomicose (fungos)",
+    body: "Tratamento para eliminar fungos e recuperar a saúde das unhas.",
     primaryService: "fungus",
-    related: ["Onicomicose", "Frieira"],
+    related: ["Fungos", "Unhas"],
+  },
+  {
+    kind: "orthosis",
+    title: "Órtese ungueal (anteparos)",
+    body: "Correção da curvatura da unha, aliviando a dor e prevenindo encravamento.",
+    primaryService: "orthosis",
+    related: ["Curvatura", "Recorrência"],
+  },
+  {
+    kind: "laser",
+    title: "Laserterapia",
+    body: "Auxilia no tratamento de fungos e inflamações, acelerando a recuperação.",
+    primaryService: "laser",
+    related: ["Apoio clínico", "Recuperação"],
   },
   {
     kind: "heel",
-    title: "Calcanhares severos",
-    body: "Fissuras profundas, calos extensos e pele rachada.",
+    title: "Podoprofilaxia",
+    body: "Limpeza e cuidados preventivos para manter os pés saudáveis.",
     primaryService: "podoprofilaxia",
-    related: ["Fissuras", "Calo profundo"],
+    related: ["Limpeza", "Prevenção"],
+  },
+  {
+    kind: "wart",
+    title: "Verruga plantar",
+    body: "Dor ao pisar causada por lesão na sola do pé.",
+    primaryService: "plantar_wart",
+    related: ["Sola do pé", "Dor ao pisar"],
+  },
+  {
+    kind: "tungiasis",
+    title: "Tungíase (Bicho de pé)",
+    body: "Lesão dolorosa na pele causada por parasita.",
+    primaryService: "tungiasis",
+    related: ["Bicho de pé", "Pele"],
   },
   {
     kind: "prevention",
-    title: "Prevenção e manutenção",
-    body: "Pés em ordem, manutenção regular e bem-estar.",
-    primaryService: "podoprofilaxia",
-    related: ["Podoprofilaxia", "Reflexologia podal"],
-  },
-  {
-    kind: "eventos",
-    title: "Bem-estar e relaxamento",
-    body: "Estresse, tensão acumulada ou momento de pausa antes de um dia especial.",
+    title: "Reflexologia podal (Relaxante e terapêutica)",
+    body: "Relaxante: Técnica suave que promove relaxamento e alívio do estresse. Terapêutica: Estimulação de pontos específicos para equilíbrio e bem-estar do organismo.",
     primaryService: "reflexology",
-    related: ["Reflexologia", "Massagem terapêutica"],
+    related: ["Relaxante", "Terapêutica"],
   },
 ] as const;
 
@@ -1322,6 +1420,8 @@ export const zlQuizQuestions: readonly ZlQuizQuestion[] = [
       { value: "espessamento", label: "Espessamento", service: "podoprofilaxia" },
       { value: "cor-odor", label: "Cor ou odor", service: "fungus" },
       { value: "prevencao", label: "Prevenção", service: "podoprofilaxia" },
+      { value: "verruga", label: "Verruga plantar", service: "plantar_wart" },
+      { value: "tungiase", label: "Bicho de pé", service: "tungiasis" },
       { value: "tensao", label: "Tensão / cansaço", service: "reflexology" },
       { value: "pele-fina", label: "Pele fina ou diabete", service: "diabetic" },
     ],
@@ -1333,7 +1433,7 @@ export const zlQuizQuestions: readonly ZlQuizQuestion[] = [
       { value: "dedao", label: "Dedão (hálux)", service: "ingrown" },
       { value: "borda", label: "Borda da unha", service: "ingrown" },
       { value: "calcanhar", label: "Calcanhar", service: "podoprofilaxia" },
-      { value: "sola", label: "Sola do pé", service: "reflexology" },
+      { value: "sola", label: "Sola do pé", service: "plantar_wart" },
       { value: "todos", label: "Todos os pontos", service: "podoprofilaxia" },
     ],
   },
@@ -1445,7 +1545,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     firstName: "Ivia D.",
     fullAuthor: "Ivia Dias",
     caption: "Cliente verificada - Google",
-    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Jannie é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
+    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Jannié é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
     rating: 5,
     source: "Avaliação pública no Google - 5,0 com 11 avaliações",
     datePublished: "2025-11-01",

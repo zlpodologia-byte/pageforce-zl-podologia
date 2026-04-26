@@ -49,7 +49,7 @@ export function ZlExactHeroPage() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-[0.74rem] uppercase tracking-[0.24em] text-[#78645e] transition-colors hover:text-[#d48678]"
+                  className="text-[0.74rem] uppercase tracking-[0.24em] text-[#6F746F] transition-colors hover:text-[#0F6B46]"
                 >
                   {item.label}
                 </a>
@@ -66,7 +66,7 @@ export function ZlExactHeroPage() {
 
           <div className="mt-10 grid gap-10 lg:mt-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] xl:gap-14">
             <Reveal as="div">
-              <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#c69184]">
+              <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#0F6B46]">
                 Podologia clinica em Fortaleza
               </p>
 
@@ -76,14 +76,14 @@ export function ZlExactHeroPage() {
               >
                 Cuidado delicado
                 <br />
-                para os <span className="italic text-[#d48678]">pes</span> que
+                para os <span className="italic text-[#0F6B46]">pes</span> que
                 <br />
                 pedem alivio e
                 <br />
-                <span className="italic text-[#d48678]">atencao real.</span>
+                <span className="italic text-[#0F6B46]">atencao real.</span>
               </h1>
 
-              <p className="mt-5 max-w-[34ch] text-[1rem] leading-[1.75] text-[#6e5d57] sm:text-[1.02rem]">
+              <p className="mt-5 max-w-[34ch] text-[1rem] leading-[1.75] text-[#6F746F] sm:text-[1.02rem]">
                 Tratamentos especializados para unhas, pele e saude dos pes, com
                 tecnologia, acolhimento e resultados que transformam sua rotina.
               </p>
@@ -105,10 +105,10 @@ export function ZlExactHeroPage() {
               <div className="mt-9 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
                 {trustItems.map((item) => (
                   <div key={item.label} className="flex items-start gap-3">
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#e8d7ce] bg-white text-[#d48678]">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#e8d7ce] bg-white text-[#0F6B46]">
                       <ExactGlyph kind={item.icon} className="h-4 w-4" />
                     </span>
-                    <p className="pt-1 text-[0.82rem] leading-[1.45] text-[#6e5d57]">
+                    <p className="pt-1 text-[0.82rem] leading-[1.45] text-[#6F746F]">
                       {item.label}
                     </p>
                   </div>
@@ -116,16 +116,16 @@ export function ZlExactHeroPage() {
               </div>
 
               <div className="mt-9">
-                <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#c69184]">
+                <p className="text-[0.68rem] uppercase tracking-[0.32em] text-[#0F6B46]">
                   Tratamos com excelencia
                 </p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   {treatmentChips.map((item) => (
                     <span
                       key={item.label}
-                      className="inline-flex items-center gap-2 rounded-full border border-[#e9ddd6] bg-white px-4 py-3 text-[0.8rem] text-[#6e5d57]"
+                      className="inline-flex items-center gap-2 rounded-full border border-[#e9ddd6] bg-white px-4 py-3 text-[0.8rem] text-[#6F746F]"
                     >
-                      <ExactGlyph kind={item.icon} className="h-3.5 w-3.5 text-[#d48678]" />
+                      <ExactGlyph kind={item.icon} className="h-3.5 w-3.5 text-[#0F6B46]" />
                       <span>{item.label}</span>
                     </span>
                   ))}
@@ -146,8 +146,8 @@ export function ZlExactHeroPage() {
                   />
                 </div>
                 <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(102deg,rgba(255,251,248,0.98)_0%,rgba(255,251,248,0.75)_28%,rgba(255,251,248,0.08)_56%,rgba(255,251,248,0.1)_100%)]" />
-                <div className="pointer-events-none absolute bottom-5 left-5 rounded-[26px] border border-white/70 bg-white/82 p-4 shadow-[0_14px_32px_rgba(124,78,63,0.12)] backdrop-blur-sm">
-                  <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#c69184]">
+                <div className="pointer-events-none absolute bottom-5 left-5 rounded-[26px] border border-white/70 bg-white/82 p-4 shadow-[0_14px_32px_rgba(23,79,63,0.12)] backdrop-blur-sm">
+                  <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#0F6B46]">
                     Fortaleza
                   </p>
                   <p
@@ -159,7 +159,7 @@ export function ZlExactHeroPage() {
                     delicado e real.
                   </p>
                 </div>
-                <div className="pointer-events-none absolute bottom-5 right-5 hidden rounded-full border border-white/70 bg-white/70 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#8b726b] backdrop-blur sm:flex">
+                <div className="pointer-events-none absolute bottom-5 right-5 hidden rounded-full border border-white/70 bg-white/70 px-3 py-2 text-[0.64rem] uppercase tracking-[0.24em] text-[#6F746F] backdrop-blur sm:flex">
                   Atendimento clinico
                 </div>
                 <svg
@@ -179,7 +179,7 @@ export function ZlExactHeroPage() {
             </Reveal>
           </div>
 
-          <div className="mt-10 grid overflow-hidden rounded-[28px] border border-[#eadfd8] bg-[#fbf7f4] md:grid-cols-4">
+          <div className="mt-10 grid overflow-hidden rounded-[28px] border border-[#D9DAD7] bg-[#fbf7f4] md:grid-cols-4">
             <ExactProofCard
               eyebrow="Avaliacao personalizada"
               title="Entendemos a causa do seu incomodo para tratar com precisao."

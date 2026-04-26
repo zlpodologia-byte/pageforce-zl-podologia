@@ -16,7 +16,7 @@ const proofServiceContext: Record<string, string> = {
 
 export function ZlCasesSection() {
   return (
-    <section className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10">
+    <section className="relative border-t border-[#D9DAD7] bg-[#F8F7F4] py-8 lg:py-10">
       <div className="container-x relative mx-auto max-w-[1600px]">
         <div className="relative py-8 md:py-10 lg:py-12">
               <div className="grid gap-7 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
@@ -28,7 +28,7 @@ export function ZlCasesSection() {
                 <Reveal
                   as="p"
                   delay={120}
-                  className="max-w-[54ch] text-[0.88rem] leading-[1.6] text-[#5C4A38] lg:justify-self-end"
+                  className="max-w-[54ch] text-[0.88rem] leading-[1.6] text-[#6F746F] lg:justify-self-end"
                 >
                   Em unha encravada, o foco é aliviar a dor. Em fungos, o foco é
                   mostrar protocolo e continuidade. Em podoprofilaxia, técnica e
@@ -48,7 +48,7 @@ export function ZlCasesSection() {
                       className="object-cover"
                     />
                     <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(28,20,15,0.1)_0%,rgba(28,20,15,0.18)_40%,rgba(22,16,12,0.78)_100%)]" />
-                    <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#5C4A38] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
+                    <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#6F746F] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
                       Sala de atendimento
                     </div>
                     <figcaption className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
@@ -59,11 +59,11 @@ export function ZlCasesSection() {
                   </div>
                 </figure>
 
-                <div className="border-l border-[#DCCFC2] py-1 pl-5">
-                  <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#7A6244]">
+                <div className="border-l border-[#D9DAD7] py-1 pl-5">
+                  <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#0F6B46]">
                     Como observar
                   </p>
-                  <p className="mt-4 text-[0.92rem] leading-[1.68] text-[#5C4A38]">
+                  <p className="mt-4 text-[0.92rem] leading-[1.68] text-[#6F746F]">
                     Em unha encravada, o foco é aliviar a dor. Em fungos,
                     mostrar continuidade de protocolo. Em podoprofilaxia,
                     mostrar técnica e acabamento clínico.
@@ -77,18 +77,18 @@ export function ZlCasesSection() {
                     key={item.title}
                   as="article"
                   delay={index * 80}
-                    className="border-t border-[#DCCFC2] pt-4"
+                    className="border-t border-[#D9DAD7] pt-4"
                   >
                     <div className="flex items-center justify-between gap-3">
-                      <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#B8837A]">
+                      <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                         {item.title}
                       </p>
-                      <span className="rounded-full border border-[#DCCFC2] bg-[#F4E8DA] px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] text-[#6B5547]">
+                      <span className="rounded-full border border-[#D9DAD7] bg-[#F4E8DA] px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] text-[#6B5547]">
                         {item.tag}
                       </span>
                     </div>
 
-                    <p className="mt-3 text-[0.76rem] leading-[1.45] text-[#6E5B4B]">
+                    <p className="mt-3 text-[0.76rem] leading-[1.45] text-[#6F746F]">
                       {proofServiceContext[item.title] ?? item.note}
                     </p>
 
@@ -107,7 +107,7 @@ export function ZlCasesSection() {
                       )}
                     </div>
 
-                    <p className="mt-4 text-[0.8rem] leading-[1.5] text-[#5C4A38]">
+                    <p className="mt-4 text-[0.8rem] leading-[1.5] text-[#6F746F]">
                       {item.note}
                     </p>
                   </Reveal>
@@ -198,14 +198,14 @@ function CasePhotoFigure({
             transform: `scale(${figureConfig.scale})`,
           }}
         />
-        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.28)_100%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(23,79,63,0.28)_100%)]" />
         <span
           className={`absolute left-3 top-3 rounded-[0.35rem] px-2.5 py-1 text-[0.56rem] uppercase tracking-[0.16em] ${palette.chipBg} ${palette.chipText}`}
         >
           {title}
         </span>
       </div>
-      <figcaption className="mt-3 text-[0.8rem] leading-[1.48] text-[#5C4A38]">
+      <figcaption className="mt-3 text-[0.8rem] leading-[1.48] text-[#6F746F]">
         {body}
       </figcaption>
     </figure>
@@ -275,14 +275,14 @@ function SectionIntro({
     <div>
       <Reveal
         as="p"
-        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
       >
         {eyebrow}
       </Reveal>
       <Reveal
         as="h2"
         delay={70}
-        className="mt-4 max-w-[15ch] text-[clamp(1.95rem,3.4vw,3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+        className="mt-4 max-w-[15ch] text-[clamp(1.95rem,3.4vw,3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {title}
@@ -290,7 +290,7 @@ function SectionIntro({
       <Reveal
         as="p"
         delay={130}
-        className="mt-5 max-w-[36ch] text-[0.9rem] leading-[1.64] text-[#5C4A38]"
+        className="mt-5 max-w-[36ch] text-[0.9rem] leading-[1.64] text-[#6F746F]"
       >
         {body}
       </Reveal>

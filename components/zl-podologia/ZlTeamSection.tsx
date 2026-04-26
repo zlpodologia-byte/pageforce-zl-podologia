@@ -18,7 +18,7 @@ export function ZlTeamSection() {
   return (
     <section
       id="equipe"
-      className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
+      className="relative border-t border-[#D9DAD7] bg-[#F8F7F4] py-8 lg:py-10"
     >
       <div className="container-x relative mx-auto max-w-[1600px]">
         <div className="py-8 md:py-10 lg:py-12">
@@ -31,10 +31,10 @@ export function ZlTeamSection() {
               <Reveal
                 as="p"
                 delay={130}
-                className="max-w-[50ch] text-[0.88rem] leading-[1.62] text-[#5C4A38] lg:justify-self-end"
+                className="max-w-[50ch] text-[0.88rem] leading-[1.62] text-[#6F746F] lg:justify-self-end"
               >
-                Zucarina conduz a frente clínica da podologia. Jannie atua
-                como reflexologista podal, mantendo acolhimento, EPI e atenção
+                Zucarina conduz a frente clínica da podologia. Jannié atua
+                como reflexoterapeuta podal, mantendo acolhimento, EPI e atenção
                 individual no mesmo ritmo calmo da clínica.
               </Reveal>
             </div>
@@ -47,10 +47,10 @@ export function ZlTeamSection() {
             <Reveal
               as="div"
               delay={220}
-              className="mt-8 grid gap-6 border-t border-[#E6D7CB] pt-6 md:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] md:gap-8"
+              className="mt-8 grid gap-6 border-t border-[#D9DAD7] pt-6 md:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] md:gap-8"
             >
               <div>
-                <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#7A6244]">
+                <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                   O que sustenta esse atendimento
                 </p>
                 <div className="mt-4">
@@ -58,17 +58,17 @@ export function ZlTeamSection() {
                 </div>
               </div>
 
-              <div className="md:border-l md:border-[#E6D7CB] md:pl-8">
-                <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#574433]">
+              <div className="md:border-l md:border-[#D9DAD7] md:pl-8">
+                <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#174F3F]">
                   Como o serviço acontece na prática
                 </p>
                 <ol className="mt-4 grid gap-3">
                   {zlConsultFlow.map((item, index) => (
                     <li key={item} className="flex gap-3">
-                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.72rem] font-medium text-[#574433]">
+                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#EFEAE4] text-[0.72rem] font-medium text-[#174F3F]">
                         {index + 1}
                       </span>
-                      <p className="text-[0.82rem] leading-[1.5] text-[#5C4A38]">
+                      <p className="text-[0.82rem] leading-[1.5] text-[#6F746F]">
                         {item}
                       </p>
                     </li>
@@ -108,7 +108,7 @@ function TeamProfessionalCard({
     <Reveal
       as="article"
       delay={delay}
-      className="grid h-full gap-5 border-t border-[#DCCFC2] pt-5 md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]"
+      className="grid h-full gap-5 border-t border-[#D9DAD7] pt-5 md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]"
     >
       <div className="zl-integrated-photo zl-photo-feather min-h-[30rem] md:min-h-[32rem]">
         {hasPhoto && professional.photo ?(
@@ -122,7 +122,7 @@ function TeamProfessionalCard({
               style={{ objectPosition }}
               className="object-cover"
             />
-            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.06)_0%,transparent_32%,rgba(58,46,35,0.78)_100%)]" />
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.06)_0%,transparent_32%,rgba(23,79,63,0.78)_100%)]" />
             <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
               {isLead ?"Podóloga responsável" : "Reflexologia podal"}
             </div>
@@ -154,42 +154,42 @@ function TeamProfessionalCard({
 
       <div className="flex min-w-0 flex-col justify-between gap-5 py-1 md:py-3">
         <div>
-          <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#B8837A]">
+          <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#0F6B46]">
             {isLead ?"Liderança clínica" : "Reflexologia podal"}
           </p>
-          <p className="mt-3 max-w-[30ch] text-[1rem] leading-[1.5] text-[#3A2E23]">
+          <p className="mt-3 max-w-[30ch] text-[1rem] leading-[1.5] text-[#26302B]">
             {getProfessionalExcerpt(professional)}
           </p>
         </div>
 
-        <div className="border-t border-[#E6D8CB] pt-4">
+        <div className="border-t border-[#D9DAD7] pt-4">
           <p
-            className="max-w-[32ch] text-[0.88rem] italic leading-[1.55] text-[#5C4A38]"
+            className="max-w-[32ch] text-[0.88rem] italic leading-[1.55] text-[#6F746F]"
             style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
           >
             &ldquo;{getProfessionalQuote(professional)}&rdquo;
           </p>
-          <p className="mt-4 text-[0.78rem] leading-[1.52] text-[#8B7862]">
+          <p className="mt-4 text-[0.78rem] leading-[1.52] text-[#6F746F]">
             {professional.description}
           </p>
           {professional.handle ?(
-            <p className="mt-3 text-[0.68rem] uppercase tracking-[0.18em] text-[#8B7862]">
+            <p className="mt-3 text-[0.68rem] uppercase tracking-[0.18em] text-[#6F746F]">
               {professional.handle}
             </p>
           ) : null}
         </div>
 
-        <div className="border-l border-[#DCCFC2] pl-4">
-          <p className="text-[0.62rem] uppercase tracking-[0.2em] text-[#7A6244]">
+        <div className="border-l border-[#D9DAD7] pl-4">
+          <p className="text-[0.62rem] uppercase tracking-[0.2em] text-[#0F6B46]">
             O que a paciente encontra
           </p>
           <div className="mt-3 grid gap-2.5">
             {careProofPoints.map((item) => (
               <p
                 key={item}
-                className="flex gap-2.5 text-[0.78rem] leading-[1.46] text-[#5C4A38]"
+                className="flex gap-2.5 text-[0.78rem] leading-[1.46] text-[#6F746F]"
               >
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#B89B77]" />
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0F6B46]" />
                 <span>{item}</span>
               </p>
             ))}
@@ -217,7 +217,7 @@ function LeadProfessionalCard({
     <Reveal
       as="article"
       delay={80}
-      className="border-t border-[#DCCFC2] pt-5"
+      className="border-t border-[#D9DAD7] pt-5"
     >
       <div className="grid gap-0 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)]">
         <div className="contents">
@@ -233,7 +233,7 @@ function LeadProfessionalCard({
                   style={{ objectPosition }}
                   className="object-cover"
                 />
-                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.12)_0%,transparent_34%,rgba(58,46,35,0.82)_100%)]" />
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(32,24,18,0.12)_0%,transparent_34%,rgba(23,79,63,0.82)_100%)]" />
                 <div className="absolute left-4 top-4 flex flex-wrap items-center gap-2">
                   <span className="rounded-[0.35rem] bg-white/90 px-3 py-1 text-[0.56rem] uppercase tracking-[0.18em] text-[#6B5547]">
                     {professional.role}
@@ -261,11 +261,11 @@ function LeadProfessionalCard({
                   <ProfessionalAvatar name={professional.name} />
                 </div>
                 <div>
-                  <p className="text-[0.62rem] uppercase tracking-[0.26em] text-[#7A6244]">
+                  <p className="text-[0.62rem] uppercase tracking-[0.26em] text-[#0F6B46]">
                     {professional.role}
                   </p>
                   <h3
-                    className="mt-2 text-[clamp(1.8rem,2.6vw,2.5rem)] leading-[0.98] tracking-[-0.03em] text-[#3A2E23]"
+                    className="mt-2 text-[clamp(1.8rem,2.6vw,2.5rem)] leading-[0.98] tracking-[-0.03em] text-[#26302B]"
                     style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
                   >
                     {professional.name}
@@ -277,47 +277,47 @@ function LeadProfessionalCard({
 
           <div className="flex h-full flex-col gap-5 p-5 md:p-6 lg:px-6 lg:py-6">
             <div>
-              <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#B8837A]">
+              <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#0F6B46]">
                 Liderança clínica
               </p>
-              <p className="mt-3 max-w-[34ch] text-[0.92rem] leading-[1.6] text-[#5C4A38]">
+              <p className="mt-3 max-w-[34ch] text-[0.92rem] leading-[1.6] text-[#6F746F]">
                 {getProfessionalExcerpt(professional)}
               </p>
             </div>
 
-            <div className="rounded-[1.25rem] border border-[#E6D8CB] bg-white/82 px-4 py-4">
-              <p className="text-[0.62rem] uppercase tracking-[0.22em] text-[#7A6244]">
+            <div className="rounded-[1.25rem] border border-[#D9DAD7] bg-white/82 px-4 py-4">
+              <p className="text-[0.62rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                 O que a paciente encontra
               </p>
               <div className="mt-3 grid gap-3">
                 {careProofPoints.map((item) => (
                   <div
                     key={item}
-                    className="flex items-start gap-3 text-[0.8rem] leading-[1.46] text-[#5C4A38]"
+                    className="flex items-start gap-3 text-[0.8rem] leading-[1.46] text-[#6F746F]"
                   >
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#B89B77]" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0F6B46]" />
                     <p>{item}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="border-t border-[#E6D8CB] pt-4">
+            <div className="border-t border-[#D9DAD7] pt-4">
               <div>
                 <p
-                  className="max-w-[34ch] text-[0.8rem] italic leading-[1.5] text-[#5C4A38]"
+                  className="max-w-[34ch] text-[0.8rem] italic leading-[1.5] text-[#6F746F]"
                   style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
                 >
                   &ldquo;{getProfessionalQuote(professional)}&rdquo;
                 </p>
-                <p className="mt-4 text-[0.78rem] leading-[1.5] text-[#8B7862]">
+                <p className="mt-4 text-[0.78rem] leading-[1.5] text-[#6F746F]">
                   {professional.description}
                 </p>
               </div>
 
               <div className="mt-4">
-                <div className="rounded-[1.15rem] border border-[#E6D7CB] bg-[#FAF2EC] px-4 py-4 text-[0.8rem] leading-[1.52] text-[#5C4A38]">
-                  <strong className="font-medium text-[#3A2E23]">
+                <div className="rounded-[1.15rem] border border-[#D9DAD7] bg-[#FAF2EC] px-4 py-4 text-[0.8rem] leading-[1.52] text-[#6F746F]">
+                  <strong className="font-medium text-[#26302B]">
                     {zlUrgencyCopy.title}
                   </strong>{" "}
                   {zlUrgencyCopy.body}
@@ -343,7 +343,7 @@ function SupportProfessionalCard({
     <Reveal
       as="article"
       delay={140}
-      className="border-t border-[#DCCFC2] pt-5"
+      className="border-t border-[#D9DAD7] pt-5"
     >
       <div className="grid gap-0 md:grid-cols-[minmax(0,0.98fr)_minmax(0,1.02fr)] md:items-stretch">
         <div className="zl-integrated-photo min-h-[20rem] md:min-h-[24rem]">
@@ -370,7 +370,7 @@ function SupportProfessionalCard({
                 </div>
               </div>
             )}
-            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_48%,rgba(58,46,35,0.5)_100%)]" />
+            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_48%,rgba(23,79,63,0.5)_100%)]" />
             <div className="absolute inset-x-0 bottom-0 p-4 text-white">
               <p className="text-[0.58rem] uppercase tracking-[0.24em] text-white/80">
                 {professional.role}
@@ -389,29 +389,29 @@ function SupportProfessionalCard({
         </div>
 
         <div className="flex h-full flex-col justify-between p-5 md:p-6">
-          <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#B8837A]">
+          <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#0F6B46]">
             Reflexologia podal
           </p>
           <p
-            className="mt-3 max-w-[24ch] text-[0.98rem] leading-[1.45] text-[#3A2E23]"
+            className="mt-3 max-w-[24ch] text-[0.98rem] leading-[1.45] text-[#26302B]"
             style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
           >
             &ldquo;{getProfessionalQuote(professional)}&rdquo;
           </p>
-          <p className="mt-4 max-w-[26ch] text-[0.84rem] leading-[1.52] text-[#5C4A38]">
+          <p className="mt-4 max-w-[26ch] text-[0.84rem] leading-[1.52] text-[#6F746F]">
             {getProfessionalExcerpt(professional)}
           </p>
-          <p className="mt-3 text-[0.76rem] leading-[1.46] text-[#8B7862]">
+          <p className="mt-3 text-[0.76rem] leading-[1.46] text-[#6F746F]">
             {professional.description}
           </p>
           {professional.handle ?(
-            <p className="mt-3 text-[0.68rem] uppercase tracking-[0.18em] text-[#8B7862]">
+            <p className="mt-3 text-[0.68rem] uppercase tracking-[0.18em] text-[#6F746F]">
               {professional.handle}
             </p>
           ) : null}
 
-          <div className="mt-4 border-t border-[#E6D8CB] pt-4">
-            <p className="text-[0.76rem] leading-[1.45] text-[#5C4A38]">
+          <div className="mt-4 border-t border-[#D9DAD7] pt-4">
+            <p className="text-[0.76rem] leading-[1.45] text-[#6F746F]">
               Reflexologia podal com EPI completo, acolhimento e o mesmo ritmo
               calmo que sustenta a ZL no Google 5,0.
             </p>
@@ -428,9 +428,9 @@ function TeamContextRail({ items }: { items: readonly string[] }) {
       {items.map((item) => (
         <div
           key={item}
-          className="flex items-start gap-3 text-[0.82rem] leading-[1.48] text-[#5C4A38]"
+          className="flex items-start gap-3 text-[0.82rem] leading-[1.48] text-[#6F746F]"
         >
-          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#B89B77]" />
+          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0F6B46]" />
           <p>{item}</p>
         </div>
       ))}
@@ -451,14 +451,14 @@ function SectionIntro({
     <div>
       <Reveal
         as="p"
-        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#C69184]"
+        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
       >
         {eyebrow}
       </Reveal>
       <Reveal
         as="h2"
         delay={70}
-        className="mt-4 max-w-[18ch] text-[clamp(1.9rem,3.3vw,3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+        className="mt-4 max-w-[18ch] text-[clamp(1.9rem,3.3vw,3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {title}
@@ -466,7 +466,7 @@ function SectionIntro({
       <Reveal
         as="p"
         delay={130}
-        className="mt-5 max-w-[36ch] text-[0.9rem] leading-[1.64] text-[#5C4A38]"
+        className="mt-5 max-w-[36ch] text-[0.9rem] leading-[1.64] text-[#6F746F]"
       >
         {body}
       </Reveal>
@@ -486,8 +486,8 @@ function ProfessionalAvatar({ name }: { name: string }) {
     >
       <defs>
         <linearGradient id={`zl-avatar-bg-${initial}`} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#E6DBC6" />
-          <stop offset="100%" stopColor="#D2C3A6" />
+          <stop offset="0%" stopColor="#EFEAE4" />
+          <stop offset="100%" stopColor="#D9DAD7" />
         </linearGradient>
       </defs>
       <circle
@@ -495,7 +495,7 @@ function ProfessionalAvatar({ name }: { name: string }) {
         cy="48"
         r="46"
         fill={`url(#zl-avatar-bg-${initial})`}
-        stroke="#D2C3A6"
+        stroke="#D9DAD7"
         strokeWidth="1.5"
       />
       <circle
@@ -503,13 +503,13 @@ function ProfessionalAvatar({ name }: { name: string }) {
         cy="38"
         r="13"
         fill="#fff"
-        stroke="#B89B77"
+        stroke="#0F6B46"
         strokeWidth="1.6"
       />
       <path
         d="M22 80c3-12 14-19 26-19s23 7 26 19"
         fill="#fff"
-        stroke="#B89B77"
+        stroke="#0F6B46"
         strokeWidth="1.6"
         strokeLinejoin="round"
       />
@@ -520,7 +520,7 @@ function ProfessionalAvatar({ name }: { name: string }) {
         dominantBaseline="middle"
         fontFamily="var(--font-display), serif"
         fontSize="14"
-        fill="#7A6244"
+        fill="#0F6B46"
       >
         {initial}
       </text>
@@ -537,7 +537,7 @@ function getProfessionalImagePosition(professional: ZlProfessional) {
     return "58% 24%";
   }
 
-  if (professional.name === "Jannie") {
+  if (professional.name === "Jannié") {
     return "28% 40%";
   }
 
@@ -549,7 +549,7 @@ function getProfessionalExcerpt(professional: ZlProfessional) {
     return "Uma paciente por vez, com tempo para ouvir o caso antes do instrumental.";
   }
 
-  if (professional.name === "Jannie") {
+  if (professional.name === "Jannié") {
     return "Reflexologia podal e bem-estar complementar com o mesmo ritmo calmo da ZL.";
   }
 
@@ -561,7 +561,7 @@ function getProfessionalQuote(professional: ZlProfessional) {
     return "Cuido dos pés de cada paciente como únicos, uma por vez, com tempo para ouvir o caso antes do instrumental.";
   }
 
-  if (professional.name === "Jannie") {
+  if (professional.name === "Jannié") {
     return "Atenção, pausa e cuidado para o corpo desacelerar pelos pés.";
   }
 

@@ -23,7 +23,7 @@ export interface FrameStackProps extends HTMLAttributes<HTMLDivElement> {
 
 const accentStyle: Record<FrameAccent, { wash: string; border: string; frame: string }> = {
   blush: {
-    wash: "rgba(184,131,122,0.14)",
+    wash: "rgba(15,107,70,0.14)",
     border: zlPalette.borderStrong,
     frame: zlPalette.paper,
   },
@@ -33,7 +33,7 @@ const accentStyle: Record<FrameAccent, { wash: string; border: string; frame: st
     frame: zlPalette.contrast,
   },
   ink: {
-    wash: "rgba(58,46,35,0.12)",
+    wash: "rgba(23,79,63,0.12)",
     border: zlPalette.whisper,
     frame: zlPalette.ink,
   },

@@ -129,14 +129,14 @@ export function ZlOpenStatus({
       >
         <span
           aria-hidden="true"
-          className="flex h-2 w-2 shrink-0 rounded-full bg-[#B89B77]"
+          className="flex h-2 w-2 shrink-0 rounded-full bg-[#0F6B46]"
         />
         <span>Ter-Sex 9h-16h | Sab 9h-12h</span>
       </span>
     );
   }
 
-  const dotColor = status.open ? "bg-[#3a8c70]" : "bg-[#B89B77]";
+  const dotColor = status.open ? "bg-[#0F6B46]" : "bg-[#0F6B46]";
   const dotPulse = status.open ? "animate-pulse" : "";
 
   if (variant === "block") {
@@ -146,14 +146,14 @@ export function ZlOpenStatus({
         aria-live="polite"
         aria-label={`${status.label} — ${status.secondary}`}
       >
-        <p className="flex items-center gap-2 text-[0.86rem] leading-[1.4] text-[#3A2E23]">
+        <p className="flex items-center gap-2 text-[0.86rem] leading-[1.4] text-[#26302B]">
           <span
             aria-hidden="true"
             className={`flex h-2.5 w-2.5 shrink-0 rounded-full ${dotColor} ${dotPulse}`}
           />
           <span className="font-medium">{status.label}</span>
         </p>
-        <p className="mt-1 text-[0.78rem] leading-[1.5] text-[#5C4A38]">
+        <p className="mt-1 text-[0.78rem] leading-[1.5] text-[#6F746F]">
           {status.secondary}
         </p>
       </div>

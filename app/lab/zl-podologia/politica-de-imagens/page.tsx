@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function ZlImagePolicyPage() {
   return (
-    <main className="relative min-h-screen bg-[#FAF7F2] px-6 py-16 text-[#3A2E23] md:py-24">
+    <main className="relative min-h-screen bg-[#FFFFFF] px-6 py-16 text-[#26302B] md:py-24">
       <div className="mx-auto max-w-[44rem]">
-        <nav aria-label="breadcrumb" className="mb-10 text-[0.78rem] text-[#8B7862]">
+        <nav aria-label="breadcrumb" className="mb-10 text-[0.78rem] text-[#6F746F]">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
               <Link
@@ -24,10 +24,10 @@ export default function ZlImagePolicyPage() {
                 ZL Podologia
               </Link>
             </li>
-            <li aria-hidden="true" className="text-[#B89B77]">
+            <li aria-hidden="true" className="text-[#0F6B46]">
               /
             </li>
-            <li className="font-medium text-[#3A2E23]">Política de uso de imagens</li>
+            <li className="font-medium text-[#26302B]">Política de uso de imagens</li>
           </ol>
         </nav>
 
@@ -37,12 +37,12 @@ export default function ZlImagePolicyPage() {
         >
           Política de uso de imagens
         </h1>
-        <p className="mt-4 text-[0.92rem] leading-[1.7] text-[#8B7862]">
+        <p className="mt-4 text-[0.92rem] leading-[1.7] text-[#6F746F]">
           Transparência sobre as imagens publicadas na landing da ZL Podologia, em
           Fortaleza.
         </p>
 
-        <article className="prose mt-10 text-[1rem] leading-[1.8] text-[#5C4A38]">
+        <article className="prose mt-10 text-[1rem] leading-[1.8] text-[#6F746F]">
           <p>
             As imagens de pacientes foram obtidas com <strong>consentimento verbal ou escrito</strong>. Nenhuma
             foto de procedimento identifica a paciente por rosto — apenas pés,
@@ -84,7 +84,7 @@ export default function ZlImagePolicyPage() {
               E-mail:{" "}
               <a
                 href={`mailto:${zlContact.email}`}
-                className="text-[#7A6244] underline-offset-4 hover:underline"
+                className="text-[#0F6B46] underline-offset-4 hover:underline"
               >
                 {zlContact.email}
               </a>
@@ -93,7 +93,7 @@ export default function ZlImagePolicyPage() {
               WhatsApp:{" "}
               <a
                 href={zlLinks.phoneTel}
-                className="text-[#7A6244] underline-offset-4 hover:underline"
+                className="text-[#0F6B46] underline-offset-4 hover:underline"
               >
                 {zlContact.whatsappDisplay}
               </a>
@@ -114,7 +114,7 @@ export default function ZlImagePolicyPage() {
             contato não são compartilhados com terceiros.
           </p>
 
-          <p className="mt-6 text-[0.84rem] italic text-[#8B7862]">
+          <p className="mt-6 text-[0.84rem] italic text-[#6F746F]">
             Esta política foi atualizada em abril de 2026 e acompanha a landing
             v7-earthy da ZL Podologia.
           </p>
@@ -123,7 +123,7 @@ export default function ZlImagePolicyPage() {
         <div className="mt-12 flex flex-wrap gap-3">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 rounded-full border border-[#D2C3A6] bg-white px-5 py-2.5 text-[0.82rem] font-medium text-[#3A2E23] hover:border-[#B89B77]"
+            className="inline-flex items-center gap-2 rounded-full border border-[#D9DAD7] bg-white px-5 py-2.5 text-[0.82rem] font-medium text-[#26302B] hover:border-[#0F6B46]"
           >
             &larr; Voltar para a página da ZL
           </Link>

@@ -32,7 +32,7 @@ export function ExactBrandMark() {
       </div>
       <div className="leading-none">
         <p
-          className="text-[1.35rem] tracking-[0.08em] text-[#b8837a]"
+          className="text-[1.35rem] tracking-[0.08em] text-[#0F6B46]"
           style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
         >
           ZL
@@ -60,8 +60,8 @@ export function ExactActionButton({
     "inline-flex items-center gap-2 rounded-full border px-5 py-3 text-[0.78rem] font-medium uppercase tracking-[0.16em] transition-all duration-300 hover:-translate-y-0.5";
   const tone =
     kind === "primary"
-      ? "border-[#d97e73] bg-[#d97e73] text-white shadow-[0_14px_32px_rgba(217,126,115,0.26)]"
-      : "border-[#e5cec5] bg-white text-[#6e5d57] hover:border-[#d6a69a] hover:text-[#41322d]";
+      ? "border-[#0F6B46] bg-[#0F6B46] text-white shadow-[0_14px_32px_rgba(15,107,70,0.26)]"
+      : "border-[#D9DAD7] bg-white text-[#6F746F] hover:border-[#0F6B46] hover:text-[#26302B]";
 
   return (
     <a href={href} className={`${base} ${tone}`}>
@@ -204,7 +204,7 @@ export function ExactProofCard({
   children?: ReactNode;
 }) {
   return (
-    <div className="relative border-r border-[#eadfd8] px-5 py-5 last:border-r-0">
+    <div className="relative border-r border-[#D9DAD7] px-5 py-5 last:border-r-0">
       <p className="text-[0.62rem] uppercase tracking-[0.24em] text-[#9b7e77]">
         {eyebrow}
       </p>
@@ -218,7 +218,7 @@ export function ExactProofCard({
         {body}
       </p>
       {children ? <div className="mt-5">{children}</div> : null}
-      <span className="mt-5 flex h-10 w-10 items-center justify-center rounded-full border border-[#eadfd8] bg-white text-[#d48678]">
+      <span className="mt-5 flex h-10 w-10 items-center justify-center rounded-full border border-[#D9DAD7] bg-white text-[#0F6B46]">
         <ExactGlyph kind={icon} />
       </span>
     </div>
@@ -235,7 +235,7 @@ export function ExactScene({
   return (
     <section className="px-3 py-3 sm:px-4 md:px-6 md:py-6">
       <div
-        className={`mx-auto max-w-[1400px] overflow-hidden rounded-[34px] border border-[#eee0d7] bg-white shadow-[0_30px_90px_rgba(109,73,58,0.12)] ${className}`}
+        className={`mx-auto max-w-[1400px] overflow-hidden rounded-[34px] border border-[#eee0d7] bg-white shadow-[0_30px_90px_rgba(23,79,63,0.12)] ${className}`}
       >
         {children}
       </div>

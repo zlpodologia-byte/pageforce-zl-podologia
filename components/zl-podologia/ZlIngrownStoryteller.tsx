@@ -118,7 +118,7 @@ export function ZlIngrownStoryteller() {
     <section
       id="storyteller-encravada"
       aria-labelledby="zl-storyteller-title"
-      className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
+      className="relative border-t border-[#D9DAD7] bg-[#F8F7F4] py-8 lg:py-10"
     >
       <div className="container-x relative mx-auto max-w-[1600px]">
         <div className="relative py-8 md:py-10 lg:py-12">
@@ -126,14 +126,14 @@ export function ZlIngrownStoryteller() {
           <div>
             <Reveal
               as="p"
-              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#B8837A]"
+              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
             >
               Um caso, cinco momentos
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[24ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[24ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               <span id="zl-storyteller-title">
@@ -144,7 +144,7 @@ export function ZlIngrownStoryteller() {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             Caso real publicado pela ZL no Instagram. Da chegada em dor a bandagem
             final: os cinco momentos que resumem o cuidado - e por que a dor
@@ -178,7 +178,7 @@ export function ZlIngrownStoryteller() {
                 {/* Roman numeral in the corner - Fraunces serif, large,
                     italic. It is the signature of the section. */}
                 <span
-                  className="pointer-events-none absolute right-3 top-3 select-none text-[2.4rem] leading-none text-white/90 drop-shadow-[0_6px_18px_rgba(87,68,51,0.5)]"
+                  className="pointer-events-none absolute right-3 top-3 select-none text-[2.4rem] leading-none text-white/90 drop-shadow-[0_6px_18px_rgba(23,79,63,0.5)]"
                   style={{
                     fontFamily: "var(--font-display)",
                     fontWeight: 400,
@@ -187,12 +187,12 @@ export function ZlIngrownStoryteller() {
                 >
                   {slide.romanNumeral}
                 </span>
-                <span className="absolute left-3 top-3 rounded-[0.35rem] bg-white/90 px-2 py-0.5 text-[0.58rem] font-medium uppercase tracking-[0.18em] text-[#574433] shadow-[0_6px_18px_rgba(87,68,51,0.18)]">
+                <span className="absolute left-3 top-3 rounded-[0.35rem] bg-white/90 px-2 py-0.5 text-[0.58rem] font-medium uppercase tracking-[0.18em] text-[#174F3F] shadow-[0_6px_18px_rgba(23,79,63,0.18)]">
                   {slide.step}
                 </span>
               </div>
               <figcaption
-                className="px-3 py-3 text-[0.82rem] italic leading-[1.55] text-[#5C4A38]"
+                className="px-3 py-3 text-[0.82rem] italic leading-[1.55] text-[#6F746F]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
               >
                 {slide.caption}
@@ -205,10 +205,10 @@ export function ZlIngrownStoryteller() {
         <Reveal
           as="div"
           delay={120}
-          className="mt-8 grid gap-6 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] md:items-center"
+          className="mt-8 grid gap-6 border-t border-[#D9DAD7] pt-6 md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] md:items-center"
         >
-          <p className="text-[0.95rem] leading-[1.7] text-[#5C4A38]">
-            Esse caso foi fotografado <strong className="font-medium text-[#3A2E23]">com autorização da paciente</strong>. O
+          <p className="text-[0.95rem] leading-[1.7] text-[#6F746F]">
+            Esse caso foi fotografado <strong className="font-medium text-[#26302B]">com autorização da paciente</strong>. O
             protocolo combina alívio técnico, proteção da área e orientação de
             retorno quando necessário nos atendimentos de unha encravada da ZL
             Podologia, em Fortaleza.
@@ -222,7 +222,7 @@ export function ZlIngrownStoryteller() {
           </div>
         </Reveal>
 
-        <p className="mt-5 text-[0.74rem] italic leading-[1.55] text-[#7A6244]">
+        <p className="mt-5 text-[0.74rem] italic leading-[1.55] text-[#0F6B46]">
           Fotos publicadas pela própria ZL Podologia no Instagram oficial. Texto
           dourado faz parte da arte original.
         </p>

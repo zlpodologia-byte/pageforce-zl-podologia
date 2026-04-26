@@ -30,37 +30,37 @@ export function ZlFiduciaryBar() {
   return (
     <section
       aria-label="Faixa fiduciaria: Anvisa, profissional registrada, Google 5,0, horario de atendimento e WhatsApp direto"
-      className="relative border-b border-[#D2C3A6] bg-[#FAF7F2]"
+      className="relative border-b border-[#D9DAD7] bg-[#FFFFFF]"
     >
-      <div className="container-x mx-auto grid max-w-[1440px] gap-0 sm:grid-cols-2 lg:grid-cols-5 lg:divide-x lg:divide-[#D2C3A6]">
+      <div className="container-x mx-auto grid max-w-[1440px] gap-0 sm:grid-cols-2 lg:grid-cols-5 lg:divide-x lg:divide-[#D9DAD7]">
         {zlFiduciaryBarItems.map((item, idx) => (
           <Reveal
             key={item.kind}
             as="div"
             delay={idx * 40}
-            className="relative flex items-start gap-3 border-t border-[#D2C3A6] px-4 py-5 first:border-t-0 sm:border-t-0 sm:border-l sm:first:border-l-0 sm:[&:nth-child(1)]:border-l-0 sm:[&:nth-child(2)]:border-l sm:[&:nth-child(3)]:border-t sm:[&:nth-child(4)]:border-t sm:[&:nth-child(5)]:border-t sm:[&:nth-child(3)]:border-l-0 sm:[&:nth-child(5)]:border-l-0 lg:border-t-0 lg:border-l-0 lg:py-6 lg:[&:nth-child(n)]:border-l-0"
+            className="relative flex items-start gap-3 border-t border-[#D9DAD7] px-4 py-5 first:border-t-0 sm:border-t-0 sm:border-l sm:first:border-l-0 sm:[&:nth-child(1)]:border-l-0 sm:[&:nth-child(2)]:border-l sm:[&:nth-child(3)]:border-t sm:[&:nth-child(4)]:border-t sm:[&:nth-child(5)]:border-t sm:[&:nth-child(3)]:border-l-0 sm:[&:nth-child(5)]:border-l-0 lg:border-t-0 lg:border-l-0 lg:py-6 lg:[&:nth-child(n)]:border-l-0"
           >
-            <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[#574433]">
+            <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#EFEAE4] text-[#174F3F]">
               <FiduciaryIcon kind={item.kind} />
             </span>
             <div className="min-w-0 flex-1">
-              <p className="text-[0.6rem] uppercase tracking-[0.22em] text-[#8B7862]">
+              <p className="text-[0.6rem] uppercase tracking-[0.22em] text-[#6F746F]">
                 {item.eyebrow}
               </p>
               {item.kind === "open_status" ?(
                 <div className="mt-1">
                   <ZlOpenStatus
                     variant="block"
-                    className="text-[#3A2E23]"
+                    className="text-[#26302B]"
                   />
                 </div>
               ) : (
                 <>
-                  <p className="mt-1 flex flex-wrap items-center gap-2 text-[0.9rem] font-medium leading-[1.3] text-[#3A2E23]">
+                  <p className="mt-1 flex flex-wrap items-center gap-2 text-[0.9rem] font-medium leading-[1.3] text-[#26302B]">
                     {item.title}
                     {item.kind === "google" ?(
                       <span
-                        className="inline-flex items-center gap-0.5 align-middle text-[#A08379]"
+                        className="inline-flex items-center gap-0.5 align-middle text-[#8EA08E]"
                         aria-hidden="true"
                       >
                         {[0, 1, 2, 3, 4].map((i) => (
@@ -69,7 +69,7 @@ export function ZlFiduciaryBar() {
                       </span>
                     ) : null}
                   </p>
-                  <p className="mt-1 text-[0.78rem] leading-[1.5] text-[#5C4A38]">
+                  <p className="mt-1 text-[0.78rem] leading-[1.5] text-[#6F746F]">
                     {item.body}
                   </p>
                 </>
@@ -88,8 +88,8 @@ export function ZlFiduciaryBar() {
                   }}
                   className={`mt-1.5 inline-flex items-center gap-1 text-[0.74rem] font-medium hover:underline ${
                     item.kind === "whatsapp"
-                      ?"text-[#3a8c70]"
-                      : "text-[#574433]"
+                      ?"text-[#0F6B46]"
+                      : "text-[#174F3F]"
                   }`}
                 >
                   {item.cta.label} -&gt;
@@ -101,14 +101,14 @@ export function ZlFiduciaryBar() {
       </div>
 
       {/* Fix 6 — Urgencia honesta. v7-earthy: caramelo discreto. */}
-      <div className="border-t border-[#D2C3A6] bg-[#E6DBC6]">
-        <div className="container-x mx-auto flex max-w-[1440px] flex-wrap items-center justify-between gap-3 px-4 py-3 text-[0.82rem] leading-[1.5] text-[#5C4A38] lg:px-0">
+      <div className="border-t border-[#D9DAD7] bg-[#EFEAE4]">
+        <div className="container-x mx-auto flex max-w-[1440px] flex-wrap items-center justify-between gap-3 px-4 py-3 text-[0.82rem] leading-[1.5] text-[#6F746F] lg:px-0">
           <p className="flex items-center gap-2">
             <span
               aria-hidden="true"
-              className="inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-[#7A6244]"
+              className="inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-[#0F6B46]"
             />
-            <span className="font-medium text-[#3A2E23]">
+            <span className="font-medium text-[#26302B]">
               {zlUrgencyCopy.title}
             </span>{" "}
             {zlUrgencyCopy.body}

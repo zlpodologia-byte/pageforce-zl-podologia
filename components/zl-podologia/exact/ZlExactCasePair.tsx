@@ -12,7 +12,7 @@ export function ZlExactCasePair({
   afterSrc: string;
 }) {
   return (
-    <article className="rounded-[1.6rem] border border-[#eadfd8] bg-white p-4 shadow-[0_12px_30px_rgba(123,98,78,0.05)]">
+    <article className="rounded-[1.6rem] border border-[#D9DAD7] bg-white p-4 shadow-[0_12px_30px_rgba(123,98,78,0.05)]">
       <div className="grid grid-cols-2 gap-2">
         <CaseImage label="Antes" src={beforeSrc} />
         <CaseImage label="Depois" src={afterSrc} />

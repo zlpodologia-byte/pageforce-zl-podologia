@@ -8,6 +8,7 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/politica-de-imagens",
   "/robots.txt",
   "/sitemap.xml",
+  "/googleed77e9ab4edd9965.html",
   "/opengraph-image",
 ]);
 

@@ -20,7 +20,7 @@ export function ZlExactTrustIntroSection() {
     <>
       <div className="grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-start">
         <div>
-          <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#c69184]">
+          <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#0F6B46]">
             {zlTeamHeadline.eyebrow}
           </p>
           <h2
@@ -39,7 +39,7 @@ export function ZlExactTrustIntroSection() {
           </div>
         </div>
 
-        <div className="rounded-[2rem] border border-[#eadfd8] bg-[#fcf7f3] p-3 shadow-[0_20px_50px_rgba(123,98,78,0.1)]">
+        <div className="rounded-[2rem] border border-[#D9DAD7] bg-[#fcf7f3] p-3 shadow-[0_20px_50px_rgba(123,98,78,0.1)]">
           <div className={`grid gap-3 ${teamMembers.length > 1 ? "md:grid-cols-2" : ""}`}>
             {teamMembers.map((member) => (
               <ZlExactProfileCard

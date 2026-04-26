@@ -12,7 +12,7 @@ export const zlExactServiceCards: readonly {
   },
   {
     title: "Fungos nas unhas",
-    body: "Protocolos eficazes com laser e ativos dermatologicos para unhas mais saudaveis.",
+    body: "Tratamento para eliminar fungos e recuperar a saude das unhas.",
     icon: "leaf",
   },
   {
@@ -22,7 +22,7 @@ export const zlExactServiceCards: readonly {
   },
   {
     title: "Ortese para unhas",
-    body: "Correcao gradual e indolor da curvatura da unha, sem cirurgia.",
+    body: "Correcao da curvatura da unha, aliviando a dor e prevenindo encravamento.",
     icon: "check",
   },
   {
@@ -54,9 +54,10 @@ export const zlExactPricingCards: readonly {
   note: string;
 }[] = [
   { title: "Triagem pelo WhatsApp", price: "Sem cobranca isolada", note: "Relato da queixa, foto quando ajuda e direcao para o procedimento adequado." },
-  { title: "Podoprofilaxia", price: "R$ 129", note: "Higienizacao completa, remocao de calosidades e prevencao." },
-  { title: "Unha encravada", price: "R$ 149 a R$ 199", note: "Tratamento conservador com alivio da dor e correcao." },
-  { title: "Fungos nas unhas", price: "R$ 149", note: "Sessao com protocolo orientado e possibilidades de continuidade." },
-  { title: "Reflexologia podal", price: "R$ 139", note: "Tecnica de massagem que promove relaxamento e bem-estar." },
-  { title: "Pe diabetico", price: "R$ 199", note: "Cuidados especializados para prevencao de lesoes e complicacoes." },
+  { title: "Podoprofilaxia", price: "R$ 100 dinheiro | R$ 105 cartao", note: "Limpeza e cuidados preventivos para manter os pes saudaveis." },
+  { title: "Unha encravada - Grau 1", price: "A partir de R$ 150", note: "Dor, inflamacao e sensibilidade ao calcar ou caminhar." },
+  { title: "Unha encravada - Graus 2 e 3", price: "A partir de R$ 200", note: "Quando ha inflamacao mais evidente, a conduta exige mais cuidado." },
+  { title: "Fungos nas unhas", price: "R$ 100 por unha por sessao", note: "Tratamento para eliminar fungos e recuperar a saude das unhas." },
+  { title: "Reflexologia podal", price: "R$ 80 a R$ 150", note: "Relaxante e terapeutica, conforme necessidade indicada no atendimento." },
+  { title: "Pe diabetico", price: "R$ 120", note: "Atendimento adaptado com cuidado extra em sensibilidade e pele fina." },
 ] as const;

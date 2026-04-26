@@ -71,10 +71,10 @@ export function ZlTrustSection() {
         <Reveal
           as="div"
           delay={180}
-          className="rounded-[1.2rem] border border-[#D2C3A6] bg-[#E6DBC6] px-5 py-4 text-[0.96rem] leading-[1.55] text-[#5C4A38] lg:justify-self-end lg:max-w-[44ch]"
+          className="rounded-[1.2rem] border border-[#D9DAD7] bg-[#EFEAE4] px-5 py-4 text-[0.96rem] leading-[1.55] text-[#6F746F] lg:justify-self-end lg:max-w-[44ch]"
         >
           <p
-            className="text-[0.98rem] italic leading-[1.55] text-[#3A2E23]"
+            className="text-[0.98rem] italic leading-[1.55] text-[#26302B]"
             style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
           >
             {zlPromessaPivot}
@@ -90,9 +90,9 @@ export function ZlTrustSection() {
             key={point}
             as="div"
             delay={index * 70}
-            className="flex items-start gap-4 rounded-[1.35rem] border border-[#D2C3A6] bg-white px-5 py-5 text-[0.96rem] leading-[1.65] text-[#5C4A38] shadow-[0_12px_32px_rgba(138,108,72,0.08)]"
+            className="flex items-start gap-4 rounded-[1.35rem] border border-[#D9DAD7] bg-white px-5 py-5 text-[0.96rem] leading-[1.65] text-[#6F746F] shadow-[0_12px_32px_rgba(23,79,63,0.08)]"
           >
-            <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.72rem] font-medium text-[#7A6244]">
+            <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#EFEAE4] text-[0.72rem] font-medium text-[#0F6B46]">
               {String(index + 1).padStart(2, "0")}
             </span>
             <span>{point}</span>
@@ -135,7 +135,7 @@ function ZlCasePhotoPair({
   const secondTitle = isExperience ?"Resultado" : "Depois";
 
   return (
-    <div className="overflow-hidden rounded-[1.5rem] border border-[#D2C3A6] bg-white">
+    <div className="overflow-hidden rounded-[1.5rem] border border-[#D9DAD7] bg-white">
       <div className="grid md:grid-cols-2">
         <CasePhotoHalf
           tone="before"
@@ -165,13 +165,13 @@ function CasePhotoHalf({
   body: string;
   photo: { src: string; alt: string };
 }) {
-  // v7-earthy: ANTES em taupe (#D2C3A6) com label marrom escuro, DEPOIS em
-  // areia claro (#F2EBDE) com label verde-oliva. Contraste visual claro
+  // v7-earthy: ANTES em taupe (#D9DAD7) com label marrom escuro, DEPOIS em
+  // areia claro (#F8F7F4) com label verde-oliva. Contraste visual claro
   // para leitura antes/depois. Verde-oliva complementa o terroso sem
   // virar rose/azul.
-  const background = tone === "before" ?"#D2C3A6" : "#F2EBDE";
-  const accent = tone === "before" ?"#574433" : "#7A8459";
-  const textTone = tone === "before" ?"#3A2E23" : "#574433";
+  const background = tone === "before" ?"#D9DAD7" : "#F8F7F4";
+  const accent = tone === "before" ?"#174F3F" : "#8EA08E";
+  const textTone = tone === "before" ?"#26302B" : "#174F3F";
 
   return (
     <div className="p-4" style={{ background }}>
@@ -202,15 +202,15 @@ function CasePhotoHalf({
 
 export function ZlCasesSection() {
   return (
-    <section className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10">
+    <section className="relative border-t border-[#D9DAD7] bg-[#F8F7F4] py-8 lg:py-10">
       {/* v8-merge B.1: envelope ExactScene wrap na secao de Cases.
           Cartao branco 34px com shadow warm envolve os 3 cases
-          antes/depois. Eyebrow rose `#B8837A` nas tag labels (era
-          `#7A6244`). Fundo externo mantem `#F2EBDE` v7-earthy. */}
+          antes/depois. Eyebrow rose `#0F6B46` nas tag labels (era
+          `#0F6B46`). Fundo externo mantem `#F8F7F4` v7-earthy. */}
       <div className="container-x relative mx-auto max-w-[1400px] px-3 sm:px-4 md:px-6">
         <ZlSceneEnvelope>
           <div className="relative">
-            <div className="absolute inset-0 bg-[linear-gradient(180deg,#E6DBC6_0%,#FAF7F2_100%)]" />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,#EFEAE4_0%,#FFFFFF_100%)]" />
             <div className="relative px-5 py-8 sm:px-8 md:px-10 md:py-10 lg:px-14 lg:py-12">
               <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <SectionIntro
@@ -221,7 +221,7 @@ export function ZlCasesSection() {
           <Reveal
             as="p"
             delay={120}
-            className="max-w-[54ch] text-[0.92rem] leading-[1.65] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.92rem] leading-[1.65] text-[#6F746F] lg:justify-self-end"
           >
             Cada caso carrega uma nota clara sobre o que esperar. Resultado de cada pe depende do historico, do tempo e da continuidade do cuidado.
           </Reveal>
@@ -233,13 +233,13 @@ export function ZlCasesSection() {
               key={item.title}
               as="article"
               delay={index * 80}
-              className="rounded-[1.7rem] border border-[rgba(198,145,132,0.24)] bg-white p-5 shadow-[0_20px_50px_rgba(138,108,72,0.1)]"
+              className="rounded-[1.7rem] border border-[rgba(198,145,132,0.24)] bg-white p-5 shadow-[0_20px_50px_rgba(23,79,63,0.1)]"
             >
               <div className="flex items-center justify-between gap-3">
-                <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#B8837A]">
+                <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#0F6B46]">
                   {item.title}
                 </p>
-                <span className="rounded-full border border-[#D2C3A6] bg-[#E6DBC6] px-2.5 py-1 text-[0.62rem] uppercase tracking-[0.2em] text-[#574433]">
+                <span className="rounded-full border border-[#D9DAD7] bg-[#EFEAE4] px-2.5 py-1 text-[0.62rem] uppercase tracking-[0.2em] text-[#174F3F]">
                   {item.tag}
                 </span>
               </div>
@@ -256,7 +256,7 @@ export function ZlCasesSection() {
                   <ZlCaseArtwork before={item.before} after={item.after} />
                 )}
               </div>
-              <p className="mt-5 text-[0.9rem] leading-[1.6] text-[#5C4A38]">
+              <p className="mt-5 text-[0.9rem] leading-[1.6] text-[#6F746F]">
                 {item.note}
               </p>
             </Reveal>
@@ -275,7 +275,7 @@ export function ZlCasesSection() {
 /* ------------------------------------------------------------------ */
 
 /**
- * Avatar ilustrado circular generico ? usado como fallback pra Jannie
+ * Avatar ilustrado circular generico ? usado como fallback pra Jannié
  * enquanto retrato profissional nao chega (v7b).
  */
 function ZlProfessionalAvatar({ name }: { name: string }) {
@@ -289,16 +289,16 @@ function ZlProfessionalAvatar({ name }: { name: string }) {
     >
       <defs>
         <linearGradient id={`zl-avatar-bg-${initial}`} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#E6DBC6" />
-          <stop offset="100%" stopColor="#D2C3A6" />
+          <stop offset="0%" stopColor="#EFEAE4" />
+          <stop offset="100%" stopColor="#D9DAD7" />
         </linearGradient>
       </defs>
-      <circle cx="48" cy="48" r="46" fill={`url(#zl-avatar-bg-${initial})`} stroke="#D2C3A6" strokeWidth="1.5" />
-      <circle cx="48" cy="38" r="13" fill="#fff" stroke="#B89B77" strokeWidth="1.6" />
+      <circle cx="48" cy="48" r="46" fill={`url(#zl-avatar-bg-${initial})`} stroke="#D9DAD7" strokeWidth="1.5" />
+      <circle cx="48" cy="38" r="13" fill="#fff" stroke="#0F6B46" strokeWidth="1.6" />
       <path
         d="M22 80c3-12 14-19 26-19s23 7 26 19"
         fill="#fff"
-        stroke="#B89B77"
+        stroke="#0F6B46"
         strokeWidth="1.6"
         strokeLinejoin="round"
       />
@@ -309,7 +309,7 @@ function ZlProfessionalAvatar({ name }: { name: string }) {
         dominantBaseline="middle"
         fontFamily="var(--font-display), serif"
         fontSize="14"
-        fill="#7A6244"
+        fill="#0F6B46"
       >
         {initial}
       </text>
@@ -324,26 +324,26 @@ function ZlProfessionalAvatar({ name }: { name: string }) {
  * LGPD: quando `cropProtected` e true, a foto usa object-position que
  * enfatiza maos/jaleco/placa e reduz exposicao de rosto ? v7a fallback
  * enquanto autorizacao escrita formal nao chega (comentario do Codex
- * edit-manifest). Na v7-earthy, Jannie tem foto wide-shot e usamos
+ * edit-manifest). Na v7-earthy, Jannié tem foto wide-shot e usamos
  * customObjectPosition via dedicated prop pra centralizar nela.
  */
 function ZlProfessionalHero({ professional, index }: { professional: ZlProfessional; index: number }) {
   const hasPhoto = Boolean(professional.photo?.src);
-  // v7-earthy BLOCO B: Jannie usa foto wide com paciente ? agressivo
+  // v7-earthy BLOCO B: Jannié usa foto wide com paciente ? agressivo
   // object-position pra centralizar nela (ela fica na esquerda-centro
   // do frame). Zucarina e close autoridade, crop default.
   const objectPosition = professional.photo?.cropProtected
     ?"50% 75%"
-    : professional.name === "Jannie"
+    : professional.name === "Jannié"
     ?"35% 60%"
     : "center";
   return (
     <Reveal
       as="article"
       delay={index * 120}
-      className="group relative overflow-hidden rounded-[1.8rem] border border-[#D2C3A6] bg-white p-1.5 shadow-[0_28px_72px_-30px_rgba(138,108,72,0.3)]"
+      className="group relative overflow-hidden rounded-[1.8rem] border border-[#D9DAD7] bg-white p-1.5 shadow-[0_28px_72px_-30px_rgba(23,79,63,0.3)]"
     >
-      <div className="relative overflow-hidden rounded-[calc(1.8rem-0.375rem)] bg-[linear-gradient(180deg,#FAF7F2_0%,#D2C3A6_100%)]">
+      <div className="relative overflow-hidden rounded-[calc(1.8rem-0.375rem)] bg-[linear-gradient(180deg,#FFFFFF_0%,#D9DAD7_100%)]">
         <div className="relative aspect-[3/4] w-full overflow-hidden">
           {hasPhoto && professional.photo ?(
             <>
@@ -358,7 +358,7 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
                 }}
                 className="object-cover transition-transform duration-[1200ms] [transition-timing-function:var(--ease-haptic)] group-hover:scale-[1.02]"
               />
-              <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_45%,rgba(58,46,35,0.7)_100%)]" />
+              <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_45%,rgba(23,79,63,0.7)_100%)]" />
               <div className="absolute inset-x-0 bottom-0 p-5 text-white">
                 <p className="text-[0.66rem] uppercase tracking-[0.26em] text-white/80">
                   {professional.role}
@@ -372,22 +372,22 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
               </div>
             </>
           ) : (
-            <div className="relative flex h-full w-full flex-col items-center justify-center gap-5 bg-[linear-gradient(135deg,#E6DBC6_0%,#D2C3A6_100%)] p-8 text-center">
+            <div className="relative flex h-full w-full flex-col items-center justify-center gap-5 bg-[linear-gradient(135deg,#EFEAE4_0%,#D9DAD7_100%)] p-8 text-center">
               <div className="h-36 w-36">
                 <ZlProfessionalAvatar name={professional.name} />
               </div>
               <div>
-                <p className="text-[0.62rem] uppercase tracking-[0.26em] text-[#7A6244]">
+                <p className="text-[0.62rem] uppercase tracking-[0.26em] text-[#0F6B46]">
                   {professional.role}
                 </p>
                 <h3
-                  className="mt-2 text-[clamp(1.6rem,2.4vw,2.4rem)] leading-[0.98] tracking-[-0.02em] text-[#3A2E23]"
+                  className="mt-2 text-[clamp(1.6rem,2.4vw,2.4rem)] leading-[0.98] tracking-[-0.02em] text-[#26302B]"
                   style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
                 >
                   {professional.name}
                 </h3>
-                <p className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-[#B89B77] bg-white/80 px-3 py-1 text-[0.64rem] uppercase tracking-[0.22em] text-[#7A6244] backdrop-blur-sm">
-                  <span className="inline-flex h-1.5 w-1.5 rounded-full bg-[#7A6244]" />
+                <p className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-[#0F6B46] bg-white/80 px-3 py-1 text-[0.64rem] uppercase tracking-[0.22em] text-[#0F6B46] backdrop-blur-sm">
+                  <span className="inline-flex h-1.5 w-1.5 rounded-full bg-[#0F6B46]" />
                   Retrato profissional em breve
                 </p>
               </div>
@@ -397,16 +397,16 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
 
         <div className="p-6">
           <p
-            className="text-[0.95rem] italic leading-[1.72] text-[#5C4A38]"
+            className="text-[0.95rem] italic leading-[1.72] text-[#6F746F]"
             style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
           >
             &ldquo;{professional.bio}&rdquo;
           </p>
-          <p className="mt-4 text-[0.82rem] leading-[1.6] text-[#8B7862]">
+          <p className="mt-4 text-[0.82rem] leading-[1.6] text-[#6F746F]">
             {professional.description}
           </p>
           {professional.handle ?(
-            <p className="mt-3 text-[0.72rem] uppercase tracking-[0.2em] text-[#8B7862]">
+            <p className="mt-3 text-[0.72rem] uppercase tracking-[0.2em] text-[#6F746F]">
               {professional.handle}
             </p>
           ) : null}
@@ -419,10 +419,10 @@ function ZlProfessionalHero({ professional, index }: { professional: ZlProfessio
 export function ZlTeamSection() {
   // v7-earthy BLOCO B: as duas profissionais tem foto real agora ? volta
   // pra grid simetrico 1fr/1fr. Abaixo, bloco de valores + flow full-width.
-  // v8-merge B.1: envelope ExactScene + eyebrow rose-mid `#C69184` (secao
+  // v8-merge B.1: envelope ExactScene + eyebrow rose-mid `#0F6B46` (secao
   // corporal - equipe/pele).
   return (
-    <section id="equipe" className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10">
+    <section id="equipe" className="relative border-t border-[#D9DAD7] bg-[#F8F7F4] py-8 lg:py-10">
       <div className="container-x relative mx-auto max-w-[1400px] px-3 sm:px-4 md:px-6">
         <ZlSceneEnvelope>
           <div className="relative px-5 py-8 sm:px-8 md:px-10 md:py-10 lg:px-14 lg:py-12 bg-white">
@@ -435,11 +435,11 @@ export function ZlTeamSection() {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[54ch] text-[0.92rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.92rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             Duas profissionais. Mesmo ritual: leitura cuidadosa do caso, execução
             técnica com delicadeza e orientação clara. Os nomes - Zucarina e
-            Jannie - são citados publicamente pelas pacientes nos reviews do
+            Jannié - são citados publicamente pelas pacientes nos reviews do
             Google 5,0. Aqui você sabe com quem está falando.
           </Reveal>
         </div>
@@ -458,33 +458,33 @@ export function ZlTeamSection() {
         <Reveal
           as="div"
           delay={240}
-          className="mt-6 grid gap-6 rounded-[1.6rem] border border-[#D2C3A6] bg-[#FAF7F2] p-5 shadow-[0_16px_40px_rgba(138,108,72,0.08)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-10 lg:p-6"
+          className="mt-6 grid gap-6 rounded-[1.6rem] border border-[#D9DAD7] bg-[#FFFFFF] p-5 shadow-[0_16px_40px_rgba(23,79,63,0.08)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-10 lg:p-6"
         >
           <div>
-            <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#7A6244]">
+            <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#0F6B46]">
               Como a equipe aparece hoje
             </p>
             <div className="mt-4 grid gap-3">
               {zlTeamValues.map((item) => (
-                <div key={item} className="flex items-start gap-3 text-[0.92rem] leading-[1.58] text-[#5C4A38]">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#B89B77]" />
+                <div key={item} className="flex items-start gap-3 text-[0.92rem] leading-[1.58] text-[#6F746F]">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0F6B46]" />
                   <p>{item}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="lg:border-l lg:border-[#D2C3A6] lg:pl-10">
-            <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#574433]">
+          <div className="lg:border-l lg:border-[#D9DAD7] lg:pl-10">
+            <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#174F3F]">
               Como funciona o atendimento
             </p>
             <ol className="mt-3 grid gap-3">
               {zlConsultFlow.map((item, index) => (
                 <li key={item} className="flex gap-3">
-                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.72rem] font-medium text-[#574433]">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#EFEAE4] text-[0.72rem] font-medium text-[#174F3F]">
                     {index + 1}
                   </span>
-                  <p className="text-[0.9rem] leading-[1.55] text-[#5C4A38]">
+                  <p className="text-[0.9rem] leading-[1.55] text-[#6F746F]">
                     {item}
                   </p>
                 </li>
@@ -501,7 +501,7 @@ export function ZlTeamSection() {
 
 /**
  * v8-merge: variante do SectionIntro com eyebrow em rose-mid
- * `#C69184` para a secao de Equipe (secao corporal).
+ * `#0F6B46` para a secao de Equipe (secao corporal).
  */
 function TeamSectionIntro({
   eyebrow,
@@ -516,14 +516,14 @@ function TeamSectionIntro({
     <div>
       <Reveal
         as="p"
-        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#C69184]"
+        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
       >
         {eyebrow}
       </Reveal>
       <Reveal
         as="h2"
         delay={70}
-        className="mt-4 max-w-[18ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+        className="mt-4 max-w-[18ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {title}
@@ -531,7 +531,7 @@ function TeamSectionIntro({
       <Reveal
         as="p"
         delay={130}
-        className="mt-5 max-w-[36ch] text-[0.98rem] leading-[1.72] text-[#5C4A38]"
+        className="mt-5 max-w-[36ch] text-[0.98rem] leading-[1.72] text-[#6F746F]"
       >
         {body}
       </Reveal>
@@ -548,7 +548,7 @@ export function ZlPricingEducationSection() {
     trackZlEvent("wa_click", { source: "packages" });
   };
   return (
-    <section className="container-x border-t border-[#D2C3A6] py-12 lg:py-14">
+    <section className="container-x border-t border-[#D9DAD7] py-12 lg:py-14">
       {/* v7-refine: max-w-[1440px] mantem 3 buckets legiveis em wide (sem
           esticar os cards de preco). v7-vfix: intro full-width com body ao
           lado pra zerar whitespace. */}
@@ -561,7 +561,7 @@ export function ZlPricingEducationSection() {
         <Reveal
           as="p"
           delay={130}
-          className="max-w-[52ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+          className="max-w-[52ch] text-[0.95rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
         >
           Tres buckets: basicos (manutencao regular), intermediarios (dor e recorrencia) e avancados (diferencial clinico + bem-estar). Escolha o ponto mais perto do seu momento.
         </Reveal>
@@ -576,15 +576,15 @@ export function ZlPricingEducationSection() {
               key={group.bucket}
               as="article"
               delay={groupIdx * 90}
-              className="rounded-[1.6rem] border border-[#D2C3A6] bg-white p-5 shadow-[0_18px_48px_-20px_rgba(138,108,72,0.3)] md:p-6"
+              className="rounded-[1.6rem] border border-[#D9DAD7] bg-white p-5 shadow-[0_18px_48px_-20px_rgba(23,79,63,0.3)] md:p-6"
             >
-              <div className="flex flex-wrap items-end justify-between gap-3 border-b border-[#E6DBC6] pb-3">
+              <div className="flex flex-wrap items-end justify-between gap-3 border-b border-[#EFEAE4] pb-3">
                 <div>
-                  <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#7A6244]">
+                  <p className="text-[0.64rem] uppercase tracking-[0.24em] text-[#0F6B46]">
                     Bucket
                   </p>
                   <h3
-                    className="mt-1 text-[1.4rem] leading-[1.1] tracking-[-0.02em] text-[#3A2E23]"
+                    className="mt-1 text-[1.4rem] leading-[1.1] tracking-[-0.02em] text-[#26302B]"
                     style={{
                       fontFamily: "var(--font-display)",
                       fontWeight: 500,
@@ -593,7 +593,7 @@ export function ZlPricingEducationSection() {
                     {group.title}
                   </h3>
                 </div>
-                <p className="max-w-[34ch] text-[0.82rem] italic leading-[1.5] text-[#7A6244] md:text-right">
+                <p className="max-w-[34ch] text-[0.82rem] italic leading-[1.5] text-[#0F6B46] md:text-right">
                   {group.subtitle}
                 </p>
               </div>
@@ -606,27 +606,27 @@ export function ZlPricingEducationSection() {
                       key={row.label}
                       className={`grid gap-1 rounded-[1rem] px-4 py-2.5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-4 ${
                         accent
-                          ?"bg-[linear-gradient(180deg,#E6DBC6_0%,#D2C3A6_100%)] ring-1 ring-[#B89B77]/60"
-                          : "bg-[#FAF7F2] ring-1 ring-[#E6DBC6]"
+                          ?"bg-[linear-gradient(180deg,#EFEAE4_0%,#D9DAD7_100%)] ring-1 ring-[#0F6B46]/60"
+                          : "bg-[#FFFFFF] ring-1 ring-[#EFEAE4]"
                       }`}
                     >
                       <div>
-                        <p className="flex flex-wrap items-center gap-2 text-[0.96rem] font-medium text-[#3A2E23]">
+                        <p className="flex flex-wrap items-center gap-2 text-[0.96rem] font-medium text-[#26302B]">
                           {row.label}
                           {accent ?(
-                            <span className="rounded-full bg-[#574433] px-2 py-0.5 text-[0.54rem] uppercase tracking-[0.18em] text-white shadow-[0_6px_18px_rgba(87,68,51,0.35)]">
+                            <span className="rounded-full bg-[#174F3F] px-2 py-0.5 text-[0.54rem] uppercase tracking-[0.18em] text-white shadow-[0_6px_18px_rgba(23,79,63,0.35)]">
                               {group.bucket === "basicos"
                                 ?"Mais vendido"
                                 : "Principal"}
                             </span>
                           ) : null}
                         </p>
-                        <p className="mt-0.5 text-[0.82rem] leading-[1.55] text-[#5C4A38]">
+                        <p className="mt-0.5 text-[0.82rem] leading-[1.55] text-[#6F746F]">
                           {row.note}
                         </p>
                       </div>
                       <p
-                        className="tabular-nums text-[1.05rem] leading-none tracking-[-0.01em] text-[#3A2E23] sm:text-right"
+                        className="tabular-nums text-[1.05rem] leading-none tracking-[-0.01em] text-[#26302B] sm:text-right"
                         style={{
                           fontFamily: "var(--font-display)",
                           fontWeight: 500,
@@ -648,15 +648,15 @@ export function ZlPricingEducationSection() {
           <Reveal
             as="div"
             delay={320}
-            className="rounded-[1.2rem] border border-[#D2C3A6] bg-[#E6DBC6] p-5 text-[0.88rem] leading-[1.7] text-[#5C4A38]"
+            className="rounded-[1.2rem] border border-[#D9DAD7] bg-[#EFEAE4] p-5 text-[0.88rem] leading-[1.7] text-[#6F746F]"
           >
-            <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
+            <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#0F6B46]">
               Observacoes gerais
             </p>
             <ul className="mt-3 grid gap-2">
               {zlPricingFooterNotes.map((note) => (
                 <li key={note} className="flex items-start gap-2">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#B89B77]" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0F6B46]" />
                   <span>{note}</span>
                 </li>
               ))}
@@ -664,11 +664,11 @@ export function ZlPricingEducationSection() {
             <div className="mt-4 flex flex-wrap items-center gap-3" onClick={handlePackagesClick}>
               <ZlPrimaryLink
                 href={zlLinks.whatsappPackages}
-                label="Perguntar sobre pacotes"
+                label="Perguntar sobre plano de cuidado"
                 icon={<ZlWhatsappIcon />}
               />
-              <p className="text-[0.82rem] leading-[1.55] text-[#8B7862]">
-                Plano mensal e pacotes viram orcamento em 1 minuto pelo WhatsApp.
+              <p className="text-[0.82rem] leading-[1.55] text-[#6F746F]">
+                O plano de cuidado personalizado é direcionado pelo WhatsApp.
               </p>
             </div>
           </Reveal>
@@ -677,15 +677,15 @@ export function ZlPricingEducationSection() {
           <Reveal
             as="div"
             delay={240}
-            className="rounded-[1.2rem] border border-[#B89B77] bg-[#D2C3A6] px-5 py-4 text-[0.88rem] leading-[1.6] text-[#3A2E23]"
+            className="rounded-[1.2rem] border border-[#0F6B46] bg-[#D9DAD7] px-5 py-4 text-[0.88rem] leading-[1.6] text-[#26302B]"
           >
             <p className="flex items-start gap-2.5">
               <span
                 aria-hidden="true"
-                className="mt-1.5 inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-[#574433]"
+                className="mt-1.5 inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-[#174F3F]"
               />
               <span>
-                <strong className="font-medium text-[#3A2E23]">
+                <strong className="font-medium text-[#26302B]">
                   {zlUrgencyCopy.title}
                 </strong>{" "}
                 {zlUrgencyCopy.body}
@@ -696,16 +696,16 @@ export function ZlPricingEducationSection() {
       </div>
 
       {/* Podologia explicada ? faixa horizontal abaixo do pricing. */}
-      <div className="mx-auto mt-10 max-w-[1440px] border-t border-[#D2C3A6] pt-8">
+      <div className="mx-auto mt-10 max-w-[1440px] border-t border-[#D9DAD7] pt-8">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,2fr)] lg:items-end">
           <div>
-            <Reveal as="p" className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]">
+            <Reveal as="p" className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]">
               Podologia clínica
             </Reveal>
             <Reveal
               as="h3"
               delay={70}
-              className="mt-4 max-w-[22ch] text-[clamp(1.6rem,2.4vw,2.2rem)] leading-[1.05] tracking-[-0.02em] text-[#3A2E23]"
+              className="mt-4 max-w-[22ch] text-[clamp(1.6rem,2.4vw,2.2rem)] leading-[1.05] tracking-[-0.02em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               O que muda no cuidado podológico.
@@ -714,7 +714,7 @@ export function ZlPricingEducationSection() {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[54ch] text-[0.94rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.94rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             Diferenças práticas entre podologia clínica, manutenção e o momento de procurar avaliação.
           </Reveal>
@@ -726,12 +726,12 @@ export function ZlPricingEducationSection() {
               key={item.title}
               as="div"
               delay={index * 60}
-              className="h-full rounded-[1.4rem] border border-[#D2C3A6] bg-white p-5 shadow-[0_16px_40px_rgba(138,108,72,0.06)]"
+              className="h-full rounded-[1.4rem] border border-[#D9DAD7] bg-white p-5 shadow-[0_16px_40px_rgba(23,79,63,0.06)]"
             >
-              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#574433]">
+              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#174F3F]">
                 {item.title}
               </p>
-              <p className="mt-3 text-[0.94rem] leading-[1.7] text-[#5C4A38]">
+              <p className="mt-3 text-[0.94rem] leading-[1.7] text-[#6F746F]">
                 {item.body}
               </p>
             </Reveal>
@@ -751,8 +751,8 @@ export function ZlFaqSection() {
     trackZlEvent("wa_click", { source: "faq_wa" });
   };
   return (
-    <section className="relative border-t border-[#D2C3A6]">
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,#FAF7F2_0%,#E6DBC6_100%)]" />
+    <section className="relative border-t border-[#D9DAD7]">
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,#FFFFFF_0%,#EFEAE4_100%)]" />
       <div className="container-x relative mx-auto max-w-[1440px] py-12 lg:py-14">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <SectionIntro
@@ -762,7 +762,7 @@ export function ZlFaqSection() {
           />
           <div className="flex flex-wrap items-center gap-3 lg:justify-self-end" onClick={handleFaqWaClick}>
             <ZlPrimaryLink href={zlLinks.whatsapp} label="Falar no WhatsApp" icon={<ZlWhatsappIcon />} />
-            <p className="max-w-[24ch] text-[0.84rem] leading-[1.5] text-[#8B7862]">
+            <p className="max-w-[24ch] text-[0.84rem] leading-[1.5] text-[#6F746F]">
               Respondemos pessoalmente, sem bot, no horário de atendimento.
             </p>
           </div>
@@ -793,7 +793,7 @@ function FaqItem({
       as="div"
       delay={index * 45}
       className={`overflow-hidden rounded-[1.2rem] border bg-white transition-all ${
-        open ?"border-[#B89B77] shadow-[0_18px_44px_rgba(138,108,72,0.18)]" : "border-[#D2C3A6]"
+        open ?"border-[#0F6B46] shadow-[0_18px_44px_rgba(23,79,63,0.18)]" : "border-[#D9DAD7]"
       }`}
     >
       <button
@@ -802,10 +802,10 @@ function FaqItem({
         className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
         aria-expanded={open}
       >
-        <span className="text-[0.96rem] font-medium text-[#3A2E23]">{q}</span>
+        <span className="text-[0.96rem] font-medium text-[#26302B]">{q}</span>
         <span
           className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border transition-all ${
-            open ?"border-[#B89B77] bg-[#E6DBC6] text-[#574433]" : "border-[#D2C3A6] bg-white text-[#8B7862]"
+            open ?"border-[#0F6B46] bg-[#EFEAE4] text-[#174F3F]" : "border-[#D9DAD7] bg-white text-[#6F746F]"
           }`}
           aria-hidden="true"
         >
@@ -817,7 +817,7 @@ function FaqItem({
           open ?"grid-rows-[1fr]" : "grid-rows-[0fr]"
         }`}
       >
-        <div className="min-h-0 overflow-hidden px-5 pb-5 text-[0.92rem] leading-[1.68] text-[#5C4A38]">
+        <div className="min-h-0 overflow-hidden px-5 pb-5 text-[0.92rem] leading-[1.68] text-[#6F746F]">
           {a}
         </div>
       </div>
@@ -844,7 +844,7 @@ export function ZlFinalCtaSection() {
           <Reveal
             as="figure"
             delay={60}
-        className="mb-3 overflow-hidden rounded-[1.65rem] border border-[#D2C3A6] bg-white p-1 shadow-[0_18px_44px_-20px_rgba(138,108,72,0.26)]"
+        className="mb-3 overflow-hidden rounded-[1.65rem] border border-[#D9DAD7] bg-white p-1 shadow-[0_18px_44px_-20px_rgba(23,79,63,0.26)]"
           >
         <div className="relative aspect-[21/10] w-full overflow-hidden rounded-[calc(1.65rem-0.3rem)] md:aspect-[24/10]">
           <Image
@@ -855,7 +855,7 @@ export function ZlFinalCtaSection() {
             loading="lazy"
             className="object-cover"
           />
-          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.55)_100%)]" />
+          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(23,79,63,0.55)_100%)]" />
           <figcaption className="absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-3 px-5 pb-4 text-white">
             <p className="text-[0.7rem] uppercase tracking-[0.22em]">
               Fachada na Av. Bezerra de Menezes
@@ -867,28 +867,28 @@ export function ZlFinalCtaSection() {
         </div>
       </Reveal>
 
-      <div className="relative overflow-hidden rounded-[2.4rem] bg-[linear-gradient(135deg,#E6DBC6_0%,#D2C3A6_100%)] p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_34px_88px_-34px_rgba(138,108,72,0.3)]">
-        <div className="relative overflow-hidden rounded-[calc(2.4rem-0.375rem)] bg-[linear-gradient(135deg,#FAF7F2_0%,#EFE6D3_50%,#E6DBC6_100%)] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.8)] md:p-10">
+      <div className="relative overflow-hidden rounded-[2.4rem] bg-[linear-gradient(135deg,#EFEAE4_0%,#D9DAD7_100%)] p-1.5 ring-1 ring-[#D9DAD7] shadow-[0_34px_88px_-34px_rgba(23,79,63,0.3)]">
+        <div className="relative overflow-hidden rounded-[calc(2.4rem-0.375rem)] bg-[linear-gradient(135deg,#FFFFFF_0%,#EFE6D3_50%,#EFEAE4_100%)] p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.8)] md:p-10">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_12%_-10%,rgba(184,155,119,0.35),transparent_36%),radial-gradient(circle_at_90%_0%,rgba(154,127,92,0.3),transparent_34%)]" />
 
           <div className="relative grid gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-start">
           <div>
-            <p className="text-[0.66rem] uppercase tracking-[0.28em] text-[#7A6244]">
+            <p className="text-[0.66rem] uppercase tracking-[0.28em] text-[#0F6B46]">
               Agendamento
             </p>
             <h2
-              className="mt-4 max-w-[14ch] text-[clamp(2.2rem,4vw,3.6rem)] leading-[0.96] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[14ch] text-[clamp(2.2rem,4vw,3.6rem)] leading-[0.96] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               Agende seu horário pelo WhatsApp.
             </h2>
             <p
-              className="mt-4 max-w-[30ch] text-[0.98rem] italic leading-[1.55] text-[#7A6244]"
+              className="mt-4 max-w-[30ch] text-[0.98rem] italic leading-[1.55] text-[#0F6B46]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               {zlBrandSignature}
             </p>
-            <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7] text-[#5C4A38]">
+            <p className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.7] text-[#6F746F]">
               Você envia uma mensagem no WhatsApp, a clínica entende seu caso,
               informa os horários disponíveis e confirma tudo antes da sua ida.
             </p>
@@ -904,38 +904,38 @@ export function ZlFinalCtaSection() {
               <ZlSecondaryLink href={zlLinks.instagram} label="Seguir no Instagram" icon={<ZlInstagramIcon />} />
             </div>
             <div className="mt-5">
-              <ZlOpenStatus variant="block" className="text-[#3A2E23]" />
+              <ZlOpenStatus variant="block" className="text-[#26302B]" />
             </div>
           </div>
 
           {/* Bloco de endereco + horario com microdata schema.org: reforca
               JSON-LD pra mecanismos de busca que preferem microdata visivel. */}
           <div
-            className="grid gap-4 rounded-[1.6rem] border border-[#D2C3A6] bg-white/[0.72] p-5 shadow-[0_16px_40px_rgba(138,108,72,0.08)] backdrop-blur-sm"
+            className="grid gap-4 rounded-[1.6rem] border border-[#D9DAD7] bg-white/[0.72] p-5 shadow-[0_16px_40px_rgba(23,79,63,0.08)] backdrop-blur-sm"
             itemScope
             itemType="https://schema.org/LocalBusiness"
           >
             <meta itemProp="name" content="ZL Podologia" />
             <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-              <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#7A6244]">
+              <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#0F6B46]">
                 Endereço
               </p>
-              <p className="mt-2 text-[1rem] leading-[1.55] text-[#3A2E23]" itemProp="streetAddress">
+              <p className="mt-2 text-[1rem] leading-[1.55] text-[#26302B]" itemProp="streetAddress">
                 {zlLocation.address}
               </p>
-              <p className="text-[0.92rem] leading-[1.55] text-[#5C4A38]">
+              <p className="text-[0.92rem] leading-[1.55] text-[#6F746F]">
                 <span itemProp="addressLocality">{zlLocation.district}</span>
                 {" - "}
                 <span itemProp="addressRegion">{zlLocation.city}</span>
                 {" - "}
                 <span itemProp="postalCode">{zlLocation.zipcode}</span>
               </p>
-              <p className="mt-1 text-[0.84rem] leading-[1.55] text-[#7A6244]">
+              <p className="mt-1 text-[0.84rem] leading-[1.55] text-[#0F6B46]">
                 {zlLocation.landmark}
               </p>
             </div>
-            <div className="border-t border-[#D2C3A6] pt-4">
-              <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#574433]">
+            <div className="border-t border-[#D9DAD7] pt-4">
+              <p className="text-[0.66rem] uppercase tracking-[0.24em] text-[#174F3F]">
                 Horário de atendimento
               </p>
               <ul className="mt-3 grid gap-1.5">
@@ -943,12 +943,12 @@ export function ZlFinalCtaSection() {
                   const closed = row.tone === "muted";
                   return (
                     <li key={row.day} className="flex items-center justify-between gap-4 text-[0.88rem]">
-                      <span className={closed ?"text-[#8B7862]" : "text-[#3A2E23]"}>{row.day}</span>
+                      <span className={closed ?"text-[#6F746F]" : "text-[#26302B]"}>{row.day}</span>
                       <span
                         className={
                           closed
-                            ?"text-[#8B7862]"
-                            : "font-medium text-[#3a8c70]"
+                            ?"text-[#6F746F]"
+                            : "font-medium text-[#0F6B46]"
                         }
                       >
                         {row.hours}
@@ -958,7 +958,7 @@ export function ZlFinalCtaSection() {
                 })}
               </ul>
             </div>
-            <div className="border-t border-[#D2C3A6] pt-4 text-[0.86rem] leading-[1.55] text-[#5C4A38]">
+            <div className="border-t border-[#D9DAD7] pt-4 text-[0.86rem] leading-[1.55] text-[#6F746F]">
               <p className="flex items-center gap-2">
                 <ZlStarIcon />
                 <span>5,0 com 11 avaliações: cuidado artesanal, uma paciente por vez.</span>
@@ -968,7 +968,7 @@ export function ZlFinalCtaSection() {
                 <a
                   href={zlLinks.phoneTel}
                   onClick={() => trackZlEvent("phone_click", { source: "cta_final" })}
-                  className="text-[#3A2E23] underline-offset-4 hover:underline"
+                  className="text-[#26302B] underline-offset-4 hover:underline"
                   itemProp="telephone"
                 >
                   {zlContact.phoneDisplay}
@@ -1024,11 +1024,11 @@ export function ZlMobileStickyCta() {
       }`}
       aria-hidden={!visible}
     >
-      <div className="pointer-events-auto mx-3 flex w-[calc(100%-1.5rem)] max-w-md items-center gap-2 rounded-full border border-[#D2C3A6] bg-white/95 p-1.5 shadow-[0_18px_46px_rgba(87,68,51,0.22)] backdrop-blur-sm">
+      <div className="pointer-events-auto mx-3 flex w-[calc(100%-1.5rem)] max-w-md items-center gap-2 rounded-full border border-[#D9DAD7] bg-white/95 p-1.5 shadow-[0_18px_46px_rgba(23,79,63,0.22)] backdrop-blur-sm">
         <a
           href={zlLinks.phoneTel}
           onClick={() => trackZlEvent("phone_click", { source: "sticky_mobile" })}
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#D2C3A6] bg-white text-[#3A2E23]"
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#D9DAD7] bg-white text-[#26302B]"
           aria-label="Ligar para a ZL Podologia"
         >
           <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden="true">
@@ -1050,7 +1050,7 @@ export function ZlMobileStickyCta() {
           target="_blank"
           rel="noreferrer"
           onClick={() => trackZlEvent("maps_click", { source: "sticky_mobile" })}
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#D2C3A6] bg-white text-[#574433]"
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#D9DAD7] bg-white text-[#174F3F]"
           aria-label="Abrir no Google Maps"
         >
           <ZlPinIcon />
@@ -1078,14 +1078,14 @@ function SectionIntro({
     <div>
       <Reveal
         as="p"
-        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+        className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
       >
         {eyebrow}
       </Reveal>
       <Reveal
         as="h2"
         delay={70}
-        className="mt-4 max-w-[18ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+        className="mt-4 max-w-[18ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {title}
@@ -1093,7 +1093,7 @@ function SectionIntro({
       <Reveal
         as="p"
         delay={130}
-        className="mt-5 max-w-[36ch] text-[0.98rem] leading-[1.72] text-[#5C4A38]"
+        className="mt-5 max-w-[36ch] text-[0.98rem] leading-[1.72] text-[#6F746F]"
       >
         {body}
       </Reveal>

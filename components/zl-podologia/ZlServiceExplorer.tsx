@@ -93,22 +93,22 @@ export function ZlServiceExplorer({
   };
 
   return (
-    <section id="servicos" className="relative border-t border-[#D2C3A6]">
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,#FAF7F2_0%,#E6DBC6_100%)]" />
+    <section id="servicos" className="relative border-t border-[#D9DAD7]">
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,#FFFFFF_0%,#EFEAE4_100%)]" />
       <div className="container-x relative mx-auto max-w-[1440px] py-14 lg:py-16">
         <div className="grid gap-8">
           <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
             <div>
               <Reveal
                 as="p"
-                className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+                className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
               >
                 Serviços
               </Reveal>
               <Reveal
                 as="h2"
                 delay={70}
-                className="mt-4 text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+                className="mt-4 text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
               >
                 Escolha o cuidado que combina com o seu momento.
@@ -116,7 +116,7 @@ export function ZlServiceExplorer({
               <Reveal
                 as="p"
                 delay={130}
-                className="mt-5 max-w-[28ch] text-[0.98rem] leading-[1.7] text-[#5C4A38]"
+                className="mt-5 max-w-[28ch] text-[0.98rem] leading-[1.7] text-[#6F746F]"
               >
                 Dor, alteração na unha, manutenção e bem-estar seguem por
                 caminhos simples para você entender o próximo passo.
@@ -126,7 +126,7 @@ export function ZlServiceExplorer({
             <Reveal
               as="p"
               delay={120}
-              className="max-w-[42ch] text-[0.88rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+              className="max-w-[42ch] text-[0.88rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
             >
               Cada opção mostra o que será avaliado, como o atendimento acontece
               e como agendar com segurança.
@@ -143,38 +143,38 @@ export function ZlServiceExplorer({
                   type="button"
                   onClick={() => handleSelect(service.id)}
                   aria-pressed={active}
-                  className={`group flex shrink-0 items-center gap-3 rounded-[1.1rem] border px-4 py-3 text-left transition-all duration-300 lg:min-w-[16rem] lg:flex-1 lg:justify-between ${
+                  className={`group flex shrink-0 items-center gap-3 rounded-[1.1rem] border px-4 py-3 text-left transition-all duration-300 lg:min-w-[13rem] lg:flex-1 lg:justify-between xl:min-w-[15rem] ${
                     active
-                      ?"border-[#B89B77] bg-white shadow-[0_14px_36px_rgba(138,108,72,0.22)]"
-                      : "border-[#D2C3A6] bg-white/70 hover:border-[#B89B77] hover:bg-white"
+                      ?"border-[#0F6B46] bg-white shadow-[0_14px_36px_rgba(23,79,63,0.22)]"
+                      : "border-[#D9DAD7] bg-white/70 hover:border-[#0F6B46] hover:bg-white"
                   }`}
                 >
                   <div className="flex items-center gap-3">
                     <span
                       className={`flex h-8 w-8 items-center justify-center rounded-full transition-colors ${
                         active
-                          ?"bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white"
-                          : "bg-[#E6DBC6] text-[#574433]"
+                          ?"bg-[linear-gradient(135deg,#174F3F_0%,#174F3F_100%)] text-white"
+                          : "bg-[#EFEAE4] text-[#174F3F]"
                       }`}
                     >
                       <ServiceGlyph kind={service.id} />
                     </span>
-                    <div>
+                    <div className="min-w-0">
                       <div className="flex items-center gap-2">
                         <p
-                          className={`text-[0.82rem] font-medium tracking-[0.01em] ${
-                            active ?"text-[#3A2E23]" : "text-[#5C4A38]"
+                          className={`text-[0.82rem] font-medium leading-[1.15] tracking-[0.01em] ${
+                            active ?"text-[#26302B]" : "text-[#6F746F]"
                           }`}
                         >
                           {service.menuLabel}
                         </p>
                         {isPriority ?(
-                          <span className="rounded-full bg-[#FBF4EF] px-2 py-0.5 text-[0.56rem] uppercase tracking-[0.16em] text-[#B8837A]">
+                          <span className="rounded-full bg-[#EFEAE4] px-2 py-0.5 text-[0.56rem] uppercase tracking-[0.16em] text-[#0F6B46]">
                             Prioridade
                           </span>
                         ) : null}
                       </div>
-                      <p className="hidden text-[0.7rem] text-[#8B7862] lg:block">
+                      <p className="hidden max-w-[12rem] text-[0.7rem] leading-[1.25] text-[#6F746F] lg:block">
                         {service.price}
                       </p>
                     </div>
@@ -182,8 +182,8 @@ export function ZlServiceExplorer({
                   <span
                     className={`hidden text-[0.9rem] transition-transform duration-300 lg:inline-block ${
                       active
-                        ?"translate-x-0 text-[#574433]"
-                        : "-translate-x-1 text-[#B89B77]"
+                        ?"translate-x-0 text-[#174F3F]"
+                        : "-translate-x-1 text-[#0F6B46]"
                     }`}
                     aria-hidden="true"
                   >
@@ -246,7 +246,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
     <Reveal
       as="div"
       delay={120}
-      className={`relative border-t border-[#D2C3A6] pt-6 ${
+      className={`relative border-t border-[#D9DAD7] pt-6 ${
         service.premiumStripe
           ?"ring-1 ring-[rgba(160,131,121,0.18)]"
           : ""
@@ -257,7 +257,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[rgba(160,131,121,0.25)] bg-white px-5 py-3 md:px-7">
           <p
             className="text-[0.62rem] uppercase tracking-[0.32em]"
-            style={{ color: "#A08379" }}
+            style={{ color: "#8EA08E" }}
           >
             Experiência premium
           </p>
@@ -266,7 +266,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             style={{
               fontFamily: "var(--font-display)",
               fontWeight: 400,
-              color: "#7A6244",
+              color: "#0F6B46",
             }}
           >
             60 minutos só seus
@@ -282,19 +282,19 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               <span
                 className={`rounded-full px-3 py-1 text-[0.68rem] uppercase tracking-[0.2em] ${
                   service.premiumStripe
-                    ?"bg-white text-[#A08379] ring-1 ring-[rgba(160,131,121,0.45)]"
-                    : "bg-[#E6DBC6] text-[#574433]"
+                    ?"bg-white text-[#8EA08E] ring-1 ring-[rgba(160,131,121,0.45)]"
+                    : "bg-[#EFEAE4] text-[#174F3F]"
                 }`}
               >
                 {service.menuLabel}
               </span>
-              <span className="rounded-full border border-[#D2C3A6] bg-white px-3 py-1 text-[0.68rem] uppercase tracking-[0.18em] text-[#5C4A38]">
+              <span className="max-w-full rounded-full border border-[#D9DAD7] bg-white px-3 py-1 text-[0.68rem] uppercase leading-[1.25] tracking-[0.18em] text-[#6F746F] sm:max-w-[25rem]">
                 {service.price}
               </span>
             </div>
 
             <h3
-              className={`mt-4 text-[clamp(1.6rem,2.5vw,2.4rem)] leading-[1.02] tracking-[-0.03em] text-[#3A2E23] ${
+              className={`mt-4 text-[clamp(1.6rem,2.5vw,2.4rem)] leading-[1.02] tracking-[-0.03em] text-[#26302B] ${
                 service.premiumStripe ?"italic" : ""
               }`}
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
@@ -302,17 +302,17 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               {service.title}
             </h3>
 
-            <p className="mt-3 max-w-[44ch] text-[0.94rem] leading-[1.7] text-[#5C4A38]">
+            <p className="mt-3 max-w-[44ch] text-[0.94rem] leading-[1.7] text-[#6F746F]">
               {service.pain}
             </p>
           </div>
 
           <div className="flex shrink-0 flex-col gap-2 sm:items-end">
-            <p className="text-[0.62rem] uppercase tracking-[0.2em] text-[#8B7862]">
-              Valor inicial
+            <p className="text-[0.62rem] uppercase tracking-[0.2em] text-[#6F746F]">
+              Referência
             </p>
             <p
-              className="text-[1.18rem] leading-none tracking-[-0.02em] text-[#3A2E23]"
+              className="max-w-[16rem] text-left text-[1.18rem] leading-[1.15] tracking-[-0.02em] text-[#26302B] sm:text-right"
               style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}
             >
               {service.price}
@@ -342,7 +342,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
           <div
             role="tablist"
             aria-label={`Detalhes de ${service.menuLabel}`}
-            className="flex flex-wrap items-center gap-1.5 rounded-[1rem] border border-[#D2C3A6] bg-[#FAF7F2] p-1"
+            className="flex flex-wrap items-center gap-1.5 rounded-[1rem] border border-[#D9DAD7] bg-[#FFFFFF] p-1"
           >
             {SERVICE_TABS.map((t, idx) => {
               const active = tab === t.id;
@@ -359,8 +359,8 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
                   onKeyDown={(e) => handleTabKeyDown(e, idx)}
                   className={`flex-1 rounded-[0.72rem] px-3 py-2 text-[0.78rem] font-medium tracking-[0.02em] transition-all duration-200 ${
                     active
-                      ?"bg-white text-[#3A2E23] shadow-[0_8px_20px_rgba(138,108,72,0.22)] ring-1 ring-[#B89B77]/50"
-                      : "text-[#8B7862] hover:text-[#574433]"
+                      ?"bg-white text-[#26302B] shadow-[0_8px_20px_rgba(23,79,63,0.22)] ring-1 ring-[#0F6B46]/50"
+                      : "text-[#6F746F] hover:text-[#174F3F]"
                   }`}
                 >
                   {t.label}
@@ -370,7 +370,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
           </div>
 
           {/* Eyebrow da aba selecionada */}
-          <p className="mt-4 text-[0.66rem] uppercase tracking-[0.24em] text-[#7A6244]">
+          <p className="mt-4 text-[0.66rem] uppercase tracking-[0.24em] text-[#0F6B46]">
             {SERVICE_TABS.find((t) => t.id === tab)?.eyebrow}
           </p>
 
@@ -385,24 +385,24 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
           >
             {service.tagline ?(
               <p
-                className="text-[0.98rem] italic leading-[1.55] text-[#7A6244]"
+                className="text-[0.98rem] italic leading-[1.55] text-[#0F6B46]"
                 style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
               >
                 {service.tagline}
               </p>
             ) : null}
 
-            <p className="mt-4 text-[0.94rem] leading-[1.7] text-[#5C4A38]">
+            <p className="mt-4 text-[0.94rem] leading-[1.7] text-[#6F746F]">
               {service.promise}
             </p>
 
-            <div className="mt-5 grid gap-2.5 border-t border-[#D2C3A6] pt-4">
+            <div className="mt-5 grid gap-2.5 border-t border-[#D9DAD7] pt-4">
               {service.highlights.map((highlight, idx) => (
                 <div key={highlight} className="flex items-start gap-3">
-                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.6rem] font-medium text-[#574433]">
+                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#EFEAE4] text-[0.6rem] font-medium text-[#174F3F]">
                     {String(idx + 1).padStart(2, "0")}
                   </span>
-                  <p className="text-[0.9rem] leading-[1.55] text-[#5C4A38]">{highlight}</p>
+                  <p className="text-[0.9rem] leading-[1.55] text-[#6F746F]">{highlight}</p>
                 </div>
               ))}
             </div>
@@ -416,14 +416,14 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             className="mt-3"
           >
             {service.includes && service.includes.length > 0 ?(
-              <div className="rounded-[1.1rem] border border-[#D2C3A6] bg-[#FAF7F2] p-4">
-                <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#3a8c70]">
+              <div className="rounded-[1.1rem] border border-[#D9DAD7] bg-[#FFFFFF] p-4">
+                <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                   O que entra nesse cuidado
                 </p>
                 <ul className="mt-3 grid gap-2.5">
                   {service.includes.map((item) => (
-                    <li key={item} className="flex items-start gap-2.5 text-[0.9rem] leading-[1.55] text-[#5C4A38]">
-                      <span className="mt-1 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#e8f4ec] text-[0.6rem] font-medium text-[#3a8c70]">
+                    <li key={item} className="flex items-start gap-2.5 text-[0.9rem] leading-[1.55] text-[#6F746F]">
+                      <span className="mt-1 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#e8f4ec] text-[0.6rem] font-medium text-[#0F6B46]">
                         <svg viewBox="0 0 12 12" className="h-2.5 w-2.5" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M2.5 6.3l2.3 2.2L9.5 3.8" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
@@ -436,22 +436,22 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             ) : null}
 
             <div className={service.includes && service.includes.length > 0 ?"mt-5" : ""}>
-              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
+              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                 Como funciona o atendimento
               </p>
               <ol className="mt-3 grid gap-3">
                 {service.steps.map((step, index) => (
                   <li key={step} className="flex gap-3">
-                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E6DBC6] text-[0.72rem] font-medium text-[#574433]">
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#EFEAE4] text-[0.72rem] font-medium text-[#174F3F]">
                       {index + 1}
                     </span>
-                    <p className="text-[0.92rem] leading-[1.58] text-[#5C4A38]">{step}</p>
+                    <p className="text-[0.92rem] leading-[1.58] text-[#6F746F]">{step}</p>
                   </li>
                 ))}
               </ol>
             </div>
 
-            <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#8B7862]">
+            <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#6F746F]">
               {service.visualSupport}
             </p>
           </div>
@@ -463,11 +463,11 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             hidden={tab !== "agendar"}
             className="mt-3"
           >
-            <div className="rounded-[1.1rem] border border-[#B89B77] bg-[linear-gradient(180deg,#E6DBC6_0%,#D2C3A6_100%)] p-4">
-              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#574433]">
+            <div className="rounded-[1.1rem] border border-[#0F6B46] bg-[linear-gradient(180deg,#EFEAE4_0%,#D9DAD7_100%)] p-4">
+              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#174F3F]">
                 Preço oficial
               </p>
-              <p className="mt-2 text-[1.3rem] font-medium leading-[1.2] text-[#3A2E23]" style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}>
+              <p className="mt-2 text-[1.3rem] font-medium leading-[1.2] text-[#26302B]" style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}>
                 {service.price}
               </p>
               <div className="mt-4" onClick={handleCtaClick}>
@@ -483,20 +483,20 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             </div>
 
             {service.subVariants && service.subVariants.length > 0 ?(
-              <div className="mt-5 rounded-[1.1rem] border border-[#D2C3A6] bg-white p-4">
-                <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
+              <div className="mt-5 rounded-[1.1rem] border border-[#D9DAD7] bg-white p-4">
+                <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                   Também oferecemos
                 </p>
                 <ul className="mt-3 grid gap-3">
                   {service.subVariants.map((variant) => (
-                    <li key={variant.title} className="text-[0.9rem] leading-[1.55] text-[#5C4A38]">
-                      <p className="flex flex-wrap items-baseline gap-2 text-[0.86rem] font-medium text-[#3A2E23]">
+                    <li key={variant.title} className="text-[0.9rem] leading-[1.55] text-[#6F746F]">
+                      <p className="flex flex-wrap items-baseline gap-2 text-[0.86rem] font-medium text-[#26302B]">
                         <span>{variant.title}</span>
-                        <span className="text-[0.74rem] font-normal text-[#574433]">
+                        <span className="text-[0.74rem] font-normal text-[#174F3F]">
                           {variant.price}
                         </span>
                       </p>
-                      <p className="mt-1 text-[0.84rem] text-[#5C4A38]">
+                      <p className="mt-1 text-[0.84rem] text-[#6F746F]">
                         {variant.body}
                       </p>
                     </li>
@@ -505,7 +505,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
               </div>
             ) : null}
 
-            <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#8B7862]">
+            <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#6F746F]">
               Valor final depende sempre da avaliação clínica - sem surpresa no final.
             </p>
           </div>
@@ -537,7 +537,7 @@ function ServiceVisual({ service }: { service: ZlInteractiveService }) {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(28,20,15,0.08)_0%,rgba(28,20,15,0.2)_30%,rgba(28,20,15,0.5)_62%,rgba(22,16,12,0.92)_100%)]" />
 
         <div className="absolute left-4 top-4 right-4 flex flex-wrap items-center justify-between gap-2">
-          <p className="rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#5C4A38] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
+          <p className="rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#6F746F] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
             {service.visualLabel}
           </p>
         </div>
@@ -603,6 +603,22 @@ function ServiceGlyph({ kind }: { kind: ZlServiceId }) {
           <path d="M3 10h14" strokeLinecap="round" />
           <circle cx="16" cy="10" r="2" fill="currentColor" />
           <path d="M7 5l3 5-3 5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      );
+    case "plantar_wart":
+      return (
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.7" className="h-4 w-4">
+          <path d="M6 15c0-4 2-8 5-10 3 2 4 6 3 10" strokeLinecap="round" />
+          <circle cx="11" cy="12" r="2.2" fill="currentColor" opacity="0.42" />
+          <path d="M8.5 12h5" strokeLinecap="round" />
+        </svg>
+      );
+    case "tungiasis":
+      return (
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.7" className="h-4 w-4">
+          <path d="M5 15c0-4 2-8 5-10 3 2 5 6 5 10" strokeLinecap="round" />
+          <circle cx="10" cy="12" r="2.4" fill="currentColor" opacity="0.38" />
+          <path d="M10 9.5v5" strokeLinecap="round" />
         </svg>
       );
     case "diabetic":

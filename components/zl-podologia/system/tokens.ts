@@ -10,20 +10,23 @@ type TypographyToken = Readonly<{
 }>;
 
 export const zlPalette = {
-  ink: "#3A2E23",
-  inkMuted: "#5C4A38",
-  accent: "#B8837A",
-  accentStrong: "#9F6E67",
-  paper: "#FFF9F5",
-  wash: "#FBF4EF",
-  border: "#E6D7CB",
-  borderStrong: "#D7C2B6",
+  ink: "#26302B",
+  inkMuted: "#6F746F",
+  accent: "#0F6B46",
+  accentStrong: "#174F3F",
+  paper: "#F8F7F4",
+  wash: "#EFEAE4",
+  border: "#D9DAD7",
+  borderStrong: "#C8CEC7",
   contrast: "#FFFFFF",
   contrastMuted: "rgba(255,255,255,0.82)",
   whisper: "rgba(255,255,255,0.12)",
-  overlay: "rgba(58,46,35,0.72)",
-  whatsapp: "#1D9E75",
-  whatsappStrong: "#167C5D",
+  overlay: "rgba(23,79,63,0.72)",
+  whatsapp: "#0F6B46",
+  whatsappStrong: "#174F3F",
+  sage: "#8EA08E",
+  ivory: "#E8DED3",
+  gold: "#B9A06F",
 } as const;
 
 export const zlRadius = {
@@ -43,9 +46,9 @@ export const zlSpacing = {
 } as const;
 
 export const zlShadow = {
-  soft: "0 14px 34px rgba(109,73,58,0.10)",
-  card: "0 22px 54px rgba(109,73,58,0.12)",
-  floating: "0 28px 70px rgba(44,33,27,0.16)",
+  soft: "0 14px 34px rgba(23,79,63,0.08)",
+  card: "0 22px 54px rgba(23,79,63,0.10)",
+  floating: "0 28px 70px rgba(23,48,38,0.14)",
 } as const;
 
 export const zlLayout = {

@@ -187,8 +187,8 @@ body.menu-open {
   position: relative;
   overflow: hidden;
   border-radius: clamp(0.65rem, 1.1vw, 1.35rem);
-  background: #2f241d;
-  box-shadow: 0 14px 38px rgba(109, 73, 58, 0.08);
+  background: #174f3f;
+  box-shadow: 0 14px 38px rgba(23, 79, 63, 0.08);
   isolation: isolate;
 }
 
@@ -201,8 +201,8 @@ body.menu-open {
   z-index: 2;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(242, 235, 222, 0.2) 0%, transparent 10%, transparent 90%, rgba(242, 235, 222, 0.16) 100%),
-    linear-gradient(180deg, transparent 62%, rgba(242, 235, 222, 0.24) 100%);
+    linear-gradient(90deg, rgba(248, 247, 244, 0.2) 0%, transparent 10%, transparent 90%, rgba(248, 247, 244, 0.16) 100%),
+    linear-gradient(180deg, transparent 62%, rgba(248, 247, 244, 0.24) 100%);
 }
 
 .zl-integrated-photo img {
@@ -231,8 +231,8 @@ body.menu-open {
   z-index: 1;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(245, 237, 229, 0.8) 0%, rgba(245, 237, 229, 0.32) 18%, transparent 44%),
-    linear-gradient(180deg, transparent 68%, rgba(244, 237, 227, 0.42) 100%);
+    linear-gradient(90deg, rgba(248, 247, 244, 0.84) 0%, rgba(248, 247, 244, 0.34) 18%, transparent 44%),
+    linear-gradient(180deg, transparent 68%, rgba(239, 234, 228, 0.42) 100%);
 }
 
 .zl-hero-photo-field img {
@@ -256,8 +256,8 @@ body.menu-open {
   position: relative;
   overflow: hidden;
   border-radius: clamp(0.55rem, 0.9vw, 0.95rem);
-  background: #f2ebde;
-  box-shadow: 0 14px 34px rgba(109, 73, 58, 0.08);
+  background: #f8f7f4;
+  box-shadow: 0 14px 34px rgba(23, 79, 63, 0.08);
 }
 
 .zl-signature-photo {
@@ -287,7 +287,7 @@ body.menu-open {
   .zl-signature-photo::after,
   .zl-hero-photo-field::after {
     background:
-      linear-gradient(90deg, rgba(242, 235, 222, 0.16) 0%, transparent 8%, transparent 92%, rgba(242, 235, 222, 0.14) 100%),
-      linear-gradient(180deg, transparent 68%, rgba(242, 235, 222, 0.2) 100%);
+      linear-gradient(90deg, rgba(248, 247, 244, 0.16) 0%, transparent 8%, transparent 92%, rgba(248, 247, 244, 0.14) 100%),
+      linear-gradient(180deg, transparent 68%, rgba(248, 247, 244, 0.2) 100%);
   }
 }

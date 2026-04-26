@@ -15,11 +15,11 @@ export function ZlExactProfileCard({
   alt: string;
 }) {
   return (
-    <article className="overflow-hidden rounded-[1.55rem] border border-[#eadfd8] bg-white shadow-[0_14px_34px_rgba(123,98,78,0.08)]">
+    <article className="overflow-hidden rounded-[1.55rem] border border-[#D9DAD7] bg-white shadow-[0_14px_34px_rgba(123,98,78,0.08)]">
       <div className="relative aspect-[0.88]">
         <Image src={src} alt={alt} fill sizes="(min-width: 768px) 24vw, 100vw" className="object-cover" />
       </div>
-      <div className="border-t border-[#eadfd8] px-5 py-4">
+      <div className="border-t border-[#D9DAD7] px-5 py-4">
         <p className="text-[0.68rem] uppercase tracking-[0.24em] text-[#9a7f5c]">{role}</p>
         <h3
           className="mt-2 text-[1.5rem] leading-[1] tracking-[-0.03em] text-[#32261f]"

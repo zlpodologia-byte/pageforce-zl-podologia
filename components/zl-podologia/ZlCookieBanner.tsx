@@ -49,7 +49,7 @@ export function ZlCookieBanner() {
       role="dialog"
       aria-live="polite"
       aria-label="Preferências de cookies"
-      className="pointer-events-auto fixed bottom-4 right-4 z-50 w-[min(92vw,22rem)] rounded-[1.1rem] border border-[#D2C3A6] bg-white/95 p-3.5 text-[0.82rem] leading-[1.5] text-[#5C4A38] shadow-[0_20px_52px_rgba(87,68,51,0.18)] backdrop-blur-sm sm:bottom-6 sm:right-6"
+      className="pointer-events-auto fixed bottom-4 right-4 z-50 w-[min(92vw,22rem)] rounded-[1.1rem] border border-[#D9DAD7] bg-white/95 p-3.5 text-[0.82rem] leading-[1.5] text-[#6F746F] shadow-[0_20px_52px_rgba(23,79,63,0.18)] backdrop-blur-sm sm:bottom-6 sm:right-6"
     >
       <p className="pr-1">
         A ZL usa cookies básicos (GA4) para entender como você navega. Sem
@@ -59,14 +59,14 @@ export function ZlCookieBanner() {
         <button
           type="button"
           onClick={() => decide("declined")}
-          className="rounded-full border border-[#D2C3A6] bg-white px-3 py-1 text-[0.76rem] font-medium text-[#5C4A38] transition-colors hover:border-[#B89B77] hover:text-[#3A2E23]"
+          className="rounded-full border border-[#D9DAD7] bg-white px-3 py-1 text-[0.76rem] font-medium text-[#6F746F] transition-colors hover:border-[#0F6B46] hover:text-[#26302B]"
         >
           Recusar
         </button>
         <button
           type="button"
           onClick={() => decide("accepted")}
-          className="rounded-full bg-[#3A2E23] px-3 py-1 text-[0.76rem] font-medium text-white transition-colors hover:bg-[#574433]"
+          className="rounded-full bg-[#26302B] px-3 py-1 text-[0.76rem] font-medium text-white transition-colors hover:bg-[#174F3F]"
         >
           Aceitar
         </button>

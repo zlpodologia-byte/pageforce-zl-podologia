@@ -15,7 +15,7 @@ export function ZlExactServicesPage() {
       <div className="px-5 py-8 sm:px-8 lg:px-14 lg:py-12 xl:px-16">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,0.86fr)_minmax(0,1.14fr)] lg:items-start">
           <div>
-            <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#c69184]">
+            <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#0F6B46]">
               Nossos servicos
             </p>
             <h2
@@ -30,7 +30,7 @@ export function ZlExactServicesPage() {
             </p>
           </div>
 
-          <div className="overflow-hidden rounded-[2rem] border border-[#eadfd8] bg-[#faf4ef] shadow-[0_22px_50px_rgba(123,98,78,0.1)]">
+          <div className="overflow-hidden rounded-[2rem] border border-[#D9DAD7] bg-[#faf4ef] shadow-[0_22px_50px_rgba(123,98,78,0.1)]">
             <div className="relative aspect-[1.65]">
               <Image
                 src="/zl-podologia/social/edited-pro/equipe/profissional-contexto-humano-pro.jpg"
@@ -58,7 +58,7 @@ export function ZlExactServicesPage() {
                 key={card.title}
                 className="rounded-[1.7rem] border border-[#ebdfd8] bg-white px-5 py-6 shadow-[0_12px_30px_rgba(123,98,78,0.06)]"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-full border border-[#f0e1d8] bg-[#fff4ef] text-[#c69184]">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full border border-[#D9DAD7] bg-[#F8F7F4] text-[#0F6B46]">
                   <ExactGlyph kind={card.icon} className="h-5 w-5" />
                 </span>
                 <h3
@@ -68,7 +68,7 @@ export function ZlExactServicesPage() {
                   {card.title}
                 </h3>
                 <p className="mt-4 text-[0.94rem] leading-[1.7] text-[#6d5a4c]">{card.body}</p>
-                <div className="mt-5 inline-flex items-center gap-2 text-[0.82rem] uppercase tracking-[0.16em] text-[#d48678]">
+                <div className="mt-5 inline-flex items-center gap-2 text-[0.82rem] uppercase tracking-[0.16em] text-[#0F6B46]">
                   <span>Saiba mais</span>
                   <ExactGlyph kind="arrow" className="h-4 w-4" />
                 </div>
@@ -80,7 +80,7 @@ export function ZlExactServicesPage() {
         <div className="mt-14">
           <div className="flex items-end justify-between gap-4">
             <div>
-              <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#c69184]">
+              <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#0F6B46]">
                 Resultados que voce ve e sente
               </p>
               <h3
@@ -129,8 +129,8 @@ export function ZlExactServicesPage() {
             />
             <div className="grid gap-4 lg:grid-cols-4">
               {zlExactCareSteps.map((step) => (
-                <div key={step.title} className="rounded-[1.4rem] border border-[#eadfd8] bg-white p-5 text-center">
-                  <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-[#eadfd8] bg-[#fff4ef] text-[#c69184]">
+                <div key={step.title} className="rounded-[1.4rem] border border-[#D9DAD7] bg-white p-5 text-center">
+                  <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-[#D9DAD7] bg-[#F8F7F4] text-[#0F6B46]">
                     <ExactGlyph kind={step.icon} className="h-5 w-5" />
                   </span>
                   <h4
@@ -157,7 +157,7 @@ export function ZlExactServicesPage() {
             {zlExactPricingCards.map((card) => (
               <div
                 key={card.title}
-                className="flex flex-col rounded-[1.5rem] border border-[#eadfd8] bg-[#fffdfb] p-5 shadow-[0_12px_28px_rgba(123,98,78,0.05)]"
+                className="flex flex-col rounded-[1.5rem] border border-[#D9DAD7] bg-[#fffdfb] p-5 shadow-[0_12px_28px_rgba(123,98,78,0.05)]"
               >
                 <h4
                   className="min-h-[3.25rem] text-[1.18rem] leading-[1.05] tracking-[-0.03em] text-[#352822]"
@@ -182,7 +182,7 @@ export function ZlExactServicesPage() {
           </div>
         </div>
 
-        <div className="mt-14 overflow-hidden rounded-[2rem] border border-[#eadfd8] bg-[linear-gradient(180deg,#fff8f4_0%,#fcf4ef_100%)] shadow-[0_20px_44px_rgba(123,98,78,0.08)]">
+        <div className="mt-14 overflow-hidden rounded-[2rem] border border-[#D9DAD7] bg-[linear-gradient(180deg,#fff8f4_0%,#fcf4ef_100%)] shadow-[0_20px_44px_rgba(123,98,78,0.08)]">
           <div className="grid lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)]">
             <div className="relative min-h-[22rem]">
               <Image
@@ -194,7 +194,7 @@ export function ZlExactServicesPage() {
               />
             </div>
             <div className="p-6 sm:p-8 lg:p-10">
-              <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#c69184]">
+              <p className="text-[0.68rem] uppercase tracking-[0.28em] text-[#0F6B46]">
                 Pronta para cuidar de voce?
               </p>
               <h3

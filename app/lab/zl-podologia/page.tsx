@@ -17,7 +17,7 @@ import {
 /* ------------------------------------------------------------------ */
 
 const description =
-  "Podologia clínica em Fortaleza (Parquelândia) para unha encravada, fungos, podoprofilaxia e reflexologia. 5,0 no Google, cuidado humanizado com Zucarina e Jannie. Agende pelo WhatsApp.";
+  "Podologia clínica em Fortaleza (Parquelândia) para unha encravada, fungos, podoprofilaxia e reflexologia podal. 5,0 no Google, cuidado humanizado com Zucarina e Jannié. Agende pelo WhatsApp.";
 
 export const metadata: Metadata = {
   title:
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     siteName: "ZL Podologia Fortaleza",
     title:
-      "ZL Podologia - Podologia clínica humanizada em Fortaleza / Parquelândia",
+      "ZL Podologia - Podologia clínica em Fortaleza | Parquelândia",
     description,
     url: ZL_CANONICAL_URL,
     images: [
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     ],
   },
   other: {
-    "theme-color": "#F2EBDE",
+    "theme-color": "#F8F7F4",
     "geo.region": "BR-CE",
     "geo.placename": "Fortaleza",
     "geo.position": `${zlLocation.latitude};${zlLocation.longitude}`,
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
-  themeColor: "#F2EBDE",
+  themeColor: "#F8F7F4",
 };
 
 /* ------------------------------------------------------------------ */
@@ -120,7 +120,7 @@ function buildSchemaGraph(): JsonLdObject {
       "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
       "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg",
     ],
-    logo: "https://www.zlpodologia.com.br/zl-podologia/social/marca/logo-oficial.jpg",
+    logo: "https://www.zlpodologia.com.br/zl-podologia/brand/zl-logo-green-seal-2026-04-26.png",
     url: ZL_CANONICAL_URL,
     telephone: "+5585994358505",
     email: zlContact.email,
@@ -236,22 +236,22 @@ function buildSchemaGraph(): JsonLdObject {
       "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/equipe/profissional-close-autoridade-pro.jpg",
   };
 
-  const janniePerson: JsonLdObject = {
+  const reflexologyPerson: JsonLdObject = {
     "@type": "Person",
-    "@id": `${ZL_CANONICAL_URL}#jannie`,
-    name: "Jannie",
-    jobTitle: "Podóloga",
+    "@id": `${ZL_CANONICAL_URL}#reflexologia-podal`,
+    name: "Jannié",
+    jobTitle: "Reflexoterapeuta podal",
     worksFor: { "@id": `${ZL_CANONICAL_URL}#business` },
     description:
-      "Atenciosa e cuidadosa no atendimento - citada nominalmente nas avaliações públicas da clínica.",
-    // v7-earthy: Jannie agora tem retrato autorizado.
+      "Reflexoterapeuta podal da ZL Podologia, atenciosa no cuidado de bem-estar e continuidade da experiência da clínica.",
+    // v7-earthy: retrato autorizado da reflexoterapeuta podal.
     image:
       "https://www.zlpodologia.com.br/zl-podologia/social/equipe/jannie-retrato.jpg",
   };
 
   return {
     "@context": "https://schema.org",
-    "@graph": [localBusiness, webPage, faqPage, zucarinaPerson, janniePerson],
+    "@graph": [localBusiness, webPage, faqPage, zucarinaPerson, reflexologyPerson],
   };
 }
 

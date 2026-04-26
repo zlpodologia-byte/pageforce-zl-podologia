@@ -50,21 +50,21 @@ export function ZlBiosafetySection() {
   return (
     <section
       id="biosseguranca"
-      className="relative border-t border-[#D2C3A6] bg-[#FAF7F2]"
+      className="relative border-t border-[#D9DAD7] bg-[#FFFFFF]"
     >
       <div className="container-x mx-auto max-w-[1440px] py-12 lg:py-14">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-start">
           <div>
             <Reveal
               as="p"
-              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
             >
               Biossegurança
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               Protocolo de biossegurança hospitalar em Fortaleza.
@@ -72,7 +72,7 @@ export function ZlBiosafetySection() {
             <Reveal
               as="p"
               delay={130}
-              className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.65] text-[#5C4A38]"
+              className="mt-4 max-w-[42ch] text-[0.98rem] leading-[1.65] text-[#6F746F]"
             >
               Sua segurança na ZL Podologia, em Parquelândia, não é opcional. O
               processo é visível, documentado e explicado durante o
@@ -82,9 +82,9 @@ export function ZlBiosafetySection() {
             <Reveal
               as="p"
               delay={200}
-              className="mt-4 inline-flex items-start gap-2 rounded-[1rem] border border-[#D2C3A6] bg-white/80 px-4 py-3 text-[0.8rem] leading-[1.55] text-[#5C4A38]"
+              className="mt-4 inline-flex items-start gap-2 rounded-[1rem] border border-[#D9DAD7] bg-white/80 px-4 py-3 text-[0.8rem] leading-[1.55] text-[#6F746F]"
             >
-              <span className="mt-0.5 text-[#574433]">
+              <span className="mt-0.5 text-[#174F3F]">
                 <svg
                   viewBox="0 0 24 24"
                   className="h-4 w-4"
@@ -112,7 +112,7 @@ export function ZlBiosafetySection() {
                   loading="lazy"
                   className="object-cover"
                 />
-                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.55)_100%)]" />
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(23,79,63,0.55)_100%)]" />
                 <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 px-4 pb-3 text-white">
                   <p className="text-[0.66rem] uppercase tracking-[0.24em]">
                     Atendimento real ZL
@@ -126,7 +126,7 @@ export function ZlBiosafetySection() {
           <div className="grid gap-4 sm:grid-cols-2">
             {zlBiosafetyItems.map((item, idx) => {
               // v8-merge: metade dos icons (autoclave + kit) em rose mid
-              // `#C69184` com bg rose tint; outra metade (ultrasound +
+              // `#0F6B46` com bg rose tint; outra metade (ultrasound +
               // disposable) segue terroso. Fusao 50/50 de accent rose em
               // icons da secao.
               const useRose = item.kind === "autoclave" || item.kind === "kit";
@@ -135,25 +135,25 @@ export function ZlBiosafetySection() {
                 key={item.kind}
                 as="article"
                 delay={idx * 70}
-                className="group relative flex gap-4 rounded-[1.4rem] border border-[#D2C3A6] bg-white p-5 shadow-[0_14px_36px_rgba(138,108,72,0.08)] transition-all hover:-translate-y-0.5 hover:border-[#B89B77]"
+                className="group relative flex gap-4 rounded-[1.4rem] border border-[#D9DAD7] bg-white p-5 shadow-[0_14px_36px_rgba(23,79,63,0.08)] transition-all hover:-translate-y-0.5 hover:border-[#0F6B46]"
               >
                 <span
                   className={`mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${
                     useRose
-                      ?"bg-[#FFF4EF] text-[#C69184]"
-                      : "bg-[linear-gradient(135deg,#E6DBC6_0%,#D2C3A6_100%)] text-[#574433]"
+                      ?"bg-[#FFF4EF] text-[#0F6B46]"
+                      : "bg-[linear-gradient(135deg,#EFEAE4_0%,#D9DAD7_100%)] text-[#174F3F]"
                   }`}
                 >
                   <BiosafetyIcon kind={item.kind} />
                 </span>
                 <div className="min-w-0 flex-1">
-                  <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#7A6244]">
+                  <p className="text-[0.66rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                     Etapa
                   </p>
-                  <h3 className="mt-1 text-[1rem] font-medium leading-[1.3] text-[#3A2E23]">
+                  <h3 className="mt-1 text-[1rem] font-medium leading-[1.3] text-[#26302B]">
                     {item.title}
                   </h3>
-                  <p className="mt-2 text-[0.88rem] leading-[1.6] text-[#5C4A38]">
+                  <p className="mt-2 text-[0.88rem] leading-[1.6] text-[#6F746F]">
                     {item.body}
                   </p>
                 </div>
@@ -176,9 +176,9 @@ export function ZlBiosafetySection() {
                   loading="lazy"
                   className="object-cover"
                 />
-                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_62%,rgba(58,46,35,0.5)_100%)]" />
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_62%,rgba(23,79,63,0.5)_100%)]" />
               </div>
-              <figcaption className="px-3 py-3 text-[0.78rem] leading-[1.55] text-[#5C4A38]">
+              <figcaption className="px-3 py-3 text-[0.78rem] leading-[1.55] text-[#6F746F]">
                 Kit único por atendimento. Você vê o instrumental abrir diante
                 de você.
               </figcaption>
@@ -291,19 +291,19 @@ export function ZlAmbienteSection() {
     <section
       id="ambiente"
       aria-label="Ambiente da clínica ZL Podologia em Fortaleza"
-      className="relative border-t border-[#D2C3A6] bg-[#F2EBDE] py-8 lg:py-10"
+      className="relative border-t border-[#D9DAD7] bg-[#F8F7F4] py-8 lg:py-10"
     >
       <div className="container-x mx-auto max-w-[1600px]">
         <div className="relative py-8 md:py-10 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
-            <Reveal as="p" className="text-[0.66rem] uppercase tracking-[0.26em] text-[#C69184]">
+            <Reveal as="p" className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]">
               Ambiente
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               Um espaço pensado para o pé descansar antes de ser cuidado.
@@ -312,7 +312,7 @@ export function ZlAmbienteSection() {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             Sala silenciosa na Galeria José Bernardo (Parquelândia), poltrona
             reclinável, escalda-pés morno e bancada organizada. Você sabe onde
@@ -338,7 +338,7 @@ export function ZlAmbienteSection() {
                   style={{ objectPosition: photo.objectPosition }}
                   className="object-cover transition-transform duration-[1200ms] [transition-timing-function:var(--ease-haptic)] group-hover:scale-[1.03]"
                 />
-                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(58,46,35,0.55)_100%)]" />
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(23,79,63,0.55)_100%)]" />
                 <figcaption className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 px-4 pb-3 text-white">
                   <span className="text-[0.64rem] uppercase tracking-[0.22em]">
                     {photo.caption}
@@ -355,7 +355,7 @@ export function ZlAmbienteSection() {
         <Reveal
           as="figure"
           delay={240}
-          className="mt-8 grid gap-8 border-t border-[#D2C3A6] pt-6 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.85fr)] md:items-center"
+          className="mt-8 grid gap-8 border-t border-[#D9DAD7] pt-6 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.85fr)] md:items-center"
         >
           <div className="zl-signature-photo aspect-[1.5] w-full">
             <Image
@@ -368,16 +368,16 @@ export function ZlAmbienteSection() {
             />
           </div>
           <figcaption className="flex flex-col gap-3 md:pr-4">
-            <span className="text-[0.64rem] uppercase tracking-[0.26em] text-[#C69184]">
+            <span className="text-[0.64rem] uppercase tracking-[0.26em] text-[#0F6B46]">
               Assinatura da clínica
             </span>
             <p
-              className="text-[clamp(1.3rem,2.2vw,1.9rem)] leading-[1.15] tracking-[-0.03em] text-[#3A2E23]"
+              className="text-[clamp(1.3rem,2.2vw,1.9rem)] leading-[1.15] tracking-[-0.03em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               <span className="italic">&ldquo;Pés bem cuidados fazem toda a diferença.&rdquo;</span>
             </p>
-            <p className="text-[0.9rem] leading-[1.65] text-[#5C4A38]">
+            <p className="text-[0.9rem] leading-[1.65] text-[#6F746F]">
               Atendimento calmo, individual e atento aos detalhes do início ao
               fim.
             </p>
@@ -405,22 +405,22 @@ export function ZlSymptomGrid({ onPick }: ZlSymptomGridProps) {
   return (
     <section
       id="sintomas"
-      className="relative border-t border-[#D2C3A6]"
+      className="relative border-t border-[#D9DAD7]"
     >
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,#FAF7F2_0%,#E6DBC6_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,#FFFFFF_0%,#EFEAE4_100%)]" />
       <div className="container-x relative mx-auto max-w-[1440px] py-12 lg:py-14">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
             <Reveal
               as="p"
-              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
             >
               Comece por aqui
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               O que está te incomodando agora?
@@ -429,7 +429,7 @@ export function ZlSymptomGrid({ onPick }: ZlSymptomGridProps) {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             Escolha o incômodo mais próximo para ver o cuidado mais indicado para o seu caso.
           </Reveal>
@@ -446,16 +446,16 @@ export function ZlSymptomGrid({ onPick }: ZlSymptomGridProps) {
               <button
                 type="button"
                 onClick={() => onPick(symptom.primaryService)}
-                className="group flex h-full w-full flex-col items-start gap-4 rounded-[1.4rem] border border-[#D2C3A6] bg-white p-5 text-left shadow-[0_14px_36px_rgba(138,108,72,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#B89B77] hover:shadow-[0_22px_54px_rgba(138,108,72,0.18)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#B89B77]"
+                className="group flex h-full w-full flex-col items-start gap-4 rounded-[1.4rem] border border-[#D9DAD7] bg-white p-5 text-left shadow-[0_14px_36px_rgba(23,79,63,0.08)] transition-all duration-300 hover:-translate-y-1 hover:border-[#0F6B46] hover:shadow-[0_22px_54px_rgba(23,79,63,0.18)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0F6B46]"
               >
-                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[linear-gradient(135deg,#9A7F5C_0%,#574433_100%)] text-white shadow-[0_8px_18px_rgba(87,68,51,0.28)]">
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[linear-gradient(135deg,#174F3F_0%,#174F3F_100%)] text-white shadow-[0_8px_18px_rgba(23,79,63,0.28)]">
                   <SymptomIcon kind={symptom.kind} />
                 </span>
                 <div className="flex-1">
-                  <h3 className="text-[1.05rem] font-medium leading-[1.3] text-[#3A2E23]">
+                  <h3 className="text-[1.05rem] font-medium leading-[1.3] text-[#26302B]">
                     {symptom.title}
                   </h3>
-                  <p className="mt-2 text-[0.88rem] leading-[1.6] text-[#5C4A38]">
+                  <p className="mt-2 text-[0.88rem] leading-[1.6] text-[#6F746F]">
                     {symptom.body}
                   </p>
                 </div>
@@ -463,13 +463,13 @@ export function ZlSymptomGrid({ onPick }: ZlSymptomGridProps) {
                   {symptom.related.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-[#D2C3A6] bg-[#E6DBC6] px-2.5 py-0.5 text-[0.68rem] tracking-[0.02em] text-[#7A6244]"
+                      className="rounded-full border border-[#D9DAD7] bg-[#EFEAE4] px-2.5 py-0.5 text-[0.68rem] tracking-[0.02em] text-[#0F6B46]"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
-                <span className="inline-flex items-center gap-1 text-[0.78rem] font-medium text-[#574433] transition-transform duration-300 group-hover:translate-x-1">
+                <span className="inline-flex items-center gap-1 text-[0.78rem] font-medium text-[#174F3F] transition-transform duration-300 group-hover:translate-x-1">
                   Ver cuidado indicado -&gt;
                 </span>
               </button>
@@ -562,20 +562,20 @@ function SymptomIcon({ kind }: { kind: ZlSymptomKind }) {
 
 export function ZlHeroJourneySection() {
   return (
-    <section className="relative border-t border-[#D2C3A6] bg-[#FAF7F2]">
+    <section className="relative border-t border-[#D9DAD7] bg-[#FFFFFF]">
       <div className="container-x mx-auto max-w-[1440px] py-10 lg:py-12">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
             <Reveal
               as="p"
-              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
             >
               {zlTestimonialsCopy.eyebrow}
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               {zlTestimonialsCopy.title}
@@ -584,7 +584,7 @@ export function ZlHeroJourneySection() {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[52ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[52ch] text-[0.95rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             {zlTestimonialsCopy.body}
           </Reveal>
@@ -597,13 +597,13 @@ export function ZlHeroJourneySection() {
               key={t.firstName}
               as="article"
               delay={idx * 80}
-              className="group relative rounded-[1.8rem] bg-[#E6DBC6] p-1.5 ring-1 ring-[#D2C3A6] shadow-[0_26px_64px_-28px_rgba(138,108,72,0.35)] transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-0.5"
+              className="group relative rounded-[1.8rem] bg-[#EFEAE4] p-1.5 ring-1 ring-[#D9DAD7] shadow-[0_26px_64px_-28px_rgba(23,79,63,0.35)] transition-transform duration-500 [transition-timing-function:var(--ease-haptic)] hover:-translate-y-0.5"
             >
               <div className="relative flex h-full flex-col gap-4 overflow-hidden rounded-[calc(1.8rem-0.375rem)] bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)]">
                 {/* Decorative open-quote serif glyph ? v7-earthy: taupe delicado. */}
                 <span
                   aria-hidden="true"
-                  className="pointer-events-none absolute -right-1 -top-2 text-[6rem] leading-none text-[#D2C3A6]/80 select-none"
+                  className="pointer-events-none absolute -right-1 -top-2 text-[6rem] leading-none text-[#D9DAD7]/80 select-none"
                   style={{ fontFamily: "var(--font-display)" }}
                 >
                   &ldquo;
@@ -612,7 +612,7 @@ export function ZlHeroJourneySection() {
                 <div className="relative flex items-center gap-3">
                   <span
                     aria-hidden="true"
-                    className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[linear-gradient(135deg,#E6DBC6_0%,#D2C3A6_100%)] text-[#574433] ring-1 ring-[#B89B77]/40"
+                    className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[linear-gradient(135deg,#EFEAE4_0%,#D9DAD7_100%)] text-[#174F3F] ring-1 ring-[#0F6B46]/40"
                   >
                     <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.6">
                       <circle cx="12" cy="9" r="3.2" />
@@ -620,13 +620,13 @@ export function ZlHeroJourneySection() {
                     </svg>
                   </span>
                   <div>
-                    <p className="text-[0.94rem] font-medium text-[#3A2E23]">{t.firstName}</p>
-                    <p className="text-[0.76rem] uppercase tracking-[0.18em] text-[#8B7862]">
+                    <p className="text-[0.94rem] font-medium text-[#26302B]">{t.firstName}</p>
+                    <p className="text-[0.76rem] uppercase tracking-[0.18em] text-[#6F746F]">
                       {t.caption}
                     </p>
                   </div>
                   <div
-                    className="ml-auto inline-flex items-center gap-0.5 text-[#A08379]"
+                    className="ml-auto inline-flex items-center gap-0.5 text-[#8EA08E]"
                     aria-label={`${t.rating} de 5 estrelas`}
                   >
                     {Array.from({ length: t.rating }).map((_, i) => (
@@ -635,14 +635,14 @@ export function ZlHeroJourneySection() {
                   </div>
                 </div>
 
-                <p className="relative text-[0.95rem] leading-[1.72] text-[#5C4A38]" style={{ textWrap: "pretty" }}>
+                <p className="relative text-[0.95rem] leading-[1.72] text-[#6F746F]" style={{ textWrap: "pretty" }}>
                   &ldquo;{t.body}&rdquo;
                 </p>
 
-                <p className="relative mt-auto flex items-center gap-1.5 text-[0.68rem] uppercase tracking-[0.2em] text-[#8B7862]">
+                <p className="relative mt-auto flex items-center gap-1.5 text-[0.68rem] uppercase tracking-[0.2em] text-[#6F746F]">
                   <span
                     aria-hidden="true"
-                    className="inline-flex h-3 w-3 items-center justify-center text-[#A08379]"
+                    className="inline-flex h-3 w-3 items-center justify-center text-[#8EA08E]"
                   >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-3 w-3">
                       <path d="m12 3 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.8 6.2 20.9l1.1-6.5L2.6 9.8l6.5-.9L12 3Z" />
@@ -666,7 +666,7 @@ export function ZlHeroJourneySection() {
               </svg>
             }
           />
-          <p className="text-[0.8rem] leading-[1.55] text-[#8B7862]">
+          <p className="text-[0.8rem] leading-[1.55] text-[#6F746F]">
             Atendimento individual, com cuidado consistente em cada consulta.
           </p>
         </div>
@@ -726,21 +726,21 @@ export function ZlDiagnosticQuiz() {
   };
 
   return (
-    <section id="quiz" className="relative border-t border-[#D2C3A6]">
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,#E6DBC6_0%,#FAF7F2_100%)]" />
-      <div className="container-x relative mx-auto max-w-[1280px] py-10 lg:py-12">
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] lg:items-start">
+    <section id="quiz" className="relative border-t border-[#D9DAD7]">
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,#EFEAE4_0%,#FFFFFF_100%)]" />
+      <div className="container-x relative mx-auto max-w-[1400px] py-10 lg:py-12">
+        <div className="grid gap-8 lg:grid-cols-[minmax(18rem,0.58fr)_minmax(0,1.42fr)] lg:items-start">
           <div>
             <Reveal
               as="p"
-              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#7A6244]"
+              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
             >
               {zlQuizCopy.eyebrow}
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[18ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[18ch] text-[clamp(2rem,3.6vw,3.3rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               {zlQuizCopy.title}
@@ -748,29 +748,66 @@ export function ZlDiagnosticQuiz() {
             <Reveal
               as="p"
               delay={130}
-              className="mt-5 max-w-[36ch] text-[0.96rem] leading-[1.72] text-[#5C4A38]"
+              className="mt-5 max-w-[36ch] text-[0.96rem] leading-[1.72] text-[#6F746F]"
             >
               {zlQuizCopy.body}
+            </Reveal>
+            <Reveal
+              as="ol"
+              delay={180}
+              className="mt-6 grid gap-3 sm:grid-cols-3 lg:grid-cols-1"
+            >
+              {[
+                {
+                  title: "Relato",
+                  body: "Você resume o que incomoda agora.",
+                },
+                {
+                  title: "Foto quando ajuda",
+                  body: "A clínica pode pedir uma imagem pelo WhatsApp.",
+                },
+                {
+                  title: "Direcionamento",
+                  body: "A equipe orienta o procedimento adequado.",
+                },
+              ].map((item, index) => (
+                <li
+                  key={item.title}
+                  className="grid grid-cols-[auto_minmax(0,1fr)] gap-3 border-t border-[#D9DAD7] pt-3"
+                >
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full border border-[#D9DAD7] bg-white text-[0.72rem] font-medium text-[#0F6B46]">
+                    {index + 1}
+                  </span>
+                  <span>
+                    <span className="block text-[0.82rem] font-medium text-[#26302B]">
+                      {item.title}
+                    </span>
+                    <span className="mt-1 block text-[0.74rem] leading-[1.45] text-[#6F746F]">
+                      {item.body}
+                    </span>
+                  </span>
+                </li>
+              ))}
             </Reveal>
           </div>
 
           <Reveal
             as="div"
             delay={120}
-            className="relative rounded-[2rem] bg-[linear-gradient(180deg,#E6DBC6_0%,#D2C3A6_100%)] p-1.5 ring-1 ring-[#B89B77]/50 shadow-[0_30px_72px_-30px_rgba(138,108,72,0.45)]"
+            className="relative rounded-[2rem] bg-[linear-gradient(180deg,#EFEAE4_0%,#D9DAD7_100%)] p-1.5 ring-1 ring-[#0F6B46]/50 shadow-[0_30px_72px_-30px_rgba(23,79,63,0.45)]"
           >
             <div className="overflow-hidden rounded-[calc(2rem-0.375rem)] bg-white/95 p-5 backdrop-blur-sm shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] md:p-7">
             {/* Progress */}
             <div className="mb-5 flex items-center gap-4">
-              <div className="flex h-1.5 flex-1 overflow-hidden rounded-full bg-[#E6DBC6]">
+              <div className="flex h-1.5 flex-1 overflow-hidden rounded-full bg-[#EFEAE4]">
                 <div
-                  className="h-full rounded-full bg-[linear-gradient(90deg,#9A7F5C_0%,#574433_100%)] transition-all duration-300"
+                  className="h-full rounded-full bg-[linear-gradient(90deg,#174F3F_0%,#174F3F_100%)] transition-all duration-300"
                   style={{
                     width: `${Math.min(100, ((isResult ?total : step) / total) * 100)}%`,
                   }}
                 />
               </div>
-              <span className="text-[0.72rem] uppercase tracking-[0.22em] text-[#7A6244]">
+              <span className="text-[0.72rem] uppercase tracking-[0.22em] text-[#0F6B46]">
                 {isResult
                   ?"Concluído"
                   : zlQuizCopy.progress(Math.min(step + 1, total), total)}
@@ -805,16 +842,16 @@ function QuizStep({
 }) {
   return (
     <div>
-      <p className="text-[0.68rem] uppercase tracking-[0.22em] text-[#574433]">
+      <p className="text-[0.68rem] uppercase tracking-[0.22em] text-[#174F3F]">
         Pergunta
       </p>
       <h3
-        className="mt-2 text-[clamp(1.4rem,2.3vw,2rem)] leading-[1.15] tracking-[-0.02em] text-[#3A2E23]"
+        className="mt-2 text-[clamp(1.4rem,2.3vw,2rem)] leading-[1.15] tracking-[-0.02em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {question.title}
       </h3>
-      <div className="mt-6 grid gap-3 sm:grid-cols-2">
+      <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
         {question.options.map((option) => {
           const active = option.value === selectedValue;
           return (
@@ -822,17 +859,17 @@ function QuizStep({
               key={option.value}
               type="button"
               onClick={() => onPick(option.value)}
-              className={`group relative rounded-[1.1rem] border px-5 py-4 text-left transition-all duration-200 hover:-translate-y-0.5 ${
+              className={`group relative rounded-[1.1rem] border px-4 py-3.5 text-left transition-all duration-200 hover:-translate-y-0.5 ${
                 active
-                  ?"border-[#B89B77] bg-[#E6DBC6] shadow-[0_12px_32px_rgba(138,108,72,0.22)]"
-                  : "border-[#D2C3A6] bg-white hover:border-[#B89B77]"
+                  ?"border-[#0F6B46] bg-[#EFEAE4] shadow-[0_12px_32px_rgba(23,79,63,0.22)]"
+                  : "border-[#D9DAD7] bg-white hover:border-[#0F6B46]"
               }`}
               aria-pressed={active}
             >
-              <span className="block text-[0.94rem] font-medium text-[#3A2E23]">
+              <span className="block text-[0.94rem] font-medium text-[#26302B]">
                 {option.label}
               </span>
-              <span className="mt-1 block text-[0.72rem] uppercase tracking-[0.18em] text-[#8B7862]">
+              <span className="mt-2 block text-[0.62rem] uppercase tracking-[0.16em] text-[#6F746F]">
                 Selecionar -&gt;
               </span>
             </button>
@@ -868,11 +905,11 @@ function QuizResult({
 
   return (
     <div>
-      <p className="text-[0.68rem] uppercase tracking-[0.22em] text-[#3a8c70]">
+      <p className="text-[0.68rem] uppercase tracking-[0.22em] text-[#0F6B46]">
         {zlQuizCopy.resultEyebrow}
       </p>
       <h3
-        className="mt-2 text-[clamp(1.5rem,2.4vw,2.1rem)] leading-[1.15] tracking-[-0.02em] text-[#3A2E23]"
+        className="mt-2 text-[clamp(1.5rem,2.4vw,2.1rem)] leading-[1.15] tracking-[-0.02em] text-[#26302B]"
         style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
       >
         {zlQuizCopy.resultTitle}
@@ -880,40 +917,40 @@ function QuizResult({
 
       {/* Servico recomendado com base nas 3 respostas. */}
       {recommended ?(
-        <div className="mt-5 rounded-[1.2rem] border border-[#B89B77] bg-[#E6DBC6] p-4">
-          <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#574433]">
+        <div className="mt-5 rounded-[1.2rem] border border-[#0F6B46] bg-[#EFEAE4] p-4">
+          <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#174F3F]">
             Cuidado que mais combina com seu caso
           </p>
-          <p className="mt-2 text-[1.05rem] font-medium text-[#3A2E23]">
+          <p className="mt-2 text-[1.05rem] font-medium text-[#26302B]">
             {recommended.menuLabel}
-            <span className="ml-2 text-[0.84rem] font-normal text-[#8B7862]">
+            <span className="ml-2 text-[0.84rem] font-normal text-[#6F746F]">
               {recommended.price}
             </span>
           </p>
-          <p className="mt-2 text-[0.88rem] leading-[1.58] text-[#5C4A38]">
+          <p className="mt-2 text-[0.88rem] leading-[1.58] text-[#6F746F]">
             {recommended.pain}
           </p>
         </div>
       ) : null}
 
-      <p className="mt-4 max-w-[42ch] text-[0.95rem] leading-[1.7] text-[#5C4A38]">
+      <p className="mt-4 max-w-[42ch] text-[0.95rem] leading-[1.7] text-[#6F746F]">
         {zlQuizCopy.resultBody}
       </p>
 
-      <div className="mt-6 rounded-[1rem] border border-[#D2C3A6] bg-[#FAF7F2] px-4 py-3">
-        <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#8B7862]">
+      <div className="mt-6 rounded-[1rem] border border-[#D9DAD7] bg-[#FFFFFF] px-4 py-3">
+        <p className="text-[0.64rem] uppercase tracking-[0.22em] text-[#6F746F]">
           Resumo rápido
         </p>
         <dl className="mt-3 grid gap-3 sm:grid-cols-3">
           {summaryItems.map((item, index) => (
             <div
               key={item.label}
-              className={`min-w-0 ${index > 0 ?"sm:border-l sm:border-[#D2C3A6] sm:pl-4" : "sm:pr-4"}`}
+              className={`min-w-0 ${index > 0 ?"sm:border-l sm:border-[#D9DAD7] sm:pl-4" : "sm:pr-4"}`}
             >
-              <dt className="text-[0.64rem] uppercase tracking-[0.2em] text-[#8B7862]">
+              <dt className="text-[0.64rem] uppercase tracking-[0.2em] text-[#6F746F]">
                 {item.label}
               </dt>
-              <dd className="mt-1 text-[0.9rem] font-medium text-[#3A2E23]">
+              <dd className="mt-1 text-[0.9rem] font-medium text-[#26302B]">
                 {item.value || "-"}
               </dd>
             </div>
@@ -930,12 +967,12 @@ function QuizResult({
         <button
           type="button"
           onClick={onRestart}
-          className="text-[0.82rem] font-medium text-[#7A6244] underline-offset-4 hover:underline"
+          className="text-[0.82rem] font-medium text-[#0F6B46] underline-offset-4 hover:underline"
         >
           Refazer quiz
         </button>
       </div>
-      <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#8B7862]">
+      <p className="mt-4 text-[0.78rem] leading-[1.55] text-[#6F746F]">
         O link abre o WhatsApp com suas respostas preenchidas para agilizar o
         atendimento.
       </p>
@@ -958,7 +995,7 @@ export function ZlProofStripSection() {
   return (
     <section
       aria-label="Quatro pontos de prova editorial sobre a ZL Podologia"
-      className="relative bg-[#F2EBDE] px-3 pt-2 sm:px-4 md:px-6 md:pt-3"
+      className="relative bg-[#F8F7F4] px-3 pt-2 sm:px-4 md:px-6 md:pt-3"
     >
       <div className="mx-auto max-w-[1400px]">
         <ZlSceneEnvelope tone="rose-wash">
@@ -1060,21 +1097,21 @@ export function ZlCompareSection() {
     <section
       id="comparativa"
       aria-label="Benefícios da podologia clínica na ZL"
-      className="relative border-t border-[#D2C3A6] bg-[#FAF7F2]"
+      className="relative border-t border-[#D9DAD7] bg-[#FFFFFF]"
     >
       <div className="container-x mx-auto max-w-[1440px] py-12 lg:py-14">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
             <Reveal
               as="p"
-              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#B8837A]"
+              className="text-[0.66rem] uppercase tracking-[0.26em] text-[#0F6B46]"
             >
               {zlComparePodology.eyebrow}
             </Reveal>
             <Reveal
               as="h2"
               delay={70}
-              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.2rem)] leading-[0.98] tracking-[-0.04em] text-[#3A2E23]"
+              className="mt-4 max-w-[22ch] text-[clamp(2rem,3.6vw,3.2rem)] leading-[0.98] tracking-[-0.04em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               {zlComparePodology.title}
@@ -1083,7 +1120,7 @@ export function ZlCompareSection() {
           <Reveal
             as="p"
             delay={130}
-            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#5C4A38] lg:justify-self-end"
+            className="max-w-[54ch] text-[0.95rem] leading-[1.7] text-[#6F746F] lg:justify-self-end"
           >
             {zlComparePodology.body}
           </Reveal>
