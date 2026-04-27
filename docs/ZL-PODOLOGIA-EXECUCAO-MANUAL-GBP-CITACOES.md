@@ -238,3 +238,10 @@ O horario atual do cadastro esta divergente do perfil oficial.
 ## Observacao de execucao
 
 A automacao direta no navegador do Codex nao ficou confiavel nesta sessao. Nenhuma alteracao foi salva em GBP ou diretorios por automacao.
+
+Nova tentativa em 2026-04-27:
+
+- Browser-use continua falhando ao navegar com erro de runtime local: `failed to start codex app-server`.
+- Fallback por teclado/mouse no Chrome ficou instavel e abriu janela errada; por seguranca, nao foi usado para salvar dados publicos.
+- Conector Gmail disponivel esta autenticado como `yuriqueirozlobo@gmail.com`, nao como conta ZL. Nao usar para enviar solicitacoes oficiais da clinica sem trocar a conta/remetente.
+- Vercel CLI local nao esta linkado ao projeto da ZL; deploy por GitHub esta funcionando, mas variaveis de ambiente como `NEXT_PUBLIC_GA_ID` precisam ser configuradas no painel Vercel correto.
