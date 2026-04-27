@@ -6,7 +6,6 @@ import {
   zlFaq,
   zlLocation,
   zlScheduleSchema,
-  zlTestimonials,
   zlInteractiveServices,
   zlLocalKeywords,
   zlPricingGroups,
@@ -81,8 +80,7 @@ interface JsonLdObject {
 type JsonLdArray = JsonLdValue[];
 
 function buildSchemaGraph(): JsonLdObject {
-  // LocalBusiness + MedicalBusiness multi-type com AggregateRating e
-  // reviews reais embutidos (os 3 do Google). Hookado na ficha oficial
+  // LocalBusiness + MedicalBusiness multi-type hookado na ficha oficial
   // de Fortaleza (Galeria Jose Bernardo, Parquelandia).
   // OfferCatalog v7-final: servicos reais do catalogo F organizados em
   // 3 buckets, cada linha com valor numerico (ou faixa) + descricao.
@@ -131,11 +129,23 @@ function buildSchemaGraph(): JsonLdObject {
     address: {
       "@type": "PostalAddress",
       streetAddress: zlLocation.streetAddress,
-      addressLocality: zlLocation.district,
+      addressLocality: "Fortaleza",
       addressRegion: zlLocation.state,
       postalCode: zlLocation.zipcode,
       addressCountry: "BR",
     },
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Bairro",
+        value: zlLocation.district,
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Ponto de referencia",
+        value: zlLocation.landmark,
+      },
+    ],
     geo: {
       "@type": "GeoCoordinates",
       latitude: zlLocation.latitude,
@@ -156,31 +166,6 @@ function buildSchemaGraph(): JsonLdObject {
       "https://www.facebook.com/zl.podologia",
       "https://linktr.ee/zlpodologia",
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: 5,
-      bestRating: 5,
-      worstRating: 1,
-      reviewCount: 11,
-    },
-    review: zlTestimonials.map((t) => ({
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: t.fullAuthor,
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: t.rating,
-        bestRating: 5,
-      },
-      reviewBody: t.body,
-      datePublished: t.datePublished,
-      publisher: {
-        "@type": "Organization",
-        name: "Google",
-      },
-    })),
     // makesOffer = servicos principais como Offer plano (resumo).
     makesOffer: zlInteractiveServices.slice(0, 6).map((s) => ({
       "@type": "Offer",
@@ -261,7 +246,7 @@ export default function ZlPodologiaPage() {
   return (
     <>
       {/* Schema.org JSON-LD — LocalBusiness + MedicalBusiness +
-          AggregateRating + Review + FAQPage + Person. Colocado inline
+          FAQPage + Person. Colocado inline
           (App Router ainda nao expoe API pra <head> scripts em server
           components diretamente). */}
       <script

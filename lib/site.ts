@@ -10,8 +10,6 @@ interface OrganizationJsonLd {
   name: string;
   url: string;
   description: string;
-  founder: string;
-  foundingDate: string;
 }
 
 export const PUBLIC_STATIC_ROUTES = ["/", "/politica-de-imagens"] as const;
@@ -22,8 +20,6 @@ export const ORGANIZATION_JSON_LD: OrganizationJsonLd = {
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,
-  founder: "ZL Podologia",
-  foundingDate: "2026",
 };
 
 export function absoluteSiteUrl(pathname: string) {
