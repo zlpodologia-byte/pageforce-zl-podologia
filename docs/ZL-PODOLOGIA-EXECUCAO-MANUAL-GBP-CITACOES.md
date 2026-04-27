@@ -104,6 +104,12 @@ O codigo ja esta pronto para GA4 via variavel:
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 ```
 
+Measurement ID recebido em 2026-04-27:
+
+```text
+G-JX1Y5LNLT5
+```
+
 Sem essa variavel no ambiente da Vercel, o GA4 direto nao carrega. O site continua registrando:
 
 - Vercel Analytics
@@ -116,9 +122,11 @@ Para ativar GA4:
 1. Criar uma propriedade GA4.
 2. Criar stream Web para `https://www.zlpodologia.com.br`.
 3. Copiar o Measurement ID `G-...`.
-4. Adicionar `NEXT_PUBLIC_GA_ID` na Vercel.
+4. Adicionar `NEXT_PUBLIC_GA_ID` na Vercel, se quiser configurar por ambiente.
 5. Fazer redeploy.
 6. Testar em Realtime/DebugView clicando nos CTAs do WhatsApp.
+
+Status: o site tambem tem fallback no codigo para `G-JX1Y5LNLT5`, porque o projeto Vercel da ZL nao esta linkado no CLI local.
 
 ## Citacoes P0 - mensagens de correcao
 

@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 
 const ZL_EVENT_ENDPOINT = "/api/zl-events";
 const ZL_SESSION_STORAGE_KEY = "zl_funnel_session_id";
+const ZL_GA_MEASUREMENT_ID = "G-JX1Y5LNLT5";
 
 /**
  * GA4 + eventos analytics da landing da ZL v7a.
@@ -160,7 +161,7 @@ export function trackZlEvent(
  * dedupe on element presence).
  */
 export function ZlAnalytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID ?? "";
+  const gaId = process.env.NEXT_PUBLIC_GA_ID ?? ZL_GA_MEASUREMENT_ID;
   const observersRef = useRef<IntersectionObserver[]>([]);
 
   // Scroll observers — depth markers for key sections.
