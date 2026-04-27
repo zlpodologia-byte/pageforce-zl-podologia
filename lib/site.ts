@@ -16,6 +16,14 @@ export const PUBLIC_STATIC_ROUTES = [
   "/",
   "/unha-encravada-fortaleza",
   "/onicomicose-fortaleza",
+  "/ortonixia-fortaleza",
+  "/podoprofilaxia-fortaleza",
+  "/pe-diabetico-fortaleza",
+  "/podologia-aldeota",
+  "/podologia-centro-fortaleza",
+  "/podologia-cidade-dos-funcionarios",
+  "/podologia-maraponga",
+  "/podologia-messejana",
   "/politica-de-imagens",
 ] as const;
 

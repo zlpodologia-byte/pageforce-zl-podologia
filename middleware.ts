@@ -7,6 +7,14 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/api/zl-events",
   "/unha-encravada-fortaleza",
   "/onicomicose-fortaleza",
+  "/ortonixia-fortaleza",
+  "/podoprofilaxia-fortaleza",
+  "/pe-diabetico-fortaleza",
+  "/podologia-aldeota",
+  "/podologia-centro-fortaleza",
+  "/podologia-cidade-dos-funcionarios",
+  "/podologia-maraponga",
+  "/podologia-messejana",
   "/politica-de-imagens",
   "/robots.txt",
   "/sitemap.xml",
@@ -14,10 +22,7 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/opengraph-image",
 ]);
 
-const ALLOWED_PREFIXES = [
-  "/_next/",
-  "/zl-podologia/",
-];
+const ALLOWED_PREFIXES = ["/_next/", "/zl-podologia/"];
 
 const BLOCKED_PUBLIC_FILE_PATTERN =
   /^\/zl-podologia\/(?:.*\.md|.*\.html|social\/.*\.json)$/i;
@@ -31,10 +36,19 @@ const LEGACY_REDIRECTS = new Map<string, string>([
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const normalizedPathname =
+    pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
 
   const legacyRedirect = LEGACY_REDIRECTS.get(pathname);
   if (legacyRedirect) {
     return NextResponse.redirect(new URL(legacyRedirect, request.url), 308);
+  }
+
+  if (
+    normalizedPathname !== pathname &&
+    EXACT_ALLOWED_PATHS.has(normalizedPathname)
+  ) {
+    return NextResponse.redirect(new URL(normalizedPathname, request.url), 308);
   }
 
   if (EXACT_ALLOWED_PATHS.has(pathname)) {
