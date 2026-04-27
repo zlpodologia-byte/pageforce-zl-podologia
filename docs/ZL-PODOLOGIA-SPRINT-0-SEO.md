@@ -26,15 +26,20 @@ Fechar a higiene técnica e o inventário inicial de entidade local antes de cri
   - sem `foundingDate`
   - sem `founder`
 
-## Validações do deploy atual
+## Validações do deploy público
 
-O deploy público ainda reflete a versão anterior até novo deploy.
+Deploy publicado a partir do commit `0b96df1` em 2026-04-27.
 
 - `https://www.zlpodologia.com.br/`: 200
 - `https://www.zlpodologia.com.br/robots.txt`: 200
 - `https://www.zlpodologia.com.br/sitemap.xml`: 200
+- `https://www.zlpodologia.com.br/googleed77e9ab4edd9965.html`: 200
 - `robots.txt`: permite `/` e bloqueia `/api/`
 - `sitemap.xml`: contém `/` e `/politica-de-imagens`
+- HTML público confirmou:
+  - `addressLocality = Fortaleza`
+  - sem `aggregateRating`
+  - sem `review`
 
 ## Inventário inicial de citações públicas
 
