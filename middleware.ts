@@ -15,11 +15,16 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/podologia-cidade-dos-funcionarios",
   "/podologia-maraponga",
   "/podologia-messejana",
+  "/avaliar",
   "/politica-de-imagens",
   "/robots.txt",
   "/sitemap.xml",
   "/googleed77e9ab4edd9965.html",
   "/opengraph-image",
+  "/favicon-48x48.png",
+  "/favicon-192x192.png",
+  "/apple-touch-icon.png",
+  "/site.webmanifest",
 ]);
 
 const ALLOWED_PREFIXES = ["/_next/", "/zl-podologia/"];
