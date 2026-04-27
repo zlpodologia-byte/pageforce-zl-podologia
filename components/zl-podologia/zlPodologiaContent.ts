@@ -23,6 +23,7 @@ export const ZL_WHATSAPP_SOURCES = [
   "footer_wa",
   "storyteller_ingrown",
   "service_ingrown_page",
+  "service_fungus_page",
   "faq_wa",
   "convenios",
   "fiduciary_bar",

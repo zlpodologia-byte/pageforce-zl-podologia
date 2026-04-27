@@ -6,6 +6,7 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/api/wa",
   "/api/zl-events",
   "/unha-encravada-fortaleza",
+  "/onicomicose-fortaleza",
   "/politica-de-imagens",
   "/robots.txt",
   "/sitemap.xml",

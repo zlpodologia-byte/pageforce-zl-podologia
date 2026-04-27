@@ -15,6 +15,7 @@ interface OrganizationJsonLd {
 export const PUBLIC_STATIC_ROUTES = [
   "/",
   "/unha-encravada-fortaleza",
+  "/onicomicose-fortaleza",
   "/politica-de-imagens",
 ] as const;
 
