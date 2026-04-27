@@ -12,7 +12,11 @@ interface OrganizationJsonLd {
   description: string;
 }
 
-export const PUBLIC_STATIC_ROUTES = ["/", "/politica-de-imagens"] as const;
+export const PUBLIC_STATIC_ROUTES = [
+  "/",
+  "/unha-encravada-fortaleza",
+  "/politica-de-imagens",
+] as const;
 
 export const ORGANIZATION_JSON_LD: OrganizationJsonLd = {
   "@context": "https://schema.org",
