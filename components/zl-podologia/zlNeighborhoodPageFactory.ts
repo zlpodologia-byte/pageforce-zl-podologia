@@ -8,7 +8,7 @@ const LOCATION =
 const HERO_IMAGE =
   "/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg";
 const PROOF_IMAGE =
-  "/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg";
+  "/zl-podologia/social/edited-pro/marca/fachada-clinica-sem-grade-2026-04-28.jpg";
 
 export type NeighborhoodPageInput = Pick<
   ZlSeoLandingPageDefinition,

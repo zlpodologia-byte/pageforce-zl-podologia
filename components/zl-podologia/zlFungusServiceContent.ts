@@ -6,13 +6,13 @@ import {
 export const ZL_FUNGUS_PAGE_PATH = "/onicomicose-fortaleza";
 export const ZL_FUNGUS_PAGE_URL = `${ZL_CANONICAL_URL}${ZL_FUNGUS_PAGE_PATH}`;
 export const ZL_FUNGUS_HERO_IMAGE =
-  "/zl-podologia/social/edited-pro/procedimentos/pos-procedimento-frasco-pro.jpg";
+  "/zl-podologia/social/client-approved/2026-04-28/onicodistrofia-procedimento-2026-04-28.jpeg";
 export const ZL_FUNGUS_BEFORE_IMAGE =
   "/zl-podologia/social/client-approved/fungos-protocolo-2026-04-26-01.jpeg";
 export const ZL_FUNGUS_AFTER_IMAGE =
   "/zl-podologia/social/client-approved/fungos-protocolo-2026-04-26-02.jpeg";
 export const ZL_FUNGUS_DESCRIPTION =
-  "Avaliação e protocolo para fungo na unha em Fortaleza na ZL Podologia, em Parquelândia. Onicomicose exige continuidade, cuidado em casa e expectativa realista.";
+  "Avaliação e protocolo para fungo na unha em Fortaleza na ZL Podologia, em Parquelândia. Onicomicose pede continuidade, cuidado em casa e expectativa realista.";
 
 export const ZL_FUNGUS_WHATSAPP_HREF = buildWhatsappLink(
   "Oi, estou com suspeita de fungo na unha e queria avaliar meu caso na ZL Podologia.",

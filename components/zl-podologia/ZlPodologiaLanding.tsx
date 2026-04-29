@@ -670,7 +670,6 @@ function ZlHeroHeadline() {
             Fortaleza
           </span>
         </span>
-        .
         <span className="mt-4 block max-w-[17ch] text-[clamp(1.15rem,3vw,1.62rem)] leading-[1.12] tracking-[-0.01em] text-[#0F6B46] sm:mt-5">
           Tratamento especializado para a saúde dos seus pés.
         </span>

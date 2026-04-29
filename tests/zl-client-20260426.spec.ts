@@ -27,7 +27,7 @@ test.describe("ZL client checklist 2026-04-26", () => {
     await expect(body).toContainText("Onicocriptose (unha encravada)");
     await expect(body).toContainText("Órtese ungueal (anteparos)");
     await expect(body).toContainText("Onicomicose (fungos)");
-    await expect(body).toContainText("Tratamento para eliminar fungos");
+    await expect(body).toContainText("Protocolo para tratar fungos");
     await expect(body).toContainText("Auxilia no tratamento de fungos e inflamações");
     await expect(body).toContainText("Verruga plantar");
     await expect(body).toContainText("Tungíase (Bicho de pé)");
@@ -39,9 +39,11 @@ test.describe("ZL client checklist 2026-04-26", () => {
     await expect(body).toContainText("Graus 2 e 3: a partir de R$ 200");
     await expect(body).toContainText("Imagens meramente ilustrativas.");
     await expect(body).toContainText("Seu plano de cuidado personalizado");
+    await expect(body).toContainText("Podoprofilaxia + Reflexologia");
+    await expect(body).toContainText("R$ 180");
     await expect(body).toContainText("Registro clínico autorizado");
     await expect(
-      page.getByAltText(/Registro autorizado de caso de fungos nas unhas/)
+      page.getByAltText(/Registro autorizado de onicodistrofia traum/)
     ).toBeVisible();
 
     await expect(body).not.toContainText("pedicure");

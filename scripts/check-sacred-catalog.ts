@@ -15,20 +15,22 @@ const contentPath = resolve(
 const content = readFileSync(contentPath, "utf8");
 
 const sacredPairs = [
-  ["Podoprofilaxia", "R$ 100 dinheiro | R$ 105 cartao"],
+  ["Podoprofilaxia", "R$ 100 dinheiro ou Pix | R$ 105 cartao"],
+  ["Protocolo Podoprofilaxia + Reflexologia", "R$ 180"],
   ["Desbaste de calos (isolado)", "R$ 100"],
   ["Hidratacao de parafina", "R$ 100"],
-  ["Avaliacao inicial", "R$ 69"],
-  ["Unha encravada simples", "R$ 150"],
-  ["Unha encravada com inflamacao", "R$ 200"],
+  ["Triagem previa no WhatsApp", "Sem cobranca isolada"],
+  ["Unha encravada (onicocriptose) - Grau 1", "A partir de R$ 150"],
+  ["Unha encravada (onicocriptose) - Graus 2 e 3", "A partir de R$ 200"],
   ["Tratamento de fungos (onicomicose)", "R$ 100 por unha por sessao"],
-  ["Remocao de verruga plantar", "R$ 100 por sessao"],
+  ["Verruga plantar", "Direcionamento pelo WhatsApp"],
+  ["Tungiase (Bicho de pe)", "R$ 100,00"],
   ["Atendimento para idosos", "R$ 100 a R$ 180"],
   ["Ortese simples", "R$ 60 por unha"],
   ["Ortese metalica", "R$ 100 por unha"],
   ["Laserterapia", "R$ 100"],
   ["Tratamento avancado de fungos", "R$ 100 por sessao"],
-  ["Reflexologia podal", "R$ 80 a R$ 100"],
+  ["Reflexologia podal", "R$ 80 a R$ 150"],
   ["Massagem terapeutica", "R$ 100 a R$ 150"],
   ["Pe diabetico", "R$ 120"],
 ] as const;

@@ -36,6 +36,7 @@ export const ZL_WHATSAPP_SOURCES = [
   "convenios",
   "fiduciary_bar",
   "packages",
+  "experience_podopro_reflexology",
   "experience_noiva_sublime",
   "experience_noiva_majestosa",
   "experience_momento_essencial",
@@ -118,6 +119,10 @@ export const zlLinks = {
   whatsappPackages: buildWhatsappLink(
     "Oi, gostaria de saber sobre um plano de cuidado personalizado na ZL Podologia.",
     "packages"
+  ),
+  whatsappPodoproReflexology: buildWhatsappLink(
+    "Oi, quero saber sobre a oferta Podoprofilaxia + Reflexologia por R$ 180.",
+    "experience_podopro_reflexology"
   ),
   whatsappNoivaSublime: buildWhatsappLink(
     "Oi, quero presentear com a experiência Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
@@ -436,8 +441,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/procedimentos/frontal-instrumento-fino-pro.jpg",
-      alt: "Profissional da ZL Podologia cuidando de unha encravada com instrumento fino e técnica precisa em Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-28/unha-encravada-cliente-2026-04-28.jpeg",
+      alt: "Registro autorizado de atendimento para unha encravada na ZL Podologia em Fortaleza",
+      objectPosition: "50% 38%",
     },
     ctaLabel: "Quero aliviar essa dor",
     ctaWhatsappMessage:
@@ -451,7 +457,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     price: "R$ 100 por unha por sessão",
     pain: "Unha amarelada, grossa, frágil ou com odor persistente.",
     promise:
-      "Tratamento para eliminar fungos e recuperar a saúde das unhas com leitura do caso, protocolo estruturado e expectativa honesta sobre tempo de resposta. O laser entra como camada complementar quando o caso indica.",
+      "Protocolo para tratar fungos e recuperar a saúde das unhas com leitura do caso, continuidade e expectativa honesta sobre tempo de resposta. O laser entra como camada complementar quando o caso indica.",
     visualLabel: "Protocolo com acompanhamento",
     visualSupport: "Tratamento organizado sessão a sessão, sem promessa milagrosa.",
     highlights: [
@@ -472,8 +478,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/procedimentos/pos-procedimento-frasco-pro.jpg",
-      alt: "Pós-procedimento de tratamento de fungos nas unhas com frasco de produto clínico e curativo na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-28/onicodistrofia-procedimento-2026-04-28.jpeg",
+      alt: "Procedimento técnico em unha com alteração de cor e cuidado podológico na ZL Podologia Fortaleza",
+      objectPosition: "50% 56%",
     },
     ctaLabel: "Quero entender meu caso",
     ctaWhatsappMessage: "Oi, queria tratar micose de unha na ZL Podologia.",
@@ -511,8 +518,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     // transparente - casa visualmente com a lógica de correção da curvatura
     // e com o gesto técnico de "colocar a órtese no canto da unha".
     photo: {
-      src: "/zl-podologia/social/edited-pro/procedimentos/aplicador-transparente-pro.jpg",
-      alt: "Aplicação técnica de instrumento transparente para correção de curvatura de unha (órtese) na ZL Podologia em Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-28/ortese-ungueal-cliente-2026-04-28.jpeg",
+      alt: "Órtese ungueal aplicada para correção de curvatura na ZL Podologia em Fortaleza",
+      objectPosition: "54% 42%",
     },
     ctaLabel: "Avaliar meu caso",
     ctaWhatsappMessage: "Oi, quero saber sobre órtese para unha na ZL Podologia.",
@@ -543,8 +551,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     // completo e interação paciente-profissional - comunica "tecnologia
     // clínica apoiada por protocolo" muito melhor que uma arte 2D abstrata.
     photo: {
-      src: "/zl-podologia/social/edited-pro/equipe/profissional-exame-frontal-pro.jpg",
-      alt: "Profissional da ZL Podologia em exame clínico frontal com EPI completo em ambiente tecnológico - apoio da laserterapia como protocolo clínico",
+      src: "/zl-podologia/social/client-approved/2026-04-28/laserterapia-cliente-2026-04-28.jpeg",
+      alt: "Laserterapia aplicada como apoio clínico em protocolo podológico na ZL Podologia Fortaleza",
+      objectPosition: "50% 58%",
     },
     ctaLabel: "Saber se meu caso combina",
     ctaWhatsappMessage:
@@ -595,8 +604,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
-      alt: "Podoprofilaxia completa com motor rotativo na ZL Podologia em Fortaleza - limpeza técnica dos pés",
+      src: "/zl-podologia/social/edited-pro/equipe/profissional-exame-frontal-pro.jpg",
+      alt: "Atendimento de podoprofilaxia com avaliação clínica e cuidado técnico dos pés na ZL Podologia Fortaleza",
+      objectPosition: "50% 52%",
     },
     ctaLabel: "Agendar podoprofilaxia",
     ctaWhatsappMessage: "Oi, quero agendar podoprofilaxia na ZL Podologia.",
@@ -623,8 +633,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       "Orientação sobre retorno e cuidados em casa.",
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
-      alt: "Atendimento técnico da ZL Podologia em Fortaleza para cuidado local nos pés",
+      src: "/zl-podologia/social/client-approved/2026-04-28/verruga-plantar-cliente-2026-04-28.jpeg",
+      alt: "Registro autorizado de verruga plantar na sola do pé para avaliação podológica na ZL Podologia Fortaleza",
+      objectPosition: "52% 48%",
     },
     ctaLabel: "Quero avaliar essa dor",
     ctaWhatsappMessage:
@@ -635,7 +646,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     id: "tungiasis",
     menuLabel: "Tungíase",
     title: "Tungíase (Bicho de pé)",
-    price: "Direcionamento pelo WhatsApp",
+    price: "R$ 100,00",
     pain: "Lesão dolorosa na pele causada por parasita.",
     promise:
       "Quando há suspeita de tungíase, a ZL orienta o próximo passo pelo WhatsApp e confirma presencialmente a conduta adequada. O foco é cuidado seguro, higiene da região e orientação clara.",
@@ -795,18 +806,18 @@ export const zlIllustratedCases: readonly ZlIllustratedCase[] = [
     },
   },
   {
-    title: "Fungos nas unhas",
+    title: "Onicodistrofia traumática",
     tag: "Protocolo",
-    before: "Alteração visível na unha, com espessamento e mudança de cor.",
-    after: "Registro de acompanhamento para orientar o protocolo e a continuidade.",
-    note: "Registro clínico autorizado para mostrar alteração ungueal e acompanhamento do aspecto da unha ao longo do protocolo.",
+    before: "Alteração da unha causada por trauma, com mudança visual e fragilidade.",
+    after: "Acompanhamento orientado para entender evolução, proteção e continuidade.",
+    note: "Registro clínico autorizado para mostrar alteração ungueal traumática e acompanhamento do aspecto da unha ao longo do protocolo.",
     beforePhoto: {
       src: "/zl-podologia/social/client-approved/fungos-protocolo-2026-04-26-01.jpeg",
-      alt: "Registro autorizado de caso de fungos nas unhas com alteração de cor e espessamento antes do direcionamento clínico na ZL Podologia Fortaleza",
+      alt: "Registro autorizado de onicodistrofia traumática com alteração de cor e espessamento antes do direcionamento clínico na ZL Podologia Fortaleza",
     },
     afterPhoto: {
       src: "/zl-podologia/social/client-approved/fungos-protocolo-2026-04-26-02.jpeg",
-      alt: "Registro autorizado de acompanhamento de caso de fungos nas unhas na ZL Podologia Fortaleza",
+      alt: "Registro autorizado de acompanhamento de alteração traumática da unha na ZL Podologia Fortaleza",
     },
   },
   {
@@ -816,12 +827,12 @@ export const zlIllustratedCases: readonly ZlIllustratedCase[] = [
     after: "Acabamento limpo e aplicação do protocolo final.",
     note: "Registro do atendimento em andamento e do acabamento final, sem comparação artificial.",
     beforePhoto: {
-      src: "/zl-podologia/social/procedimentos/motor-fresa-detalhe.jpg",
-      alt: "Procedimento em andamento: fresa técnica em uso em sessão de podoprofilaxia na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-28/podoprofilaxia-atendimento-2026-04-28.jpeg",
+      alt: "Procedimento em andamento durante podoprofilaxia na ZL Podologia Fortaleza",
     },
     afterPhoto: {
-      src: "/zl-podologia/social/procedimentos/azul-metileno-03.jpg",
-      alt: "Acabamento clínico após sessão de podoprofilaxia com protocolo finalizado na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/edited-pro/equipe/profissional-exame-frontal-pro.jpg",
+      alt: "Atendimento clínico e acabamento técnico durante podoprofilaxia na ZL Podologia Fortaleza",
     },
   },
 ] as const;
@@ -862,8 +873,14 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
     rows: [
       {
         label: "Podoprofilaxia",
-        price: "R$ 100 dinheiro | R$ 105 cartão",
+        price: "R$ 100 dinheiro ou Pix | R$ 105 cartão",
         note: "Limpeza completa, corte técnico, desbaste e hidratação. Serviço mais vendido.",
+        tone: "accent",
+      },
+      {
+        label: "Protocolo Podoprofilaxia + Reflexologia",
+        price: "R$ 180",
+        note: "Oferta especial com podoprofilaxia, reflexologia e escalda-pés diferenciado como cuidado complementar.",
         tone: "accent",
       },
       {
@@ -902,7 +919,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
       {
         label: "Tratamento de fungos (onicomicose)",
         price: "R$ 100 por unha por sessão",
-        note: "Tratamento para eliminar fungos e recuperar a saúde das unhas com continuidade e cuidado em casa.",
+        note: "Protocolo para tratar fungos e acompanhar a recuperação da saúde das unhas com continuidade e cuidado em casa.",
       },
       {
         label: "Verruga plantar",
@@ -911,7 +928,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
       },
       {
         label: "Tungíase (Bicho de pé)",
-        price: "Direcionamento pelo WhatsApp",
+        price: "R$ 100,00",
         note: "Lesão dolorosa na pele causada por parasita, com conduta definida conforme o caso.",
       },
       {
@@ -971,9 +988,9 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
  */
 export const zlPricingFooterNotes = [
   "A clínica não cobra avaliação isolada: o primeiro direcionamento acontece pelo WhatsApp, com relato e foto quando ajuda.",
-  "Seu plano de cuidado personalizado é montado no atendimento para garantir melhores resultados e continuidade dos cuidados.",
+  "Seu plano de cuidado personalizado é montado no atendimento para orientar continuidade, retornos e cuidados em casa.",
   "Também há experiências e presentes sob medida, inclusive Pre-Wedding terapêutica.",
-  "Pagamento em dinheiro ou cartão; em alguns serviços o cartão acrescenta R$ 5.",
+  "Formas de pagamento: dinheiro, Pix ou cartão. Pagamentos no cartão possuem acréscimo de R$ 5.",
 ] as const;
 
 // Legacy flat pricing — mantido como re-export pra cobrir refs antigas,
@@ -1131,7 +1148,7 @@ export const zlFaq = [
   },
   {
     q: "Como é o pagamento?",
-    a: "Aceita dinheiro e cartão. Em alguns serviços o cartão tem acréscimo de R$ 5. A forma de pagamento é confirmada junto do agendamento.",
+    a: "As formas de pagamento são dinheiro, Pix ou cartão. Pagamentos no cartão possuem acréscimo de R$ 5. A forma de pagamento é confirmada junto do agendamento.",
   },
   {
     q: "Como chegar na Bezerra de Menezes?",
@@ -1352,7 +1369,7 @@ export const zlSymptoms: readonly ZlSymptom[] = [
   {
     kind: "odor",
     title: "Onicomicose (fungos)",
-    body: "Tratamento para eliminar fungos e recuperar a saúde das unhas.",
+    body: "Protocolo para tratar fungos e acompanhar a recuperação da saúde das unhas.",
     primaryService: "fungus",
     related: ["Fungos", "Unhas"],
   },
@@ -1628,8 +1645,13 @@ export const zlLocalKeywords = [
  * Pre-Wedding saiu do Pricing footer notes e Vale Presente é novidade v9.
  */
 export interface ZlExperienceCard {
-  id: "noiva_sublime" | "noiva_majestosa" | "momento_essencial" | "experiencia_encanto";
-  group: "pre_wedding" | "vale_presente";
+  id:
+    | "podopro_reflexologia"
+    | "noiva_sublime"
+    | "noiva_majestosa"
+    | "momento_essencial"
+    | "experiencia_encanto";
+  group: "oferta_especial" | "pre_wedding" | "vale_presente";
   eyebrow: string;
   title: string;
   duration: string;
@@ -1655,6 +1677,43 @@ export const zlExperienciasPresentes = {
   subtitle:
     "Reflexologia, escalda-pés e rituais de cuidado que podem virar presente digital ou pausa antes do casamento.",
   groups: [
+    {
+      id: "oferta_especial" as const,
+      eyebrow: "OFERTA ESPECIAL",
+      title: "Protocolo de podoprofilaxia + reflexologia",
+      intro:
+        "Uma sessão combinada para cuidar dos pés e desacelerar, com escalda-pés diferenciado como complemento do momento de cuidado.",
+      cards: [
+        {
+          id: "podopro_reflexologia" as const,
+          group: "oferta_especial" as const,
+          eyebrow: "PROTOCOLO COMBINADO",
+          title: "Podoprofilaxia + Reflexologia",
+          duration: "Sessão com hora marcada",
+          includes: [
+            "Podoprofilaxia completa",
+            "Reflexologia podal",
+            "Escalda-pés diferenciado como cuidado complementar",
+          ],
+          price: "R$ 180",
+          priceValue: 180,
+          featured: true,
+          featuredLabel: "Oferta especial",
+          ctaLabel: "Reservar protocolo",
+          whatsappLink: buildWhatsappLink(
+            "Oi, quero saber sobre a oferta Podoprofilaxia + Reflexologia por R$ 180.",
+            "experience_podopro_reflexology"
+          ),
+          image: {
+            src: "/zl-podologia/social/client-approved/2026-04-28/protocolo-podoprofilaxia-reflexologia-2026-04-28.jpeg",
+            alt: "Sessão de reflexologia com escalda-pés preparado para protocolo combinado de podoprofilaxia e reflexologia na ZL Podologia",
+            coverLayout: "editorial_full_bleed",
+            coverTone: "ritual_claro",
+            focalPoint: "50% 52%",
+          },
+        },
+      ],
+    },
     {
       id: "pre_wedding" as const,
       eyebrow: "CUIDADO PARA NOIVA",

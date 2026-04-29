@@ -154,7 +154,7 @@ export function ZlLegitimacySection() {
                   >
                     <div className="relative aspect-[4/3]">
                       <Image
-                        src="/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg"
+                        src="/zl-podologia/social/edited-pro/marca/fachada-clinica-sem-grade-2026-04-28.jpg"
                         alt="Fachada da ZL Podologia na Av. Bezerra de Menezes, em Fortaleza"
                         fill
                         sizes="(min-width: 1024px) 34vw, 100vw"

@@ -116,7 +116,7 @@ function buildSchemaGraph(): JsonLdObject {
       "https://www.zlpodologia.com.br/zl-podologia/social/marca/hero-editorial-tagline.jpg",
       "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg",
       "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg",
-      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg",
+      "https://www.zlpodologia.com.br/zl-podologia/social/edited-pro/marca/fachada-clinica-sem-grade-2026-04-28.jpg",
     ],
     logo: "https://www.zlpodologia.com.br/zl-podologia/brand/zl-logo-green-seal-2026-04-26.png",
     url: ZL_CANONICAL_URL,

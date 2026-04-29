@@ -6,7 +6,7 @@ import {
 export const ZL_INGROWN_PAGE_PATH = "/unha-encravada-fortaleza";
 export const ZL_INGROWN_PAGE_URL = `${ZL_CANONICAL_URL}${ZL_INGROWN_PAGE_PATH}`;
 export const ZL_INGROWN_HERO_IMAGE =
-  "/zl-podologia/social/edited-pro/procedimentos/frontal-instrumento-fino-pro.jpg";
+  "/zl-podologia/social/client-approved/2026-04-28/unha-encravada-cliente-2026-04-28.jpeg";
 export const ZL_INGROWN_CASE_IMAGE =
   "/zl-podologia/social/antes-depois/encravada-05-alivio-bandagem.jpg";
 export const ZL_INGROWN_DESCRIPTION =

@@ -49,11 +49,20 @@ type ExperienceCardData =
   (typeof zlExperienciasPresentes.groups)[number]["cards"][number];
 
 const featuredExperienceCards: readonly ExperienceCardData[] = [
-  zlExperienciasPresentes.groups[0].cards[1],
+  zlExperienciasPresentes.groups[0].cards[0],
   zlExperienciasPresentes.groups[1].cards[1],
+  zlExperienciasPresentes.groups[2].cards[1],
 ];
 
 const valueOfferCovers = [
+  {
+    title: "Podopro + Reflexologia",
+    subtitle: "Oferta especial com escalda-pés diferenciado.",
+    kicker: "Oferta",
+    src: "/zl-podologia/social/client-approved/2026-04-28/protocolo-podoprofilaxia-reflexologia-2026-04-28.jpeg",
+    alt: "Oferta especial de podoprofilaxia e reflexologia com escalda-pés diferenciado",
+    objectPosition: "50% 52%",
+  },
   {
     title: "Noiva Sublime",
     subtitle: "Um cuidado especial antes de um dia importante.",
@@ -274,13 +283,17 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
   const featuredLabel =
     "featuredLabel" in card ?card.featuredLabel : undefined;
   const imagePosition =
-    card.id === "noiva_majestosa"
+    card.id === "podopro_reflexologia"
+      ?"50% 52%"
+      : card.id === "noiva_majestosa"
       ?"50% 58%"
       : card.id === "experiencia_encanto"
         ?"50% 32%"
         : "50% 44%";
   const contextLabel =
-    card.group === "pre_wedding"
+    card.group === "oferta_especial"
+      ?"Oferta especial"
+      : card.group === "pre_wedding"
       ?"Pré-wedding"
       : "Vale-presente";
 
@@ -362,7 +375,9 @@ function ExperienceCard({ card }: { card: ExperienceCardData }) {
           >
             <ZlWhatsappIcon />
             <span>
-              {card.group === "pre_wedding"
+              {card.group === "oferta_especial"
+                ? "Reservar oferta"
+                : card.group === "pre_wedding"
                 ?"Reservar experiência"
                 : "Reservar presente"}
             </span>

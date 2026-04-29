@@ -848,7 +848,7 @@ export function ZlFinalCtaSection() {
           >
         <div className="relative aspect-[21/10] w-full overflow-hidden rounded-[calc(1.65rem-0.3rem)] md:aspect-[24/10]">
           <Image
-            src="/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg"
+            src="/zl-podologia/social/edited-pro/marca/fachada-clinica-sem-grade-2026-04-28.jpg"
             alt="Fachada externa da ZL Podologia em Fortaleza - Galeria José Bernardo, Av. Bezerra de Menezes, Parquelândia"
             fill
             sizes="(min-width: 1024px) 90vw, 100vw"

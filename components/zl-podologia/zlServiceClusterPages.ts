@@ -1,9 +1,9 @@
 import type { ZlSeoLandingPageDefinition } from "@/components/zl-podologia/zlSeoLandingTypes";
 
 const ORTHOSIS_IMAGE =
-  "/zl-podologia/social/edited-pro/procedimentos/aplicador-transparente-pro.jpg";
+  "/zl-podologia/social/client-approved/2026-04-28/ortese-ungueal-cliente-2026-04-28.jpeg";
 const PODO_IMAGE =
-  "/zl-podologia/social/edited-pro/procedimentos/rotativo-procedimento-pro.jpg";
+  "/zl-podologia/social/edited-pro/equipe/profissional-exame-frontal-pro.jpg";
 const DIABETIC_IMAGE =
   "/zl-podologia/social/edited-pro/procedimentos/closeup-clinico-sensivel-pro.jpg";
 
@@ -114,7 +114,7 @@ export const zlPodoprofilaxiaPage: ZlSeoLandingPageDefinition = {
   heroImage: PODO_IMAGE,
   heroAlt: "Podoprofilaxia com motor rotativo na ZL Podologia Fortaleza",
   prices: [
-    { label: "Dinheiro", value: "R$ 100 dinheiro" },
+    { label: "Dinheiro ou Pix", value: "R$ 100" },
     { label: "Cartão", value: "R$ 105 cartão" },
   ],
   primaryChecklist: {
@@ -160,7 +160,7 @@ export const zlPodoprofilaxiaPage: ZlSeoLandingPageDefinition = {
   faqs: [
     {
       question: "Quanto custa podoprofilaxia na ZL?",
-      answer: "O valor é R$ 100 no dinheiro ou R$ 105 no cartão.",
+      answer: "O valor é R$ 100 no dinheiro ou Pix, ou R$ 105 no cartão.",
     },
     {
       question: "O que inclui?",

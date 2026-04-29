@@ -18,7 +18,7 @@ const servicePages = [
     h1: "Podoprofilaxia em Fortaleza",
     source: "service_podoprofilaxia_page",
     requiredText: [
-      "R$ 100 dinheiro",
+      "Dinheiro ou Pix",
       "R$ 105 cartão",
       "corte técnico",
       "desbaste de calos e calosidades",

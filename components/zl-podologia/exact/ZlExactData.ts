@@ -184,7 +184,7 @@ export const exactSteps: readonly ExactStepCard[] = [
   {
     key: "maintenance",
     title: "Manutencao",
-    body: "Acompanhamento para garantir resultados duradouros.",
+    body: "Acompanhamento para orientar continuidade e cuidados em casa.",
     icon: "shield",
   },
 ] as const;
@@ -199,7 +199,7 @@ export const exactPricingCards: readonly ExactPricingCard[] = [
   },
   {
     title: "Podoprofilaxia",
-    price: "R$ 100 dinheiro | R$ 105 cartao",
+    price: "R$ 100 dinheiro ou Pix | R$ 105 cartao",
     body: "Limpeza e cuidados preventivos para manter os pes saudaveis.",
     action: "Agendar agora",
     tone: "highlight",
@@ -213,7 +213,7 @@ export const exactPricingCards: readonly ExactPricingCard[] = [
   {
     title: "Fungos nas Unhas",
     price: "R$ 100 por unha por sessao",
-    body: "Tratamento para eliminar fungos e recuperar a saude das unhas.",
+    body: "Protocolo para tratar fungos e acompanhar a saude das unhas.",
     action: "Agendar agora",
   },
   {
@@ -232,7 +232,7 @@ export const exactPricingCards: readonly ExactPricingCard[] = [
 
 export const exactPricingNotes = [
   "Planos de tratamento personalizados",
-  "Parcelamento facilitado no cartao de credito",
+  "Pagamentos no cartao possuem acrescimo de R$ 5",
 ] as const;
 
 export const exactPricingFooter =

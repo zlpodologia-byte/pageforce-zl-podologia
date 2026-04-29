@@ -60,7 +60,13 @@ export function ZlExperiencesSection() {
                 </div>
 
                 {/* Cards do grupo (2 side-by-side em desktop) */}
-                <div className="grid gap-5 md:grid-cols-2">
+                <div
+                  className={
+                    group.cards.length === 1
+                      ? "grid gap-5 md:grid-cols-[minmax(0,0.72fr)]"
+                      : "grid gap-5 md:grid-cols-2"
+                  }
+                >
                   {group.cards.map((card) => (
                     <ExperienceCard key={card.id} card={card as ZlExperienceCard} />
                   ))}
