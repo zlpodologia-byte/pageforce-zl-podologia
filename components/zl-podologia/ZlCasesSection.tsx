@@ -25,35 +25,23 @@ export function ZlCasesSection() {
                   title="Registros clínicos publicados com autorização."
                   body="Casos publicados pela ZL para mostrar alívio, protocolo e acabamento clínico."
                 />
-                <Reveal
-                  as="p"
-                  delay={120}
-                  className="max-w-[54ch] text-[0.88rem] leading-[1.6] text-[#6F746F] lg:justify-self-end"
-                >
-                  Em unha encravada, o foco é aliviar a dor. Em fungos, o foco é
-                  mostrar protocolo e continuidade. Em podoprofilaxia, técnica e
-                  acabamento clínico.
-                </Reveal>
               </div>
 
               <div className="mt-7 grid gap-5 lg:grid-cols-[minmax(0,1.12fr)_minmax(18rem,0.88fr)] lg:items-stretch">
                 <figure className="zl-integrated-photo zl-photo-feather">
                   <div className="relative aspect-[16/9]">
                     <Image
-                      src="/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg"
-                      alt="Sala de atendimento da ZL Podologia em Fortaleza"
+                      src="/zl-podologia/social/ambiente/zucarina-atendendo-01.jpg"
+                      alt="Atendimento individualizado na sala da ZL Podologia em Fortaleza"
                       fill
                       sizes="(min-width: 1024px) 58vw, 100vw"
                       loading="lazy"
                       className="object-cover"
                     />
                     <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(28,20,15,0.1)_0%,rgba(28,20,15,0.18)_40%,rgba(22,16,12,0.78)_100%)]" />
-                    <div className="absolute left-4 top-4 rounded-[0.35rem] bg-white/88 px-3 py-1 text-[0.58rem] uppercase tracking-[0.18em] text-[#6F746F] shadow-[0_10px_24px_rgba(22,16,12,0.14)]">
-                      Sala de atendimento
-                    </div>
                     <figcaption className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
                       <p className="max-w-[26ch] text-[0.88rem] leading-[1.48] text-white/86">
-                        Sala de atendimento da clínica.
+                        Atendimento individualizado na clínica.
                       </p>
                     </figcaption>
                   </div>

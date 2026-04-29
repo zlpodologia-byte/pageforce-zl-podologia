@@ -23,7 +23,7 @@ const sacredPairs = [
   ["Unha encravada (onicocriptose) - Grau 1", "A partir de R$ 150"],
   ["Unha encravada (onicocriptose) - Graus 2 e 3", "A partir de R$ 200"],
   ["Tratamento de fungos (onicomicose)", "R$ 100 por unha por sessao"],
-  ["Verruga plantar", "Direcionamento pelo WhatsApp"],
+  ["Verruga plantar", "A partir de R$ 100"],
   ["Tungiase (Bicho de pe)", "R$ 100,00"],
   ["Atendimento para idosos", "R$ 100 a R$ 180"],
   ["Ortese simples", "R$ 60 por unha"],

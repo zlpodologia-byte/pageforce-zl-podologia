@@ -599,7 +599,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
       {
         title: "Verruga plantar",
-        price: "Direcionamento pelo WhatsApp",
+        price: "A partir de R$ 100",
         body: "Dor ao pisar causada por lesão na sola do pé, com cuidado definido conforme a avaliação do caso.",
       },
     ],
@@ -616,7 +616,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     id: "plantar_wart",
     menuLabel: "Verruga plantar",
     title: "Verruga plantar",
-    price: "Direcionamento pelo WhatsApp",
+    price: "A partir de R$ 100",
     pain: "Dor ao pisar causada por lesão na sola do pé.",
     promise:
       "A clínica entende a queixa, observa a região e direciona o cuidado adequado quando há suspeita de verruga plantar. O procedimento e a continuidade são definidos conforme a avaliação do caso.",
@@ -924,7 +924,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
       },
       {
         label: "Verruga plantar",
-        price: "Direcionamento pelo WhatsApp",
+        price: "A partir de R$ 100",
         note: "Dor ao pisar causada por lesão na sola do pé, com conduta definida conforme o caso.",
       },
       {
