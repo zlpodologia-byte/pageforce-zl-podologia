@@ -90,6 +90,11 @@ body {
      render consistently without breaking prose. */
   font-feature-settings: "ss01", "cv11";
   font-variant-numeric: proportional-nums;
+  /* Fraunces variable axes — pinned per cliente review 2026-04-28
+     (Janniê, Reflexologia, etc): SOFT 0 + WONK 0 firma o desenho
+     das letras f e j, removendo o swash decorativo que ficava
+     desalinhado nos títulos de serviço. Outfit ignora axes desconhecidos. */
+  font-variation-settings: "SOFT" 0, "WONK" 0;
 }
 
 /* Utility class to opt-in tabular numerals (e.g. pricing tiles). */

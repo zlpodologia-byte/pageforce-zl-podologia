@@ -97,7 +97,7 @@ export default function OpenGraphImage() {
             }}
           >
             <div style={{ display: "flex" }}>
-              Zucarina • Jannié • Parquelândia
+              Zucarina • Janniê • Parquelândia
             </div>
             <div style={{ display: "flex" }}>zlpodologia.com.br</div>
           </div>

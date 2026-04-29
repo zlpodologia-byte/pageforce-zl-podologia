@@ -15,7 +15,7 @@ const contentPath = resolve(
 const content = readFileSync(contentPath, "utf8");
 
 const sacredPairs = [
-  ["Podoprofilaxia", "R$ 100 dinheiro ou Pix | R$ 105 cartao"],
+  ["Podoprofilaxia", "A partir de R$ 100 no Pix ou dinheiro"],
   ["Protocolo Podoprofilaxia + Reflexologia", "R$ 180"],
   ["Desbaste de calos (isolado)", "R$ 100"],
   ["Hidratacao de parafina", "R$ 100"],

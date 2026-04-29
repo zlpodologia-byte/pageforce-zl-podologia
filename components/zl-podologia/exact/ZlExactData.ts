@@ -232,7 +232,7 @@ export const exactPricingCards: readonly ExactPricingCard[] = [
 
 export const exactPricingNotes = [
   "Planos de tratamento personalizados",
-  "Pagamentos no cartao possuem acrescimo de R$ 5",
+  "Aceitamos dinheiro, Pix e cartao - condicoes especificas confirmadas na clinica",
 ] as const;
 
 export const exactPricingFooter =

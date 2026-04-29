@@ -34,7 +34,7 @@ test.describe("ZL client checklist 2026-04-26", () => {
     await expect(body).toContainText("Reflexologia podal (Relaxante e terapêutica)");
     await expect(body).toContainText("Técnica suave que promove relaxamento e alívio do estresse");
     await expect(body).toContainText("Estimulação de pontos específicos para equilíbrio e bem-estar do organismo");
-    await expect(body).toContainText("Jannié atua como reflexoterapeuta podal");
+    await expect(body).toContainText("Janniê atua como reflexoterapeuta podal");
     await expect(body).toContainText("Grau 1: a partir de R$ 150");
     await expect(body).toContainText("Graus 2 e 3: a partir de R$ 200");
     await expect(body).toContainText("Imagens meramente ilustrativas.");

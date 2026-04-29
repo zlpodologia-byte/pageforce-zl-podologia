@@ -74,8 +74,8 @@ export function ZlExactTrustIntroSection() {
               alt="Atendimento individualizado na ZL Podologia"
             />
             <ZlExactGalleryCard
-              src="/zl-podologia/social/edited-pro/marca/fachada-clinica-pro.jpg"
-              alt="Fachada da clinica ZL Podologia"
+              src="/zl-podologia/social/edited-pro/marca/fachada-clinica-sem-grade-2026-04-28.jpg"
+              alt="Fachada da clinica ZL Podologia em Fortaleza"
             />
           </div>
         </div>

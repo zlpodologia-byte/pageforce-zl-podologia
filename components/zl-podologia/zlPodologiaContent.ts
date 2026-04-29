@@ -252,7 +252,7 @@ export const zlComparePodology = {
       "Dor, inflamação, fungos e calos recebem direcionamento específico.",
       "A clínica indica o serviço mais adequado antes de reservar o horário.",
       "O retorno só é sugerido quando faz sentido para o caso.",
-      "Jannié atua na reflexologia podal e no bem-estar complementar.",
+      "Janniê atua na reflexologia podal e no bem-estar complementar.",
     ],
   },
 } as const;
@@ -534,8 +534,8 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     pain: "Busca por tecnologia, conforto e apoio em protocolos de unha e pele.",
     promise:
       "Laser entra como complemento, não como promessa milagrosa, dentro do plano do caso. Auxilia protocolos de fungos, cicatrização pós-encravada e tratamentos de pele.",
-    visualLabel: "Tecnologia usada com critério",
-    visualSupport: "Apoio clínico quando o caso realmente pede.",
+    visualLabel: "Laserterapia — tecnologia usada com critério",
+    visualSupport: "Apoio clínico aplicado quando o caso realmente pede, dentro do plano do paciente.",
     highlights: [
       "Soma conforto e valor percebido sem prometer milagre.",
       "Funciona bem como apoio ao protocolo de fungos.",
@@ -564,7 +564,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     id: "podoprofilaxia",
     menuLabel: "Podoprofilaxia",
     title: "Podoprofilaxia completa (profilaxia técnica)",
-    price: "R$ 100 dinheiro | R$ 105 cartão",
+    price: "A partir de R$ 100 no Pix ou dinheiro",
     pain: "Limpeza e cuidados preventivos para manter os pés saudáveis.",
     promise:
       "Cuidado completo de pele e unhas - a profilaxia técnica dos pés - com limpeza, corte técnico, desbaste e hidratação em uma só sessão. Serviço mais vendido hoje e porta de entrada mais volumosa da clínica.",
@@ -604,8 +604,8 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/equipe/profissional-exame-frontal-pro.jpg",
-      alt: "Atendimento de podoprofilaxia com avaliação clínica e cuidado técnico dos pés na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-28/podoprofilaxia-atendimento-2026-04-28.jpeg",
+      alt: "Atendimento de podoprofilaxia em andamento com cuidado técnico dos pés na ZL Podologia Fortaleza",
       objectPosition: "50% 52%",
     },
     ctaLabel: "Agendar podoprofilaxia",
@@ -620,8 +620,8 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     pain: "Dor ao pisar causada por lesão na sola do pé.",
     promise:
       "A clínica entende a queixa, observa a região e direciona o cuidado adequado quando há suspeita de verruga plantar. O procedimento e a continuidade são definidos conforme a avaliação do caso.",
-    visualLabel: "Lesão dolorosa na sola do pé",
-    visualSupport: "Leitura local, cuidado direcionado e orientação de retorno.",
+    visualLabel: "Verruga plantar — tratamento em andamento",
+    visualSupport: "Registro real do tratamento em andamento na clínica, com leitura local e orientação de retorno.",
     highlights: [
       "Procure atendimento quando a dor aparece ao apoiar o pé.",
       "A foto pelo WhatsApp ajuda a orientar a conversa inicial.",
@@ -634,7 +634,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     ],
     photo: {
       src: "/zl-podologia/social/client-approved/2026-04-28/verruga-plantar-cliente-2026-04-28.jpeg",
-      alt: "Registro autorizado de verruga plantar na sola do pé para avaliação podológica na ZL Podologia Fortaleza",
+      alt: "Verruga plantar em tratamento em andamento na ZL Podologia Fortaleza — registro autorizado pela paciente",
       objectPosition: "52% 48%",
     },
     ctaLabel: "Quero avaliar essa dor",
@@ -677,39 +677,40 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     title: "Reflexologia podal (Relaxante e terapêutica)",
     price: "R$ 80 a R$ 150",
     tagline:
-      "Talvez o que seu corpo esteja pedindo seja só um momento de cuidado e pausa.",
+      "Uma experiência sensorial e terapêutica exclusiva — para quem busca mais do que um serviço.",
     pain: "Estresse constante, cansaço no corpo, ansiedade, dores crônicas, tensão muscular e necessidade de relaxar de verdade.",
     promise:
-      "A reflexologia podal pode seguir duas frentes: Relaxante, para pausa e descanso, e Terapêutica, com pontos dirigidos conforme a necessidade. Jannié conduz o atendimento como reflexoterapeuta podal, com escuta individual, ritmo calmo e foco em bem-estar.",
-    visualLabel: "Pausa guiada para o corpo",
-    visualSupport: "Ritmo calmo, pontos dirigidos e ambiente terapêutico.",
+      "Cada sessão começa com anamnese profunda e criteriosa, analisando necessidades físicas e emocionais do paciente — atendimento estratégico, seguro e totalmente personalizado. Janniê conduz como reflexoterapeuta podal, com escuta individual, ritmo calmo e foco em bem-estar.",
+    visualLabel: "Anamnese profunda + ritual sensorial",
+    visualSupport: "Escalda-pés acolhedor, leitura individual e sessão personalizada.",
     highlights: [
-      "Relaxante: Técnica suave que promove relaxamento e alívio do estresse.",
-      "Terapêutica: Estimulação de pontos específicos para equilíbrio e bem-estar do organismo.",
-      "Atende quem chega por bem-estar e quem chega com dor crônica ou ansiedade.",
+      "Anamnese profunda e criteriosa: análise física e emocional antes da sessão.",
+      "Ritual de escalda-pés exclusivo + escolha entre Relaxante (desaceleração) ou Terapêutica (teste de temperamento).",
+      "Ambiente acolhedor e refinado, com cuidado humanizado de padrão elevado.",
     ],
     steps: [
-      "Leitura rápida de como você chegou (estresse, dor, tensão, cansaço).",
-      "Escolha da modalidade: Relaxante (descanso) ou Terapêutica (pontos dirigidos).",
-      "Estímulo de pontos reflexos com técnica personalizada para o seu caso.",
-      "Momento de pausa: você sai mais leve, mais presente e com o corpo em equilíbrio.",
+      "Anamnese profunda: leitura individual das necessidades físicas e emocionais.",
+      "Ritual de escalda-pés sensorial — momento de acolher e desacelerar antes do tratamento.",
+      "Escolha da modalidade: Relaxante (desaceleração) ou Terapêutica (teste de temperamento + pontos dirigidos).",
+      "Sessão personalizada — você sai mais leve, em equilíbrio físico e emocional.",
     ],
     includes: [
-      "Relaxante: Técnica suave que promove relaxamento e alívio do estresse",
-      "Terapêutica: Estimulação de pontos específicos para equilíbrio e bem-estar do organismo",
-      "Sessão personalizada respeitando necessidade individual",
-      "Ambiente calmo, sem pressa entre pacientes",
+      "Anamnese profunda e criteriosa antes de cada sessão",
+      "Ritual exclusivo de escalda-pés sensorial",
+      "Reflexologia Relaxante: ambiente de desaceleração completa",
+      "Reflexologia Terapêutica: teste de temperamento + pontos dirigidos",
+      "Sessão personalizada com ritmo calmo, sem pressa entre pacientes",
     ],
     subVariants: [
       {
         title: "Reflexologia Relaxante",
         price: "R$ 80 a R$ 100",
-        body: "Técnica suave que promove relaxamento e alívio do estresse.",
+        body: "Ambiente de desaceleração completa que conduz a um estado profundo de relaxamento, aliviando tensões e restaurando energia.",
       },
       {
         title: "Reflexologia Terapêutica",
         price: "R$ 100 a R$ 150",
-        body: "Estimulação de pontos específicos para equilíbrio e bem-estar do organismo.",
+        body: "Aplicação do teste de temperamento para abordagem refinada e individualizada — equilíbrio no corpo e no estado emocional.",
       },
       {
         title: "Massagem terapêutica",
@@ -718,9 +719,9 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       },
     ],
     photo: {
-      src: "/zl-podologia/social/edited-pro/atendimento/reflexologia-paciente-sessao-pro.jpg",
-      alt: "Sessão de reflexologia podal com paciente em repouso na ZL Podologia Fortaleza",
-      objectPosition: "62% 50%",
+      src: "/zl-podologia/social/client-approved/2026-04-28/protocolo-podoprofilaxia-reflexologia-2026-04-28.jpeg",
+      alt: "Ritual de escalda-pés sensorial conduzido por Janniê na sessão de reflexologia podal da ZL Podologia Fortaleza",
+      objectPosition: "50% 50%",
     },
     ctaLabel: "Quero um momento de pausa",
     ctaWhatsappMessage:
@@ -873,7 +874,7 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
     rows: [
       {
         label: "Podoprofilaxia",
-        price: "R$ 100 dinheiro ou Pix | R$ 105 cartão",
+        price: "A partir de R$ 100 no Pix ou dinheiro",
         note: "Limpeza completa, corte técnico, desbaste e hidratação. Serviço mais vendido.",
         tone: "accent",
       },
@@ -990,7 +991,7 @@ export const zlPricingFooterNotes = [
   "A clínica não cobra avaliação isolada: o primeiro direcionamento acontece pelo WhatsApp, com relato e foto quando ajuda.",
   "Seu plano de cuidado personalizado é montado no atendimento para orientar continuidade, retornos e cuidados em casa.",
   "Também há experiências e presentes sob medida, inclusive Pre-Wedding terapêutica.",
-  "Formas de pagamento: dinheiro, Pix ou cartão. Pagamentos no cartão possuem acréscimo de R$ 5.",
+  "Formas de pagamento: dinheiro, Pix ou cartão. Condições específicas do cartão são confirmadas direto na clínica.",
 ] as const;
 
 // Legacy flat pricing — mantido como re-export pra cobrir refs antigas,
@@ -1065,20 +1066,20 @@ export const zlProfessionals: readonly ZlProfessional[] = [
     },
   },
   {
-    name: "Jannié",
+    name: "Janniê",
     role: "Reflexoterapeuta podal",
     description:
       "Reflexoterapeuta podal da ZL, atenciosa no cuidado de bem-estar e continuidade da experiência da clínica.",
-    bio: "Eu sou a Jannié. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
+    bio: "Eu sou a Janniê. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
     handle: "@jannier.silva412",
-    // v7-earthy BLOCO B: foto real da Jannié em jannie-retrato.jpg — wide
-    // shot top-down da sala onde Jannié aparece sentada de jaleco verde,
+    // v7-earthy BLOCO B: foto real da Janniê em jannie-retrato.jpg — wide
+    // shot top-down da sala onde Janniê aparece sentada de jaleco verde,
     // óculos e cabelo preto curto, à esquerda-centro do frame. O crop via
     // object-position customizado no ZlProfessionalHero centraliza nela.
     // cropProtected=false — autorização LGPD já coberta pela mesma política.
     photo: {
       src: "/zl-podologia/social/equipe/jannie-retrato.jpg",
-      alt: "Jannié, reflexoterapeuta podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
+      alt: "Janniê, reflexoterapeuta podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
       cropProtected: false,
     },
   },
@@ -1086,9 +1087,9 @@ export const zlProfessionals: readonly ZlProfessional[] = [
 
 export const zlTeamHeadline = {
   eyebrow: "Quem cuida dos seus pés",
-  title: "Zucarina na podologia clínica e Jannié na reflexologia podal.",
+  title: "Zucarina na podologia clínica e Janniê na reflexologia podal.",
   body:
-    "Zucarina conduz os procedimentos de podologia. Jannié atua como reflexoterapeuta podal no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
+    "Zucarina conduz os procedimentos de podologia. Janniê atua como reflexoterapeuta podal no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
 } as const;
 
 export const zlConsultFlow = [
@@ -1148,7 +1149,7 @@ export const zlFaq = [
   },
   {
     q: "Como é o pagamento?",
-    a: "As formas de pagamento são dinheiro, Pix ou cartão. Pagamentos no cartão possuem acréscimo de R$ 5. A forma de pagamento é confirmada junto do agendamento.",
+    a: "As formas de pagamento são dinheiro, Pix ou cartão. A forma de pagamento e qualquer condição específica do cartão são confirmadas direto na clínica, junto do agendamento.",
   },
   {
     q: "Como chegar na Bezerra de Menezes?",
@@ -1572,7 +1573,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     firstName: "Ivia D.",
     fullAuthor: "Ivia Dias",
     caption: "Cliente verificada - Google",
-    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Jannié é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
+    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Janniê é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
     rating: 5,
     source: "Avaliação pública no Google - 5,0 com 11 avaliações",
     datePublished: "2025-11-01",

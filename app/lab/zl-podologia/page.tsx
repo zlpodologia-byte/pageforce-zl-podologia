@@ -16,7 +16,7 @@ import {
 /* ------------------------------------------------------------------ */
 
 const description =
-  "Podologia clínica em Fortaleza (Parquelândia) para unha encravada, fungos, podoprofilaxia e reflexologia podal. 5,0 no Google, cuidado humanizado com Zucarina e Jannié. Agende pelo WhatsApp.";
+  "Podologia clínica em Fortaleza (Parquelândia) para unha encravada, fungos, podoprofilaxia e reflexologia podal. 5,0 no Google, cuidado humanizado com Zucarina e Janniê. Agende pelo WhatsApp.";
 
 export const metadata: Metadata = {
   title:
@@ -224,7 +224,7 @@ function buildSchemaGraph(): JsonLdObject {
   const reflexologyPerson: JsonLdObject = {
     "@type": "Person",
     "@id": `${ZL_CANONICAL_URL}#reflexologia-podal`,
-    name: "Jannié",
+    name: "Janniê",
     jobTitle: "Reflexoterapeuta podal",
     worksFor: { "@id": `${ZL_CANONICAL_URL}#business` },
     description:
