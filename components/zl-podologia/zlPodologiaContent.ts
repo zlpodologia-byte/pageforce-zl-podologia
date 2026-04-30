@@ -828,12 +828,12 @@ export const zlIllustratedCases: readonly ZlIllustratedCase[] = [
     after: "Acabamento limpo e aplicação do protocolo final.",
     note: "Registro do atendimento em andamento e do acabamento final, sem comparação artificial.",
     beforePhoto: {
-      src: "/zl-podologia/social/client-approved/2026-04-28/podoprofilaxia-atendimento-2026-04-28.jpeg",
-      alt: "Procedimento em andamento durante podoprofilaxia na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-30/zucarina-procedimento-real-2026-04-29.jpeg",
+      alt: "Procedimento de podoprofilaxia em andamento conduzido por Zucarina na ZL Podologia Fortaleza",
     },
     afterPhoto: {
-      src: "/zl-podologia/social/edited-pro/equipe/profissional-exame-frontal-pro.jpg",
-      alt: "Atendimento clínico e acabamento técnico durante podoprofilaxia na ZL Podologia Fortaleza",
+      src: "/zl-podologia/social/client-approved/2026-04-30/pes-pos-procedimento-01-2026-04-29.jpeg",
+      alt: "Pés saudáveis após sessão de podoprofilaxia completa na ZL Podologia Fortaleza",
     },
   },
 ] as const;

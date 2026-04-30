@@ -31,8 +31,8 @@ export function ZlCasesSection() {
                 <figure className="zl-integrated-photo zl-photo-feather">
                   <div className="relative aspect-[16/9]">
                     <Image
-                      src="/zl-podologia/social/ambiente/zucarina-atendendo-01.jpg"
-                      alt="Atendimento individualizado na sala da ZL Podologia em Fortaleza"
+                      src="/zl-podologia/social/client-approved/2026-04-30/zucarina-procedimento-real-2026-04-29.jpeg"
+                      alt="Zucarina, podóloga da ZL Podologia, em atendimento clínico individualizado com touca, máscara e luvas"
                       fill
                       sizes="(min-width: 1024px) 58vw, 100vw"
                       loading="lazy"
