@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { Reveal } from "@/components/reveal/Reveal";
 import { ZlAnalytics, trackZlEvent } from "@/components/zl-podologia/ZlAnalytics";
 import { ZlCookieBanner } from "@/components/zl-podologia/ZlCookieBanner";
@@ -166,9 +166,8 @@ export function ZlPodologiaLanding() {
  * - Background radial gradient creme + rose-wash imersivo.
  * - Topbar integrada (logo ZL esquerda, nav expandida ao centro,
  *   "Agendar horario" CTA direita).
- * - H1 editorial massivo Fraunces clamp(3.2rem,7vw,6rem) com "pes" e
- *   "alivio" em italico rose `#0F6B46`. Mantem animacao variable-font
- *   opsz 14->144 + SOFT 0->100 em 1.1s.
+ * - H1 editorial massivo em display serif clamp(3.2rem,7vw,6rem) com "pes" e
+ *   "alivio" em italico rose `#0F6B46`.
  * - Coluna direita: foto `profissional-close-autoridade-pro.jpg` em
  *   cartao rounded-[34px] aspect[0.98] com badge "Fortaleza" overlay
  *   bottom-left e squiggle SVG signature bottom-right.
@@ -616,27 +615,12 @@ function ZlExactStyleTopbar() {
 }
 
 /**
- * Editorial H1 com Fraunces variable-font (opsz 14->144, SOFT 0->100)
+ * Editorial H1 com display serif e interação de ênfase
  * em 1.1s ao entrar no viewport. Versao v8-hero-swap: escala massiva
  * `clamp(3.2rem,7vw,6rem)` + "pes" e "alivio" em italico rose `#0F6B46`.
  * Sem grifo taupe abaixo - no -exact nao tem barra.
  */
 function ZlHeroHeadline() {
-  const [settled, setSettled] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const prefersReduced = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-    if (prefersReduced) {
-      setSettled(true);
-      return;
-    }
-    const id = window.setTimeout(() => setSettled(true), 60);
-    return () => window.clearTimeout(id);
-  }, []);
-
   return (
     <Reveal
       as="h1"
@@ -647,16 +631,7 @@ function ZlHeroHeadline() {
         fontWeight: 500,
       }}
     >
-      <span
-        className="block"
-        style={{
-          fontVariationSettings: settled
-            ?"'opsz' 144, 'SOFT' 100"
-            : "'opsz' 14, 'SOFT' 0",
-          transition: "font-variation-settings 1100ms var(--ease-haptic)",
-          willChange: "font-variation-settings",
-        }}
-      >
+      <span className="block">
         <span>Podologia{" "}</span>
         <br />
         <span>clínica </span>

@@ -11,7 +11,7 @@ import type { ReactNode } from "react";
  *    like a catalogo impresso without replacing the v7 bege outer wash.
  *
  *  - `ZlHeroOverlayCard` - editorial caption card placed over the hero
- *    photo. Uses rose `#0F6B46` eyebrow + Fraunces italic body.
+ *    photo. Uses rose `#0F6B46` eyebrow + display italic body.
  *
  *  - `ZlHeroSquiggle` - 4 dots + 2 SVG curves, white/86 tint, placed on
  *    bottom-right of the hero photo to sign authorship.
@@ -58,7 +58,7 @@ export function ZlSceneEnvelope({
 /**
  * Renders the editorial caption card pinned to the bottom-left of the
  * hero photo. Preserves the v7 positioning ("Fortaleza / Atendimento
- * delicado e real.") with Fraunces italic on the second line.
+ * delicado e real.") with display italic on the second line.
  */
 export function ZlHeroOverlayCard() {
   return (
@@ -129,7 +129,7 @@ export function ZlHeroSquiggle({
 /**
  * Minimal "proof card" used inside the 4-col proof strip between hero
  * and fiduciary bar. Follows the exact editorial rhythm: eyebrow rose
- * uppercase + Fraunces serif title + body + circular icon chip.
+ * uppercase + display serif title + body + circular icon chip.
  *
  * `divide` variant removes the border so the parent grid handles it.
  */

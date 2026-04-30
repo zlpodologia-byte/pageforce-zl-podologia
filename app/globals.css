@@ -34,11 +34,11 @@
   --color-accent-midnight: #1a2340;
 
   /* Font roles — bound to next/font variables in layout.tsx.
-     Primary display is now Fraunces (variable optical serif) and primary
+     Primary display is now Lora (readable editorial serif) and primary
      body is Outfit (warm grotesk). Legacy faces kept as secondary
      fallbacks so older routes that still reference the variable names
      degrade gracefully. */
-  --font-display: var(--font-display-family), "Fraunces", "Ibarra Real Nova", ui-serif, Georgia, serif;
+  --font-display: var(--font-display-family), "Lora", "Ibarra Real Nova", ui-serif, Georgia, serif;
   --font-sans: var(--font-sans-family), "Outfit", "Inter Tight", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Easings */
@@ -90,11 +90,7 @@ body {
      render consistently without breaking prose. */
   font-feature-settings: "ss01", "cv11";
   font-variant-numeric: proportional-nums;
-  /* Fraunces variable axes — pinned per cliente review 2026-04-28
-     (Janniê, Reflexologia, etc): SOFT 0 + WONK 0 firma o desenho
-     das letras f e j, removendo o swash decorativo que ficava
-     desalinhado nos títulos de serviço. Outfit ignora axes desconhecidos. */
-  font-variation-settings: "SOFT" 0, "WONK" 0;
+  font-optical-sizing: auto;
 }
 
 /* Utility class to opt-in tabular numerals (e.g. pricing tiles). */

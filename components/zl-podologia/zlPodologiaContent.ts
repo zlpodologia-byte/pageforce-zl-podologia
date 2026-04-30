@@ -1,4 +1,4 @@
-﻿export const ZL_WHATSAPP_NUMBER = "5585994358505";
+export const ZL_WHATSAPP_NUMBER = "5585994358505";
 
 /**
  * Canonical source for every WhatsApp source tag used by the landing.
@@ -252,7 +252,7 @@ export const zlComparePodology = {
       "Dor, inflamação, fungos e calos recebem direcionamento específico.",
       "A clínica indica o serviço mais adequado antes de reservar o horário.",
       "O retorno só é sugerido quando faz sentido para o caso.",
-      "Janniê atua na reflexologia podal e no bem-estar complementar.",
+      "Jannié atua na reflexologia podal e no bem-estar complementar.",
     ],
   },
 } as const;
@@ -680,7 +680,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
       "Uma experiência sensorial e terapêutica exclusiva — para quem busca mais do que um serviço.",
     pain: "Estresse constante, cansaço no corpo, ansiedade, dores crônicas, tensão muscular e necessidade de relaxar de verdade.",
     promise:
-      "Cada sessão começa com anamnese profunda e criteriosa, analisando necessidades físicas e emocionais do paciente — atendimento estratégico, seguro e totalmente personalizado. Janniê conduz como reflexoterapeuta podal, com escuta individual, ritmo calmo e foco em bem-estar.",
+      "Cada sessão começa com anamnese profunda e criteriosa, analisando necessidades físicas e emocionais do paciente — atendimento estratégico, seguro e totalmente personalizado. Jannié conduz como reflexoterapeuta podal, com escuta individual, ritmo calmo e foco em bem-estar.",
     visualLabel: "Anamnese profunda + ritual sensorial",
     visualSupport: "Escalda-pés acolhedor, leitura individual e sessão personalizada.",
     highlights: [
@@ -720,7 +720,7 @@ export const zlInteractiveServices: readonly ZlInteractiveService[] = [
     ],
     photo: {
       src: "/zl-podologia/social/client-approved/2026-04-28/protocolo-podoprofilaxia-reflexologia-2026-04-28.jpeg",
-      alt: "Ritual de escalda-pés sensorial conduzido por Janniê na sessão de reflexologia podal da ZL Podologia Fortaleza",
+      alt: "Ritual de escalda-pés sensorial conduzido por Jannié na sessão de reflexologia podal da ZL Podologia Fortaleza",
       objectPosition: "50% 50%",
     },
     ctaLabel: "Quero um momento de pausa",
@@ -1066,20 +1066,20 @@ export const zlProfessionals: readonly ZlProfessional[] = [
     },
   },
   {
-    name: "Janniê",
+    name: "Jannié",
     role: "Reflexoterapeuta podal",
     description:
       "Reflexoterapeuta podal da ZL, atenciosa no cuidado de bem-estar e continuidade da experiência da clínica.",
-    bio: "Eu sou a Janniê. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
+    bio: "Eu sou a Jannié. Atuo com reflexologia podal e apoio o cuidado de bem-estar da ZL, mantendo o mesmo ritmo calmo, atenção individual e acolhimento no atendimento.",
     handle: "@jannier.silva412",
-    // v7-earthy BLOCO B: foto real da Janniê em jannie-retrato.jpg — wide
-    // shot top-down da sala onde Janniê aparece sentada de jaleco verde,
+    // v7-earthy BLOCO B: foto real da Jannié em jannie-retrato.jpg — wide
+    // shot top-down da sala onde Jannié aparece sentada de jaleco verde,
     // óculos e cabelo preto curto, à esquerda-centro do frame. O crop via
     // object-position customizado no ZlProfessionalHero centraliza nela.
     // cropProtected=false — autorização LGPD já coberta pela mesma política.
     photo: {
       src: "/zl-podologia/social/equipe/jannie-retrato.jpg",
-      alt: "Janniê, reflexoterapeuta podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
+      alt: "Jannié, reflexoterapeuta podal da ZL Podologia, atendendo uma paciente na sala da clínica em Fortaleza — jaleco verde, óculos, atenção individualizada",
       cropProtected: false,
     },
   },
@@ -1087,9 +1087,9 @@ export const zlProfessionals: readonly ZlProfessional[] = [
 
 export const zlTeamHeadline = {
   eyebrow: "Quem cuida dos seus pés",
-  title: "Zucarina na podologia clínica e Janniê na reflexologia podal.",
+  title: "Zucarina na podologia clínica e Jannié na reflexologia podal.",
   body:
-    "Zucarina conduz os procedimentos de podologia. Janniê atua como reflexoterapeuta podal no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
+    "Zucarina conduz os procedimentos de podologia. Jannié atua como reflexoterapeuta podal no bem-estar complementar, mantendo atenção individual e o ritmo calmo da clínica.",
 } as const;
 
 export const zlConsultFlow = [
@@ -1573,7 +1573,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     firstName: "Ivia D.",
     fullAuthor: "Ivia Dias",
     caption: "Cliente verificada - Google",
-    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Janniê é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
+    body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Jannié é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
     rating: 5,
     source: "Avaliação pública no Google - 5,0 com 11 avaliações",
     datePublished: "2025-11-01",

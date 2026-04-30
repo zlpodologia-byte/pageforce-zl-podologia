@@ -12,7 +12,7 @@ import { buildWhatsappLink } from "@/components/zl-podologia/zlPodologiaContent"
  *
  * Promovido de card dentro do Service Explorer para seção autônoma na
  * posição 6 (após Explorer, antes de Biossegurança). Âncora visual do
- * protocolo da ZL. 5 slides, cada um com número romano I-V em Fraunces
+ * protocolo da ZL. 5 slides, cada um com número romano I-V em display serif
  * serif itálico + legenda e badge de etapa.
  *
  * Motion:
@@ -175,7 +175,7 @@ export function ZlIngrownStoryteller() {
                   loading="lazy"
                   className="object-cover transition-transform duration-[900ms] [transition-timing-function:var(--ease-haptic)] group-hover:scale-[1.03]"
                 />
-                {/* Roman numeral in the corner - Fraunces serif, large,
+                {/* Roman numeral in the corner - display serif, large,
                     italic. It is the signature of the section. */}
                 <span
                   className="pointer-events-none absolute right-3 top-3 select-none text-[2.4rem] leading-none text-white/90 drop-shadow-[0_6px_18px_rgba(23,79,63,0.5)]"

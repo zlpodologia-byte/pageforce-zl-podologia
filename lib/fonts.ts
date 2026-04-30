@@ -1,4 +1,4 @@
-import { Fraunces, Ibarra_Real_Nova, Inter_Tight, Outfit } from "next/font/google";
+import { Ibarra_Real_Nova, Inter_Tight, Lora, Outfit } from "next/font/google";
 
 /**
  * Display serif — open-licensed substitute for the reference's wedge-serif display face.
@@ -26,10 +26,10 @@ export const sansLegacy = Inter_Tight({
 });
 
 /**
- * Primary display face — Fraunces, variable optical-size serif with
- * character. Used for hero H1, section H2 and pricing display numerals.
+ * Primary display face — Lora keeps the editorial serif tone without the
+ * exaggerated f/J swashes that hurt readability in the ZL review.
  */
-export const display = Fraunces({
+export const display = Lora({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   style: ["normal", "italic"],

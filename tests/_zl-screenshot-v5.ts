@@ -16,7 +16,7 @@ type Shot = {
 /*
  * V5 — taste-skill refinements + real stock photography
  * Highlights to capture:
- * - New Fraunces display face (obvious in every H1/H2)
+ * - Display serif face (obvious in every H1/H2)
  * - Double-bezel testimonials + pricing cards
  * - Hero composition with the editorial photo overlay
  * - Biosafety section with instrumental photo card

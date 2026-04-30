@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -275,7 +275,7 @@ export function ZlCasesSection() {
 /* ------------------------------------------------------------------ */
 
 /**
- * Avatar ilustrado circular generico ? usado como fallback pra Janniê
+ * Avatar ilustrado circular generico ? usado como fallback pra Jannié
  * enquanto retrato profissional nao chega (v7b).
  */
 function ZlProfessionalAvatar({ name }: { name: string }) {
@@ -324,17 +324,17 @@ function ZlProfessionalAvatar({ name }: { name: string }) {
  * LGPD: quando `cropProtected` e true, a foto usa object-position que
  * enfatiza maos/jaleco/placa e reduz exposicao de rosto ? v7a fallback
  * enquanto autorizacao escrita formal nao chega (comentario do Codex
- * edit-manifest). Na v7-earthy, Janniê tem foto wide-shot e usamos
+ * edit-manifest). Na v7-earthy, Jannié tem foto wide-shot e usamos
  * customObjectPosition via dedicated prop pra centralizar nela.
  */
 function ZlProfessionalHero({ professional, index }: { professional: ZlProfessional; index: number }) {
   const hasPhoto = Boolean(professional.photo?.src);
-  // v7-earthy BLOCO B: Janniê usa foto wide com paciente ? agressivo
+  // v7-earthy BLOCO B: Jannié usa foto wide com paciente ? agressivo
   // object-position pra centralizar nela (ela fica na esquerda-centro
   // do frame). Zucarina e close autoridade, crop default.
   const objectPosition = professional.photo?.cropProtected
     ?"50% 75%"
-    : professional.name === "Janniê"
+    : professional.name === "Jannié"
     ?"35% 60%"
     : "center";
   return (
@@ -439,7 +439,7 @@ export function ZlTeamSection() {
           >
             Duas profissionais. Mesmo ritual: leitura cuidadosa do caso, execução
             técnica com delicadeza e orientação clara. Os nomes - Zucarina e
-            Janniê - são citados publicamente pelas pacientes nos reviews do
+            Jannié - são citados publicamente pelas pacientes nos reviews do
             Google 5,0. Aqui você sabe com quem está falando.
           </Reveal>
         </div>

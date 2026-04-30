@@ -33,7 +33,7 @@ export function ZlTeamSection() {
                 delay={130}
                 className="max-w-[50ch] text-[0.88rem] leading-[1.62] text-[#6F746F] lg:justify-self-end"
               >
-                Zucarina conduz a frente clínica da podologia. Janniê atua
+                Zucarina conduz a frente clínica da podologia. Jannié atua
                 como reflexoterapeuta podal, mantendo acolhimento, EPI e atenção
                 individual no mesmo ritmo calmo da clínica.
               </Reveal>
@@ -537,7 +537,7 @@ function getProfessionalImagePosition(professional: ZlProfessional) {
     return "58% 24%";
   }
 
-  if (professional.name === "Janniê") {
+  if (professional.name === "Jannié") {
     return "28% 40%";
   }
 
@@ -549,7 +549,7 @@ function getProfessionalExcerpt(professional: ZlProfessional) {
     return "Uma paciente por vez, com tempo para ouvir o caso antes do instrumental.";
   }
 
-  if (professional.name === "Janniê") {
+  if (professional.name === "Jannié") {
     return "Reflexologia podal e bem-estar complementar com o mesmo ritmo calmo da ZL.";
   }
 
@@ -561,7 +561,7 @@ function getProfessionalQuote(professional: ZlProfessional) {
     return "Cuido dos pés de cada paciente como únicos, uma por vez, com tempo para ouvir o caso antes do instrumental.";
   }
 
-  if (professional.name === "Janniê") {
+  if (professional.name === "Jannié") {
     return "Atenção, pausa e cuidado para o corpo desacelerar pelos pés.";
   }
 
