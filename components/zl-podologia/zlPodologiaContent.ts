@@ -161,8 +161,16 @@ export const zlContact = {
   emailLegacy: "contato@zlpodologia.com.br",
 } as const;
 
+/**
+ * Google Business Profile metrics — fonte única de verdade.
+ * Atualizar aqui quando a contagem crescer no Google.
+ * Última verificação: 2026-04-30 — 5,0 com 34 avaliações públicas.
+ */
+export const ZL_GOOGLE_RATING = "5,0" as const;
+export const ZL_GOOGLE_REVIEW_COUNT = 34 as const;
+
 export const zlHeroProof = [
-  { label: "Nota Google", value: "5,0", caption: "11 avaliações públicas, cuidado artesanal." },
+  { label: "Nota Google", value: ZL_GOOGLE_RATING, caption: `${ZL_GOOGLE_REVIEW_COUNT} avaliações públicas, cuidado artesanal.` },
   { label: "Atendimento", value: "Ter - Sab", caption: "Fortaleza, hora marcada." },
   { label: "Triagem", value: "Leitura clínica", caption: "Direcionamento antes do horário." },
 ] as const;
@@ -193,8 +201,8 @@ export interface ZlProofStripItem {
 export const zlProofStripItems: readonly ZlProofStripItem[] = [
   {
     kind: "google_stars",
-    eyebrow: "5,0 no Google",
-    title: "Nota máxima em 11 avaliações públicas",
+    eyebrow: `${ZL_GOOGLE_RATING} no Google`,
+    title: `Nota máxima em ${ZL_GOOGLE_REVIEW_COUNT} avaliações públicas`,
     body: "Avaliações reais e públicas na ficha oficial da clínica.",
   },
   {
@@ -291,7 +299,7 @@ export const zlPromessaPivot =
 export const zlTrustPoints = [
   "Podologia clínica em Fortaleza (Parquelândia) com avaliação, procedimento e orientação de retorno.",
   "Galeria José Bernardo, endereço claro e horário visível antes do agendamento.",
-  "Uma paciente por vez: atenção individual mantém a nota 5,0 com 11 avaliações públicas no Google.",
+  `Uma paciente por vez: atenção individual mantém a nota ${ZL_GOOGLE_RATING} com ${ZL_GOOGLE_REVIEW_COUNT} avaliações públicas no Google.`,
   "Ambiente mais leve, sem visual de salão e sem frieza hospitalar.",
 ] as const;
 
@@ -1009,13 +1017,13 @@ export const zlTeamValues = [
 
 /**
  * Urgência honesta (Fix 6 da reflexão E) — converte a "pequenez" da ZL
- * (11 reviews) em vantagem narrativa. Usado na Faixa Fiduciaria e na
+ * (34 reviews) em vantagem narrativa. Usado na Faixa Fiduciaria e na
  * seção de Equipe/Pricing conforme espaço permitir.
  */
 export const zlUrgencyCopy = {
   title: "Uma paciente por vez.",
   body:
-    "Atendimento individualizado — por isso mantemos nota 5,0 com 11 avaliações públicas no Google.",
+    `Atendimento individualizado — por isso mantemos nota ${ZL_GOOGLE_RATING} com ${ZL_GOOGLE_REVIEW_COUNT} avaliações públicas no Google.`,
 } as const;
 
 /**
@@ -1254,8 +1262,8 @@ export const zlFiduciaryBarItems: readonly ZlFiduciaryBarItem[] = [
   {
     kind: "google",
     eyebrow: "Reputação",
-    title: "Google 5,0 / 11",
-    body: "Nota máxima em 11 avaliações públicas reais.",
+    title: `Google ${ZL_GOOGLE_RATING} / ${ZL_GOOGLE_REVIEW_COUNT}`,
+    body: `Nota máxima em ${ZL_GOOGLE_REVIEW_COUNT} avaliações públicas reais.`,
     cta: {
       href: "https://www.google.com/maps/search/ZL+Podologia+Fortaleza",
       label: "Ver no Google",
@@ -1550,7 +1558,7 @@ export function buildQuizWhatsappLink(answers: {
 
 /**
  * Depoimentos públicos reais, coletados das avaliações públicas do perfil
- * da ZL Podologia no Google Maps (Fortaleza, 5,0 com 11 avaliações).
+ * da ZL Podologia no Google Maps (Fortaleza, 5,0 com 34 avaliações). Atualizar pela constante ZL_GOOGLE_REVIEW_COUNT.
  * Por serem reviews públicos, podem ser citados textualmente.
  */
 export interface ZlTestimonial {
@@ -1575,7 +1583,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     caption: "Cliente verificada - Google",
     body: "Ambiente organizado e acolhedor. Zucarina, profissional competente e trata o cliente com atenção e delicadeza. Jannié é muito atenciosa. Serviço para unha encravada, podologia e muito mais, com excelente atendimento. Vale super a pena! Indico demais!",
     rating: 5,
-    source: "Avaliação pública no Google - 5,0 com 11 avaliações",
+    source: `Avaliação pública no Google - ${ZL_GOOGLE_RATING} com ${ZL_GOOGLE_REVIEW_COUNT} avaliações`,
     datePublished: "2025-11-01",
   },
   {
@@ -1584,7 +1592,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     caption: "Cliente verificado - Google",
     body: "O serviço foi ótimo. Fui bem atendido por uma podóloga muito competente e cuidadosa. O lugar era limpo e organizado, o que deixou tudo mais agradável. O tratamento foi eficaz e os preços justos. Recomendo para quem quer cuidar bem dos pés.",
     rating: 5,
-    source: "Avaliação pública no Google - 5,0 com 11 avaliações",
+    source: `Avaliação pública no Google - ${ZL_GOOGLE_RATING} com ${ZL_GOOGLE_REVIEW_COUNT} avaliações`,
     datePublished: "2025-04-01",
   },
   {
@@ -1593,7 +1601,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
     caption: "Cliente verificada - Google (Local Guide)",
     body: "Excelente atendimento. Serviço com preço justo e de qualidade. Realizei uma profilaxia e gostei muito do resultado.",
     rating: 5,
-    source: "Avaliação pública no Google - 5,0 com 11 avaliações",
+    source: `Avaliação pública no Google - ${ZL_GOOGLE_RATING} com ${ZL_GOOGLE_REVIEW_COUNT} avaliações`,
     datePublished: "2025-07-01",
   },
 ] as const;
@@ -1601,7 +1609,7 @@ export const zlTestimonials: readonly ZlTestimonial[] = [
 export const zlTestimonialsCopy = {
   eyebrow: "Avaliações públicas",
   title: "Pacientes que avaliaram a clínica no Google.",
-  body: "Depoimentos públicos da ficha da ZL Podologia, com nota 5,0 em 11 avaliações.",
+  body: `Depoimentos públicos da ficha da ZL Podologia, com nota ${ZL_GOOGLE_RATING} em ${ZL_GOOGLE_REVIEW_COUNT} avaliações.`,
   allReviewsCta: "Ver todos os 11 no Google",
 } as const;
 

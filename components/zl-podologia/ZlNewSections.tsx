@@ -590,7 +590,7 @@ export function ZlHeroJourneySection() {
           </Reveal>
         </div>
 
-        {/* Reviews publicos reais do Google (ZL Podologia - 5,0 / 11 avaliacoes). */}
+        {/* Reviews publicos reais do Google (ZL Podologia - 5,0 / 34 avaliacoes). */}
         <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {zlTestimonials.map((t, idx) => (
             <Reveal

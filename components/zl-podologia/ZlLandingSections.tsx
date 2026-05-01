@@ -15,6 +15,8 @@ import {
 import { ZlCaseArtwork } from "@/components/zl-podologia/ZlClinicIllustrations";
 import { trackZlEvent } from "@/components/zl-podologia/ZlAnalytics";
 import {
+  ZL_GOOGLE_RATING,
+  ZL_GOOGLE_REVIEW_COUNT,
   zlBrandSignature,
   zlConsultFlow,
   zlContact,
@@ -440,7 +442,7 @@ export function ZlTeamSection() {
             Duas profissionais. Mesmo ritual: leitura cuidadosa do caso, execução
             técnica com delicadeza e orientação clara. Os nomes - Zucarina e
             Jannié - são citados publicamente pelas pacientes nos reviews do
-            Google 5,0. Aqui você sabe com quem está falando.
+            Google {ZL_GOOGLE_RATING}. Aqui você sabe com quem está falando.
           </Reveal>
         </div>
 
@@ -961,7 +963,7 @@ export function ZlFinalCtaSection() {
             <div className="border-t border-[#D9DAD7] pt-4 text-[0.86rem] leading-[1.55] text-[#6F746F]">
               <p className="flex items-center gap-2">
                 <ZlStarIcon />
-                <span>5,0 com 11 avaliações: cuidado artesanal, uma paciente por vez.</span>
+                <span>{ZL_GOOGLE_RATING} com {ZL_GOOGLE_REVIEW_COUNT} avaliações: cuidado artesanal, uma paciente por vez.</span>
               </p>
               <p className="mt-2">{zlLocation.note}</p>
               <p className="mt-2">

@@ -9,7 +9,12 @@ import {
   ExactProofCard,
   ExactScene,
 } from "@/components/zl-podologia/exact/ZlExactAtoms";
-import { zlLinks, zlLocation } from "@/components/zl-podologia/zlPodologiaContent";
+import {
+  ZL_GOOGLE_RATING,
+  ZL_GOOGLE_REVIEW_COUNT,
+  zlLinks,
+  zlLocation,
+} from "@/components/zl-podologia/zlPodologiaContent";
 
 const navItems = [
   { label: "A clinica", href: "#clinica" },
@@ -187,8 +192,8 @@ export function ZlExactHeroPage() {
               icon="foot"
             />
             <ExactProofCard
-              eyebrow="Google • 5,0"
-              title="11 avaliacoes publicas"
+              eyebrow={`Google • ${ZL_GOOGLE_RATING}`}
+              title={`${ZL_GOOGLE_REVIEW_COUNT} avaliacoes publicas`}
               body="Atendimento delicado, explicacao simples e rotina de cuidado bem avaliada."
               icon="stars"
             />

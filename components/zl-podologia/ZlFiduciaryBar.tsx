@@ -15,7 +15,7 @@ import {
  *
  * 1. Anvisa (selo biosseguranca)
  * 2. Podologa registrada (autoridade profissional)
- * 3. Google 5,0 / 11 (reputacao rastreavel)
+ * 3. Google 5,0 / 34 (reputacao rastreavel)
  * 4. Aberto agora (ZlOpenStatus dinamico) — Fix 1 da reflexao E
  * 5. WhatsApp direto (canal primario)
  *

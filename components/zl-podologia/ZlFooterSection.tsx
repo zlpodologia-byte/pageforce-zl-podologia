@@ -10,6 +10,8 @@ import {
   ZlWhatsappIcon,
 } from "@/components/zl-podologia/ZlCtaLink";
 import {
+  ZL_GOOGLE_RATING,
+  ZL_GOOGLE_REVIEW_COUNT,
   zlContact,
   zlLinks,
   zlLocation,
@@ -165,7 +167,7 @@ export function ZlFooterSection() {
         <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-4 text-[0.78rem] text-white/55">
           <p className="inline-flex items-center gap-2">
             <ZlStarIcon />
-            <span>5,0 com 11 avaliações no Google</span>
+            <span>{ZL_GOOGLE_RATING} com {ZL_GOOGLE_REVIEW_COUNT} avaliações no Google</span>
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link

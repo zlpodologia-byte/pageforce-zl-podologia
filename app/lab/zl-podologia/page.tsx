@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { ZlPodologiaLanding } from "@/components/zl-podologia/ZlPodologiaLanding";
 import {
   ZL_CANONICAL_URL,
+  ZL_GOOGLE_RATING,
+  ZL_GOOGLE_REVIEW_COUNT,
   zlContact,
   zlFaq,
   zlLocation,
@@ -126,6 +128,15 @@ function buildSchemaGraph(): JsonLdObject {
     // ate R$ 200 encravada com inflamacao).
     priceRange: "R$ 60-200",
     description,
+    // 2026-04-30: aggregateRating habilitado pra ativar rich snippet de
+    // estrelas no Google. Fonte unica em ZL_GOOGLE_RATING/COUNT.
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: ZL_GOOGLE_RATING.replace(",", "."),
+      reviewCount: ZL_GOOGLE_REVIEW_COUNT,
+      bestRating: "5",
+      worstRating: "1",
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: zlLocation.streetAddress,

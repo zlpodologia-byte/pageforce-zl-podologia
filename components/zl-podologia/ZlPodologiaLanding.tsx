@@ -36,6 +36,8 @@ import { ZlServiceExplorer } from "@/components/zl-podologia/ZlServiceExplorer";
 import { ZlSmoothScroll } from "@/components/zl-podologia/ZlSmoothScroll";
 import { BodyText } from "@/components/zl-podologia/system";
 import {
+  ZL_GOOGLE_RATING,
+  ZL_GOOGLE_REVIEW_COUNT,
   ZL_MAIN_SERVICE_IDS,
   zlContact,
   zlHeroMicroReview,
@@ -746,7 +748,7 @@ function ZlFooter() {
         <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-5 text-[0.78rem] text-white/55">
           <p className="inline-flex items-center gap-2">
             <ZlStarIcon />
-            <span>5,0 com 11 avaliações no Google</span>
+            <span>{ZL_GOOGLE_RATING} com {ZL_GOOGLE_REVIEW_COUNT} avaliações no Google</span>
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link

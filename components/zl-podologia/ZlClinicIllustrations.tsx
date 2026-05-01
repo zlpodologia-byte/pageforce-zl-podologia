@@ -1,5 +1,9 @@
 ﻿import type { ReactNode } from "react";
-import type { ZlServiceId } from "@/components/zl-podologia/zlPodologiaContent";
+import {
+  ZL_GOOGLE_RATING,
+  ZL_GOOGLE_REVIEW_COUNT,
+  type ZlServiceId,
+} from "@/components/zl-podologia/zlPodologiaContent";
 
 // Paleta de apoio dos SVGs. Os nomes antigos permanecem para evitar refactor
 // amplo, mas agora apontam para o sistema Light Clinical Premium da marca ZL.
@@ -162,7 +166,7 @@ export function ZlHeroArtwork() {
           ))}
         </div>
         <p className="mt-2 text-[0.92rem] leading-[1.4] text-[#26302B]">
-          <span className="font-medium">5,0</span> com 11 avaliações no Google.
+          <span className="font-medium">{ZL_GOOGLE_RATING}</span> com {ZL_GOOGLE_REVIEW_COUNT} avaliações no Google.
         </p>
       </GlassNote>
 
