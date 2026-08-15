@@ -27,7 +27,7 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/site.webmanifest",
 ]);
 
-const ALLOWED_PREFIXES = ["/_next/", "/zl-podologia/"];
+const ALLOWED_PREFIXES = ["/_next/", "/zl-podologia/", "/credits/"];
 
 const BLOCKED_PUBLIC_FILE_PATTERN =
   /^\/zl-podologia\/(?:.*\.md|.*\.html|social\/.*\.json)$/i;
