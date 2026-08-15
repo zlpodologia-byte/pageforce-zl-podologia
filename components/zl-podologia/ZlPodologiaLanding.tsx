@@ -148,6 +148,9 @@ export function ZlPodologiaLanding() {
       {/* [15] CTA Final */}
       <ZlFinalCtaSection />
 
+      {/* [15.5] Creditos editoriais do projeto */}
+      <ZlProjectCredits />
+
       {/* [16] Footer with logo + politica de imagens link */}
       <ZlFooterSection />
 
@@ -157,6 +160,81 @@ export function ZlPodologiaLanding() {
       {/* Banner minimo LGPD cookies */}
       <ZlCookieBanner />
     </div>
+  );
+}
+
+function ZlProjectCredits() {
+  return (
+    <section
+      aria-labelledby="zl-project-credits-title"
+      className="border-t border-[#D9DAD7] bg-[#EFEAE4] px-5 py-12 sm:px-8 lg:px-14 lg:py-16"
+    >
+      <div className="mx-auto max-w-[1180px]">
+        <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-[0.64rem] font-semibold uppercase tracking-[0.24em] text-[#0F6B46]">
+              Créditos do projeto
+            </p>
+            <h2
+              id="zl-project-credits-title"
+              className="mt-2 text-[clamp(1.5rem,3vw,2.25rem)] leading-tight text-[#26302B]"
+              style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
+            >
+              Estratégia digital e desenvolvimento.
+            </h2>
+          </div>
+          <p className="max-w-[34rem] text-[0.82rem] leading-relaxed text-[#6F746F] sm:text-right">
+            Conheça quem transformou o projeto em uma experiência digital clara,
+            rápida e orientada a contato.
+          </p>
+        </div>
+
+        <a
+          href="https://yuriqueiroz.com.br/sobre"
+          target="_blank"
+          rel="noopener"
+          aria-label="Conhecer Yuri Queiroz, desenvolvedor full-stack"
+          className="group block overflow-hidden rounded-[1.1rem] border border-[#174F3F]/25 bg-[#05070A] shadow-[0_18px_48px_rgba(23,79,63,0.14)] outline-none transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_58px_rgba(23,79,63,0.22)] focus-visible:ring-2 focus-visible:ring-[#0F6B46] focus-visible:ring-offset-4 focus-visible:ring-offset-[#EFEAE4]"
+        >
+          <Image
+            src="/credits/yuri-queiroz-developer-credit-desktop.webp"
+            alt="Conheça Yuri Queiroz, desenvolvedor full-stack"
+            width={2172}
+            height={724}
+            sizes="(max-width: 1180px) calc(100vw - 40px), 1180px"
+            className="hidden h-auto w-full transition duration-500 group-hover:scale-[1.008] sm:block"
+          />
+          <Image
+            src="/credits/yuri-queiroz-developer-credit-mobile.webp"
+            alt="Conheça Yuri Queiroz, desenvolvedor full-stack"
+            width={1003}
+            height={1568}
+            sizes="calc(100vw - 40px)"
+            className="h-auto w-full transition duration-500 group-hover:scale-[1.008] sm:hidden"
+          />
+        </a>
+
+        <a
+          href="https://pageforce.com.br/sobre/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Conhecer a PageForce, responsável pela estratégia digital do projeto"
+          className="mt-3 flex min-h-16 items-center justify-between gap-4 rounded-[1rem] border border-[#174F3F]/18 bg-white px-5 py-4 text-[#26302B] shadow-[0_12px_32px_rgba(23,79,63,0.07)] outline-none transition duration-300 hover:border-[#0F6B46]/45 hover:text-[#0F6B46] focus-visible:ring-2 focus-visible:ring-[#0F6B46] sm:px-6"
+        >
+          <span>
+            <span className="block text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-[#6F746F]">
+              Estratégia e presença digital
+            </span>
+            <strong className="mt-1 block text-[0.96rem] font-semibold sm:text-[1.05rem]">
+              Projeto desenvolvido com a PageForce
+            </strong>
+          </span>
+          <span aria-hidden="true" className="text-xl text-[#0F6B46]">
+            ↗
+          </span>
+        </a>
+      </div>
+    </section>
   );
 }
 
