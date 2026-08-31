@@ -16,6 +16,10 @@ import {
   zlLinks,
   zlLocation,
 } from "@/components/zl-podologia/zlPodologiaContent";
+import {
+  zlSeoNeighborhoodLinks,
+  zlSeoServiceLinks,
+} from "@/components/zl-podologia/zlSeoClusterLinks";
 
 export function ZlFooterSection() {
   const footerMapPreviewSrc = `https://www.google.com/maps?q=${encodeURIComponent(
@@ -163,6 +167,47 @@ export function ZlFooterSection() {
             </a>
           </div>
         </div>
+
+        <nav
+          data-zl-seo-footer-links
+          aria-label="Serviços e regiões atendidas"
+          className="mt-8 grid gap-6 border-t border-white/10 pt-6 sm:grid-cols-2"
+        >
+          <div>
+            <p className="text-[0.66rem] font-semibold uppercase tracking-[0.22em] text-white/72">
+              Cuidados podológicos
+            </p>
+            <ul className="mt-3 grid gap-2 text-[0.86rem] leading-[1.55]">
+              {zlSeoServiceLinks.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-white/80 underline-offset-[6px] transition-colors hover:text-white hover:underline"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <p className="text-[0.66rem] font-semibold uppercase tracking-[0.22em] text-white/72">
+              Pacientes de Fortaleza
+            </p>
+            <ul className="mt-3 grid gap-2 text-[0.86rem] leading-[1.55]">
+              {zlSeoNeighborhoodLinks.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-white/80 underline-offset-[6px] transition-colors hover:text-white hover:underline"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
 
         <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-4 text-[0.78rem] text-white/55">
           <p className="inline-flex items-center gap-2">

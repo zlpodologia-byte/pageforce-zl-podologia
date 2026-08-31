@@ -7,7 +7,10 @@ import {
   ZlSecondaryLink,
   ZlWhatsappIcon,
 } from "@/components/zl-podologia/ZlCtaLink";
-import type { ZlSeoLandingPageDefinition } from "@/components/zl-podologia/zlSeoLandingTypes";
+import type {
+  ZlSeoLandingPageDefinition,
+  ZlSeoRelatedLink,
+} from "@/components/zl-podologia/zlSeoLandingTypes";
 import {
   buildWhatsappLink,
   zlLinks,
@@ -170,17 +173,27 @@ function FaqSection({
         {page.faqs.map((item) => (
           <article
             key={item.question}
+            data-zl-faq-item
             className="rounded-[22px] border border-[#E4E0D8] bg-white p-6"
           >
-            <h2 className="text-base font-semibold text-[#14211A]">
+            <h2
+              data-zl-faq-question
+              className="text-base font-semibold text-[#14211A]"
+            >
               {item.question}
             </h2>
-            <p className="mt-3 text-sm leading-7 text-[#5B655F]">
+            <p
+              data-zl-faq-answer
+              className="mt-3 text-sm leading-7 text-[#5B655F]"
+            >
               {item.answer}
             </p>
           </article>
         ))}
       </div>
+      {page.relatedLinks?.length ? (
+        <ZlRelatedLinks links={page.relatedLinks} />
+      ) : null}
       <div className="mt-10 rounded-[26px] border border-[#D9DAD7] bg-[#14211A] p-6 text-white md:flex md:items-center md:justify-between">
         <div>
           <h2 className="text-xl font-semibold">Quer orientação da ZL?</h2>
@@ -199,6 +212,43 @@ function FaqSection({
         </div>
       </div>
     </section>
+  );
+}
+
+export function ZlRelatedLinks({
+  links,
+}: {
+  links: readonly ZlSeoRelatedLink[];
+}) {
+  return (
+    <nav
+      data-zl-related-links
+      aria-labelledby="zl-related-links-title"
+      className="mt-10 rounded-[24px] border border-[#E4E0D8] bg-[#EEF2EC] p-6"
+    >
+      <h2
+        id="zl-related-links-title"
+        className="text-xl font-semibold text-[#14211A]"
+      >
+        Continue sua pesquisa
+      </h2>
+      <div className="mt-5 grid gap-3 md:grid-cols-3">
+        {links.map((link) => (
+          <Link
+            key={link.href}
+            href={link.href}
+            className="rounded-[18px] border border-[#D9DAD7] bg-white p-4 transition hover:border-[#0F6B46]"
+          >
+            <span className="block text-sm font-semibold text-[#0F6B46]">
+              {link.label}
+            </span>
+            <span className="mt-2 block text-sm leading-6 text-[#5B655F]">
+              {link.description}
+            </span>
+          </Link>
+        ))}
+      </div>
+    </nav>
   );
 }
 

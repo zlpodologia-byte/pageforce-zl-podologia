@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "unha-encravada-001",
+    "question": "O que é importante saber sobre a borda da unha entrando na pele?",
+    "searchIntent": "Compreender o significado e os limites de a borda da unha entrando na pele.",
+    "shortAnswer": "Quando a borda da unha pressiona ou entra na pele, pode surgir sensibilidade, vermelhidão e inchaço. Evite cavar o canto e reduza a pressão do calçado.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "borda",
+      "unha",
+      "entrando",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-002",
+    "question": "Quando é indicado buscar avaliação por dor no canto do dedão?",
+    "searchIntent": "Saber quando dor no canto do dedão justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando dor no canto do dedão persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "dor",
+      "canto",
+      "dedao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-003",
+    "question": "Como reduzir riscos relacionados a pressão da unha ao usar sapato?",
+    "searchIntent": "Prevenir agravamento ou recorrência de pressão da unha ao usar sapato.",
+    "shortAnswer": "Para reduzir riscos ligados a pressão da unha ao usar sapato, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "pressao",
+      "unha",
+      "usar",
+      "sapato"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-004",
+    "question": "Quais sinais devem ser observados em casos de vermelhidão ao redor da unha?",
+    "searchIntent": "Reconhecer sinais relevantes associados a vermelhidão ao redor da unha.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de vermelhidão ao redor da unha.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "vermelhidao",
+      "redor",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-005",
+    "question": "O que deve ser evitado quando existe corte arredondado das unhas dos pés?",
+    "searchIntent": "Evitar condutas inseguras diante de corte arredondado das unhas dos pés.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de corte arredondado das unhas dos pés.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "corte",
+      "arredondado",
+      "unhas",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-006",
+    "question": "Como o calçado pode interferir em calçado apertado sobre o dedão?",
+    "searchIntent": "Entender a relação entre calçado e calçado apertado sobre o dedão.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar calçado apertado sobre o dedão; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "calcado",
+      "apertado",
+      "dedao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-007",
+    "question": "O que pode manter unha encravada recorrente?",
+    "searchIntent": "Entender por que unha encravada recorrente pode reaparecer.",
+    "shortAnswer": "Unha encravada recorrente pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "unha",
+      "encravada",
+      "recorrente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-008",
+    "question": "Como se preparar para falar com um profissional sobre foto da unha antes da triagem?",
+    "searchIntent": "Preparar informações úteis sobre foto da unha antes da triagem para uma avaliação.",
+    "shortAnswer": "Para falar sobre foto da unha antes da triagem, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "foto",
+      "unha",
+      "antes",
+      "triagem"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-009",
+    "question": "Que cuidados posteriores ajudam quando há curativo depois do atendimento da unha?",
+    "searchIntent": "Compreender cuidados posteriores ligados a curativo depois do atendimento da unha.",
+    "shortAnswer": "Depois de receber orientação sobre curativo depois do atendimento da unha, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "curativo",
+      "depois",
+      "atendimento",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-010",
+    "question": "Onde encontrar informação confiável sobre informação segura sobre onicocriptose?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre informação segura sobre onicocriptose.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para informação segura sobre onicocriptose; conteúdo educativo não substitui avaliação profissional.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "informacao",
+      "segura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "unha-encravada-011",
+    "question": "Como entender sensibilidade leve na lateral da unha?",
+    "searchIntent": "Compreender o significado e os limites de sensibilidade leve na lateral da unha.",
+    "shortAnswer": "Sensibilidade leve pode ser o início de irritação por pressão ou corte. Observe se aumenta, ajuste o calçado e não tente abrir o canto com objeto pontiagudo.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "sensibilidade",
+      "leve",
+      "lateral",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-012",
+    "question": "Em que situação vale avaliar dor pulsátil no canto da unha acompanhada de inchaço?",
+    "searchIntent": "Saber quando dor pulsátil no canto da unha acompanhada de inchaço justifica avaliação profissional.",
+    "shortAnswer": "Dor pulsátil no canto da unha acompanhada de inchaço precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "dor",
+      "pulsatil",
+      "canto",
+      "unha",
+      "acompanhada",
+      "inchaco"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-013",
+    "question": "Que cuidado ajuda a evitar piora de crescimento irregular do canto da unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de crescimento irregular do canto da unha.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de crescimento irregular do canto da unha; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "crescimento",
+      "irregular",
+      "canto",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-014",
+    "question": "O que acompanhar quando aparece inchaço próximo à cutícula lateral?",
+    "searchIntent": "Reconhecer sinais relevantes associados a inchaço próximo à cutícula lateral.",
+    "shortAnswer": "Ao acompanhar inchaço próximo à cutícula lateral, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "inchaco",
+      "proximo",
+      "cuticula",
+      "lateral"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-015",
+    "question": "Por que tentativa de cavar o canto da unha exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de tentativa de cavar o canto da unha.",
+    "shortAnswer": "Soluções caseiras em tentativa de cavar o canto da unha podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "tentativa",
+      "cavar",
+      "canto",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam bico fino comprimindo os dedos?",
+    "searchIntent": "Entender a relação entre calçado e bico fino comprimindo os dedos.",
+    "shortAnswer": "Em bico fino comprimindo os dedos, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "bico",
+      "fino",
+      "comprimindo",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-017",
+    "question": "Como investigar a repetição de unha que volta a machucar o mesmo lado?",
+    "searchIntent": "Entender por que unha que volta a machucar o mesmo lado pode reaparecer.",
+    "shortAnswer": "Unha que volta a machucar o mesmo lado reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "unha",
+      "que",
+      "volta",
+      "machucar",
+      "mesmo",
+      "lado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-018",
+    "question": "Que informações levar para avaliar histórico de cirurgia na unha?",
+    "searchIntent": "Preparar informações úteis sobre histórico de cirurgia na unha para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de histórico de cirurgia na unha o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "historico",
+      "cirurgia",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-019",
+    "question": "O que revisar durante retorno para acompanhar a unha?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno para acompanhar a unha.",
+    "shortAnswer": "No cuidado posterior de retorno para acompanhar a unha, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "retorno",
+      "acompanhar",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-020",
+    "question": "Onde consultar informação específica sobre página de unha encravada em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre página de unha encravada em Fortaleza.",
+    "shortAnswer": "Para entender página de unha encravada em Fortaleza sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "pagina",
+      "unha",
+      "encravada",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "unha-encravada-021",
+    "question": "Por que vale observar unha encravada nos dois lados?",
+    "searchIntent": "Compreender o significado e os limites de unha encravada nos dois lados.",
+    "shortAnswer": "Quando os dois lados incomodam, formato da unha, técnica de corte e pressão do calçado precisam ser avaliados em conjunto; não remova os cantos profundamente.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "unha",
+      "encravada",
+      "dois",
+      "lados"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-022",
+    "question": "Quais mudanças em secreção no canto da unha justificam procurar ajuda?",
+    "searchIntent": "Saber quando secreção no canto da unha justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de secreção no canto da unha mais importante.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "secrecao",
+      "canto",
+      "unha"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-023",
+    "question": "O que fazer com segurança diante de carne esponjosa ao lado da unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de carne esponjosa ao lado da unha.",
+    "shortAnswer": "A conduta segura para carne esponjosa ao lado da unha é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "carne",
+      "esponjosa",
+      "lado",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-024",
+    "question": "Que detalhes de sangramento depois de mexer na unha ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a sangramento depois de mexer na unha.",
+    "shortAnswer": "Para avaliar sangramento depois de mexer na unha, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "sangramento",
+      "depois",
+      "mexer",
+      "unha"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-025",
+    "question": "Que atitude pode agravar uso de alicate na área dolorida?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de alicate na área dolorida.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar uso de alicate na área dolorida e criar uma porta de entrada para infecção.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "uso",
+      "alicate",
+      "area",
+      "dolorida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-026",
+    "question": "O ajuste do sapato pode piorar meias apertadas sobre unha sensível?",
+    "searchIntent": "Entender a relação entre calçado e meias apertadas sobre unha sensível.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para meias apertadas sobre unha sensível e precisa ser revisto.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "meias",
+      "apertadas",
+      "unha",
+      "sensivel"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-027",
+    "question": "Como prevenir a recorrência de curvatura acentuada da unha?",
+    "searchIntent": "Entender por que curvatura acentuada da unha pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de curvatura acentuada da unha exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "curvatura",
+      "acentuada",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-028",
+    "question": "Uma foto ajuda na triagem de tempo de evolução da dor ungueal?",
+    "searchIntent": "Preparar informações úteis sobre tempo de evolução da dor ungueal para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de tempo de evolução da dor ungueal e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "tempo",
+      "evolucao",
+      "dor",
+      "ungueal"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-029",
+    "question": "O que observar no retorno relacionado a proteção do dedo depois do procedimento?",
+    "searchIntent": "Compreender cuidados posteriores ligados a proteção do dedo depois do procedimento.",
+    "shortAnswer": "No retorno relacionado a proteção do dedo depois do procedimento, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "protecao",
+      "dedo",
+      "depois",
+      "procedimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-030",
+    "question": "Que página é mais útil para saber sobre diferença entre unha encravada e trauma?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre diferença entre unha encravada e trauma.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a diferença entre unha encravada e trauma; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "diferenca",
+      "unha",
+      "encravada",
+      "trauma"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "unha-encravada-031",
+    "question": "Qual é a orientação básica diante de unha encravada em adolescente?",
+    "searchIntent": "Compreender o significado e os limites de unha encravada em adolescente.",
+    "shortAnswer": "Em adolescentes, crescimento, calçado esportivo e corte muito curto podem contribuir. Um responsável deve acompanhar e procurar avaliação se houver inflamação.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "unha",
+      "encravada",
+      "adolescente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-032",
+    "question": "Quando não é prudente esperar a melhora de dor ao encostar no lençol?",
+    "searchIntent": "Saber quando dor ao encostar no lençol justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se dor ao encostar no lençol estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "dor",
+      "encostar",
+      "lencol"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-033",
+    "question": "Como prevenir complicações associadas a unha quebrada perto da lateral?",
+    "searchIntent": "Prevenir agravamento ou recorrência de unha quebrada perto da lateral.",
+    "shortAnswer": "Prevenir complicações de unha quebrada perto da lateral envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "unha",
+      "quebrada",
+      "perto",
+      "lateral"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-034",
+    "question": "Como registrar a evolução de pele endurecida ao redor da unha?",
+    "searchIntent": "Reconhecer sinais relevantes associados a pele endurecida ao redor da unha.",
+    "shortAnswer": "Registre pele endurecida ao redor da unha com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "pele",
+      "endurecida",
+      "redor",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-035",
+    "question": "O que não fazer diante de aplicação de substância caseira na unha?",
+    "searchIntent": "Evitar condutas inseguras diante de aplicação de substância caseira na unha.",
+    "shortAnswer": "Não manipule aplicação de substância caseira na unha com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "aplicacao",
+      "substancia",
+      "caseira",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-036",
+    "question": "Como escolher calçado quando há atividade física com unha dolorida?",
+    "searchIntent": "Entender a relação entre calçado e atividade física com unha dolorida.",
+    "shortAnswer": "Para conviver com atividade física com unha dolorida, escolha calçado estável, no tamanho correto e sem costuras ou pontos rígidos sobre a região sensível.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "atividade",
+      "fisica",
+      "unha",
+      "dolorida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-037",
+    "question": "O que investigar quando relação entre suor e irritação da lateral volta?",
+    "searchIntent": "Entender por que relação entre suor e irritação da lateral pode reaparecer.",
+    "shortAnswer": "Quando relação entre suor e irritação da lateral volta, registre o intervalo, o local exato e mudanças de calçado ou atividade para ajudar a investigar o padrão.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "relacao",
+      "suor",
+      "irritacao",
+      "lateral"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-038",
+    "question": "O que relatar antes de uma avaliação de informações para relatar no WhatsApp?",
+    "searchIntent": "Preparar informações úteis sobre informações para relatar no WhatsApp para uma avaliação.",
+    "shortAnswer": "Antes de avaliar informações para relatar no WhatsApp, relate dor, duração, mudanças de cor, secreção, impacto ao caminhar e tratamentos já tentados.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "informacoes",
+      "relatar",
+      "whatsapp"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-039",
+    "question": "Como seguir com segurança o cuidado de higiene da área após o cuidado?",
+    "searchIntent": "Compreender cuidados posteriores ligados a higiene da área após o cuidado.",
+    "shortAnswer": "Siga o cuidado de higiene da área após o cuidado pelo período orientado e peça reavaliação se houver piora, sangramento, calor ou dificuldade para caminhar.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "higiene",
+      "area",
+      "apos",
+      "cuidado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-040",
+    "question": "Como pesquisar quando considerar acompanhamento com órtese com fontes seguras?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre quando considerar acompanhamento com órtese.",
+    "shortAnswer": "Pesquise quando considerar acompanhamento com órtese em fontes oficiais, confira a data e desconfie de promessas de cura, diagnóstico por foto ou solução universal.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "quando",
+      "considerar",
+      "acompanhamento",
+      "ortese"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "unha-encravada-041",
+    "question": "Como lidar com unha encravada sem dor forte de forma segura?",
+    "searchIntent": "Compreender o significado e os limites de unha encravada sem dor forte.",
+    "shortAnswer": "Mesmo sem dor forte, uma lateral que permanece marcada, vermelha ou sensível pode piorar com pressão. Acompanhe e evite manipulação profunda.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "unha",
+      "encravada",
+      "dor",
+      "forte"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-042",
+    "question": "Como reconhecer que febre junto com inflamação no dedo precisa de atenção?",
+    "searchIntent": "Saber quando febre junto com inflamação no dedo justifica avaliação profissional.",
+    "shortAnswer": "Persistência, aumento da área, dor, perda de sensibilidade ou sinais de infecção indicam que febre junto com inflamação no dedo precisa de atenção profissional.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "febre",
+      "junto",
+      "inflamacao",
+      "dedo"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-043",
+    "question": "Qual conduta preventiva é útil para alteração escura próxima ao canto da unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de alteração escura próxima ao canto da unha.",
+    "shortAnswer": "Em alteração escura próxima ao canto da unha, prevenção significa reduzir pressão e umidade, evitar produtos irritantes e não adiar avaliação quando surgem sinais de alerta.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "alteracao",
+      "escura",
+      "proxima",
+      "canto",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-044",
+    "question": "Quais sinais junto de dificuldade para caminhar por dor na unha aumentam a preocupação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dificuldade para caminhar por dor na unha.",
+    "shortAnswer": "Dor crescente, calor, vermelhidão que se espalha, secreção, ferida ou dificuldade para apoiar o pé aumentam a preocupação em dificuldade para caminhar por dor na unha.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "dificuldade",
+      "caminhar",
+      "dor",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-045",
+    "question": "Qual prática insegura deve ser evitada em remoção profunda do canto em casa?",
+    "searchIntent": "Evitar condutas inseguras diante de remoção profunda do canto em casa.",
+    "shortAnswer": "A prática insegura em remoção profunda do canto em casa é remover tecido ou unha por conta própria, sobretudo quando há diabetes, baixa sensibilidade ou circulação comprometida.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "remocao",
+      "profunda",
+      "canto",
+      "casa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-046",
+    "question": "Pressão e umidade do calçado afetam sandália como alívio temporário de pressão?",
+    "searchIntent": "Entender a relação entre calçado e sandália como alívio temporário de pressão.",
+    "shortAnswer": "Pressão repetida e umidade dentro do sapato favorecem irritação e recorrência de sandália como alívio temporário de pressão; alternar pares e trocar meias reduz esses fatores.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "sandalia",
+      "como",
+      "alivio",
+      "temporario",
+      "pressao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-047",
+    "question": "Que fatores mantêm prevenção após melhora da unha recorrente?",
+    "searchIntent": "Entender por que prevenção após melhora da unha pode reaparecer.",
+    "shortAnswer": "Atrito contínuo, ambiente úmido, pressão localizada e autocuidado inadequado podem manter prevenção após melhora da unha recorrente.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "prevencao",
+      "apos",
+      "melhora",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-048",
+    "question": "Como acompanhar preparo do calçado no dia do atendimento entre avaliações?",
+    "searchIntent": "Preparar informações úteis sobre preparo do calçado no dia do atendimento para uma avaliação.",
+    "shortAnswer": "Acompanhe preparo do calçado no dia do atendimento com datas e fotos semelhantes, sem manipular a área apenas para melhorar a imagem enviada.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "preparo",
+      "calcado",
+      "dia",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "unha-encravada-049",
+    "question": "Quando revisar as orientações sobre molhar o curativo após o procedimento?",
+    "searchIntent": "Compreender cuidados posteriores ligados a molhar o curativo após o procedimento.",
+    "shortAnswer": "Revise as orientações sobre molhar o curativo após o procedimento quando a resposta não for a esperada, o curativo molhar ou surgirem sinais novos.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "molhar",
+      "curativo",
+      "apos",
+      "procedimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "unha-encravada-050",
+    "question": "Onde conferir orientações educativas sobre atendimento para unha encravada na Parquelândia?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento para unha encravada na Parquelândia.",
+    "shortAnswer": "Orientações educativas sobre atendimento para unha encravada na Parquelândia devem explicar sinais observáveis, limites do autocuidado e quando procurar avaliação.",
+    "category": "unha-encravada",
+    "relatedService": "ingrown",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "naturalTerms": [
+      "unha encravada",
+      "onicocriptose",
+      "atendimento",
+      "unha",
+      "encravada",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-unha-encravada",
+    "officialSourceIds": [
+      "nhs-ingrown-toenail"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]

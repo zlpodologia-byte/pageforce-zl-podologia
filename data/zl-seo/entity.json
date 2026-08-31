@@ -1,0 +1,39 @@
+{
+  "name": "ZL Podologia",
+  "category": "Podologia clínica",
+  "canonicalUrl": "https://www.zlpodologia.com.br",
+  "whatsappNumber": "5585994358505",
+  "phoneDisplay": "(85) 9 9435-8505",
+  "email": "zlpodologia@gmail.com",
+  "instagram": "https://www.instagram.com/zlpodologia/",
+  "facebook": "https://www.facebook.com/zl.podologia",
+  "address": {
+    "streetAddress": "Av. Bezerra de Menezes, 2203 - Sala 5 - Galeria José Bernardo",
+    "district": "Parquelândia",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "BR",
+    "postalCode": "60325-105",
+    "landmark": "Galeria José Bernardo"
+  },
+  "openingHours": [
+    { "day": "Segunda", "hours": "Fechado", "tone": "muted" },
+    { "day": "Terça", "hours": "09:00 - 16:00", "tone": "open" },
+    { "day": "Quarta", "hours": "09:00 - 16:00", "tone": "open" },
+    { "day": "Quinta", "hours": "09:00 - 16:00", "tone": "open" },
+    { "day": "Sexta", "hours": "09:00 - 16:00", "tone": "open" },
+    { "day": "Sábado", "hours": "09:00 - 12:00", "tone": "open" },
+    { "day": "Domingo", "hours": "Fechado", "tone": "muted" }
+  ],
+  "services": [
+    "Unha encravada",
+    "Protocolo para fungos nas unhas",
+    "Órtese ungueal",
+    "Laserterapia",
+    "Podoprofilaxia",
+    "Verruga plantar",
+    "Tungíase",
+    "Reflexologia podal",
+    "Cuidado para pés de pessoas com diabetes"
+  ]
+}

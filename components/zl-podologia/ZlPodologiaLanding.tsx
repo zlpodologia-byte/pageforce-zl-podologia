@@ -1,15 +1,12 @@
 ﻿"use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useCallback, useState } from "react";
 import { Reveal } from "@/components/reveal/Reveal";
 import { ZlAnalytics, trackZlEvent } from "@/components/zl-podologia/ZlAnalytics";
 import { ZlCookieBanner } from "@/components/zl-podologia/ZlCookieBanner";
 import {
-  ZlInstagramIcon,
   ZlPinIcon,
-  ZlStarIcon,
   ZlWhatsappIcon,
 } from "@/components/zl-podologia/ZlCtaLink";
 import { ZlIngrownStoryteller } from "@/components/zl-podologia/ZlIngrownStoryteller";
@@ -32,18 +29,15 @@ import {
 } from "@/components/zl-podologia/ZlTopFlowSections";
 import { ZlValueSection } from "@/components/zl-podologia/ZlValueSection";
 import { ZlHeroSquiggle } from "@/components/zl-podologia/ZlV8Primitives";
+import { ZlSeoClusterSection } from "@/components/zl-podologia/ZlSeoClusterSection";
 import { ZlServiceExplorer } from "@/components/zl-podologia/ZlServiceExplorer";
 import { ZlSmoothScroll } from "@/components/zl-podologia/ZlSmoothScroll";
 import { BodyText } from "@/components/zl-podologia/system";
 import {
-  ZL_GOOGLE_RATING,
-  ZL_GOOGLE_REVIEW_COUNT,
   ZL_MAIN_SERVICE_IDS,
-  zlContact,
   zlHeroMicroReview,
   zlHeroProof,
   zlLinks,
-  zlLocation,
   type ZlServiceId,
 } from "@/components/zl-podologia/zlPodologiaContent";
 import { ZlFooterSection } from "@/components/zl-podologia/ZlFooterSection";
@@ -139,6 +133,9 @@ export function ZlPodologiaLanding() {
 
       {/* [12.5] Experiências e presentes (v9 - Pre-Wedding + Vale Presente) */}
 
+      {/* [12.7] Guias de serviços e bairros para descoberta interna */}
+      <ZlSeoClusterSection />
+
       {/* [13] Quiz diagnóstico (antes do FAQ - decisão v7a) */}
       <ZlDiagnosticQuiz />
 
@@ -162,7 +159,6 @@ export function ZlPodologiaLanding() {
     </div>
   );
 }
-
 function ZlProjectCredits() {
   return (
     <section
@@ -237,7 +233,6 @@ function ZlProjectCredits() {
     </section>
   );
 }
-
 /**
  * v8-hero-swap: Hero editorial trazido do /lab/zl-podologia-exact.
  *
@@ -401,7 +396,9 @@ function ZlHeroExactSwap({ onPick }: { onPick: (serviceId: ZlServiceId) => void 
                       alt="Zucarina, podóloga da ZL Podologia Fortaleza, em atendimento clínico com jaleco branco, touca, máscara, óculos e luvas, segurando o pé da paciente com precisão"
                       fill
                       priority
-                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      fetchPriority="high"
+                      sizes="(min-width: 1280px) 760px, (min-width: 1024px) 50vw, (min-width: 640px) 92vw, 100vw"
+                      quality={78}
                       className="object-cover object-[52%_34%]"
                     />
                   </div>
@@ -580,7 +577,6 @@ function ZlHeroDecisionBand({
     </Reveal>
   );
 }
-
 function ZlHeroDecisionIcon({
   kind,
 }: {
@@ -639,7 +635,6 @@ function ZlExactStyleTopbar() {
             fill
             sizes="80px"
             className="object-contain scale-[1.55]"
-            priority
           />
         </span>
         <span className="relative hidden leading-none sm:block">
@@ -730,120 +725,5 @@ function ZlHeroHeadline() {
         </span>
       </span>
     </Reveal>
-  );
-}
-
-/**
- * Footer with the official logo as the closing gesture. Inclui link
- * "Política de uso de imagens" (LGPD) e NAP consistente.
- */
-function ZlFooter() {
-  return (
-    <footer className="relative border-t border-[#174F3F] bg-[#26302B] text-white/85">
-      {/* v7-refine: max-w cap evita colunas do footer esticar e deixar
-          espaco gigante entre logo/NAP e os 3 links de canal. */}
-      <div className="container-x mx-auto max-w-[1440px] py-10 lg:py-12">
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
-          <div className="flex flex-wrap items-center gap-5">
-            <span className="relative flex h-[3.75rem] w-[14rem] shrink-0 overflow-hidden">
-              <Image
-                src="/zl-podologia/brand/logo-premium-dark-2026-04-22.png"
-                alt="Marca reformulada da ZL Podologia"
-                fill
-                sizes="224px"
-                className="object-contain object-left"
-              />
-            </span>
-            <div itemScope itemType="https://schema.org/LocalBusiness">
-              <meta itemProp="name" content="ZL Podologia" />
-              <p
-                className="text-[clamp(1.25rem,1.8vw,1.55rem)] leading-[1.15] tracking-[-0.01em] text-white"
-                style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}
-              >
-                ZL Podologia
-              </p>
-              <p
-                className="mt-1 max-w-[38ch] text-[0.86rem] leading-[1.55] text-white/70"
-                itemProp="address"
-                itemScope
-                itemType="https://schema.org/PostalAddress"
-              >
-                <span itemProp="streetAddress">{zlLocation.address}</span>
-                {" - "}
-                <span itemProp="addressLocality">{zlLocation.district}</span>
-                {" - "}
-                <span itemProp="addressRegion">{zlLocation.city}</span>
-              </p>
-              <p className="mt-0.5 text-[0.8rem] leading-[1.55] text-white/50">
-                {zlLocation.landmark}
-              </p>
-              <p className="mt-1 text-[0.8rem] leading-[1.55] text-white/50">
-                Ter-Sex 09:00-16:00 | Sab 09:00-12:00
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap items-center gap-3">
-            <a
-              href={zlLinks.whatsappFooter}
-              target="_blank"
-              rel="noreferrer"
-              onClick={() => trackZlEvent("wa_click", { source: "footer_wa" })}
-              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/20 backdrop-blur-sm hover:bg-white/15"
-            >
-              <ZlWhatsappIcon />
-              <span>{zlContact.whatsappDisplay}</span>
-            </a>
-            <a
-              href={zlLinks.instagram}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/20 backdrop-blur-sm hover:bg-white/15"
-            >
-              <ZlInstagramIcon />
-              <span>{zlContact.handle}</span>
-            </a>
-            <a
-              href={zlLinks.maps}
-              target="_blank"
-              rel="noreferrer"
-              onClick={() => trackZlEvent("maps_click", { source: "footer" })}
-              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/20 backdrop-blur-sm hover:bg-white/15"
-            >
-              <ZlPinIcon />
-              <span>Google Maps</span>
-            </a>
-            <a
-              href={`mailto:${zlContact.email}`}
-              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-[0.84rem] text-white ring-1 ring-white/20 backdrop-blur-sm hover:bg-white/15"
-            >
-              <span aria-hidden="true">✉</span>
-              <span>{zlContact.email}</span>
-            </a>
-          </div>
-        </div>
-
-        <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-5 text-[0.78rem] text-white/55">
-          <p className="inline-flex items-center gap-2">
-            <ZlStarIcon />
-            <span>{ZL_GOOGLE_RATING} com {ZL_GOOGLE_REVIEW_COUNT} avaliações no Google</span>
-          </p>
-          <div className="flex flex-wrap items-center gap-4">
-            <Link
-              href={zlLinks.imagePolicy}
-              className="text-white/70 underline-offset-4 hover:underline"
-            >
-              Política de uso de imagens
-            </Link>
-            <p
-              className="italic text-white/70"
-              style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
-            >
-              Pés bem cuidados fazem toda a diferença.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
   );
 }

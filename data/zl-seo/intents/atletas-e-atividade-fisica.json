@@ -1,0 +1,978 @@
+[
+  {
+    "id": "atletas-e-atividade-fisica-001",
+    "question": "O que é importante saber sobre bolha depois de uma corrida?",
+    "searchIntent": "Compreender o significado e os limites de bolha depois de uma corrida.",
+    "shortAnswer": "Bolha depois da corrida costuma estar ligada a atrito, umidade ou ajuste do tênis. Proteja a pele, não fure e reveja meia, calçado e ponto de pressão.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "bolha",
+      "depois",
+      "corrida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-002",
+    "question": "Quando é indicado buscar avaliação por unha roxa após impacto no esporte?",
+    "searchIntent": "Saber quando unha roxa após impacto no esporte justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando unha roxa após impacto no esporte persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "unha",
+      "roxa",
+      "apos",
+      "impacto",
+      "esporte"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-003",
+    "question": "Como reduzir riscos relacionados a calosidade em corredor?",
+    "searchIntent": "Prevenir agravamento ou recorrência de calosidade em corredor.",
+    "shortAnswer": "Para reduzir riscos ligados a calosidade em corredor, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "calosidade",
+      "corredor"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-004",
+    "question": "Quais sinais devem ser observados em casos de dor na unha ao usar chuteira?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor na unha ao usar chuteira.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de dor na unha ao usar chuteira.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "dor",
+      "unha",
+      "usar",
+      "chuteira"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-005",
+    "question": "O que deve ser evitado quando existe furar bolha com agulha em casa?",
+    "searchIntent": "Evitar condutas inseguras diante de furar bolha com agulha em casa.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de furar bolha com agulha em casa.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "furar",
+      "bolha",
+      "agulha",
+      "casa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-006",
+    "question": "Como o calçado pode interferir em tênis esportivo pequeno?",
+    "searchIntent": "Entender a relação entre calçado e tênis esportivo pequeno.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar tênis esportivo pequeno; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "tenis",
+      "esportivo",
+      "pequeno"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-007",
+    "question": "O que pode manter atrito recorrente durante treinos?",
+    "searchIntent": "Entender por que atrito recorrente durante treinos pode reaparecer.",
+    "shortAnswer": "Atrito recorrente durante treinos pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "atrito",
+      "recorrente",
+      "durante",
+      "treinos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-008",
+    "question": "Como se preparar para falar com um profissional sobre registro de quilômetros e início da dor?",
+    "searchIntent": "Preparar informações úteis sobre registro de quilômetros e início da dor para uma avaliação.",
+    "shortAnswer": "Para falar sobre registro de quilômetros e início da dor, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "registro",
+      "quilometros",
+      "inicio",
+      "dor"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-009",
+    "question": "Que cuidados posteriores ajudam quando há retorno gradual ao treino após cuidado?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno gradual ao treino após cuidado.",
+    "shortAnswer": "Depois de receber orientação sobre retorno gradual ao treino após cuidado, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "retorno",
+      "gradual",
+      "treino",
+      "apos",
+      "cuidado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-010",
+    "question": "Onde encontrar informação confiável sobre fonte oficial sobre pé de atleta?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fonte oficial sobre pé de atleta.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para fonte oficial sobre pé de atleta; conteúdo educativo não substitui avaliação profissional.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "fonte",
+      "oficial",
+      "atleta"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-011",
+    "question": "Como entender coceira entre os dedos após academia?",
+    "searchIntent": "Compreender o significado e os limites de coceira entre os dedos após academia.",
+    "shortAnswer": "Coceira após academia pode acompanhar umidade, irritação ou infecção por fungos. Seque bem, não compartilhe toalha e avalie se houver descamação persistente.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "coceira",
+      "dedos",
+      "apos",
+      "academia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-012",
+    "question": "Em que situação vale avaliar secreção em bolha do pé?",
+    "searchIntent": "Saber quando secreção em bolha do pé justifica avaliação profissional.",
+    "shortAnswer": "Secreção em bolha do pé precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "secrecao",
+      "bolha"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-013",
+    "question": "Que cuidado ajuda a evitar piora de descamação depois de usar vestiário?",
+    "searchIntent": "Prevenir agravamento ou recorrência de descamação depois de usar vestiário.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de descamação depois de usar vestiário; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "descamacao",
+      "depois",
+      "usar",
+      "vestiario"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-014",
+    "question": "O que acompanhar quando aparece dor no antepé após salto repetido?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor no antepé após salto repetido.",
+    "shortAnswer": "Ao acompanhar dor no antepé após salto repetido, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "dor",
+      "antepe",
+      "apos",
+      "salto",
+      "repetido"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-015",
+    "question": "Por que lixar calos antes de competição exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de lixar calos antes de competição.",
+    "shortAnswer": "Soluções caseiras em lixar calos antes de competição podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "lixar",
+      "calos",
+      "antes",
+      "competicao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam meia técnica e controle de umidade?",
+    "searchIntent": "Entender a relação entre calçado e meia técnica e controle de umidade.",
+    "shortAnswer": "Em meia técnica e controle de umidade, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "meia",
+      "tecnica",
+      "controle",
+      "umidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-017",
+    "question": "Como investigar a repetição de unha traumatizada em trilha?",
+    "searchIntent": "Entender por que unha traumatizada em trilha pode reaparecer.",
+    "shortAnswer": "Unha traumatizada em trilha reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "unha",
+      "traumatizada",
+      "trilha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-018",
+    "question": "Que informações levar para avaliar informações sobre modalidade e calçado?",
+    "searchIntent": "Preparar informações úteis sobre informações sobre modalidade e calçado para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de informações sobre modalidade e calçado o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "informacoes",
+      "modalidade",
+      "calcado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-019",
+    "question": "O que revisar durante higiene depois de atividade física?",
+    "searchIntent": "Compreender cuidados posteriores ligados a higiene depois de atividade física.",
+    "shortAnswer": "No cuidado posterior de higiene depois de atividade física, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "higiene",
+      "depois",
+      "atividade",
+      "fisica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-020",
+    "question": "Onde consultar informação específica sobre podoprofilaxia para pessoas ativas em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre podoprofilaxia para pessoas ativas em Fortaleza.",
+    "shortAnswer": "Para entender podoprofilaxia para pessoas ativas em Fortaleza sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "podoprofilaxia",
+      "pessoas",
+      "ativas",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-021",
+    "question": "Por que vale observar pé de atleta sem coceira intensa?",
+    "searchIntent": "Compreender o significado e os limites de pé de atleta sem coceira intensa.",
+    "shortAnswer": "Pé de atleta pode causar descamação, fissuras ou ardor mesmo sem coceira intensa. A ausência de um sintoma não confirma nem exclui a condição.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "atleta",
+      "coceira",
+      "intensa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-022",
+    "question": "Quais mudanças em vermelhidão crescente após uma bolha justificam procurar ajuda?",
+    "searchIntent": "Saber quando vermelhidão crescente após uma bolha justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de vermelhidão crescente após uma bolha mais importante.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "vermelhidao",
+      "crescente",
+      "apos",
+      "bolha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-023",
+    "question": "O que fazer com segurança diante de unha parcialmente descolada após trauma?",
+    "searchIntent": "Prevenir agravamento ou recorrência de unha parcialmente descolada após trauma.",
+    "shortAnswer": "A conduta segura para unha parcialmente descolada após trauma é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "unha",
+      "parcialmente",
+      "descolada",
+      "apos",
+      "trauma"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-024",
+    "question": "Que detalhes de dor que altera a passada ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor que altera a passada.",
+    "shortAnswer": "Para avaliar dor que altera a passada, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "dor",
+      "que",
+      "altera",
+      "passada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-025",
+    "question": "Que atitude pode agravar compartilhar toalha no vestiário?",
+    "searchIntent": "Evitar condutas inseguras diante de compartilhar toalha no vestiário.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar compartilhar toalha no vestiário e criar uma porta de entrada para infecção.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "compartilhar",
+      "toalha",
+      "vestiario"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-026",
+    "question": "O ajuste do sapato pode piorar alternância de tênis entre treinos?",
+    "searchIntent": "Entender a relação entre calçado e alternância de tênis entre treinos.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para alternância de tênis entre treinos e precisa ser revisto.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "alternancia",
+      "tenis",
+      "treinos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-027",
+    "question": "Como prevenir a recorrência de calo que retorna em toda corrida longa?",
+    "searchIntent": "Entender por que calo que retorna em toda corrida longa pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de calo que retorna em toda corrida longa exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "calo",
+      "que",
+      "retorna",
+      "toda",
+      "corrida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-028",
+    "question": "Uma foto ajuda na triagem de foto da área antes de procurar atendimento?",
+    "searchIntent": "Preparar informações úteis sobre foto da área antes de procurar atendimento para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de foto da área antes de procurar atendimento e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "foto",
+      "area",
+      "antes",
+      "procurar",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-029",
+    "question": "O que observar no retorno relacionado a proteção de ponto de atrito no retorno?",
+    "searchIntent": "Compreender cuidados posteriores ligados a proteção de ponto de atrito no retorno.",
+    "shortAnswer": "No retorno relacionado a proteção de ponto de atrito no retorno, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "protecao",
+      "ponto",
+      "atrito",
+      "retorno"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-030",
+    "question": "Que página é mais útil para saber sobre cuidado dos pés de atletas na Parquelândia?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre cuidado dos pés de atletas na Parquelândia.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a cuidado dos pés de atletas na Parquelândia; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "cuidado",
+      "pes",
+      "atletas",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-031",
+    "question": "Qual é a orientação básica diante de mau cheiro persistente no calçado?",
+    "searchIntent": "Compreender o significado e os limites de mau cheiro persistente no calçado.",
+    "shortAnswer": "Mau cheiro persistente pede secagem cuidadosa, troca de meias, alternância de tênis e limpeza do calçado. Lesão, coceira ou descamação junto do odor merece avaliação.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "mau",
+      "cheiro",
+      "persistente",
+      "calcado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-032",
+    "question": "Quando não é prudente esperar a melhora de sangramento sob a unha após impacto?",
+    "searchIntent": "Saber quando sangramento sob a unha após impacto justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se sangramento sob a unha após impacto estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "sangramento",
+      "sob",
+      "unha",
+      "apos",
+      "impacto"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-033",
+    "question": "Como prevenir complicações associadas a rachadura no calcanhar durante treinos?",
+    "searchIntent": "Prevenir agravamento ou recorrência de rachadura no calcanhar durante treinos.",
+    "shortAnswer": "Prevenir complicações de rachadura no calcanhar durante treinos envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "rachadura",
+      "calcanhar",
+      "durante",
+      "treinos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-034",
+    "question": "Como registrar a evolução de avaliação antes de aumentar o volume de corrida?",
+    "searchIntent": "Reconhecer sinais relevantes associados a avaliação antes de aumentar o volume de corrida.",
+    "shortAnswer": "Registre avaliação antes de aumentar o volume de corrida com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "avaliacao",
+      "antes",
+      "aumentar",
+      "volume",
+      "corrida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atletas-e-atividade-fisica-035",
+    "question": "O que não fazer diante de prevenção de umidade em viagens esportivas?",
+    "searchIntent": "Evitar condutas inseguras diante de prevenção de umidade em viagens esportivas.",
+    "shortAnswer": "Não manipule prevenção de umidade em viagens esportivas com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "atletas-e-atividade-fisica",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de atletas",
+      "atividade física",
+      "prevenção",
+      "prevencao",
+      "umidade",
+      "viagens",
+      "esportivas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  }
+]

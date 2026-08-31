@@ -9,7 +9,6 @@ import {
   zlLocation,
   zlScheduleSchema,
   zlInteractiveServices,
-  zlLocalKeywords,
   zlPricingGroups,
 } from "@/components/zl-podologia/zlPodologiaContent";
 
@@ -24,7 +23,6 @@ export const metadata: Metadata = {
   title:
     "ZL Podologia - Podologia clínica em Fortaleza | Av. Bezerra de Menezes, Parquelândia",
   description,
-  keywords: zlLocalKeywords as unknown as string[],
   authors: [{ name: "ZL Podologia" }],
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
@@ -82,7 +80,7 @@ interface JsonLdObject {
 type JsonLdArray = JsonLdValue[];
 
 function buildSchemaGraph(): JsonLdObject {
-  // LocalBusiness + MedicalBusiness multi-type hookado na ficha oficial
+  // LocalBusiness + HealthAndBeautyBusiness ligados à ficha oficial
   // de Fortaleza (Galeria Jose Bernardo, Parquelandia).
   // OfferCatalog v7-final: servicos reais do catalogo F organizados em
   // 3 buckets, cada linha com valor numerico (ou faixa) + descricao.
@@ -106,7 +104,7 @@ function buildSchemaGraph(): JsonLdObject {
   };
 
   const localBusiness: JsonLdObject = {
-    "@type": ["LocalBusiness", "MedicalBusiness", "HealthAndBeautyBusiness"],
+    "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
     "@id": `${ZL_CANONICAL_URL}#business`,
     name: "ZL Podologia",
     alternateName: "ZL Podologia Fortaleza",
@@ -256,7 +254,7 @@ const SCHEMA_JSON_LD = buildSchemaGraph();
 export default function ZlPodologiaPage() {
   return (
     <>
-      {/* Schema.org JSON-LD — LocalBusiness + MedicalBusiness +
+      {/* Schema.org JSON-LD — LocalBusiness + HealthAndBeautyBusiness +
           FAQPage + Person. Colocado inline
           (App Router ainda nao expoe API pra <head> scripts em server
           components diretamente). */}

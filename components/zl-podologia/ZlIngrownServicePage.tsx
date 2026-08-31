@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ZlAnalytics } from "@/components/zl-podologia/ZlAnalytics";
+import { ZlRelatedLinks } from "@/components/zl-podologia/ZlSeoLandingPage";
 import {
   ZlPinIcon,
   ZlPrimaryLink,
@@ -15,12 +16,10 @@ import {
   zlIngrownFaqs,
   zlIngrownMedicalSignals,
   zlIngrownPrices,
+  zlIngrownRelatedLinks,
   zlIngrownSteps,
 } from "@/components/zl-podologia/zlIngrownServiceContent";
-import {
-  zlLinks,
-  zlLocation,
-} from "@/components/zl-podologia/zlPodologiaContent";
+import { zlLinks } from "@/components/zl-podologia/zlPodologiaContent";
 
 export function ZlIngrownServicePage() {
   return (
@@ -179,17 +178,25 @@ function FaqSection() {
         {zlIngrownFaqs.map((item) => (
           <article
             key={item.question}
+            data-zl-faq-item
             className="rounded-[22px] border border-[#E4E0D8] bg-white p-6"
           >
-            <h2 className="text-base font-semibold text-[#14211A]">
+            <h2
+              data-zl-faq-question
+              className="text-base font-semibold text-[#14211A]"
+            >
               {item.question}
             </h2>
-            <p className="mt-3 text-sm leading-7 text-[#5B655F]">
+            <p
+              data-zl-faq-answer
+              className="mt-3 text-sm leading-7 text-[#5B655F]"
+            >
               {item.answer}
             </p>
           </article>
         ))}
       </div>
+      <ZlRelatedLinks links={zlIngrownRelatedLinks} />
       <div className="mt-10 rounded-[26px] border border-[#D9DAD7] bg-[#14211A] p-6 text-white md:flex md:items-center md:justify-between">
         <div>
           <h2 className="text-xl font-semibold">

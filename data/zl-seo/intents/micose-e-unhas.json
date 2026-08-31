@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "micose-e-unhas-001",
+    "question": "O que é importante saber sobre unha amarelada?",
+    "searchIntent": "Compreender o significado e os limites de unha amarelada.",
+    "shortAnswer": "Unha amarelada não confirma micose: trauma, esmalte e outras alterações também mudam a cor. Observe espessura, descolamento e evolução antes de tratar.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "unha",
+      "amarelada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-002",
+    "question": "Quando é indicado buscar avaliação por unha esbranquiçada?",
+    "searchIntent": "Saber quando unha esbranquiçada justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando unha esbranquiçada persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "unha",
+      "esbranquicada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-003",
+    "question": "Como reduzir riscos relacionados a unha espessada?",
+    "searchIntent": "Prevenir agravamento ou recorrência de unha espessada.",
+    "shortAnswer": "Para reduzir riscos ligados a unha espessada, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "unha",
+      "espessada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-004",
+    "question": "Quais sinais devem ser observados em casos de unha quebradiça?",
+    "searchIntent": "Reconhecer sinais relevantes associados a unha quebradiça.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de unha quebradiça.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "unha",
+      "quebradica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-005",
+    "question": "O que deve ser evitado quando existe raspas sob a unha?",
+    "searchIntent": "Evitar condutas inseguras diante de raspas sob a unha.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de raspas sob a unha.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "raspas",
+      "sob",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-006",
+    "question": "Como o calçado pode interferir em calçado úmido e alterações na unha?",
+    "searchIntent": "Entender a relação entre calçado e calçado úmido e alterações na unha.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar calçado úmido e alterações na unha; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "calcado",
+      "umido",
+      "alteracoes",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-007",
+    "question": "O que pode manter alteração ungueal recorrente?",
+    "searchIntent": "Entender por que alteração ungueal recorrente pode reaparecer.",
+    "shortAnswer": "Alteração ungueal recorrente pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "alteracao",
+      "ungueal",
+      "recorrente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-008",
+    "question": "Quais detalhes da aparência da unha ajudam numa triagem inicial?",
+    "searchIntent": "Preparar informações úteis sobre foto da unha para triagem para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode registrar cor, espessura e área afetada, mas iluminação e esmalte alteram a percepção. A imagem não confirma micose nem substitui avaliação.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "foto",
+      "unha",
+      "triagem"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-009",
+    "question": "Que cuidados posteriores ajudam quando há higiene depois do cuidado da unha?",
+    "searchIntent": "Compreender cuidados posteriores ligados a higiene depois do cuidado da unha.",
+    "shortAnswer": "Depois de receber orientação sobre higiene depois do cuidado da unha, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "higiene",
+      "depois",
+      "cuidado",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-010",
+    "question": "Onde encontrar informação confiável sobre fonte confiável sobre onicomicose?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fonte confiável sobre onicomicose.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para fonte confiável sobre onicomicose; conteúdo educativo não substitui avaliação profissional.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "fonte",
+      "confiavel"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "micose-e-unhas-011",
+    "question": "Como entender mancha branca superficial na unha?",
+    "searchIntent": "Compreender o significado e os limites de mancha branca superficial na unha.",
+    "shortAnswer": "Uma mancha branca superficial pode ter causas diferentes, inclusive trauma. Não raspe nem aplique medicamento sem avaliação da unha e da pele ao redor.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "mancha",
+      "branca",
+      "superficial",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-012",
+    "question": "Em que situação vale avaliar dor junto com unha espessa?",
+    "searchIntent": "Saber quando dor junto com unha espessa justifica avaliação profissional.",
+    "shortAnswer": "Dor junto com unha espessa precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "dor",
+      "junto",
+      "unha",
+      "espessa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-013",
+    "question": "Que cuidado ajuda a evitar piora de descolamento parcial da unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de descolamento parcial da unha.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de descolamento parcial da unha; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "descolamento",
+      "parcial",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-014",
+    "question": "O que acompanhar quando aparece calor e dor na pele próxima de uma unha deformada?",
+    "searchIntent": "Reconhecer sinais relevantes associados a calor e dor na pele próxima de uma unha deformada.",
+    "shortAnswer": "Ao acompanhar calor e dor na pele próxima de uma unha deformada, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "calor",
+      "dor",
+      "pele",
+      "proxima",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-015",
+    "question": "Por que raspar a unha até afinar em casa exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de raspar a unha até afinar em casa.",
+    "shortAnswer": "Soluções caseiras em raspar a unha até afinar em casa podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "raspar",
+      "unha",
+      "ate",
+      "afinar",
+      "casa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam meia úmida durante muitas horas?",
+    "searchIntent": "Entender a relação entre calçado e meia úmida durante muitas horas.",
+    "shortAnswer": "Em meia úmida durante muitas horas, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "meia",
+      "umida",
+      "durante",
+      "muitas",
+      "horas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-017",
+    "question": "Como investigar a repetição de reinfecção por objetos compartilhados?",
+    "searchIntent": "Entender por que reinfecção por objetos compartilhados pode reaparecer.",
+    "shortAnswer": "Reinfecção por objetos compartilhados reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "reinfeccao",
+      "objetos",
+      "compartilhados"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-018",
+    "question": "Que informações levar para avaliar histórico de trauma antes da mudança de cor?",
+    "searchIntent": "Preparar informações úteis sobre histórico de trauma antes da mudança de cor para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de histórico de trauma antes da mudança de cor o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "historico",
+      "trauma",
+      "antes",
+      "mudanca",
+      "cor"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-019",
+    "question": "O que revisar durante continuidade de protocolo para unha?",
+    "searchIntent": "Compreender cuidados posteriores ligados a continuidade de protocolo para unha.",
+    "shortAnswer": "No cuidado posterior de continuidade de protocolo para unha, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "continuidade",
+      "protocolo",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-020",
+    "question": "Onde consultar informação específica sobre página sobre fungo na unha em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre página sobre fungo na unha em Fortaleza.",
+    "shortAnswer": "Para entender página sobre fungo na unha em Fortaleza sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "pagina",
+      "fungo",
+      "unha",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "micose-e-unhas-021",
+    "question": "Por que vale observar diferença entre trauma e micose?",
+    "searchIntent": "Compreender o significado e os limites de diferença entre trauma e micose.",
+    "shortAnswer": "Trauma e micose podem causar cor, espessamento ou descolamento semelhantes. Histórico de impacto e evolução ajudam, mas a aparência não fecha diagnóstico.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "diferenca",
+      "trauma",
+      "micose"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-022",
+    "question": "Quais mudanças em secreção ao redor de unha alterada justificam procurar ajuda?",
+    "searchIntent": "Saber quando secreção ao redor de unha alterada justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de secreção ao redor de unha alterada mais importante.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "secrecao",
+      "redor",
+      "unha",
+      "alterada"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-023",
+    "question": "O que fazer com segurança diante de faixa escura nova na unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de faixa escura nova na unha.",
+    "shortAnswer": "A conduta segura para faixa escura nova na unha é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "faixa",
+      "escura",
+      "nova",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-024",
+    "question": "Que detalhes de odor associado à alteração ungueal ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a odor associado à alteração ungueal.",
+    "shortAnswer": "Para avaliar odor associado à alteração ungueal, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "odor",
+      "associado",
+      "alteracao",
+      "ungueal"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-025",
+    "question": "Que atitude pode agravar aplicar medicamento sem diagnóstico?",
+    "searchIntent": "Evitar condutas inseguras diante de aplicar medicamento sem diagnóstico.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar aplicar medicamento sem diagnóstico e criar uma porta de entrada para infecção.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "aplicar",
+      "medicamento",
+      "diagnostico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-026",
+    "question": "O ajuste do sapato pode piorar tênis abafado e umidade dos pés?",
+    "searchIntent": "Entender a relação entre calçado e tênis abafado e umidade dos pés.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para tênis abafado e umidade dos pés e precisa ser revisto.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "tenis",
+      "abafado",
+      "umidade",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-027",
+    "question": "Como prevenir a recorrência de mudança em várias unhas ao mesmo tempo?",
+    "searchIntent": "Entender por que mudança em várias unhas ao mesmo tempo pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de mudança em várias unhas ao mesmo tempo exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "mudanca",
+      "varias",
+      "unhas",
+      "mesmo",
+      "tempo"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-028",
+    "question": "Uma foto ajuda na triagem de informações de saúde antes de tratar a unha?",
+    "searchIntent": "Preparar informações úteis sobre informações de saúde antes de tratar a unha para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de informações de saúde antes de tratar a unha e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "informacoes",
+      "saude",
+      "antes",
+      "tratar",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-029",
+    "question": "O que observar no retorno relacionado a retorno ao esporte durante o cuidado de uma unha com suspeita de fungo?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno ao esporte durante o cuidado de uma unha com suspeita de fungo.",
+    "shortAnswer": "No retorno relacionado a retorno ao esporte durante o cuidado de uma unha com suspeita de fungo, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "retorno",
+      "esporte",
+      "durante",
+      "cuidado",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-030",
+    "question": "Que página é mais útil para saber sobre limites do laser em alterações ungueais?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre limites do laser em alterações ungueais.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a limites do laser em alterações ungueais; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "limites",
+      "laser",
+      "alteracoes",
+      "ungueais"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "micose-e-unhas-031",
+    "question": "Qual é a orientação básica diante de micose de pele junto com unha alterada?",
+    "searchIntent": "Compreender o significado e os limites de micose de pele junto com unha alterada.",
+    "shortAnswer": "Alteração na pele e na unha pode compartilhar fatores como umidade e fungos, mas cada área precisa ser avaliada; evite automedicação e compartilhamento de instrumentos.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "micose",
+      "pele",
+      "junto",
+      "unha",
+      "alterada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-032",
+    "question": "Quando não é prudente esperar a melhora de coceira entre os dedos?",
+    "searchIntent": "Saber quando coceira entre os dedos justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se coceira entre os dedos estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "coceira",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-033",
+    "question": "Como prevenir complicações associadas a descamação na lateral do pé?",
+    "searchIntent": "Prevenir agravamento ou recorrência de descamação na lateral do pé.",
+    "shortAnswer": "Prevenir complicações de descamação na lateral do pé envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "descamacao",
+      "lateral"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-034",
+    "question": "Como registrar a evolução de bolhas pequenas e coceira nos pés?",
+    "searchIntent": "Reconhecer sinais relevantes associados a bolhas pequenas e coceira nos pés.",
+    "shortAnswer": "Registre bolhas pequenas e coceira nos pés com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "bolhas",
+      "pequenas",
+      "coceira",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-035",
+    "question": "O que não fazer diante de uso do mesmo alicate em uma unha saudável e outra alterada?",
+    "searchIntent": "Evitar condutas inseguras diante de uso do mesmo alicate em uma unha saudável e outra alterada.",
+    "shortAnswer": "Não manipule uso do mesmo alicate em uma unha saudável e outra alterada com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "uso",
+      "mesmo",
+      "alicate",
+      "unha",
+      "saudavel"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-036",
+    "question": "Como escolher calçado quando há vestiário e exposição à umidade?",
+    "searchIntent": "Entender a relação entre calçado e vestiário e exposição à umidade.",
+    "shortAnswer": "Para conviver com vestiário e exposição à umidade, escolha calçado estável, no tamanho correto e sem costuras ou pontos rígidos sobre a região sensível.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "vestiario",
+      "exposicao",
+      "umidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-037",
+    "question": "O que investigar quando unha que melhora lentamente volta?",
+    "searchIntent": "Entender por que unha que melhora lentamente pode reaparecer.",
+    "shortAnswer": "Quando unha que melhora lentamente volta, registre o intervalo, o local exato e mudanças de calçado ou atividade para ajudar a investigar o padrão.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "unha",
+      "que",
+      "melhora",
+      "lentamente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-038",
+    "question": "O que relatar antes de uma avaliação de lista de produtos já usados na unha?",
+    "searchIntent": "Preparar informações úteis sobre lista de produtos já usados na unha para uma avaliação.",
+    "shortAnswer": "Antes de avaliar lista de produtos já usados na unha, relate dor, duração, mudanças de cor, secreção, impacto ao caminhar e tratamentos já tentados.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "lista",
+      "produtos",
+      "usados",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-039",
+    "question": "Como seguir com segurança o cuidado de limpeza dos instrumentos pessoais?",
+    "searchIntent": "Compreender cuidados posteriores ligados a limpeza dos instrumentos pessoais.",
+    "shortAnswer": "Siga o cuidado de limpeza dos instrumentos pessoais pelo período orientado e peça reavaliação se houver piora, sangramento, calor ou dificuldade para caminhar.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "limpeza",
+      "instrumentos",
+      "pessoais"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-040",
+    "question": "Como pesquisar atendimento de onicomicose na Parquelândia com fontes seguras?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento de onicomicose na Parquelândia.",
+    "shortAnswer": "Pesquise atendimento de onicomicose na Parquelândia em fontes oficiais, confira a data e desconfie de promessas de cura, diagnóstico por foto ou solução universal.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "atendimento",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "micose-e-unhas-041",
+    "question": "Como lidar com unha alterada sem dor de forma segura?",
+    "searchIntent": "Compreender o significado e os limites de unha alterada sem dor.",
+    "shortAnswer": "Uma unha alterada sem dor ainda merece observação se a mudança persiste ou se espalha. Ausência de dor não confirma que seja micose nem torna tratamento automático seguro.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "unha",
+      "alterada",
+      "dor"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-042",
+    "question": "Como reconhecer que inflamação intensa ao redor da unha precisa de atenção?",
+    "searchIntent": "Saber quando inflamação intensa ao redor da unha justifica avaliação profissional.",
+    "shortAnswer": "Persistência, aumento da área, dor, perda de sensibilidade ou sinais de infecção indicam que inflamação intensa ao redor da unha precisa de atenção profissional.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "inflamacao",
+      "intensa",
+      "redor",
+      "unha"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-043",
+    "question": "Qual conduta preventiva é útil para dificuldade para cortar unha espessa?",
+    "searchIntent": "Prevenir agravamento ou recorrência de dificuldade para cortar unha espessa.",
+    "shortAnswer": "Em dificuldade para cortar unha espessa, prevenção significa reduzir pressão e umidade, evitar produtos irritantes e não adiar avaliação quando surgem sinais de alerta.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "dificuldade",
+      "cortar",
+      "unha",
+      "espessa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-044",
+    "question": "Quais sinais junto de dor ao calçar por espessamento da unha aumentam a preocupação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor ao calçar por espessamento da unha.",
+    "shortAnswer": "Dor crescente, calor, vermelhidão que se espalha, secreção, ferida ou dificuldade para apoiar o pé aumentam a preocupação em dor ao calçar por espessamento da unha.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "dor",
+      "calcar",
+      "espessamento",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-045",
+    "question": "Qual prática insegura deve ser evitada em esconder alteração com esmalte continuamente?",
+    "searchIntent": "Evitar condutas inseguras diante de esconder alteração com esmalte continuamente.",
+    "shortAnswer": "A prática insegura em esconder alteração com esmalte continuamente é remover tecido ou unha por conta própria, sobretudo quando há diabetes, baixa sensibilidade ou circulação comprometida.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "esconder",
+      "alteracao",
+      "esmalte",
+      "continuamente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-046",
+    "question": "Pressão e umidade do calçado afetam alternância de calçados para reduzir umidade?",
+    "searchIntent": "Entender a relação entre calçado e alternância de calçados para reduzir umidade.",
+    "shortAnswer": "Pressão repetida e umidade dentro do sapato favorecem irritação e recorrência de alternância de calçados para reduzir umidade; alternar pares e trocar meias reduz esses fatores.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "alternancia",
+      "calcados",
+      "reduzir",
+      "umidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-047",
+    "question": "Que fatores mantêm prevenção de contaminação entre unhas recorrente?",
+    "searchIntent": "Entender por que prevenção de contaminação entre unhas pode reaparecer.",
+    "shortAnswer": "Atrito contínuo, ambiente úmido, pressão localizada e autocuidado inadequado podem manter prevenção de contaminação entre unhas recorrente.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "prevencao",
+      "contaminacao",
+      "unhas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-048",
+    "question": "Como acompanhar acompanhamento fotográfico da unha entre avaliações?",
+    "searchIntent": "Preparar informações úteis sobre acompanhamento fotográfico da unha para uma avaliação.",
+    "shortAnswer": "Acompanhe acompanhamento fotográfico da unha com datas e fotos semelhantes, sem manipular a área apenas para melhorar a imagem enviada.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "acompanhamento",
+      "fotografico",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "micose-e-unhas-049",
+    "question": "Quando revisar as orientações sobre tempo de crescimento de uma unha nova?",
+    "searchIntent": "Compreender cuidados posteriores ligados a tempo de crescimento de uma unha nova.",
+    "shortAnswer": "Revise as orientações sobre tempo de crescimento de uma unha nova quando a resposta não for a esperada, o curativo molhar ou surgirem sinais novos.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "tempo",
+      "crescimento",
+      "unha",
+      "nova"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "micose-e-unhas-050",
+    "question": "Onde conferir orientações educativas sobre avaliação de fungo na unha em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre avaliação de fungo na unha em Fortaleza.",
+    "shortAnswer": "Orientações educativas sobre avaliação de fungo na unha em Fortaleza devem explicar sinais observáveis, limites do autocuidado e quando procurar avaliação.",
+    "category": "micose-e-unhas",
+    "relatedService": "fungus",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "naturalTerms": [
+      "micose de unha",
+      "onicomicose",
+      "alteração ungueal",
+      "avaliacao",
+      "fungo",
+      "unha",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-onicomicose",
+    "officialSourceIds": [
+      "aad-nail-fungus-overview",
+      "aad-nail-fungus-treatment"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]

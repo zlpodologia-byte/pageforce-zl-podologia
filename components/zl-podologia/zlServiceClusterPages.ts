@@ -85,6 +85,18 @@ export const zlOrthonyxiaPage: ZlSeoLandingPageDefinition = {
         "A sensibilidade varia conforme inflamação, curvatura e histórico. A aplicação é feita com técnica e cuidado.",
     },
   ],
+  relatedLinks: [
+    {
+      href: "/unha-encravada-fortaleza",
+      label: "Unha encravada",
+      description: "Entenda sinais, limites do autocuidado e quando procurar avaliação.",
+    },
+    {
+      href: "/podoprofilaxia-fortaleza",
+      label: "Podoprofilaxia",
+      description: "Veja o cuidado técnico de unhas, pele e pontos de pressão.",
+    },
+  ],
   schema: {
     serviceName: "Ortonixia e órtese para unha em Fortaleza",
     alternateName: "Órtese ungueal",
@@ -173,6 +185,18 @@ export const zlPodoprofilaxiaPage: ZlSeoLandingPageDefinition = {
         "Não. Ela melhora aparência e conforto, mas é conduzida como cuidado técnico preventivo.",
     },
   ],
+  relatedLinks: [
+    {
+      href: "/pe-diabetico-fortaleza",
+      label: "Cuidados para pés com diabetes",
+      description: "Consulte sinais de alerta e limites do atendimento podológico preventivo.",
+    },
+    {
+      href: "/unha-encravada-fortaleza",
+      label: "Unha encravada",
+      description: "Saiba o que observar quando há dor ou pressão no canto da unha.",
+    },
+  ],
   schema: {
     serviceName: "Podoprofilaxia em Fortaleza",
     alternateName: "Limpeza técnica dos pés",
@@ -259,6 +283,18 @@ export const zlDiabeticFootPage: ZlSeoLandingPageDefinition = {
       question: "A ZL trata ferida de pé diabético?",
       answer:
         "Não é essa a promessa da página. Feridas, secreção, escurecimento, febre ou piora rápida exigem atendimento médico.",
+    },
+  ],
+  relatedLinks: [
+    {
+      href: "/podoprofilaxia-fortaleza",
+      label: "Podoprofilaxia",
+      description: "Conheça o cuidado técnico preventivo, sempre adaptado aos riscos do caso.",
+    },
+    {
+      href: "/",
+      label: "ZL Podologia",
+      description: "Confirme endereço, horários e canal oficial de agendamento.",
     },
   ],
   schema: {

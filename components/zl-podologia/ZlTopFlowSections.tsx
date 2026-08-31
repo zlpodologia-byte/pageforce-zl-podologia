@@ -116,7 +116,7 @@ export function ZlLegitimacySection() {
                     className="mt-3 max-w-[36ch] text-[1rem] italic leading-[1.65] text-[#6F746F]"
                     style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
                   >
-                    "{zlHeroMicroReview.quote}"
+                    &ldquo;{zlHeroMicroReview.quote}&rdquo;
                   </blockquote>
                   <p className="mt-3 text-[0.78rem] uppercase tracking-[0.18em] text-[#0F6B46]">
                     {zlHeroMicroReview.author} - {zlHeroMicroReview.source}

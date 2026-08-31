@@ -22,6 +22,12 @@ export interface ZlSeoFaq {
   answer: string;
 }
 
+export interface ZlSeoRelatedLink {
+  href: `/${string}`;
+  label: string;
+  description: string;
+}
+
 export interface ZlSeoOffer {
   name: string;
   price?: number;
@@ -53,6 +59,7 @@ export interface ZlSeoLandingPageDefinition {
     imageAlt: string;
   };
   faqs: readonly ZlSeoFaq[];
+  relatedLinks?: readonly ZlSeoRelatedLink[];
   schema: {
     serviceName: string;
     alternateName?: string;

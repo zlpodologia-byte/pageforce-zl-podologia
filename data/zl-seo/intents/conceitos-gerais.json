@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "conceitos-gerais-001",
+    "question": "O que faz a podologia clínica?",
+    "searchIntent": "Compreender o significado e os limites de o papel da podologia clínica.",
+    "shortAnswer": "A podologia clínica avalia pele, unhas, pressão e desconfortos dos pés, realiza cuidados compatíveis com sua atuação e encaminha para outro profissional de saúde quando necessário.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "papel",
+      "clinica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-002",
+    "question": "Qual é a diferença entre podologia clínica e cuidado apenas estético?",
+    "searchIntent": "Saber quando a diferença entre podologia e cuidado estético justifica avaliação profissional.",
+    "shortAnswer": "O cuidado estético prioriza aparência; a podologia clínica considera queixa, função, riscos e sinais observáveis. Nenhuma das duas substitui diagnóstico médico quando ele é necessário.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "diferenca",
+      "cuidado",
+      "estetico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-003",
+    "question": "Por que fazer uma avaliação preventiva dos pés?",
+    "searchIntent": "Prevenir agravamento ou recorrência de a avaliação preventiva dos pés.",
+    "shortAnswer": "A avaliação preventiva pode identificar cedo atrito, pressão, ressecamento, alterações nas unhas e hábitos que favorecem recorrência, antes que passem a limitar a rotina.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "avaliacao",
+      "preventiva",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-004",
+    "question": "Com que frequência o cuidado podológico deve ser feito?",
+    "searchIntent": "Reconhecer sinais relevantes associados a a frequência do cuidado podológico.",
+    "shortAnswer": "Não existe intervalo único. A frequência depende da queixa, do crescimento das unhas, da pressão nos pés, de condições de saúde e da orientação individual recebida.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "frequencia",
+      "cuidado",
+      "podologico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-005",
+    "question": "O que observar ao escolher um profissional para cuidar dos pés?",
+    "searchIntent": "Evitar condutas inseguras diante de a escolha de um profissional para os pés.",
+    "shortAnswer": "Observe se há avaliação antes da conduta, higiene e organização dos materiais, explicação dos limites do atendimento e orientação clara sobre sinais que exigem outro profissional de saúde.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "escolha",
+      "profissional",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-006",
+    "question": "Quais mudanças na pele e nas unhas vale observar?",
+    "searchIntent": "Entender a relação entre calçado e a observação da pele e das unhas.",
+    "shortAnswer": "Acompanhe cor, espessura, formato, dor, coceira, rachaduras, feridas, calor, inchaço e secreção. Mudança persistente ou progressiva merece avaliação.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "observacao",
+      "pele",
+      "unhas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-007",
+    "question": "Quando a dor nos pés deixa de ser um incômodo passageiro?",
+    "searchIntent": "Entender por que o impacto da dor nos pés na rotina pode reaparecer.",
+    "shortAnswer": "Dor que se repete, aumenta, altera a passada, impede o uso do calçado ou reduz atividades já afeta a função e deve ser avaliada.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "impacto",
+      "dor",
+      "pes",
+      "rotina"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-008",
+    "question": "O que levar para a primeira avaliação podológica?",
+    "searchIntent": "Preparar informações úteis sobre a preparação para a primeira consulta podológica para uma avaliação.",
+    "shortAnswer": "Leve a história da queixa, condições de saúde, medicamentos, alergias, produtos já usados e, quando útil, o calçado relacionado ao desconforto.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "preparacao",
+      "primeira",
+      "consulta",
+      "podologica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-009",
+    "question": "Como seguir as orientações depois de um procedimento podológico?",
+    "searchIntent": "Compreender cuidados posteriores ligados a as orientações depois de um procedimento podológico.",
+    "shortAnswer": "Siga o cuidado individual recebido, mantenha a área protegida como orientado e peça reavaliação se surgirem dor crescente, secreção, sangramento ou vermelhidão progressiva.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "orientacoes",
+      "depois",
+      "procedimento",
+      "podologico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-010",
+    "question": "Onde buscar informações confiáveis sobre saúde dos pés?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fontes confiáveis sobre saúde dos pés.",
+    "shortAnswer": "Prefira órgãos públicos e entidades médicas reconhecidas. Conteúdo educativo ajuda a formular dúvidas, mas não confirma diagnóstico nem substitui avaliação profissional.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "fontes",
+      "confiaveis",
+      "saude",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "conceitos-gerais-011",
+    "question": "Faz sentido cuidar dos pés mesmo sem dor?",
+    "searchIntent": "Compreender o significado e os limites de o cuidado dos pés sem sintomas.",
+    "shortAnswer": "Sim. Observar pele, unhas, calçados e pontos de pressão pode prevenir desconfortos, especialmente em quem tem mobilidade reduzida, diabetes ou dificuldade de enxergar a sola.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "cuidado",
+      "pes",
+      "sintomas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-012",
+    "question": "Alteração persistente na unha significa micose?",
+    "searchIntent": "Saber quando alterações persistentes nas unhas justifica avaliação profissional.",
+    "shortAnswer": "Não. Cor, espessamento ou descolamento podem ter causas diferentes; o aspecto visual isolado não confirma micose.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "alteracoes",
+      "persistentes",
+      "nas",
+      "unhas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-013",
+    "question": "Como prevenir desconforto ao caminhar?",
+    "searchIntent": "Prevenir agravamento ou recorrência de a prevenção de desconfortos ao caminhar.",
+    "shortAnswer": "Use calçado no tamanho correto, reduza atrito e umidade, não manipule calos ou unhas doloridas e investigue pontos de pressão que se repetem.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "prevencao",
+      "desconfortos",
+      "caminhar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-014",
+    "question": "Mudança de cor na pele do pé precisa de atenção?",
+    "searchIntent": "Reconhecer sinais relevantes associados a mudanças de cor na pele dos pés.",
+    "shortAnswer": "Compare com o outro pé e observe duração, temperatura, dor, inchaço e circulação aparente. Mudança súbita, escurecimento ou piora pede avaliação de saúde.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "mudancas",
+      "cor",
+      "pele",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-015",
+    "question": "Como usar instrumentos nos pés com segurança?",
+    "searchIntent": "Evitar condutas inseguras diante de o uso seguro de instrumentos nos pés.",
+    "shortAnswer": "Instrumentos devem estar limpos, íntegros e ser de uso individual. Evite lâminas, cortes profundos e manipulação de áreas doloridas, inflamadas ou com pouca sensibilidade.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "uso",
+      "seguro",
+      "instrumentos",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-016",
+    "question": "O formato do calçado influencia a saúde dos pés?",
+    "searchIntent": "Entender a relação entre calçado e a influência do formato do calçado.",
+    "shortAnswer": "Sim. Bico estreito, sola rígida, tamanho incorreto e costuras sobre áreas sensíveis aumentam pressão e atrito.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "influencia",
+      "formato",
+      "calcado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-017",
+    "question": "Por que alguns problemas nos pés voltam?",
+    "searchIntent": "Entender por que a recorrência de problemas nos pés pode reaparecer.",
+    "shortAnswer": "Recorrência costuma indicar que pressão, atrito, umidade, técnica de corte ou outra causa associada continua presente. Identificar o padrão orienta a prevenção.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "recorrencia",
+      "problemas",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-018",
+    "question": "Como registrar sintomas antes de uma avaliação?",
+    "searchIntent": "Preparar informações úteis sobre o registro de sintomas antes da avaliação para uma avaliação.",
+    "shortAnswer": "Anote quando começou, local, intensidade, fatores que pioram, produtos usados e efeito ao caminhar. Fotos semelhantes ao longo do tempo podem mostrar evolução.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "registro",
+      "sintomas",
+      "antes",
+      "avaliacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-019",
+    "question": "Por que manter continuidade no cuidado podológico?",
+    "searchIntent": "Compreender cuidados posteriores ligados a a continuidade do cuidado podológico.",
+    "shortAnswer": "A continuidade permite acompanhar resposta, ajustar prevenção e perceber recorrência. O intervalo deve ser individual, não uma regra igual para todos.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "continuidade",
+      "cuidado",
+      "podologico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-020",
+    "question": "Conteúdo educativo de podologia pode confirmar uma doença?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre informação educativa sobre podologia.",
+    "shortAnswer": "Não. Ele explica sinais, prevenção e limites do autocuidado; diagnóstico depende de avaliação adequada e, em alguns casos, de profissional médico e exames.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "informacao",
+      "educativa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "conceitos-gerais-021",
+    "question": "Qual é a diferença entre triagem e diagnóstico?",
+    "searchIntent": "Compreender o significado e os limites de a diferença entre triagem e diagnóstico.",
+    "shortAnswer": "A triagem organiza sintomas e define a urgência do próximo passo. Diagnóstico identifica uma condição e não deve ser presumido apenas por mensagem ou foto.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "diferenca",
+      "triagem",
+      "diagnostico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-022",
+    "question": "O que fazer ao perceber sensibilidade reduzida nos pés?",
+    "searchIntent": "Saber quando a sensibilidade alterada nos pés justifica avaliação profissional.",
+    "shortAnswer": "Proteja os pés de calor e objetos cortantes, faça inspeção visual e procure avaliação de saúde, sobretudo se houver diabetes, ferida ou mudança de cor.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "sensibilidade",
+      "alterada",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-023",
+    "question": "Quando o cuidado dos pés precisa envolver outros profissionais de saúde?",
+    "searchIntent": "Prevenir agravamento ou recorrência de o cuidado integrado com outros profissionais de saúde.",
+    "shortAnswer": "Feridas, suspeita de infecção, alteração circulatória, perda de sensibilidade, doença crônica descompensada ou necessidade de diagnóstico podem exigir cuidado integrado.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "cuidado",
+      "integrado",
+      "outros",
+      "profissionais",
+      "saude"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-024",
+    "question": "Postura e maneira de caminhar podem aumentar pressão nos pés?",
+    "searchIntent": "Reconhecer sinais relevantes associados a a relação entre postura e pressão nos pés.",
+    "shortAnswer": "Podem. Apoio repetido no mesmo ponto e compensações na marcha favorecem dor e calosidade; a causa precisa ser avaliada sem concluir apenas pela aparência.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "relacao",
+      "postura",
+      "pressao",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-025",
+    "question": "Quais são os riscos de soluções caseiras agressivas nos pés?",
+    "searchIntent": "Evitar condutas inseguras diante de os riscos de soluções caseiras agressivas.",
+    "shortAnswer": "Ácidos, lâminas e produtos irritantes podem causar queimadura, ferida, infecção e mascarar a evolução, principalmente em pessoas com diabetes ou pouca sensibilidade.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "riscos",
+      "solucoes",
+      "caseiras",
+      "agressivas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-026",
+    "question": "Como escolher meias adequadas?",
+    "searchIntent": "Entender a relação entre calçado e a escolha de meias adequadas.",
+    "shortAnswer": "Prefira tamanho correto, tecido que controle umidade e costuras que não comprimam áreas sensíveis. Troque a meia quando estiver úmida.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "escolha",
+      "meias",
+      "adequadas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-027",
+    "question": "É necessário retornar depois que o desconforto melhora?",
+    "searchIntent": "Entender por que o retorno após melhora inicial pode reaparecer.",
+    "shortAnswer": "Depende da causa e da orientação recebida. Retorno pode ser útil quando a alteração era recorrente, havia risco associado ou ainda existe pressão no local.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "retorno",
+      "apos",
+      "melhora",
+      "inicial"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-028",
+    "question": "Quais perguntas são úteis durante uma avaliação dos pés?",
+    "searchIntent": "Preparar informações úteis sobre perguntas úteis durante a avaliação dos pés para uma avaliação.",
+    "shortAnswer": "Pergunte o que foi observado, quais cuidados são seguros, o que evitar, quais sinais exigem retorno e quando procurar outro profissional de saúde.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "perguntas",
+      "uteis",
+      "durante",
+      "avaliacao",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-029",
+    "question": "Como fazer a observação diária dos pés?",
+    "searchIntent": "Compreender cuidados posteriores ligados a a observação diária dos pés.",
+    "shortAnswer": "Veja planta, calcanhar, laterais, entre os dedos e unhas com boa luz; procure feridas, bolhas, mudança de cor, calor, inchaço ou secreção.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "observacao",
+      "diaria",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-030",
+    "question": "Como encontrar a página correta para cada serviço podológico?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre o acesso a páginas de serviços podológicos.",
+    "shortAnswer": "Use a página inicial para navegar às rotas específicas de unha encravada, onicomicose, órtese ungueal, pé diabético e podoprofilaxia.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "acesso",
+      "paginas",
+      "servicos",
+      "podologicos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "conceitos-gerais-031",
+    "question": "Quais cuidados ajudam os pés em períodos quentes?",
+    "searchIntent": "Compreender o significado e os limites de o cuidado dos pés em períodos quentes.",
+    "shortAnswer": "Controle suor e umidade, troque meias, alterne calçados, seque entre os dedos e evite permanecer com sapato molhado.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "cuidado",
+      "pes",
+      "periodos",
+      "quentes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-032",
+    "question": "Como cuidar dos pés em períodos chuvosos?",
+    "searchIntent": "Saber quando o cuidado dos pés em períodos chuvosos justifica avaliação profissional.",
+    "shortAnswer": "Retire calçados e meias molhados, seque os pés sem fricção excessiva e deixe o calçado ventilar antes de reutilizá-lo.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "cuidado",
+      "pes",
+      "periodos",
+      "chuvosos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-033",
+    "question": "Como diferenciar desconforto passageiro de um problema persistente?",
+    "searchIntent": "Prevenir agravamento ou recorrência de a diferença entre desconforto passageiro e persistente.",
+    "shortAnswer": "O passageiro melhora ao retirar a pressão e não volta; o persistente reaparece, aumenta, muda a marcha ou vem com alteração visível e merece avaliação.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "diferenca",
+      "desconforto",
+      "passageiro",
+      "persistente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-034",
+    "question": "Ficar muitas horas em pé pode afetar os pés?",
+    "searchIntent": "Reconhecer sinais relevantes associados a o efeito de longos períodos em pé.",
+    "shortAnswer": "Pode aumentar pressão, atrito e inchaço. Pausas, calçado adequado e observação dos pontos doloridos ajudam a identificar o que precisa ser ajustado.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "efeito",
+      "longos",
+      "periodos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-035",
+    "question": "Como higienizar os pés sem ressecar a pele?",
+    "searchIntent": "Evitar condutas inseguras diante de a higiene sem ressecar a pele.",
+    "shortAnswer": "Use água em temperatura confortável e produto suave, enxágue e seque sem esfregar. Hidratação da pele deve evitar excesso entre os dedos.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "higiene",
+      "ressecar",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-036",
+    "question": "Como adaptar os pés a um calçado novo?",
+    "searchIntent": "Entender a relação entre calçado e o ajuste de calçados novos.",
+    "shortAnswer": "Use por períodos curtos no início e verifique marcas, bolhas e dor. Calçado que comprime ou altera a passada não deve ser forçado até “ceder”.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "ajuste",
+      "calcados",
+      "novos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-037",
+    "question": "Como prevenir um problema que já voltou outras vezes?",
+    "searchIntent": "Entender por que a prevenção depois de episódios recorrentes pode reaparecer.",
+    "shortAnswer": "Registre onde e quando retorna, revise calçado, pressão, umidade e técnica de corte, e siga a prevenção indicada após identificar o fator associado.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "prevencao",
+      "depois",
+      "episodios",
+      "recorrentes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-038",
+    "question": "Por que informar o histórico de saúde na avaliação podológica?",
+    "searchIntent": "Preparar informações úteis sobre o histórico de saúde na avaliação podológica para uma avaliação.",
+    "shortAnswer": "Diabetes, circulação, sensibilidade, alergias, medicamentos e cicatrização alteram riscos e ajudam o profissional a definir limites seguros do atendimento.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "historico",
+      "saude",
+      "avaliacao",
+      "podologica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "conceitos-gerais-039",
+    "question": "Como acompanhar uma alteração visível nos pés?",
+    "searchIntent": "Compreender cuidados posteriores ligados a o acompanhamento de alterações visíveis.",
+    "shortAnswer": "Fotografe com luz e posição semelhantes, anote sintomas e não manipule a área para mudar sua aparência. Procure avaliação se houver piora.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "acompanhamento",
+      "alteracoes",
+      "visiveis"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "conceitos-gerais-040",
+    "question": "Onde encontrar informações locais sobre podologia em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre a informação local sobre podologia em Fortaleza.",
+    "shortAnswer": "O site da ZL reúne serviços, endereço da unidade na Parquelândia, horários e canais oficiais para confirmar o atendimento.",
+    "category": "conceitos-gerais",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "podologia",
+      "saúde dos pés",
+      "informacao",
+      "local",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]

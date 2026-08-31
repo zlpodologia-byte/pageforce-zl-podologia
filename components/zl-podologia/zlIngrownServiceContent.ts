@@ -68,3 +68,16 @@ export const zlIngrownFaqs = [
       "A ZL Podologia fica na Parquelândia, na Av. Bezerra de Menezes, 2203, Sala 5, Galeria José Bernardo, em Fortaleza.",
   },
 ] as const;
+
+export const zlIngrownRelatedLinks = [
+  {
+    href: "/ortonixia-fortaleza",
+    label: "Órtese ungueal",
+    description: "Entenda quando a curvatura da unha pode pedir acompanhamento.",
+  },
+  {
+    href: "/podoprofilaxia-fortaleza",
+    label: "Podoprofilaxia",
+    description: "Conheça o cuidado técnico de unhas, pele e pontos de pressão.",
+  },
+] as const;

@@ -1,0 +1,1219 @@
+[
+  {
+    "id": "atendimento-e-cuidados-001",
+    "question": "O que informar no primeiro contato pelo WhatsApp?",
+    "searchIntent": "Compreender o significado e os limites de primeiro contato pelo WhatsApp.",
+    "shortAnswer": "Descreva a principal queixa, há quanto tempo começou, se há dor, ferida ou secreção e quais horários pretende consultar. Não envie dados de saúde além do necessário para a triagem.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "primeiro",
+      "contato",
+      "pelo",
+      "whatsapp"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-002",
+    "question": "Uma foto enviada pelo WhatsApp substitui a avaliação presencial?",
+    "searchIntent": "Saber quando envio de foto para triagem justifica avaliação profissional.",
+    "shortAnswer": "Não. Uma foto nítida pode ajudar a organizar a triagem, mas não mostra todos os sinais nem confirma diagnóstico ou conduta.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "envio",
+      "foto",
+      "triagem"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-003",
+    "question": "Como explicar a principal queixa antes do atendimento?",
+    "searchIntent": "Prevenir agravamento ou recorrência de relato claro da principal queixa.",
+    "shortAnswer": "Informe o local exato, início, intensidade, mudanças visíveis, efeito ao caminhar e o que já tentou. Isso torna a conversa mais objetiva.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "relato",
+      "claro",
+      "principal",
+      "queixa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-004",
+    "question": "Quais condições de saúde e medicamentos precisam ser informados?",
+    "searchIntent": "Reconhecer sinais relevantes associados a lista de condições de saúde e medicamentos.",
+    "shortAnswer": "Informe diabetes, problemas circulatórios, perda de sensibilidade, alergias, dificuldade de cicatrização, anticoagulantes e outros medicamentos relevantes ao cuidado.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "lista",
+      "condicoes",
+      "saude",
+      "medicamentos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-005",
+    "question": "Devo mexer na unha ou na pele antes do atendimento?",
+    "searchIntent": "Evitar condutas inseguras diante de manipular a área antes do atendimento.",
+    "shortAnswer": "Evite cavar, cortar, lixar ou aplicar produto novo. A manipulação pode piorar a área e dificultar a observação do estado original.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "manipular",
+      "area",
+      "antes",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-006",
+    "question": "Qual calçado usar no dia da consulta podológica?",
+    "searchIntent": "Entender a relação entre calçado e calçado confortável no dia da consulta.",
+    "shortAnswer": "Prefira um calçado confortável, fácil de retirar e que não pressione a área sensível na volta para casa.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "calcado",
+      "confortavel",
+      "dia",
+      "consulta"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-007",
+    "question": "O que fazer se a queixa reaparecer depois do atendimento?",
+    "searchIntent": "Entender por que retorno quando a queixa reaparece pode reaparecer.",
+    "shortAnswer": "Registre quando voltou, o que mudou na rotina ou no calçado e procure reavaliação. Não repita por conta própria um procedimento anterior.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "retorno",
+      "quando",
+      "queixa",
+      "reaparece"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-008",
+    "question": "Como acompanhar a evolução entre sessões?",
+    "searchIntent": "Preparar informações úteis sobre registro da evolução entre sessões para uma avaliação.",
+    "shortAnswer": "Anote dor, cor, secreção, cicatrização e tolerância ao calçado. Fotos com luz e posição semelhantes ajudam a comparar a evolução.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "registro",
+      "evolucao",
+      "sessoes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-009",
+    "question": "Como seguir as orientações recebidas depois do procedimento?",
+    "searchIntent": "Compreender cuidados posteriores ligados a orientações recebidas depois do procedimento.",
+    "shortAnswer": "Siga o prazo, a higiene e a proteção indicados para seu caso. Em caso de dúvida, confirme pelo canal oficial antes de alterar o cuidado.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "orientacoes",
+      "recebidas",
+      "depois",
+      "procedimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-010",
+    "question": "Onde consultar informações oficiais antes de ir à ZL?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre página oficial para preparar o atendimento.",
+    "shortAnswer": "A página inicial da ZL reúne endereço, horários, serviços e o link oficial do WhatsApp para confirmar o agendamento.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "pagina",
+      "oficial",
+      "preparar",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atendimento-e-cuidados-011",
+    "question": "É melhor retirar o esmalte antes de avaliar uma unha alterada?",
+    "searchIntent": "Compreender o significado e os limites de chegada com esmalte sobre unha alterada.",
+    "shortAnswer": "O esmalte pode esconder cor e superfície da unha. Confirme a orientação com a clínica e evite reaplicar produto apenas para a triagem.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "chegada",
+      "esmalte",
+      "unha",
+      "alterada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-012",
+    "question": "O que fazer se surgir dor intensa antes do horário marcado?",
+    "searchIntent": "Saber quando dor intensa antes do horário marcado justifica avaliação profissional.",
+    "shortAnswer": "Dor intensa, febre, secreção, sangramento ou dificuldade para caminhar não devem aguardar apenas o horário podológico; procure avaliação de saúde sem demora.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "dor",
+      "intensa",
+      "antes",
+      "horario",
+      "marcado"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-013",
+    "question": "Por que informar alergias e alterações de sensibilidade?",
+    "searchIntent": "Prevenir agravamento ou recorrência de informação sobre alergias e sensibilidade.",
+    "shortAnswer": "Essas informações mudam o risco de produtos, curativos e procedimentos e ajudam a definir limites seguros para o atendimento.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "informacao",
+      "alergias",
+      "sensibilidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-014",
+    "question": "Uma ferida aberta pode esperar até o atendimento marcado?",
+    "searchIntent": "Reconhecer sinais relevantes associados a ferida aberta no dia do atendimento.",
+    "shortAnswer": "Avise a clínica e procure avaliação de saúde, sobretudo se houver diabetes, vermelhidão, calor, secreção, febre ou dificuldade de cicatrização.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "ferida",
+      "aberta",
+      "dia",
+      "atendimento"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-015",
+    "question": "Posso aplicar um produto novo antes da avaliação?",
+    "searchIntent": "Evitar condutas inseguras diante de aplicar produto novo antes da avaliação.",
+    "shortAnswer": "Não é recomendável. O produto pode irritar, mascarar sinais ou interagir com a pele lesionada; leve a embalagem do que já foi usado.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "aplicar",
+      "produto",
+      "novo",
+      "antes",
+      "avaliacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-016",
+    "question": "Que tipo de sapato ajuda depois de um cuidado nos pés?",
+    "searchIntent": "Entender a relação entre calçado e sapato que permita reduzir pressão depois do cuidado.",
+    "shortAnswer": "Use modelo no tamanho correto, sem ponto rígido sobre a área tratada e com espaço para os dedos, seguindo a orientação recebida.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "sapato",
+      "que",
+      "permita",
+      "reduzir",
+      "pressao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-017",
+    "question": "Todo atendimento podológico se resolve em uma sessão?",
+    "searchIntent": "Entender por que necessidade de mais de uma sessão pode reaparecer.",
+    "shortAnswer": "Não há número fixo. A necessidade de retorno depende da queixa, resposta ao cuidado, recorrência e condições de saúde.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "necessidade",
+      "mais",
+      "sessao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-018",
+    "question": "Que perguntas fazer durante a avaliação podológica?",
+    "searchIntent": "Preparar informações úteis sobre perguntas para fazer durante a avaliação para uma avaliação.",
+    "shortAnswer": "Pergunte o que foi observado, qual cuidado é seguro, o que evitar, quais sinais exigem retorno e se outro profissional de saúde precisa participar.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "perguntas",
+      "fazer",
+      "durante",
+      "avaliacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-019",
+    "question": "Como fazer limpeza e secagem depois do atendimento?",
+    "searchIntent": "Compreender cuidados posteriores ligados a limpeza e secagem depois do atendimento.",
+    "shortAnswer": "Siga a orientação específica, use higiene suave e seque sem fricção. Não molhe curativos nem aplique produto sem confirmação.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "limpeza",
+      "secagem",
+      "depois",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-020",
+    "question": "Como agendar atendimento podológico em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre agendamento podológico em Fortaleza.",
+    "shortAnswer": "Use o WhatsApp oficial indicado no site para confirmar horário na unidade da Parquelândia. O atendimento é divulgado como realizado com hora marcada.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "agendamento",
+      "podologico",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atendimento-e-cuidados-021",
+    "question": "Qual é a diferença entre triagem remota e avaliação presencial?",
+    "searchIntent": "Compreender o significado e os limites de diferença entre triagem remota e avaliação presencial.",
+    "shortAnswer": "A triagem remota organiza a queixa e o próximo passo; a avaliação presencial permite examinar sinais que foto e mensagem não mostram.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "diferenca",
+      "triagem",
+      "remota",
+      "avaliacao",
+      "presencial"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-022",
+    "question": "Se aparecer secreção depois do procedimento, o que fazer?",
+    "searchIntent": "Saber quando secreção percebida após o procedimento justifica avaliação profissional.",
+    "shortAnswer": "Não esprema nem aplique produto. Avise a clínica e procure avaliação de saúde se houver dor crescente, calor, vermelhidão, febre ou piora.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "secrecao",
+      "percebida",
+      "apos",
+      "procedimento"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-023",
+    "question": "O que fazer quando o curativo fica molhado?",
+    "searchIntent": "Prevenir agravamento ou recorrência de curativo que ficou molhado.",
+    "shortAnswer": "Não mantenha um curativo úmido sem orientação. Entre em contato pelo canal informado para saber se deve ser trocado e como proteger a área.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "curativo",
+      "que",
+      "ficou",
+      "molhado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-024",
+    "question": "Dor que aumenta depois do atendimento é esperada?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor que aumenta depois do atendimento.",
+    "shortAnswer": "Dor progressiva não deve ser presumida como normal. Informe quando começou e procure reavaliação se vier com inchaço, calor, secreção ou dificuldade para caminhar.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "dor",
+      "que",
+      "aumenta",
+      "depois",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-025",
+    "question": "Posso retirar o curativo antes do prazo orientado?",
+    "searchIntent": "Evitar condutas inseguras diante de retirar curativo antes da orientação.",
+    "shortAnswer": "Não altere o curativo por conta própria, exceto diante de uma orientação prévia. Se ele soltar, molhar ou sujar, peça instrução à clínica.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "retirar",
+      "curativo",
+      "antes",
+      "orientacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-026",
+    "question": "Por que evitar calçado apertado depois do cuidado?",
+    "searchIntent": "Entender a relação entre calçado e retomar calçado apertado no mesmo dia.",
+    "shortAnswer": "Pressão e atrito podem aumentar dor, deslocar proteção e irritar a área. Use um modelo que deixe espaço e não comprima o local.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "retomar",
+      "calcado",
+      "apertado",
+      "mesmo",
+      "dia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-027",
+    "question": "Quando considerar um retorno preventivo?",
+    "searchIntent": "Entender por que retorno preventivo depois da melhora pode reaparecer.",
+    "shortAnswer": "O retorno é individual e pode ser útil quando a queixa era recorrente, existe pressão contínua ou o profissional precisa acompanhar a resposta.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "retorno",
+      "preventivo",
+      "depois",
+      "melhora"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-028",
+    "question": "Como tirar uma foto útil para acompanhamento?",
+    "searchIntent": "Preparar informações úteis sobre foto de acompanhamento com boa iluminação para uma avaliação.",
+    "shortAnswer": "Use boa luz, foco, distância suficiente para localizar a área e outra imagem aproximada. Não use filtro nem manipule a região antes da foto.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "foto",
+      "acompanhamento",
+      "boa",
+      "iluminacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-029",
+    "question": "Quais sinais observar em casa depois do atendimento?",
+    "searchIntent": "Compreender cuidados posteriores ligados a observação de sinais de alerta em casa.",
+    "shortAnswer": "Observe dor crescente, calor, inchaço, vermelhidão progressiva, secreção, sangramento, febre e dificuldade para apoiar o pé.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "observacao",
+      "sinais",
+      "alerta",
+      "casa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-030",
+    "question": "A ZL atende com hora marcada na Parquelândia?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento com hora marcada na Parquelândia.",
+    "shortAnswer": "Sim. O site informa atendimento individual com hora marcada na unidade da Av. Bezerra de Menezes, na Parquelândia; confirme disponibilidade pelo WhatsApp.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "atendimento",
+      "hora",
+      "marcada",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atendimento-e-cuidados-031",
+    "question": "Como cancelar ou remarcar um horário?",
+    "searchIntent": "Compreender o significado e os limites de cancelamento ou remarcação de horário.",
+    "shortAnswer": "Use o WhatsApp oficial da ZL e avise assim que possível. O site não publica uma política específica de prazo, multa ou encaixe.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "cancelamento",
+      "remarcacao",
+      "horario"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-032",
+    "question": "Febre depois de um procedimento no dedo exige atenção?",
+    "searchIntent": "Saber quando febre após procedimento no dedo justifica avaliação profissional.",
+    "shortAnswer": "Sim. Febre junto de dor, calor, vermelhidão ou secreção pode indicar complicação e pede avaliação de saúde sem demora.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "febre",
+      "apos",
+      "procedimento",
+      "dedo"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-033",
+    "question": "O que fazer se o sangramento não parar com cuidado simples?",
+    "searchIntent": "Prevenir agravamento ou recorrência de sangramento que não para com cuidado simples.",
+    "shortAnswer": "Faça compressão suave com material limpo e procure atendimento de saúde se o sangramento continuar, for intenso ou ocorrer com uso de anticoagulante.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "sangramento",
+      "que",
+      "nao",
+      "cuidado",
+      "simples"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-034",
+    "question": "Dificuldade para caminhar depois do atendimento é sinal de alerta?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dificuldade para caminhar depois do atendimento.",
+    "shortAnswer": "É importante avisar a clínica e avaliar a intensidade. Incapacidade de apoiar o pé, dor crescente ou sinais de infecção exigem atendimento de saúde.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "dificuldade",
+      "caminhar",
+      "depois",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-035",
+    "question": "Posso usar nos pés a receita que foi prescrita para outra pessoa?",
+    "searchIntent": "Evitar condutas inseguras diante de usar receita de outra pessoa nos pés.",
+    "shortAnswer": "Não. A causa, a pele, as alergias e as condições de saúde podem ser diferentes; medicamento deve ser usado apenas com orientação apropriada.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "usar",
+      "receita",
+      "outra",
+      "pessoa",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-036",
+    "question": "Como preparar meias e calçados para o pós-atendimento?",
+    "searchIntent": "Entender a relação entre calçado e organizar meias e calçados para o pós-atendimento.",
+    "shortAnswer": "Separe meia limpa, calçado espaçoso e uma alternativa que não pressione a área. Evite peças úmidas ou apertadas.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "organizar",
+      "meias",
+      "calcados",
+      "pos",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-037",
+    "question": "Por que alguns protocolos para unhas precisam de continuidade?",
+    "searchIntent": "Entender por que continuidade de protocolos de unha pode reaparecer.",
+    "shortAnswer": "Unhas crescem lentamente e fatores como pressão, trauma e umidade podem persistir. A continuidade permite acompanhar resposta sem prometer prazo ou resultado.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "continuidade",
+      "protocolos",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-038",
+    "question": "Quais informações de atendimentos anteriores são úteis?",
+    "searchIntent": "Preparar informações úteis sobre histórico de atendimentos anteriores para uma avaliação.",
+    "shortAnswer": "Relate procedimentos feitos, datas, resposta, reações, produtos usados e motivo de interrupção. Não omita complicações ou alergias.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "historico",
+      "atendimentos",
+      "anteriores"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-039",
+    "question": "Como não esquecer os cuidados em casa?",
+    "searchIntent": "Compreender cuidados posteriores ligados a cuidados escritos para lembrar em casa.",
+    "shortAnswer": "Peça orientações por escrito, confirme frequência e prazo e registre os sinais que exigem contato ou reavaliação.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "cuidados",
+      "escritos",
+      "lembrar",
+      "casa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-040",
+    "question": "Qual é o canal oficial da ZL para dúvidas sobre atendimento?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre canal oficial da ZL para tirar dúvidas.",
+    "shortAnswer": "O site direciona os contatos para o WhatsApp oficial (85) 9 9435-8505. Informações clínicas por mensagem continuam sendo triagem, não diagnóstico.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "canal",
+      "oficial",
+      "tirar",
+      "duvidas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "atendimento-e-cuidados-041",
+    "question": "Uma pessoa com mobilidade reduzida pode ir com acompanhante?",
+    "searchIntent": "Compreender o significado e os limites de acompanhante para pessoa com mobilidade reduzida.",
+    "shortAnswer": "A necessidade deve ser informada ao agendar para que a clínica confirme as condições do atendimento; o site não publica uma política detalhada de acessibilidade.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "acompanhante",
+      "pessoa",
+      "mobilidade",
+      "reduzida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-042",
+    "question": "Vermelhidão progressiva depois do cuidado precisa de avaliação?",
+    "searchIntent": "Saber quando vermelhidão progressiva depois do cuidado justifica avaliação profissional.",
+    "shortAnswer": "Sim, principalmente com calor, dor, inchaço, secreção ou febre. Avise a clínica e procure avaliação de saúde sem demora se estiver piorando.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "vermelhidao",
+      "progressiva",
+      "depois",
+      "cuidado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-043",
+    "question": "O que fazer diante de mudança inesperada na cor da unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de alteração inesperada na cor da unha.",
+    "shortAnswer": "Registre a evolução e evite cobrir ou raspar a unha. Mudança nova, faixa escura, dor ou alteração da pele ao redor merece avaliação apropriada.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "alteracao",
+      "inesperada",
+      "cor",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "atendimento-e-cuidados-044",
+    "question": "Quando uma condição crônica deve ser discutida com o médico?",
+    "searchIntent": "Reconhecer sinais relevantes associados a contato com médico quando há condição crônica.",
+    "shortAnswer": "Diabetes, alteração circulatória, baixa sensibilidade, imunossupressão ou cicatrização difícil devem integrar o plano de cuidado com a equipe de saúde.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "contato",
+      "medico",
+      "quando",
+      "condicao",
+      "cronica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "atendimento-e-cuidados-045",
+    "question": "Quais são os limites das orientações de saúde pela internet?",
+    "searchIntent": "Evitar condutas inseguras diante de limites das orientações educativas online.",
+    "shortAnswer": "Conteúdo e triagem online ajudam a reconhecer sinais e organizar o atendimento, mas não examinam o pé, confirmam diagnóstico nem substituem avaliação profissional.",
+    "category": "atendimento-e-cuidados",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "atendimento podológico",
+      "preparo",
+      "cuidados posteriores",
+      "limites",
+      "orientacoes",
+      "educativas",
+      "online"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  }
+]
