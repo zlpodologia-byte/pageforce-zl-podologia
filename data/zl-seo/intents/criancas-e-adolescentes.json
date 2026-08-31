@@ -1,0 +1,845 @@
+[
+  {
+    "id": "criancas-e-adolescentes-001",
+    "question": "O que é importante saber sobre corte de unhas dos pés de crianças?",
+    "searchIntent": "Compreender o significado e os limites de corte de unhas dos pés de crianças.",
+    "shortAnswer": "As unhas dos pés da criança devem ser cortadas sem aprofundar os cantos e sem encurtar demais. Um adulto precisa usar instrumento limpo e observar qualquer vermelhidão.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "corte",
+      "pes",
+      "criancas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-002",
+    "question": "Quando é indicado buscar avaliação por unha do bebê que parece encravada?",
+    "searchIntent": "Saber quando unha do bebê que parece encravada justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando unha do bebê que parece encravada persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "unha",
+      "bebe",
+      "que",
+      "parece",
+      "encravada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-003",
+    "question": "Como reduzir riscos relacionados a calçado infantil com espaço para os dedos?",
+    "searchIntent": "Prevenir agravamento ou recorrência de calçado infantil com espaço para os dedos.",
+    "shortAnswer": "Para reduzir riscos ligados a calçado infantil com espaço para os dedos, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "calcado",
+      "infantil",
+      "espaco",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-004",
+    "question": "Quais sinais devem ser observados em casos de dor no pé relatada por adolescente?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor no pé relatada por adolescente.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de dor no pé relatada por adolescente.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "dor",
+      "relatada",
+      "adolescente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-005",
+    "question": "O que deve ser evitado quando existe cortar a unha infantil muito curta?",
+    "searchIntent": "Evitar condutas inseguras diante de cortar a unha infantil muito curta.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de cortar a unha infantil muito curta.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "cortar",
+      "unha",
+      "infantil",
+      "muito",
+      "curta"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-006",
+    "question": "Como o calçado pode interferir em tênis apertado durante o crescimento?",
+    "searchIntent": "Entender a relação entre calçado e tênis apertado durante o crescimento.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar tênis apertado durante o crescimento; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "tenis",
+      "apertado",
+      "durante",
+      "crescimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-007",
+    "question": "O que pode manter unha encravada que volta no adolescente?",
+    "searchIntent": "Entender por que unha encravada que volta no adolescente pode reaparecer.",
+    "shortAnswer": "Unha encravada que volta no adolescente pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "unha",
+      "encravada",
+      "que",
+      "volta",
+      "adolescente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-008",
+    "question": "Como se preparar para falar com um profissional sobre foto do dedo feita pelo responsável?",
+    "searchIntent": "Preparar informações úteis sobre foto do dedo feita pelo responsável para uma avaliação.",
+    "shortAnswer": "Para falar sobre foto do dedo feita pelo responsável, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "foto",
+      "dedo",
+      "feita",
+      "pelo",
+      "responsavel"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-009",
+    "question": "Que cuidados posteriores ajudam quando há higiene após cuidado da unha infantil?",
+    "searchIntent": "Compreender cuidados posteriores ligados a higiene após cuidado da unha infantil.",
+    "shortAnswer": "Depois de receber orientação sobre higiene após cuidado da unha infantil, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "higiene",
+      "apos",
+      "cuidado",
+      "unha",
+      "infantil"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-010",
+    "question": "Onde encontrar informação confiável sobre fonte pediátrica sobre cuidado das unhas?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fonte pediátrica sobre cuidado das unhas.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para fonte pediátrica sobre cuidado das unhas; conteúdo educativo não substitui avaliação profissional.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "fonte",
+      "pediatrica",
+      "cuidado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "criancas-e-adolescentes-011",
+    "question": "Como entender vermelhidão ao lado da unha da criança?",
+    "searchIntent": "Compreender o significado e os limites de vermelhidão ao lado da unha da criança.",
+    "shortAnswer": "Vermelhidão ao lado da unha pode vir de pressão, corte ou inflamação. Evite cavar o canto e procure avaliação se houver dor crescente, inchaço ou secreção.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "vermelhidao",
+      "lado",
+      "unha",
+      "crianca"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-012",
+    "question": "Em que situação vale avaliar secreção no dedo do pé infantil?",
+    "searchIntent": "Saber quando secreção no dedo do pé infantil justifica avaliação profissional.",
+    "shortAnswer": "Secreção no dedo do pé infantil precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "secrecao",
+      "dedo",
+      "infantil"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-013",
+    "question": "Que cuidado ajuda a evitar piora de mudança no jeito de caminhar?",
+    "searchIntent": "Prevenir agravamento ou recorrência de mudança no jeito de caminhar.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de mudança no jeito de caminhar; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "mudanca",
+      "jeito",
+      "caminhar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-014",
+    "question": "O que acompanhar quando aparece bolha causada por calçado escolar?",
+    "searchIntent": "Reconhecer sinais relevantes associados a bolha causada por calçado escolar.",
+    "shortAnswer": "Ao acompanhar bolha causada por calçado escolar, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "bolha",
+      "causada",
+      "calcado",
+      "escolar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-015",
+    "question": "Por que uso de alicate pontiagudo em criança exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de alicate pontiagudo em criança.",
+    "shortAnswer": "Soluções caseiras em uso de alicate pontiagudo em criança podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "uso",
+      "alicate",
+      "pontiagudo",
+      "crianca"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam chuteira apertada nos dedos?",
+    "searchIntent": "Entender a relação entre calçado e chuteira apertada nos dedos.",
+    "shortAnswer": "Em chuteira apertada nos dedos, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "chuteira",
+      "apertada",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-017",
+    "question": "Como investigar a repetição de suor nos pés durante a adolescência?",
+    "searchIntent": "Entender por que suor nos pés durante a adolescência pode reaparecer.",
+    "shortAnswer": "Suor nos pés durante a adolescência reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "suor",
+      "pes",
+      "durante",
+      "adolescencia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-018",
+    "question": "Que informações levar para avaliar informações que o responsável deve levar?",
+    "searchIntent": "Preparar informações úteis sobre informações que o responsável deve levar para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de informações que o responsável deve levar o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "informacoes",
+      "que",
+      "responsavel",
+      "deve",
+      "levar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-019",
+    "question": "O que revisar durante retorno após orientação para unha infantil?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno após orientação para unha infantil.",
+    "shortAnswer": "No cuidado posterior de retorno após orientação para unha infantil, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "retorno",
+      "apos",
+      "orientacao",
+      "unha",
+      "infantil"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-020",
+    "question": "Onde consultar informação específica sobre limites de uma triagem por foto em criança?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre limites de uma triagem por foto em criança.",
+    "shortAnswer": "Para entender limites de uma triagem por foto em criança sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "limites",
+      "triagem",
+      "foto",
+      "crianca"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "criancas-e-adolescentes-021",
+    "question": "Por que vale observar descamação entre os dedos do adolescente?",
+    "searchIntent": "Compreender o significado e os limites de descamação entre os dedos do adolescente.",
+    "shortAnswer": "Descamação entre os dedos pode ter causas diferentes. Mantenha a área seca, não aplique medicamento de adulto e procure avaliação pediátrica ou dermatológica se persistir.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "descamacao",
+      "dedos",
+      "adolescente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-022",
+    "question": "Quais mudanças em febre junto com dedo inflamado justificam procurar ajuda?",
+    "searchIntent": "Saber quando febre junto com dedo inflamado justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de febre junto com dedo inflamado mais importante.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "febre",
+      "junto",
+      "dedo",
+      "inflamado"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-023",
+    "question": "O que fazer com segurança diante de mancha escura nova na unha infantil?",
+    "searchIntent": "Prevenir agravamento ou recorrência de mancha escura nova na unha infantil.",
+    "shortAnswer": "A conduta segura para mancha escura nova na unha infantil é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "mancha",
+      "escura",
+      "nova",
+      "unha",
+      "infantil"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-024",
+    "question": "Que detalhes de dor que impede a criança de apoiar o pé ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor que impede a criança de apoiar o pé.",
+    "shortAnswer": "Para avaliar dor que impede a criança de apoiar o pé, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "dor",
+      "que",
+      "impede",
+      "crianca",
+      "apoiar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-025",
+    "question": "Que atitude pode agravar produto adulto aplicado em pele infantil?",
+    "searchIntent": "Evitar condutas inseguras diante de produto adulto aplicado em pele infantil.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar produto adulto aplicado em pele infantil e criar uma porta de entrada para infecção.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "produto",
+      "adulto",
+      "aplicado",
+      "pele",
+      "infantil"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-026",
+    "question": "O ajuste do sapato pode piorar meias úmidas depois da educação física?",
+    "searchIntent": "Entender a relação entre calçado e meias úmidas depois da educação física.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para meias úmidas depois da educação física e precisa ser revisto.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "meias",
+      "umidas",
+      "depois",
+      "educacao",
+      "fisica"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-027",
+    "question": "Como prevenir a recorrência de prevenção de unha encravada no crescimento?",
+    "searchIntent": "Entender por que prevenção de unha encravada no crescimento pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de prevenção de unha encravada no crescimento exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "prevencao",
+      "unha",
+      "encravada",
+      "crescimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-028",
+    "question": "Uma foto ajuda na triagem de acompanhamento do tamanho do calçado?",
+    "searchIntent": "Preparar informações úteis sobre acompanhamento do tamanho do calçado para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de acompanhamento do tamanho do calçado e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "acompanhamento",
+      "tamanho",
+      "calcado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "criancas-e-adolescentes-029",
+    "question": "O que observar no retorno relacionado a secagem dos pés depois do banho?",
+    "searchIntent": "Compreender cuidados posteriores ligados a secagem dos pés depois do banho.",
+    "shortAnswer": "No retorno relacionado a secagem dos pés depois do banho, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "secagem",
+      "pes",
+      "depois",
+      "banho"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "criancas-e-adolescentes-030",
+    "question": "Que página é mais útil para saber sobre quando procurar pediatra ou dermatologista?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre quando procurar pediatra ou dermatologista.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a quando procurar pediatra ou dermatologista; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "criancas-e-adolescentes",
+    "relatedService": null,
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "naturalTerms": [
+      "pés de crianças",
+      "adolescentes",
+      "unhas",
+      "quando",
+      "procurar",
+      "pediatra",
+      "dermatologista"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "home-podologia-clinica",
+    "officialSourceIds": [
+      "aap-child-nail-care",
+      "nhs-children-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]

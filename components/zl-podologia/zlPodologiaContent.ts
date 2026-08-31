@@ -1128,8 +1128,8 @@ export const zlPodologyFacts = [
 
 export const zlFaq = [
   {
-    q: "Em quanto tempo consigo atendimento na ZL Podologia em Fortaleza?",
-    a: "A ZL trabalha com hora marcada. Quando envolve dor ou inflamação, a clínica tenta encaixe no mesmo dia ou no próximo útil.",
+    q: "Como confirmar disponibilidade de atendimento na ZL Podologia?",
+    a: "A ZL trabalha com hora marcada. Confirme os horários disponíveis diretamente pelo WhatsApp; o site não garante encaixe imediato.",
   },
   {
     q: "Atende casos com dor ou unha inflamada?",
@@ -1149,7 +1149,7 @@ export const zlFaq = [
   },
   {
     q: "Como funciona o plano de cuidado?",
-    a: "Sim. A ZL monta seu plano de cuidado personalizado no atendimento para garantir melhores resultados e continuidade dos cuidados. É só perguntar pelo WhatsApp.",
+    a: "A orientação é definida após observar a queixa, os riscos e a necessidade de retorno. O plano organiza o cuidado, mas não garante resultado ou prazo de resposta.",
   },
   {
     q: "Posso agendar pelo WhatsApp?",

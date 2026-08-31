@@ -19,6 +19,7 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/politica-de-imagens",
   "/robots.txt",
   "/sitemap.xml",
+  "/llms.txt",
   "/googleed77e9ab4edd9965.html",
   "/opengraph-image",
   "/favicon-48x48.png",
@@ -39,7 +40,7 @@ const LEGACY_REDIRECTS = new Map<string, string>([
   ["/lab/zl-podologia/politica-de-imagens/", "/politica-de-imagens"],
 ]);
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const normalizedPathname =
     pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;

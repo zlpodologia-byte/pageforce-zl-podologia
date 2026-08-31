@@ -793,6 +793,7 @@ function FaqItem({
   return (
     <Reveal
       as="div"
+      data-zl-faq-item
       delay={index * 45}
       className={`overflow-hidden rounded-[1.2rem] border bg-white transition-all ${
         open ?"border-[#0F6B46] shadow-[0_18px_44px_rgba(23,79,63,0.18)]" : "border-[#D9DAD7]"
@@ -804,7 +805,12 @@ function FaqItem({
         className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
         aria-expanded={open}
       >
-        <span className="text-[0.96rem] font-medium text-[#26302B]">{q}</span>
+        <span
+          data-zl-faq-question
+          className="text-[0.96rem] font-medium text-[#26302B]"
+        >
+          {q}
+        </span>
         <span
           className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border transition-all ${
             open ?"border-[#0F6B46] bg-[#EFEAE4] text-[#174F3F]" : "border-[#D9DAD7] bg-white text-[#6F746F]"
@@ -819,7 +825,10 @@ function FaqItem({
           open ?"grid-rows-[1fr]" : "grid-rows-[0fr]"
         }`}
       >
-        <div className="min-h-0 overflow-hidden px-5 pb-5 text-[0.92rem] leading-[1.68] text-[#6F746F]">
+        <div
+          data-zl-faq-answer
+          className="min-h-0 overflow-hidden px-5 pb-5 text-[0.92rem] leading-[1.68] text-[#6F746F]"
+        >
           {a}
         </div>
       </div>
@@ -832,9 +841,6 @@ function FaqItem({
 /* ------------------------------------------------------------------ */
 
 export function ZlFinalCtaSection() {
-  const handleWaClick = () => {
-    trackZlEvent("wa_click", { source: "cta_final" });
-  };
   const handleMapsClick = () => {
     trackZlEvent("maps_click", { source: "cta_final" });
   };

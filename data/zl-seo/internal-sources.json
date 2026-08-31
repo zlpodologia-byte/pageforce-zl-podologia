@@ -1,0 +1,74 @@
+[
+  {
+    "id": "home-podologia-clinica",
+    "canonicalUrl": "https://www.zlpodologia.com.br/",
+    "label": "ZL Podologia clínica em Fortaleza",
+    "evidencePath": "app/lab/zl-podologia/page.tsx"
+  },
+  {
+    "id": "service-unha-encravada",
+    "canonicalUrl": "https://www.zlpodologia.com.br/unha-encravada-fortaleza",
+    "label": "Unha encravada em Fortaleza",
+    "evidencePath": "components/zl-podologia/zlIngrownServiceContent.ts"
+  },
+  {
+    "id": "service-onicomicose",
+    "canonicalUrl": "https://www.zlpodologia.com.br/onicomicose-fortaleza",
+    "label": "Alterações compatíveis com fungos nas unhas",
+    "evidencePath": "components/zl-podologia/zlFungusServiceContent.ts"
+  },
+  {
+    "id": "service-ortonixia",
+    "canonicalUrl": "https://www.zlpodologia.com.br/ortonixia-fortaleza",
+    "label": "Órtese para unhas em Fortaleza",
+    "evidencePath": "components/zl-podologia/zlServiceClusterPages.ts"
+  },
+  {
+    "id": "service-podoprofilaxia",
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "label": "Podoprofilaxia em Fortaleza",
+    "evidencePath": "components/zl-podologia/zlServiceClusterPages.ts"
+  },
+  {
+    "id": "service-pe-diabetico",
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "label": "Cuidado para pés de pessoas com diabetes",
+    "evidencePath": "components/zl-podologia/zlServiceClusterPages.ts"
+  },
+  {
+    "id": "location-aldeota",
+    "canonicalUrl": "https://www.zlpodologia.com.br/podologia-aldeota",
+    "label": "Atendimento para pacientes da Aldeota na Parquelândia",
+    "evidencePath": "components/zl-podologia/zlNeighborhoodPages.ts"
+  },
+  {
+    "id": "location-centro-fortaleza",
+    "canonicalUrl": "https://www.zlpodologia.com.br/podologia-centro-fortaleza",
+    "label": "Atendimento para pacientes do Centro na Parquelândia",
+    "evidencePath": "components/zl-podologia/zlNeighborhoodPages.ts"
+  },
+  {
+    "id": "location-cidade-dos-funcionarios",
+    "canonicalUrl": "https://www.zlpodologia.com.br/podologia-cidade-dos-funcionarios",
+    "label": "Atendimento para pacientes da Cidade dos Funcionários na Parquelândia",
+    "evidencePath": "components/zl-podologia/zlNeighborhoodPages.ts"
+  },
+  {
+    "id": "location-maraponga",
+    "canonicalUrl": "https://www.zlpodologia.com.br/podologia-maraponga",
+    "label": "Atendimento para pacientes da Maraponga na Parquelândia",
+    "evidencePath": "components/zl-podologia/zlNeighborhoodPages.ts"
+  },
+  {
+    "id": "location-messejana",
+    "canonicalUrl": "https://www.zlpodologia.com.br/podologia-messejana",
+    "label": "Atendimento para pacientes de Messejana na Parquelândia",
+    "evidencePath": "components/zl-podologia/zlNeighborhoodPages.ts"
+  },
+  {
+    "id": "policy-images",
+    "canonicalUrl": "https://www.zlpodologia.com.br/politica-de-imagens",
+    "label": "Política de uso de imagens",
+    "evidencePath": "app/lab/zl-podologia/politica-de-imagens/page.tsx"
+  }
+]

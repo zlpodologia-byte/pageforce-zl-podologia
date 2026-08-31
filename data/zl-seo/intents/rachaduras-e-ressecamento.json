@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "rachaduras-e-ressecamento-001",
+    "question": "O que é importante saber sobre pele seca no calcanhar?",
+    "searchIntent": "Compreender o significado e os limites de pele seca no calcanhar.",
+    "shortAnswer": "Pele seca no calcanhar pode melhorar com higiene suave, secagem sem atrito e hidratação apropriada da pele. Evite lâmina e procure avaliação se abrir, sangrar ou doer.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "pele",
+      "seca"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-002",
+    "question": "Quando é indicado buscar avaliação por fissura superficial no pé?",
+    "searchIntent": "Saber quando fissura superficial no pé justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando fissura superficial no pé persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "fissura",
+      "superficial"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-003",
+    "question": "Como reduzir riscos relacionados a ressecamento depois do banho?",
+    "searchIntent": "Prevenir agravamento ou recorrência de ressecamento depois do banho.",
+    "shortAnswer": "Para reduzir riscos ligados a ressecamento depois do banho, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "depois",
+      "banho"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-004",
+    "question": "Quais sinais devem ser observados em casos de ardor em rachadura do calcanhar?",
+    "searchIntent": "Reconhecer sinais relevantes associados a ardor em rachadura do calcanhar.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de ardor em rachadura do calcanhar.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "ardor",
+      "rachadura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-005",
+    "question": "O que deve ser evitado quando existe remoção de pele seca com lâmina?",
+    "searchIntent": "Evitar condutas inseguras diante de remoção de pele seca com lâmina.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de remoção de pele seca com lâmina.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "remocao",
+      "pele",
+      "seca",
+      "lamina"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-006",
+    "question": "Como o calçado pode interferir em chinelo aberto e ressecamento do calcanhar?",
+    "searchIntent": "Entender a relação entre calçado e chinelo aberto e ressecamento do calcanhar.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar chinelo aberto e ressecamento do calcanhar; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "chinelo",
+      "aberto"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-007",
+    "question": "O que pode manter rachadura que volta no mesmo ponto?",
+    "searchIntent": "Entender por que rachadura que volta no mesmo ponto pode reaparecer.",
+    "shortAnswer": "Rachadura que volta no mesmo ponto pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "rachadura",
+      "que",
+      "volta",
+      "mesmo",
+      "ponto"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-008",
+    "question": "Como se preparar para falar com um profissional sobre registro da evolução de uma fissura?",
+    "searchIntent": "Preparar informações úteis sobre registro da evolução de uma fissura para uma avaliação.",
+    "shortAnswer": "Para falar sobre registro da evolução de uma fissura, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "registro",
+      "evolucao",
+      "fissura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-009",
+    "question": "Que cuidados posteriores ajudam quando há hidratação orientada após podoprofilaxia?",
+    "searchIntent": "Compreender cuidados posteriores ligados a hidratação orientada após podoprofilaxia.",
+    "shortAnswer": "Depois de receber orientação sobre hidratação orientada após podoprofilaxia, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "hidratacao",
+      "orientada",
+      "apos",
+      "podoprofilaxia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-010",
+    "question": "Onde encontrar informação confiável sobre fontes seguras sobre pele ressecada dos pés?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fontes seguras sobre pele ressecada dos pés.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para fontes seguras sobre pele ressecada dos pés; conteúdo educativo não substitui avaliação profissional.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "fontes",
+      "seguras",
+      "pele",
+      "ressecada",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-011",
+    "question": "Como entender descamação fina na planta do pé?",
+    "searchIntent": "Compreender o significado e os limites de descamação fina na planta do pé.",
+    "shortAnswer": "Descamação fina pode ocorrer por ressecamento, irritação ou outras causas. Observe coceira, distribuição e umidade; o aspecto isolado não confirma micose.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "descamacao",
+      "fina",
+      "planta"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-012",
+    "question": "Em que situação vale avaliar rachadura profunda e dolorosa?",
+    "searchIntent": "Saber quando rachadura profunda e dolorosa justifica avaliação profissional.",
+    "shortAnswer": "Rachadura profunda e dolorosa precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "rachadura",
+      "profunda",
+      "dolorosa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-013",
+    "question": "Que cuidado ajuda a evitar piora de pele esbranquiçada entre os dedos?",
+    "searchIntent": "Prevenir agravamento ou recorrência de pele esbranquiçada entre os dedos.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de pele esbranquiçada entre os dedos; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "pele",
+      "esbranquicada",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-014",
+    "question": "O que acompanhar quando aparece sangramento em fissura do calcanhar?",
+    "searchIntent": "Reconhecer sinais relevantes associados a sangramento em fissura do calcanhar.",
+    "shortAnswer": "Ao acompanhar sangramento em fissura do calcanhar, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "sangramento",
+      "fissura"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-015",
+    "question": "Por que uso de produto muito ácido na pele exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de produto muito ácido na pele.",
+    "shortAnswer": "Soluções caseiras em uso de produto muito ácido na pele podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "uso",
+      "produto",
+      "muito",
+      "acido",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam calçado sem suporte no calcanhar?",
+    "searchIntent": "Entender a relação entre calçado e calçado sem suporte no calcanhar.",
+    "shortAnswer": "Em calçado sem suporte no calcanhar, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "calcado",
+      "suporte"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-017",
+    "question": "Como investigar a repetição de ressecamento associado a atrito constante?",
+    "searchIntent": "Entender por que ressecamento associado a atrito constante pode reaparecer.",
+    "shortAnswer": "Ressecamento associado a atrito constante reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "associado",
+      "atrito",
+      "constante"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-018",
+    "question": "Que informações levar para avaliar tempo de aparecimento das rachaduras?",
+    "searchIntent": "Preparar informações úteis sobre tempo de aparecimento das rachaduras para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de tempo de aparecimento das rachaduras o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "tempo",
+      "aparecimento",
+      "rachaduras"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-019",
+    "question": "O que revisar durante proteção da fissura depois do atendimento?",
+    "searchIntent": "Compreender cuidados posteriores ligados a proteção da fissura depois do atendimento.",
+    "shortAnswer": "No cuidado posterior de proteção da fissura depois do atendimento, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "protecao",
+      "fissura",
+      "depois",
+      "atendimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-020",
+    "question": "Onde consultar informação específica sobre diferença entre ressecamento e micose de pele?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre diferença entre ressecamento e micose de pele.",
+    "shortAnswer": "Para entender diferença entre ressecamento e micose de pele sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "diferenca",
+      "micose",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-021",
+    "question": "Por que vale observar rachaduras em pessoas com diabetes?",
+    "searchIntent": "Compreender o significado e os limites de rachaduras em pessoas com diabetes.",
+    "shortAnswer": "Em pessoas com diabetes, rachadura pode virar porta de entrada para infecção e passar despercebida com baixa sensibilidade. Pele aberta exige avaliação de saúde.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "rachaduras",
+      "pessoas",
+      "diabetes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-022",
+    "question": "Quais mudanças em vermelhidão ao redor de fissura justificam procurar ajuda?",
+    "searchIntent": "Saber quando vermelhidão ao redor de fissura justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de vermelhidão ao redor de fissura mais importante.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "vermelhidao",
+      "redor",
+      "fissura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-023",
+    "question": "O que fazer com segurança diante de coceira junto com descamação?",
+    "searchIntent": "Prevenir agravamento ou recorrência de coceira junto com descamação.",
+    "shortAnswer": "A conduta segura para coceira junto com descamação é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "coceira",
+      "junto",
+      "descamacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-024",
+    "question": "Que detalhes de calor e inchaço perto da rachadura ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a calor e inchaço perto da rachadura.",
+    "shortAnswer": "Para avaliar calor e inchaço perto da rachadura, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "calor",
+      "inchaco",
+      "perto",
+      "rachadura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-025",
+    "question": "Que atitude pode agravar puxar peles soltas do calcanhar?",
+    "searchIntent": "Evitar condutas inseguras diante de puxar peles soltas do calcanhar.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar puxar peles soltas do calcanhar e criar uma porta de entrada para infecção.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "puxar",
+      "peles",
+      "soltas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-026",
+    "question": "O ajuste do sapato pode piorar sandália e exposição contínua do calcanhar?",
+    "searchIntent": "Entender a relação entre calçado e sandália e exposição contínua do calcanhar.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para sandália e exposição contínua do calcanhar e precisa ser revisto.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "sandalia",
+      "exposicao",
+      "continua"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-027",
+    "question": "Como prevenir a recorrência de fissuras recorrentes no período seco?",
+    "searchIntent": "Entender por que fissuras recorrentes no período seco pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de fissuras recorrentes no período seco exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "fissuras",
+      "recorrentes",
+      "periodo",
+      "seco"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-028",
+    "question": "Uma foto ajuda na triagem de informações sobre cremes já utilizados?",
+    "searchIntent": "Preparar informações úteis sobre informações sobre cremes já utilizados para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de informações sobre cremes já utilizados e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "informacoes",
+      "cremes",
+      "utilizados"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-029",
+    "question": "O que observar no retorno relacionado a rotina de higiene após cuidado da pele?",
+    "searchIntent": "Compreender cuidados posteriores ligados a rotina de higiene após cuidado da pele.",
+    "shortAnswer": "No retorno relacionado a rotina de higiene após cuidado da pele, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "rotina",
+      "higiene",
+      "apos",
+      "cuidado",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-030",
+    "question": "Que página é mais útil para saber sobre atendimento para rachaduras em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento para rachaduras em Fortaleza.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a atendimento para rachaduras em Fortaleza; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "atendimento",
+      "rachaduras",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-031",
+    "question": "Qual é a orientação básica diante de pele seca sem dor?",
+    "searchIntent": "Compreender o significado e os limites de pele seca sem dor.",
+    "shortAnswer": "Pele seca sem dor pede cuidado suave e acompanhamento, não remoção agressiva. Hidrate calcanhar e sola, evitando excesso de creme entre os dedos.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "pele",
+      "seca",
+      "dor"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-032",
+    "question": "Quando não é prudente esperar a melhora de secreção em fissura do pé?",
+    "searchIntent": "Saber quando secreção em fissura do pé justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se secreção em fissura do pé estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "secrecao",
+      "fissura"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-033",
+    "question": "Como prevenir complicações associadas a mudança de cor na pele rachada?",
+    "searchIntent": "Prevenir agravamento ou recorrência de mudança de cor na pele rachada.",
+    "shortAnswer": "Prevenir complicações de mudança de cor na pele rachada envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "mudanca",
+      "cor",
+      "pele",
+      "rachada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-034",
+    "question": "Como registrar a evolução de dor ao apoiar o calcanhar?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor ao apoiar o calcanhar.",
+    "shortAnswer": "Registre dor ao apoiar o calcanhar com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "dor",
+      "apoiar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-035",
+    "question": "O que não fazer diante de esfoliação frequente da sola?",
+    "searchIntent": "Evitar condutas inseguras diante de esfoliação frequente da sola.",
+    "shortAnswer": "Não manipule esfoliação frequente da sola com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "esfoliacao",
+      "frequente",
+      "sola"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-036",
+    "question": "Como escolher calçado quando há meias e conservação da hidratação?",
+    "searchIntent": "Entender a relação entre calçado e meias e conservação da hidratação.",
+    "shortAnswer": "Para conviver com meias e conservação da hidratação, escolha calçado estável, no tamanho correto e sem costuras ou pontos rígidos sobre a região sensível.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "meias",
+      "conservacao",
+      "hidratacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-037",
+    "question": "O que investigar quando prevenção após fechamento da fissura volta?",
+    "searchIntent": "Entender por que prevenção após fechamento da fissura pode reaparecer.",
+    "shortAnswer": "Quando prevenção após fechamento da fissura volta, registre o intervalo, o local exato e mudanças de calçado ou atividade para ajudar a investigar o padrão.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "prevencao",
+      "apos",
+      "fechamento",
+      "fissura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-038",
+    "question": "O que relatar antes de uma avaliação de foto para triagem de rachadura?",
+    "searchIntent": "Preparar informações úteis sobre foto para triagem de rachadura para uma avaliação.",
+    "shortAnswer": "Antes de avaliar foto para triagem de rachadura, relate dor, duração, mudanças de cor, secreção, impacto ao caminhar e tratamentos já tentados.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "foto",
+      "triagem",
+      "rachadura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-039",
+    "question": "Como seguir com segurança o cuidado de cuidados ao molhar uma fissura protegida?",
+    "searchIntent": "Compreender cuidados posteriores ligados a cuidados ao molhar uma fissura protegida.",
+    "shortAnswer": "Siga o cuidado de cuidados ao molhar uma fissura protegida pelo período orientado e peça reavaliação se houver piora, sangramento, calor ou dificuldade para caminhar.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "cuidados",
+      "molhar",
+      "fissura",
+      "protegida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "rachaduras-e-ressecamento-040",
+    "question": "Como pesquisar podoprofilaxia para ressecamento na Parquelândia com fontes seguras?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre podoprofilaxia para ressecamento na Parquelândia.",
+    "shortAnswer": "Pesquise podoprofilaxia para ressecamento na Parquelândia em fontes oficiais, confira a data e desconfie de promessas de cura, diagnóstico por foto ou solução universal.",
+    "category": "rachaduras-e-ressecamento",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "rachaduras nos pés",
+      "ressecamento",
+      "calcanhar",
+      "podoprofilaxia",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ms-pe-diabetico-manual",
+    "organization": "Ministério da Saúde",
+    "title": "Manual do pé diabético: estratégias para o cuidado da pessoa com doença crônica",
+    "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_pe_diabetico_estrategias_pessoa_doenca_cronica.pdf",
+    "language": "pt-BR",
+    "topics": ["diabetes", "prevenção", "sinais de alerta"]
+  },
+  {
+    "id": "bvsms-pe-diabetico",
+    "organization": "Biblioteca Virtual em Saúde do Ministério da Saúde",
+    "title": "Pé diabético",
+    "url": "https://bvsms.saude.gov.br/pe-diabetico-3/",
+    "language": "pt-BR",
+    "topics": ["diabetes", "autocuidado", "calos"]
+  },
+  {
+    "id": "niddk-diabetes-foot-problems",
+    "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "title": "Diabetes & Foot Problems",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/foot-problems",
+    "language": "en",
+    "topics": ["diabetes", "inspeção diária", "feridas", "sensibilidade"]
+  },
+  {
+    "id": "aad-nail-fungus-overview",
+    "organization": "American Academy of Dermatology",
+    "title": "Nail Fungus: FAQs",
+    "url": "https://www.aad.org/public/diseases/a-z/nail-fungus-overview",
+    "language": "en",
+    "topics": ["micose", "unhas", "prevenção"]
+  },
+  {
+    "id": "aad-nail-fungus-treatment",
+    "organization": "American Academy of Dermatology",
+    "title": "Nail fungus: Diagnosis and treatment",
+    "url": "https://www.aad.org/public/diseases/a-z/nail-fungus-treatment",
+    "language": "en",
+    "topics": ["micose", "diagnóstico diferencial", "tratamento médico"]
+  },
+  {
+    "id": "aad-nail-changes",
+    "organization": "American Academy of Dermatology",
+    "title": "12 nail changes a dermatologist should examine",
+    "url": "https://www.aad.org/public/everyday-care/nail-care-secrets/basics/nail-changes-dermatologist-should-examine",
+    "language": "en",
+    "topics": ["alterações ungueais", "sinais de alerta"]
+  },
+  {
+    "id": "nhs-athletes-foot",
+    "organization": "National Health Service",
+    "title": "Athlete's foot",
+    "url": "https://www.nhs.uk/conditions/athletes-foot/",
+    "language": "en",
+    "topics": ["pé de atleta", "micose de pele", "prevenção"]
+  },
+  {
+    "id": "nhs-corns-calluses",
+    "organization": "National Health Service",
+    "title": "Corns and calluses",
+    "url": "https://www.nhs.uk/conditions/corns-and-calluses/",
+    "language": "en",
+    "topics": ["calos", "calosidades", "pressão", "calçados"]
+  },
+  {
+    "id": "nhs-ingrown-toenail",
+    "organization": "National Health Service",
+    "title": "Ingrown toenail",
+    "url": "https://www.nhs.uk/conditions/ingrown-toenail/",
+    "language": "en",
+    "topics": ["unha encravada", "prevenção", "sinais de alerta"]
+  },
+  {
+    "id": "nhs-children-foot-problems",
+    "organization": "National Health Service",
+    "title": "Leg and foot problems in children",
+    "url": "https://www.nhs.uk/baby/health/leg-and-foot-problems-in-children/",
+    "language": "en",
+    "topics": ["crianças", "pés", "unhas"]
+  },
+  {
+    "id": "aap-child-nail-care",
+    "organization": "American Academy of Pediatrics",
+    "title": "Nail Care: Fingers and Toes",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/Nail-Care-Fingers-and-Toes.aspx",
+    "language": "en",
+    "topics": ["crianças", "corte de unhas", "prevenção"]
+  },
+  {
+    "id": "nia-skin-care-aging",
+    "organization": "National Institute on Aging",
+    "title": "Skin Care and Aging",
+    "url": "https://www.nia.nih.gov/health/skin-care/skin-care-and-aging",
+    "language": "en",
+    "topics": ["idosos", "pele", "ressecamento"]
+  },
+  {
+    "id": "nia-late-stage-foot-care",
+    "organization": "National Institute on Aging",
+    "title": "Care in the Last Stages of Alzheimer's Disease",
+    "url": "https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease",
+    "language": "en",
+    "topics": ["idosos", "cuidadores", "inspeção dos pés"]
+  }
+]

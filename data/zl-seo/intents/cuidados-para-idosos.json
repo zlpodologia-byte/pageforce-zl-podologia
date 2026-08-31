@@ -1,0 +1,950 @@
+[
+  {
+    "id": "cuidados-para-idosos-001",
+    "question": "O que é importante saber sobre dificuldade do idoso para alcançar os pés?",
+    "searchIntent": "Compreender o significado e os limites de dificuldade do idoso para alcançar os pés.",
+    "shortAnswer": "Dificuldade para alcançar os pés aumenta a chance de feridas, unhas e áreas de pressão passarem despercebidas. Boa iluminação, espelho, cuidador ou ajuda profissional tornam o cuidado mais seguro.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "dificuldade",
+      "idoso",
+      "alcancar",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-002",
+    "question": "Quando é indicado buscar avaliação por unhas espessas na terceira idade?",
+    "searchIntent": "Saber quando unhas espessas na terceira idade justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando unhas espessas na terceira idade persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "unhas",
+      "espessas",
+      "terceira",
+      "idade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-003",
+    "question": "Como reduzir riscos relacionados a pele fina e sensível em idosos?",
+    "searchIntent": "Prevenir agravamento ou recorrência de pele fina e sensível em idosos.",
+    "shortAnswer": "Para reduzir riscos ligados a pele fina e sensível em idosos, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "pele",
+      "fina",
+      "sensivel",
+      "idosos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-004",
+    "question": "Quais sinais devem ser observados em casos de dor ao caminhar em pessoa idosa?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor ao caminhar em pessoa idosa.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de dor ao caminhar em pessoa idosa.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "dor",
+      "caminhar",
+      "pessoa",
+      "idosa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-005",
+    "question": "O que deve ser evitado quando existe corte de unhas com pouca visão?",
+    "searchIntent": "Evitar condutas inseguras diante de corte de unhas com pouca visão.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de corte de unhas com pouca visão.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "corte",
+      "unhas",
+      "pouca",
+      "visao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-006",
+    "question": "Como o calçado pode interferir em calçado estável para idosos?",
+    "searchIntent": "Entender a relação entre calçado e calçado estável para idosos.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar calçado estável para idosos; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "calcado",
+      "estavel",
+      "idosos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-007",
+    "question": "O que pode manter calos recorrentes na velhice?",
+    "searchIntent": "Entender por que calos recorrentes na velhice pode reaparecer.",
+    "shortAnswer": "Calos recorrentes na velhice pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "calos",
+      "recorrentes",
+      "velhice"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-008",
+    "question": "Como se preparar para falar com um profissional sobre apoio do cuidador na observação dos pés?",
+    "searchIntent": "Preparar informações úteis sobre apoio do cuidador na observação dos pés para uma avaliação.",
+    "shortAnswer": "Para falar sobre apoio do cuidador na observação dos pés, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "apoio",
+      "cuidador",
+      "observacao",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-009",
+    "question": "Que cuidados posteriores ajudam quando há orientações após podoprofilaxia em idoso?",
+    "searchIntent": "Compreender cuidados posteriores ligados a orientações após podoprofilaxia em idoso.",
+    "shortAnswer": "Depois de receber orientação sobre orientações após podoprofilaxia em idoso, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "orientacoes",
+      "apos",
+      "podoprofilaxia",
+      "idoso"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-010",
+    "question": "Onde encontrar informação confiável sobre informação oficial sobre pele e envelhecimento?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre informação oficial sobre pele e envelhecimento.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para informação oficial sobre pele e envelhecimento; conteúdo educativo não substitui avaliação profissional.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "informacao",
+      "oficial",
+      "pele",
+      "envelhecimento"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "cuidados-para-idosos-011",
+    "question": "Como entender ressecamento dos pés na terceira idade?",
+    "searchIntent": "Compreender o significado e os limites de ressecamento dos pés na terceira idade.",
+    "shortAnswer": "A pele tende a ficar mais seca com o envelhecimento. Use higiene suave, seque bem e hidrate sola e calcanhar, sem deixar creme acumulado entre os dedos.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "ressecamento",
+      "pes",
+      "terceira",
+      "idade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-012",
+    "question": "Em que situação vale avaliar ferida em pé de pessoa idosa?",
+    "searchIntent": "Saber quando ferida em pé de pessoa idosa justifica avaliação profissional.",
+    "shortAnswer": "Ferida em pé de pessoa idosa precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "ferida",
+      "pessoa",
+      "idosa"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-013",
+    "question": "Que cuidado ajuda a evitar piora de inchaço persistente nos pés do idoso?",
+    "searchIntent": "Prevenir agravamento ou recorrência de inchaço persistente nos pés do idoso.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de inchaço persistente nos pés do idoso; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "inchaco",
+      "persistente",
+      "pes",
+      "idoso"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-014",
+    "question": "O que acompanhar quando aparece mudança de cor na pele do pé?",
+    "searchIntent": "Reconhecer sinais relevantes associados a mudança de cor na pele do pé.",
+    "shortAnswer": "Ao acompanhar mudança de cor na pele do pé, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "mudanca",
+      "cor",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-015",
+    "question": "Por que uso de lâmina por quem tem pouca destreza exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de lâmina por quem tem pouca destreza.",
+    "shortAnswer": "Soluções caseiras em uso de lâmina por quem tem pouca destreza podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "uso",
+      "lamina",
+      "quem",
+      "tem",
+      "pouca",
+      "destreza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam chinelo frouxo e risco de tropeço?",
+    "searchIntent": "Entender a relação entre calçado e chinelo frouxo e risco de tropeço.",
+    "shortAnswer": "Em chinelo frouxo e risco de tropeço, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "chinelo",
+      "frouxo",
+      "risco",
+      "tropeco"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-017",
+    "question": "Como investigar a repetição de ponto de pressão que sempre retorna?",
+    "searchIntent": "Entender por que ponto de pressão que sempre retorna pode reaparecer.",
+    "shortAnswer": "Ponto de pressão que sempre retorna reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "ponto",
+      "pressao",
+      "que",
+      "sempre",
+      "retorna"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-018",
+    "question": "Que informações levar para avaliar lista de doenças e medicamentos do idoso?",
+    "searchIntent": "Preparar informações úteis sobre lista de doenças e medicamentos do idoso para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de lista de doenças e medicamentos do idoso o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "lista",
+      "doencas",
+      "medicamentos",
+      "idoso"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-019",
+    "question": "O que revisar durante retorno quando existe sensibilidade reduzida?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno quando existe sensibilidade reduzida.",
+    "shortAnswer": "No cuidado posterior de retorno quando existe sensibilidade reduzida, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "retorno",
+      "quando",
+      "existe",
+      "sensibilidade",
+      "reduzida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-020",
+    "question": "Onde consultar informação específica sobre podoprofilaxia para idosos em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre podoprofilaxia para idosos em Fortaleza.",
+    "shortAnswer": "Para entender podoprofilaxia para idosos em Fortaleza sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "podoprofilaxia",
+      "idosos",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "cuidados-para-idosos-021",
+    "question": "Por que vale observar higiene dos pés com mobilidade limitada?",
+    "searchIntent": "Compreender o significado e os limites de higiene dos pés com mobilidade limitada.",
+    "shortAnswer": "Quando a mobilidade é limitada, a higiene pode precisar de apoio para alcançar e secar toda a área sem quedas. Observe também feridas e marcas do calçado.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "higiene",
+      "pes",
+      "mobilidade",
+      "limitada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-022",
+    "question": "Quais mudanças em secreção perto da unha do idoso justificam procurar ajuda?",
+    "searchIntent": "Saber quando secreção perto da unha do idoso justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de secreção perto da unha do idoso mais importante.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "secrecao",
+      "perto",
+      "unha",
+      "idoso"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-023",
+    "question": "O que fazer com segurança diante de calo doloroso que limita a caminhada?",
+    "searchIntent": "Prevenir agravamento ou recorrência de calo doloroso que limita a caminhada.",
+    "shortAnswer": "A conduta segura para calo doloroso que limita a caminhada é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "calo",
+      "doloroso",
+      "que",
+      "limita",
+      "caminhada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-024",
+    "question": "Que detalhes de unha encravada em pessoa idosa ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a unha encravada em pessoa idosa.",
+    "shortAnswer": "Para avaliar unha encravada em pessoa idosa, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "unha",
+      "encravada",
+      "pessoa",
+      "idosa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-025",
+    "question": "Que atitude pode agravar produto químico para calos em pele madura?",
+    "searchIntent": "Evitar condutas inseguras diante de produto químico para calos em pele madura.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar produto químico para calos em pele madura e criar uma porta de entrada para infecção.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "produto",
+      "quimico",
+      "calos",
+      "pele",
+      "madura"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-026",
+    "question": "O ajuste do sapato pode piorar meias sem elástico apertado?",
+    "searchIntent": "Entender a relação entre calçado e meias sem elástico apertado.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para meias sem elástico apertado e precisa ser revisto.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "meias",
+      "elastico",
+      "apertado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-027",
+    "question": "Como prevenir a recorrência de alteração ungueal de longa duração?",
+    "searchIntent": "Entender por que alteração ungueal de longa duração pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de alteração ungueal de longa duração exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "alteracao",
+      "ungueal",
+      "longa",
+      "duracao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-028",
+    "question": "Uma foto ajuda na triagem de foto feita pelo cuidador antes da triagem?",
+    "searchIntent": "Preparar informações úteis sobre foto feita pelo cuidador antes da triagem para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de foto feita pelo cuidador antes da triagem e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "foto",
+      "feita",
+      "pelo",
+      "cuidador",
+      "antes",
+      "triagem"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-029",
+    "question": "O que observar no retorno relacionado a hidratação sem deixar os espaços entre dedos úmidos?",
+    "searchIntent": "Compreender cuidados posteriores ligados a hidratação sem deixar os espaços entre dedos úmidos.",
+    "shortAnswer": "No retorno relacionado a hidratação sem deixar os espaços entre dedos úmidos, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "hidratacao",
+      "deixar",
+      "espacos",
+      "dedos",
+      "umidos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-030",
+    "question": "Que página é mais útil para saber sobre atendimento de idosos na Parquelândia?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento de idosos na Parquelândia.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a atendimento de idosos na Parquelândia; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "atendimento",
+      "idosos",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "cuidados-para-idosos-031",
+    "question": "Qual é a orientação básica diante de pés frios com frequência na terceira idade?",
+    "searchIntent": "Compreender o significado e os limites de pés frios com frequência na terceira idade.",
+    "shortAnswer": "Pés frios com frequência não devem ser aquecidos com bolsa quente, sobretudo se houver pouca sensibilidade. Mudança de cor, dor ou um pé mais frio pede avaliação de saúde.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "pes",
+      "frios",
+      "frequencia",
+      "terceira",
+      "idade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-032",
+    "question": "Quando não é prudente esperar a melhora de vermelhidão que aumenta ao longo do dia?",
+    "searchIntent": "Saber quando vermelhidão que aumenta ao longo do dia justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se vermelhidão que aumenta ao longo do dia estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "vermelhidao",
+      "que",
+      "aumenta",
+      "longo",
+      "dia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-033",
+    "question": "Como prevenir complicações associadas a dificuldade para calçar por inchaço?",
+    "searchIntent": "Prevenir agravamento ou recorrência de dificuldade para calçar por inchaço.",
+    "shortAnswer": "Prevenir complicações de dificuldade para calçar por inchaço envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "dificuldade",
+      "calcar",
+      "inchaco"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "cuidados-para-idosos-034",
+    "question": "Como registrar a evolução de cuidado compartilhado com a equipe de saúde?",
+    "searchIntent": "Reconhecer sinais relevantes associados a cuidado compartilhado com a equipe de saúde.",
+    "shortAnswer": "Registre cuidado compartilhado com a equipe de saúde com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "cuidado",
+      "compartilhado",
+      "equipe",
+      "saude"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "cuidados-para-idosos-035",
+    "question": "O que não fazer diante de prevenção de lesões por pressão no calcanhar?",
+    "searchIntent": "Evitar condutas inseguras diante de prevenção de lesões por pressão no calcanhar.",
+    "shortAnswer": "Não manipule prevenção de lesões por pressão no calcanhar com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "cuidados-para-idosos",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "pés de idosos",
+      "cuidados preventivos",
+      "prevencao",
+      "lesoes",
+      "pressao",
+      "calcanhar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nia-skin-care-aging",
+      "nia-late-stage-foot-care"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  }
+]

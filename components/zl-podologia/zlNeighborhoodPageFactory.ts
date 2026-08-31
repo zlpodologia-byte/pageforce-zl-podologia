@@ -4,7 +4,7 @@ import type {
 } from "@/components/zl-podologia/zlSeoLandingTypes";
 
 const LOCATION =
-  "ZL Podologia fica na Parquelândia, na Av. Bezerra de Menezes, 2203, Sala 5, Galeria José Bernardo; não temos unidade nesse bairro.";
+  "O atendimento ocorre na clínica da Parquelândia. ZL Podologia fica na Parquelândia, na Av. Bezerra de Menezes, 2203, Sala 5, Galeria José Bernardo; não temos unidade nesse bairro.";
 const HERO_IMAGE =
   "/zl-podologia/social/edited-pro/ambiente/sala-wide-institucional-pro.jpg";
 const PROOF_IMAGE =
@@ -64,6 +64,23 @@ export function makeNeighborhoodPage(
       image: PROOF_IMAGE,
       imageAlt: "Fachada da ZL Podologia em Fortaleza",
     },
+    relatedLinks: [
+      {
+        href: "/",
+        label: "ZL Podologia",
+        description: "Confirme endereço, horários e canal oficial de agendamento.",
+      },
+      {
+        href: "/unha-encravada-fortaleza",
+        label: "Unha encravada",
+        description: "Veja sinais, cuidados seguros e quando procurar avaliação.",
+      },
+      {
+        href: "/podoprofilaxia-fortaleza",
+        label: "Podoprofilaxia",
+        description: "Conheça o cuidado técnico de unhas, pele e calosidades.",
+      },
+    ],
     schema: {
       serviceName: input.h1,
       serviceType: "Podologia clínica",

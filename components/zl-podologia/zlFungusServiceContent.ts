@@ -70,3 +70,16 @@ export const zlFungusFaqs = [
       "Na maioria dos casos, sim. Onicomicose não é tratamento de sessão única e exige cuidado em casa, retorno e acompanhamento.",
   },
 ] as const;
+
+export const zlFungusRelatedLinks = [
+  {
+    href: "/podoprofilaxia-fortaleza",
+    label: "Podoprofilaxia",
+    description: "Veja cuidados técnicos para unhas, pele e higiene preventiva.",
+  },
+  {
+    href: "/pe-diabetico-fortaleza",
+    label: "Cuidados para pés com diabetes",
+    description: "Consulte alertas importantes quando há diabetes ou baixa sensibilidade.",
+  },
+] as const;

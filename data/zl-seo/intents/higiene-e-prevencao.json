@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "higiene-e-prevencao-001",
+    "question": "O que é importante saber sobre lavagem diária dos pés?",
+    "searchIntent": "Compreender o significado e os limites de lavagem diária dos pés.",
+    "shortAnswer": "Lave os pés diariamente com água em temperatura confortável e produto suave, enxágue e seque entre os dedos. Fricção e produto agressivo podem irritar a pele.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "lavagem",
+      "diaria",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-002",
+    "question": "Quando é indicado buscar avaliação por secagem entre os dedos?",
+    "searchIntent": "Saber quando secagem entre os dedos justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando secagem entre os dedos persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "secagem",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-003",
+    "question": "Como reduzir riscos relacionados a troca diária de meias?",
+    "searchIntent": "Prevenir agravamento ou recorrência de troca diária de meias.",
+    "shortAnswer": "Para reduzir riscos ligados a troca diária de meias, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "troca",
+      "diaria",
+      "meias"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-004",
+    "question": "Como higienizar cortadores e alicates de uso pessoal?",
+    "searchIntent": "Reconhecer sinais relevantes associados a higiene de cortadores de unha.",
+    "shortAnswer": "Remova resíduos, siga as instruções de limpeza do fabricante, mantenha o instrumento seco e não compartilhe. Limpeza doméstica não transforma material pessoal em equipamento profissional esterilizado.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "higiene",
+      "cortadores",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-005",
+    "question": "O que deve ser evitado quando existe compartilhamento de alicate?",
+    "searchIntent": "Evitar condutas inseguras diante de compartilhamento de alicate.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de compartilhamento de alicate.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "compartilhamento",
+      "alicate"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-006",
+    "question": "Como o calçado pode interferir em sapato fechado ainda úmido?",
+    "searchIntent": "Entender a relação entre calçado e sapato fechado ainda úmido.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar sapato fechado ainda úmido; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "sapato",
+      "fechado",
+      "ainda",
+      "umido"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-007",
+    "question": "O que pode manter odor que volta mesmo após higiene?",
+    "searchIntent": "Entender por que odor que volta mesmo após higiene pode reaparecer.",
+    "shortAnswer": "Odor que volta mesmo após higiene pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "odor",
+      "que",
+      "volta",
+      "mesmo",
+      "apos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-008",
+    "question": "Como se preparar para falar com um profissional sobre rotina semanal de observação dos pés?",
+    "searchIntent": "Preparar informações úteis sobre rotina semanal de observação dos pés para uma avaliação.",
+    "shortAnswer": "Para falar sobre rotina semanal de observação dos pés, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "rotina",
+      "semanal",
+      "observacao",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-009",
+    "question": "Que cuidados posteriores ajudam quando há cuidados depois de cortar as unhas?",
+    "searchIntent": "Compreender cuidados posteriores ligados a cuidados depois de cortar as unhas.",
+    "shortAnswer": "Depois de receber orientação sobre cuidados depois de cortar as unhas, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "cuidados",
+      "depois",
+      "cortar",
+      "unhas"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-010",
+    "question": "Onde encontrar informação confiável sobre fontes oficiais sobre prevenção de micose?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fontes oficiais sobre prevenção de micose.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para fontes oficiais sobre prevenção de micose; conteúdo educativo não substitui avaliação profissional.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "fontes",
+      "oficiais",
+      "prevencao",
+      "micose"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "higiene-e-prevencao-011",
+    "question": "Como entender temperatura da água no banho dos pés?",
+    "searchIntent": "Compreender o significado e os limites de temperatura da água no banho dos pés.",
+    "shortAnswer": "A água deve estar morna e confortável, nunca muito quente. Quem tem diabetes ou pouca sensibilidade precisa conferir a temperatura sem arriscar queimadura.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "temperatura",
+      "agua",
+      "banho",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-012",
+    "question": "Em que situação vale avaliar ferida encontrada durante a higiene?",
+    "searchIntent": "Saber quando ferida encontrada durante a higiene justifica avaliação profissional.",
+    "shortAnswer": "Ferida encontrada durante a higiene precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "ferida",
+      "encontrada",
+      "durante",
+      "higiene"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-013",
+    "question": "Que cuidado ajuda a evitar piora de resíduo de sabonete entre os dedos?",
+    "searchIntent": "Prevenir agravamento ou recorrência de resíduo de sabonete entre os dedos.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de resíduo de sabonete entre os dedos; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "residuo",
+      "sabonete",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-014",
+    "question": "O que acompanhar quando aparece vermelhidão após usar produto perfumado?",
+    "searchIntent": "Reconhecer sinais relevantes associados a vermelhidão após usar produto perfumado.",
+    "shortAnswer": "Ao acompanhar vermelhidão após usar produto perfumado, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "vermelhidao",
+      "apos",
+      "usar",
+      "produto",
+      "perfumado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-015",
+    "question": "Por que uso de objeto cortante para limpar cantos exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de objeto cortante para limpar cantos.",
+    "shortAnswer": "Soluções caseiras em uso de objeto cortante para limpar cantos podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "uso",
+      "objeto",
+      "cortante",
+      "limpar",
+      "cantos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam calçado ventilado em dias quentes?",
+    "searchIntent": "Entender a relação entre calçado e calçado ventilado em dias quentes.",
+    "shortAnswer": "Em calçado ventilado em dias quentes, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "calcado",
+      "ventilado",
+      "dias",
+      "quentes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-017",
+    "question": "Como investigar a repetição de repetição de micose entre familiares?",
+    "searchIntent": "Entender por que repetição de micose entre familiares pode reaparecer.",
+    "shortAnswer": "Repetição de micose entre familiares reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "repeticao",
+      "micose",
+      "familiares"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-018",
+    "question": "Que informações levar para avaliar lista de produtos usados nos pés?",
+    "searchIntent": "Preparar informações úteis sobre lista de produtos usados nos pés para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de lista de produtos usados nos pés o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "lista",
+      "produtos",
+      "usados",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-019",
+    "question": "O que revisar durante higiene após atendimento podológico?",
+    "searchIntent": "Compreender cuidados posteriores ligados a higiene após atendimento podológico.",
+    "shortAnswer": "No cuidado posterior de higiene após atendimento podológico, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "higiene",
+      "apos",
+      "atendimento",
+      "podologico"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-020",
+    "question": "Onde consultar informação específica sobre informação preventiva na página da ZL?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre informação preventiva na página da ZL.",
+    "shortAnswer": "Para entender informação preventiva na página da ZL sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "informacao",
+      "preventiva",
+      "pagina"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "higiene-e-prevencao-021",
+    "question": "Por que vale observar hidratação da sola e do calcanhar?",
+    "searchIntent": "Compreender o significado e os limites de hidratação da sola e do calcanhar.",
+    "shortAnswer": "Hidrate sola e calcanhar quando a pele estiver seca, mas evite excesso de creme entre os dedos, onde a umidade pode permanecer.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "hidratacao",
+      "sola",
+      "calcanhar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-022",
+    "question": "Quais mudanças em secreção percebida durante a secagem justificam procurar ajuda?",
+    "searchIntent": "Saber quando secreção percebida durante a secagem justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de secreção percebida durante a secagem mais importante.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "secrecao",
+      "percebida",
+      "durante",
+      "secagem"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-023",
+    "question": "O que fazer com segurança diante de mudança de cor observada ao cortar a unha?",
+    "searchIntent": "Prevenir agravamento ou recorrência de mudança de cor observada ao cortar a unha.",
+    "shortAnswer": "A conduta segura para mudança de cor observada ao cortar a unha é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "mudanca",
+      "cor",
+      "observada",
+      "cortar",
+      "unha"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-024",
+    "question": "Que detalhes de dor provocada pela limpeza do canto ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor provocada pela limpeza do canto.",
+    "shortAnswer": "Para avaliar dor provocada pela limpeza do canto, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "dor",
+      "provocada",
+      "pela",
+      "limpeza",
+      "canto"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-025",
+    "question": "Que atitude pode agravar talco aplicado em pele irritada?",
+    "searchIntent": "Evitar condutas inseguras diante de talco aplicado em pele irritada.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar talco aplicado em pele irritada e criar uma porta de entrada para infecção.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "talco",
+      "aplicado",
+      "pele",
+      "irritada"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-026",
+    "question": "O ajuste do sapato pode piorar meia apertada que marca a pele?",
+    "searchIntent": "Entender a relação entre calçado e meia apertada que marca a pele.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para meia apertada que marca a pele e precisa ser revisto.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "meia",
+      "apertada",
+      "que",
+      "marca",
+      "pele"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-027",
+    "question": "Como prevenir a recorrência de alternância de calçados no cotidiano?",
+    "searchIntent": "Entender por que alternância de calçados no cotidiano pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de alternância de calçados no cotidiano exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "alternancia",
+      "calcados",
+      "cotidiano"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-028",
+    "question": "Uma foto ajuda na triagem de foto periódica de alteração persistente?",
+    "searchIntent": "Preparar informações úteis sobre foto periódica de alteração persistente para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de foto periódica de alteração persistente e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "foto",
+      "periodica",
+      "alteracao",
+      "persistente"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-029",
+    "question": "O que observar no retorno relacionado a proteção da pele depois de pequena escoriação?",
+    "searchIntent": "Compreender cuidados posteriores ligados a proteção da pele depois de pequena escoriação.",
+    "shortAnswer": "No retorno relacionado a proteção da pele depois de pequena escoriação, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "protecao",
+      "pele",
+      "depois",
+      "pequena",
+      "escoriacao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-030",
+    "question": "Que página é mais útil para saber sobre podoprofilaxia como manutenção preventiva?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre podoprofilaxia como manutenção preventiva.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a podoprofilaxia como manutenção preventiva; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "podoprofilaxia",
+      "como",
+      "manutencao",
+      "preventiva"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "higiene-e-prevencao-031",
+    "question": "Qual é a orientação básica diante de andar descalço em banheiro coletivo?",
+    "searchIntent": "Compreender o significado e os limites de andar descalço em banheiro coletivo.",
+    "shortAnswer": "Em banheiro coletivo, use chinelo próprio, não compartilhe toalha e seque bem os pés. Andar descalço aumenta contato com superfícies úmidas e contaminadas.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "andar",
+      "descalco",
+      "banheiro",
+      "coletivo"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-032",
+    "question": "Quando não é prudente esperar a melhora de febre junto com lesão no pé?",
+    "searchIntent": "Saber quando febre junto com lesão no pé justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se febre junto com lesão no pé estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "febre",
+      "junto",
+      "lesao"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-033",
+    "question": "Como prevenir complicações associadas a bolha nova dentro do sapato?",
+    "searchIntent": "Prevenir agravamento ou recorrência de bolha nova dentro do sapato.",
+    "shortAnswer": "Prevenir complicações de bolha nova dentro do sapato envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "bolha",
+      "nova",
+      "dentro",
+      "sapato"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-034",
+    "question": "Como registrar a evolução de dificuldade para secar os próprios pés?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dificuldade para secar os próprios pés.",
+    "shortAnswer": "Registre dificuldade para secar os próprios pés com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "dificuldade",
+      "secar",
+      "proprios",
+      "pes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-035",
+    "question": "O que não fazer diante de uso excessivo de esfoliante?",
+    "searchIntent": "Evitar condutas inseguras diante de uso excessivo de esfoliante.",
+    "shortAnswer": "Não manipule uso excessivo de esfoliante com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "uso",
+      "excessivo",
+      "esfoliante"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-036",
+    "question": "Como escolher calçado quando há espaço adequado na frente do calçado?",
+    "searchIntent": "Entender a relação entre calçado e espaço adequado na frente do calçado.",
+    "shortAnswer": "Para conviver com espaço adequado na frente do calçado, escolha calçado estável, no tamanho correto e sem costuras ou pontos rígidos sobre a região sensível.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "espaco",
+      "adequado",
+      "frente",
+      "calcado"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-037",
+    "question": "O que investigar quando prevenção de pressão nos mesmos pontos volta?",
+    "searchIntent": "Entender por que prevenção de pressão nos mesmos pontos pode reaparecer.",
+    "shortAnswer": "Quando prevenção de pressão nos mesmos pontos volta, registre o intervalo, o local exato e mudanças de calçado ou atividade para ajudar a investigar o padrão.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "prevencao",
+      "pressao",
+      "mesmos",
+      "pontos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-038",
+    "question": "O que relatar antes de uma avaliação de orientações anotadas após consulta?",
+    "searchIntent": "Preparar informações úteis sobre orientações anotadas após consulta para uma avaliação.",
+    "shortAnswer": "Antes de avaliar orientações anotadas após consulta, relate dor, duração, mudanças de cor, secreção, impacto ao caminhar e tratamentos já tentados.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "orientacoes",
+      "anotadas",
+      "apos",
+      "consulta"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "higiene-e-prevencao-039",
+    "question": "Como seguir com segurança o cuidado de limpeza de palmilhas removíveis?",
+    "searchIntent": "Compreender cuidados posteriores ligados a limpeza de palmilhas removíveis.",
+    "shortAnswer": "Siga o cuidado de limpeza de palmilhas removíveis pelo período orientado e peça reavaliação se houver piora, sangramento, calor ou dificuldade para caminhar.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "limpeza",
+      "palmilhas",
+      "removiveis"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "higiene-e-prevencao-040",
+    "question": "Como pesquisar cuidados cotidianos com os pés em Fortaleza com fontes seguras?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre cuidados cotidianos com os pés em Fortaleza.",
+    "shortAnswer": "Pesquise cuidados cotidianos com os pés em Fortaleza em fontes oficiais, confira a data e desconfie de promessas de cura, diagnóstico por foto ou solução universal.",
+    "category": "higiene-e-prevencao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "higiene dos pés",
+      "prevenção",
+      "cuidados diários",
+      "cuidados",
+      "cotidianos",
+      "pes",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-athletes-foot",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]

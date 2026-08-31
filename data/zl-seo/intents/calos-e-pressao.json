@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "calos-e-pressao-001",
+    "question": "O que é importante saber sobre calo pequeno sobre o dedo?",
+    "searchIntent": "Compreender o significado e os limites de calo pequeno sobre o dedo.",
+    "shortAnswer": "Um calo pequeno costuma indicar atrito ou pressão concentrada. Não corte com lâmina; observe qual calçado ou movimento pressiona o ponto.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calo",
+      "pequeno",
+      "dedo"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-002",
+    "question": "Quando é indicado buscar avaliação por calosidade ampla na planta do pé?",
+    "searchIntent": "Saber quando calosidade ampla na planta do pé justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando calosidade ampla na planta do pé persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calosidade",
+      "ampla",
+      "planta"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-003",
+    "question": "Como reduzir riscos relacionados a pressão repetida na mesma região?",
+    "searchIntent": "Prevenir agravamento ou recorrência de pressão repetida na mesma região.",
+    "shortAnswer": "Para reduzir riscos ligados a pressão repetida na mesma região, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "pressao",
+      "repetida",
+      "mesma",
+      "regiao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-004",
+    "question": "Quais sinais devem ser observados em casos de dor ao pisar sobre pele endurecida?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor ao pisar sobre pele endurecida.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de dor ao pisar sobre pele endurecida.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "dor",
+      "pisar",
+      "pele",
+      "endurecida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-005",
+    "question": "O que deve ser evitado quando existe corte de calo com lâmina em casa?",
+    "searchIntent": "Evitar condutas inseguras diante de corte de calo com lâmina em casa.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de corte de calo com lâmina em casa.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "corte",
+      "calo",
+      "lamina",
+      "casa"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-006",
+    "question": "Como o calçado pode interferir em sapato rígido formando calos?",
+    "searchIntent": "Entender a relação entre calçado e sapato rígido formando calos.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar sapato rígido formando calos; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "sapato",
+      "rigido",
+      "formando"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-007",
+    "question": "O que pode manter calo que reaparece após remoção?",
+    "searchIntent": "Entender por que calo que reaparece após remoção pode reaparecer.",
+    "shortAnswer": "Calo que reaparece após remoção pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calo",
+      "que",
+      "reaparece",
+      "apos",
+      "remocao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-008",
+    "question": "Como se preparar para falar com um profissional sobre mapa dos pontos de pressão do pé?",
+    "searchIntent": "Preparar informações úteis sobre mapa dos pontos de pressão do pé para uma avaliação.",
+    "shortAnswer": "Para falar sobre mapa dos pontos de pressão do pé, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "mapa",
+      "pontos",
+      "pressao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-009",
+    "question": "Que cuidados posteriores ajudam quando há hidratação depois do desbaste de calosidade?",
+    "searchIntent": "Compreender cuidados posteriores ligados a hidratação depois do desbaste de calosidade.",
+    "shortAnswer": "Depois de receber orientação sobre hidratação depois do desbaste de calosidade, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "hidratacao",
+      "depois",
+      "desbaste",
+      "calosidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-010",
+    "question": "Onde encontrar informação confiável sobre informação confiável sobre calos e calosidades?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre informação confiável sobre calos e calosidades.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para informação confiável sobre calos e calosidades; conteúdo educativo não substitui avaliação profissional.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "informacao",
+      "confiavel"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "calos-e-pressao-011",
+    "question": "Como entender calo entre os dedos?",
+    "searchIntent": "Compreender o significado e os limites de calo entre os dedos.",
+    "shortAnswer": "Calo entre os dedos pode receber pressão dos dois lados e reter umidade. Mantenha a área seca e procure avaliação antes de usar ácidos ou separadores por conta própria.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calo",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-012",
+    "question": "Em que situação vale avaliar calosidade no calcanhar?",
+    "searchIntent": "Saber quando calosidade no calcanhar justifica avaliação profissional.",
+    "shortAnswer": "Calosidade no calcanhar precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calosidade",
+      "calcanhar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-013",
+    "question": "Que cuidado ajuda a evitar piora de espessamento na região do antepé?",
+    "searchIntent": "Prevenir agravamento ou recorrência de espessamento na região do antepé.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de espessamento na região do antepé; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "espessamento",
+      "regiao",
+      "antepe"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-014",
+    "question": "O que acompanhar quando aparece vermelhidão ao redor de um calo?",
+    "searchIntent": "Reconhecer sinais relevantes associados a vermelhidão ao redor de um calo.",
+    "shortAnswer": "Ao acompanhar vermelhidão ao redor de um calo, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "vermelhidao",
+      "redor",
+      "calo"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-015",
+    "question": "Por que uso de adesivo com ácido para calo exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de adesivo com ácido para calo.",
+    "shortAnswer": "Soluções caseiras em uso de adesivo com ácido para calo podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "uso",
+      "adesivo",
+      "acido",
+      "calo"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam palmilha e distribuição de pressão?",
+    "searchIntent": "Entender a relação entre calçado e palmilha e distribuição de pressão.",
+    "shortAnswer": "Em palmilha e distribuição de pressão, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "palmilha",
+      "distribuicao",
+      "pressao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-017",
+    "question": "Como investigar a repetição de calo causado por deformidade dos dedos?",
+    "searchIntent": "Entender por que calo causado por deformidade dos dedos pode reaparecer.",
+    "shortAnswer": "Calo causado por deformidade dos dedos reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calo",
+      "causado",
+      "deformidade",
+      "dedos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-018",
+    "question": "Que informações levar para avaliar fotografia da área de pressão?",
+    "searchIntent": "Preparar informações úteis sobre fotografia da área de pressão para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de fotografia da área de pressão o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "fotografia",
+      "area",
+      "pressao"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-019",
+    "question": "O que revisar durante retorno quando a pressão continua?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno quando a pressão continua.",
+    "shortAnswer": "No cuidado posterior de retorno quando a pressão continua, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "retorno",
+      "quando",
+      "pressao",
+      "continua"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-020",
+    "question": "Onde consultar informação específica sobre podoprofilaxia para pele endurecida?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre podoprofilaxia para pele endurecida.",
+    "shortAnswer": "Para entender podoprofilaxia para pele endurecida sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "podoprofilaxia",
+      "pele",
+      "endurecida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "calos-e-pressao-021",
+    "question": "Por que vale observar diferença visual entre calo e verruga plantar?",
+    "searchIntent": "Compreender o significado e os limites de diferença visual entre calo e verruga plantar.",
+    "shortAnswer": "Calo e verruga plantar podem parecer semelhantes, mas têm causas e cuidados diferentes. Linhas da pele, dor e pontos escuros não bastam para autodiagnóstico.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "diferenca",
+      "visual",
+      "calo",
+      "verruga",
+      "plantar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-022",
+    "question": "Quais mudanças em calo com ponto escuro ou sangramento justificam procurar ajuda?",
+    "searchIntent": "Saber quando calo com ponto escuro ou sangramento justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de calo com ponto escuro ou sangramento mais importante.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calo",
+      "ponto",
+      "escuro",
+      "sangramento"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-023",
+    "question": "O que fazer com segurança diante de bolha ao lado de uma calosidade?",
+    "searchIntent": "Prevenir agravamento ou recorrência de bolha ao lado de uma calosidade.",
+    "shortAnswer": "A conduta segura para bolha ao lado de uma calosidade é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "bolha",
+      "lado",
+      "calosidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-024",
+    "question": "Que detalhes de queimação na área endurecida ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a queimação na área endurecida.",
+    "shortAnswer": "Para avaliar queimação na área endurecida, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "queimacao",
+      "area",
+      "endurecida"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-025",
+    "question": "Que atitude pode agravar lixar demais a sola do pé?",
+    "searchIntent": "Evitar condutas inseguras diante de lixar demais a sola do pé.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar lixar demais a sola do pé e criar uma porta de entrada para infecção.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "lixar",
+      "demais",
+      "sola"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-026",
+    "question": "O ajuste do sapato pode piorar salto alto e pressão no antepé?",
+    "searchIntent": "Entender a relação entre calçado e salto alto e pressão no antepé.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para salto alto e pressão no antepé e precisa ser revisto.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "salto",
+      "alto",
+      "pressao",
+      "antepe"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-027",
+    "question": "Como prevenir a recorrência de calos recorrentes em quem corre?",
+    "searchIntent": "Entender por que calos recorrentes em quem corre pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de calos recorrentes em quem corre exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "recorrentes",
+      "quem",
+      "corre"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-028",
+    "question": "Uma foto ajuda na triagem de avaliação do jeito de caminhar?",
+    "searchIntent": "Preparar informações úteis sobre avaliação do jeito de caminhar para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de avaliação do jeito de caminhar e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "avaliacao",
+      "jeito",
+      "caminhar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-029",
+    "question": "O que observar no retorno relacionado a cuidado da pele após reduzir a calosidade?",
+    "searchIntent": "Compreender cuidados posteriores ligados a cuidado da pele após reduzir a calosidade.",
+    "shortAnswer": "No retorno relacionado a cuidado da pele após reduzir a calosidade, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "cuidado",
+      "pele",
+      "apos",
+      "reduzir",
+      "calosidade"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-030",
+    "question": "Que página é mais útil para saber sobre limites da avaliação visual de um calo?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre limites da avaliação visual de um calo.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a limites da avaliação visual de um calo; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "limites",
+      "avaliacao",
+      "visual",
+      "calo"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "calos-e-pressao-031",
+    "question": "Qual é a orientação básica diante de calos em pessoas com diabetes?",
+    "searchIntent": "Compreender o significado e os limites de calos em pessoas com diabetes.",
+    "shortAnswer": "Em pessoas com diabetes, calo pode esconder pressão e lesão mesmo sem dor. Não use lâmina, lixa ou ácido e procure avaliação de saúde para definir o cuidado seguro.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "pessoas",
+      "diabetes"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-032",
+    "question": "Quando não é prudente esperar a melhora de calosidade em pés de idosos?",
+    "searchIntent": "Saber quando calosidade em pés de idosos justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se calosidade em pés de idosos estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "calosidade",
+      "pes",
+      "idosos"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-033",
+    "question": "Como prevenir complicações associadas a unha pressionando o dedo vizinho?",
+    "searchIntent": "Prevenir agravamento ou recorrência de unha pressionando o dedo vizinho.",
+    "shortAnswer": "Prevenir complicações de unha pressionando o dedo vizinho envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "unha",
+      "pressionando",
+      "dedo",
+      "vizinho"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-034",
+    "question": "Como registrar a evolução de pele grossa na lateral do pé?",
+    "searchIntent": "Reconhecer sinais relevantes associados a pele grossa na lateral do pé.",
+    "shortAnswer": "Registre pele grossa na lateral do pé com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "pele",
+      "grossa",
+      "lateral"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-035",
+    "question": "O que não fazer diante de produto abrasivo sobre pele sensível?",
+    "searchIntent": "Evitar condutas inseguras diante de produto abrasivo sobre pele sensível.",
+    "shortAnswer": "Não manipule produto abrasivo sobre pele sensível com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "produto",
+      "abrasivo",
+      "pele",
+      "sensivel"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-036",
+    "question": "Como escolher calçado quando há bota de trabalho e pontos de atrito?",
+    "searchIntent": "Entender a relação entre calçado e bota de trabalho e pontos de atrito.",
+    "shortAnswer": "Para conviver com bota de trabalho e pontos de atrito, escolha calçado estável, no tamanho correto e sem costuras ou pontos rígidos sobre a região sensível.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "bota",
+      "trabalho",
+      "pontos",
+      "atrito"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-037",
+    "question": "O que investigar quando retorno do calo em poucos dias volta?",
+    "searchIntent": "Entender por que retorno do calo em poucos dias pode reaparecer.",
+    "shortAnswer": "Quando retorno do calo em poucos dias volta, registre o intervalo, o local exato e mudanças de calçado ou atividade para ajudar a investigar o padrão.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "retorno",
+      "calo",
+      "poucos",
+      "dias"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-038",
+    "question": "O que relatar antes de uma avaliação de relato da dor durante a triagem?",
+    "searchIntent": "Preparar informações úteis sobre relato da dor durante a triagem para uma avaliação.",
+    "shortAnswer": "Antes de avaliar relato da dor durante a triagem, relate dor, duração, mudanças de cor, secreção, impacto ao caminhar e tratamentos já tentados.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "relato",
+      "dor",
+      "durante",
+      "triagem"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-039",
+    "question": "Como seguir com segurança o cuidado de uso de creme após orientação profissional?",
+    "searchIntent": "Compreender cuidados posteriores ligados a uso de creme após orientação profissional.",
+    "shortAnswer": "Siga o cuidado de uso de creme após orientação profissional pelo período orientado e peça reavaliação se houver piora, sangramento, calor ou dificuldade para caminhar.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "uso",
+      "creme",
+      "apos",
+      "orientacao",
+      "profissional"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-040",
+    "question": "Como pesquisar atendimento de calosidade em Fortaleza com fontes seguras?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento de calosidade em Fortaleza.",
+    "shortAnswer": "Pesquise atendimento de calosidade em Fortaleza em fontes oficiais, confira a data e desconfie de promessas de cura, diagnóstico por foto ou solução universal.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "atendimento",
+      "calosidade",
+      "fortaleza"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "calos-e-pressao-041",
+    "question": "Como lidar com calos sem dor de forma segura?",
+    "searchIntent": "Compreender o significado e os limites de calos sem dor.",
+    "shortAnswer": "Calo sem dor ainda mostra pressão repetida. Observe crescimento, mudança de cor e o calçado relacionado para prevenir fissura ou ferida.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "dor"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-042",
+    "question": "Como reconhecer que secreção sob uma área endurecida precisa de atenção?",
+    "searchIntent": "Saber quando secreção sob uma área endurecida justifica avaliação profissional.",
+    "shortAnswer": "Persistência, aumento da área, dor, perda de sensibilidade ou sinais de infecção indicam que secreção sob uma área endurecida precisa de atenção profissional.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "secrecao",
+      "sob",
+      "area",
+      "endurecida"
+    ],
+    "professionalAlert": "Dor intensa, secreção, sangramento, vermelhidão crescente, febre ou dificuldade para caminhar pedem avaliação de saúde sem demora.",
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-043",
+    "question": "Qual conduta preventiva é útil para mudança de cor em calosidade antiga?",
+    "searchIntent": "Prevenir agravamento ou recorrência de mudança de cor em calosidade antiga.",
+    "shortAnswer": "Em mudança de cor em calosidade antiga, prevenção significa reduzir pressão e umidade, evitar produtos irritantes e não adiar avaliação quando surgem sinais de alerta.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "mudanca",
+      "cor",
+      "calosidade",
+      "antiga"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "calos-e-pressao-044",
+    "question": "Quais sinais junto de dificuldade para apoiar o pé aumentam a preocupação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dificuldade para apoiar o pé.",
+    "shortAnswer": "Dor crescente, calor, vermelhidão que se espalha, secreção, ferida ou dificuldade para apoiar o pé aumentam a preocupação em dificuldade para apoiar o pé.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "dificuldade",
+      "apoiar"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "calos-e-pressao-045",
+    "question": "Qual prática insegura deve ser evitada em podoprofilaxia na Parquelândia?",
+    "searchIntent": "Evitar condutas inseguras diante de podoprofilaxia na Parquelândia.",
+    "shortAnswer": "A prática insegura em podoprofilaxia na Parquelândia é remover tecido ou unha por conta própria, sobretudo quando há diabetes, baixa sensibilidade ou circulação comprometida.",
+    "category": "calos-e-pressao",
+    "relatedService": "podoprofilaxia",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/podoprofilaxia-fortaleza",
+    "naturalTerms": [
+      "calos",
+      "calosidades",
+      "pressão nos pés",
+      "podoprofilaxia",
+      "parquelandia"
+    ],
+    "professionalAlert": null,
+    "internalSourceId": "service-podoprofilaxia",
+    "officialSourceIds": [
+      "nhs-corns-calluses"
+    ],
+    "healthRisk": "routine",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  }
+]

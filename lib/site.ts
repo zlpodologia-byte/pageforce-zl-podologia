@@ -7,6 +7,7 @@ export const DEFAULT_OG_IMAGE_PATH = "/opengraph-image";
 interface OrganizationJsonLd {
   "@context": "https://schema.org";
   "@type": "Organization";
+  "@id": string;
   name: string;
   url: string;
   description: string;
@@ -30,6 +31,7 @@ export const PUBLIC_STATIC_ROUTES = [
 export const ORGANIZATION_JSON_LD: OrganizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": `${SITE_URL}#business`,
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,

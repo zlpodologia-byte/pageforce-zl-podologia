@@ -1,0 +1,1376 @@
+[
+  {
+    "id": "pes-e-diabetes-001",
+    "question": "O que é importante saber sobre inspeção diária dos pés com diabetes?",
+    "searchIntent": "Compreender o significado e os limites de inspeção diária dos pés com diabetes.",
+    "shortAnswer": "A inspeção diária deve observar planta, calcanhar, laterais, entre os dedos e unhas. Procure bolhas, feridas, vermelhidão, calor, inchaço e mudança de cor.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "inspecao",
+      "diaria",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-002",
+    "question": "Quando é indicado buscar avaliação por perda de sensibilidade nos pés?",
+    "searchIntent": "Saber quando perda de sensibilidade nos pés justifica avaliação profissional.",
+    "shortAnswer": "Procure avaliação quando perda de sensibilidade nos pés persiste, piora, causa dor, limita atividades ou aparece com ferida, secreção, calor ou inchaço.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "perda",
+      "sensibilidade",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-003",
+    "question": "Como reduzir riscos relacionados a formigamento persistente nos pés?",
+    "searchIntent": "Prevenir agravamento ou recorrência de formigamento persistente nos pés.",
+    "shortAnswer": "Para reduzir riscos ligados a formigamento persistente nos pés, mantenha higiene suave, seque bem os pés, reduza atrito e não use instrumentos cortantes na área.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "formigamento",
+      "persistente",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-004",
+    "question": "Quais sinais devem ser observados em casos de ferida pequena no pé de pessoa com diabetes?",
+    "searchIntent": "Reconhecer sinais relevantes associados a ferida pequena no pé de pessoa com diabetes.",
+    "shortAnswer": "Observe início, localização, intensidade, cor, calor, inchaço, secreção, sangramento e dificuldade para calçar ou caminhar em casos de ferida pequena no pé de pessoa com diabetes.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "ferida",
+      "pequena",
+      "pessoa"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-005",
+    "question": "O que deve ser evitado quando existe corte de calo em pessoa com diabetes?",
+    "searchIntent": "Evitar condutas inseguras diante de corte de calo em pessoa com diabetes.",
+    "shortAnswer": "Evite cortar profundamente, arrancar pele ou unha, aplicar substâncias agressivas ou insistir em soluções caseiras diante de corte de calo em pessoa com diabetes.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "corte",
+      "calo",
+      "pessoa"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-006",
+    "question": "Como o calçado pode interferir em calçado apertado para quem tem diabetes?",
+    "searchIntent": "Entender a relação entre calçado e calçado apertado para quem tem diabetes.",
+    "shortAnswer": "Calçado apertado, rígido, úmido ou com atrito pode piorar calçado apertado para quem tem diabetes; prefira ajuste que preserve espaço para os dedos e reduza pressão.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "calcado",
+      "apertado",
+      "quem",
+      "tem"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-007",
+    "question": "O que pode manter bolha que reaparece no mesmo ponto?",
+    "searchIntent": "Entender por que bolha que reaparece no mesmo ponto pode reaparecer.",
+    "shortAnswer": "Bolha que reaparece no mesmo ponto pode se repetir quando pressão, umidade, atrito, corte inadequado ou outra causa associada continua presente.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "bolha",
+      "que",
+      "reaparece",
+      "mesmo",
+      "ponto"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-008",
+    "question": "Como se preparar para falar com um profissional sobre uso de espelho para observar a sola?",
+    "searchIntent": "Preparar informações úteis sobre uso de espelho para observar a sola para uma avaliação.",
+    "shortAnswer": "Para falar sobre uso de espelho para observar a sola, informe quando começou, o que piora ou alivia, cuidados tentados e condições de saúde relevantes.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "uso",
+      "espelho",
+      "observar",
+      "sola"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-009",
+    "question": "Que cuidados posteriores ajudam quando há orientação após cuidado podológico conservador?",
+    "searchIntent": "Compreender cuidados posteriores ligados a orientação após cuidado podológico conservador.",
+    "shortAnswer": "Depois de receber orientação sobre orientação após cuidado podológico conservador, mantenha a região limpa e seca, reduza pressão e observe sinais de piora.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "orientacao",
+      "apos",
+      "cuidado",
+      "podologico",
+      "conservador"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-010",
+    "question": "Onde encontrar informação confiável sobre manual oficial sobre pé diabético?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre manual oficial sobre pé diabético.",
+    "shortAnswer": "Consulte fontes oficiais de saúde e a página canônica indicada para manual oficial sobre pé diabético; conteúdo educativo não substitui avaliação profissional.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "manual",
+      "oficial",
+      "diabetico"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "pes-e-diabetes-011",
+    "question": "Como entender rotina de higiene sem deixar de molho os pés de quem tem diabetes?",
+    "searchIntent": "Compreender o significado e os limites de rotina de higiene sem deixar de molho os pés de quem tem diabetes.",
+    "shortAnswer": "Lave os pés diariamente com água em temperatura segura, sem deixá-los de molho, e seque com cuidado, especialmente entre os dedos. Verifique a temperatura com segurança se houver pouca sensibilidade.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "rotina",
+      "higiene",
+      "deixar",
+      "molho",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-012",
+    "question": "Em que situação vale avaliar vermelhidão em pé com sensibilidade reduzida?",
+    "searchIntent": "Saber quando vermelhidão em pé com sensibilidade reduzida justifica avaliação profissional.",
+    "shortAnswer": "Vermelhidão em pé com sensibilidade reduzida precisa ser avaliado quando não melhora, interfere ao caminhar ou vem acompanhado de inflamação, sangramento ou secreção.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "vermelhidao",
+      "sensibilidade",
+      "reduzida"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-013",
+    "question": "Que cuidado ajuda a evitar piora de calo com sangue seco por baixo?",
+    "searchIntent": "Prevenir agravamento ou recorrência de calo com sangue seco por baixo.",
+    "shortAnswer": "Evite pressão repetida e manipulação caseira de calo com sangue seco por baixo; calçado ajustado e observação diária ajudam a perceber piora cedo.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "calo",
+      "sangue",
+      "seco",
+      "baixo"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-014",
+    "question": "O que acompanhar quando aparece inchaço em um dos pés?",
+    "searchIntent": "Reconhecer sinais relevantes associados a inchaço em um dos pés.",
+    "shortAnswer": "Ao acompanhar inchaço em um dos pés, compare tamanho, cor, dor e efeito na marcha; piora progressiva ou secreção exige avaliação.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "inchaco",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-015",
+    "question": "Por que uso de bolsa de água quente nos pés exige cuidado com soluções caseiras?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de bolsa de água quente nos pés.",
+    "shortAnswer": "Soluções caseiras em uso de bolsa de água quente nos pés podem lesar a pele, mascarar sinais e atrasar a avaliação; não use ácidos, lâminas ou receitas de terceiros.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "uso",
+      "bolsa",
+      "agua",
+      "quente",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-016",
+    "question": "Como calçados, meias e pontos de pressão influenciam sapato novo em pessoa com neuropatia?",
+    "searchIntent": "Entender a relação entre calçado e sapato novo em pessoa com neuropatia.",
+    "shortAnswer": "Em sapato novo em pessoa com neuropatia, observe se o sapato comprime a área, escorrega ou retém umidade. O modelo correto deve proteger sem criar novo atrito.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "sapato",
+      "novo",
+      "pessoa",
+      "neuropatia"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-017",
+    "question": "Como investigar a repetição de ferida causada por pressão recorrente?",
+    "searchIntent": "Entender por que ferida causada por pressão recorrente pode reaparecer.",
+    "shortAnswer": "Ferida causada por pressão recorrente reaparece quando o fator que provocou a alteração não foi corrigido; vale revisar calçado, rotina e técnica de corte.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "ferida",
+      "causada",
+      "pressao",
+      "recorrente"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-018",
+    "question": "Que informações levar para avaliar lista de medicamentos e condições de saúde?",
+    "searchIntent": "Preparar informações úteis sobre lista de medicamentos e condições de saúde para uma avaliação.",
+    "shortAnswer": "Leve para a avaliação de lista de medicamentos e condições de saúde o histórico, medicamentos, doenças crônicas, calçados mais usados e qualquer produto aplicado.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "lista",
+      "medicamentos",
+      "condicoes",
+      "saude"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-019",
+    "question": "O que revisar durante retorno após identificar área de risco?",
+    "searchIntent": "Compreender cuidados posteriores ligados a retorno após identificar área de risco.",
+    "shortAnswer": "No cuidado posterior de retorno após identificar área de risco, siga a orientação individual, não antecipe trocas ou produtos e proteja a área de atrito.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "retorno",
+      "apos",
+      "identificar",
+      "area",
+      "risco"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-020",
+    "question": "Onde consultar informação específica sobre cuidado para pé diabético em Fortaleza?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre cuidado para pé diabético em Fortaleza.",
+    "shortAnswer": "Para entender cuidado para pé diabético em Fortaleza sem autodiagnóstico, prefira órgãos públicos e entidades médicas reconhecidas, além da página interna relacionada.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "cuidado",
+      "diabetico",
+      "fortaleza"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "pes-e-diabetes-021",
+    "question": "Por que vale observar temperatura diferente entre os pés?",
+    "searchIntent": "Compreender o significado e os limites de temperatura diferente entre os pés.",
+    "shortAnswer": "Diferença de temperatura entre os pés, principalmente com vermelhidão ou inchaço, precisa de avaliação de saúde. Não use calor direto para tentar corrigir.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "temperatura",
+      "diferente",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-022",
+    "question": "Quais mudanças em secreção em lesão do pé justificam procurar ajuda?",
+    "searchIntent": "Saber quando secreção em lesão do pé justifica avaliação profissional.",
+    "shortAnswer": "Mudança rápida, dor crescente, calor, inchaço, ferida ou dificuldade para apoiar o pé tornam a avaliação de secreção em lesão do pé mais importante.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "secrecao",
+      "lesao"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-023",
+    "question": "O que fazer com segurança diante de escurecimento de um dedo?",
+    "searchIntent": "Prevenir agravamento ou recorrência de escurecimento de um dedo.",
+    "shortAnswer": "A conduta segura para escurecimento de um dedo é proteger a região, manter limpeza sem agressão e buscar orientação se a alteração persistir.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "escurecimento",
+      "dedo"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-024",
+    "question": "Que detalhes de dor súbita ao apoiar o pé ajudam numa avaliação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dor súbita ao apoiar o pé.",
+    "shortAnswer": "Para avaliar dor súbita ao apoiar o pé, são úteis a duração, os fatores que pioram, o calçado usado, os cuidados tentados e condições de saúde associadas.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "dor",
+      "subita",
+      "apoiar"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-025",
+    "question": "Que atitude pode agravar cortar unhas muito curtas com diabetes?",
+    "searchIntent": "Evitar condutas inseguras diante de cortar unhas muito curtas com diabetes.",
+    "shortAnswer": "Cavar, furar, espremer ou lixar demais pode agravar cortar unhas muito curtas com diabetes e criar uma porta de entrada para infecção.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "cortar",
+      "unhas",
+      "muito",
+      "curtas"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-026",
+    "question": "O ajuste do sapato pode piorar andar descalço dentro de casa?",
+    "searchIntent": "Entender a relação entre calçado e andar descalço dentro de casa.",
+    "shortAnswer": "Se o calçado deixa marcas, aumenta a dor ou altera a passada, ele pode estar contribuindo para andar descalço dentro de casa e precisa ser revisto.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "andar",
+      "descalco",
+      "dentro",
+      "casa"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-027",
+    "question": "Como prevenir a recorrência de rachadura recorrente em pessoa com diabetes?",
+    "searchIntent": "Entender por que rachadura recorrente em pessoa com diabetes pode reaparecer.",
+    "shortAnswer": "Prevenir a recorrência de rachadura recorrente em pessoa com diabetes exige identificar o gatilho, reduzir pressão ou umidade e manter o acompanhamento orientado.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "rachadura",
+      "recorrente",
+      "pessoa"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-028",
+    "question": "Uma foto ajuda na triagem de informação sobre controle de glicemia na avaliação?",
+    "searchIntent": "Preparar informações úteis sobre informação sobre controle de glicemia na avaliação para uma avaliação.",
+    "shortAnswer": "Uma foto nítida pode ajudar na triagem de informação sobre controle de glicemia na avaliação e no acompanhamento da evolução, mas não substitui avaliação presencial.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "informacao",
+      "controle",
+      "glicemia",
+      "avaliacao"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-029",
+    "question": "O que observar no retorno relacionado a secagem cuidadosa entre os dedos?",
+    "searchIntent": "Compreender cuidados posteriores ligados a secagem cuidadosa entre os dedos.",
+    "shortAnswer": "No retorno relacionado a secagem cuidadosa entre os dedos, informe dor, cicatrização, secreção, novas alterações e se o calçado continua pressionando o local.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "secagem",
+      "cuidadosa",
+      "dedos"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-030",
+    "question": "Que página é mais útil para saber sobre limites do atendimento podológico no diabetes?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre limites do atendimento podológico no diabetes.",
+    "shortAnswer": "A página canônica vinculada reúne o serviço relacionado a limites do atendimento podológico no diabetes; as referências oficiais sustentam os limites clínicos da resposta.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "limites",
+      "atendimento",
+      "podologico"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "pes-e-diabetes-031",
+    "question": "Qual é a orientação básica diante de calosidade sem dor em pessoa com diabetes?",
+    "searchIntent": "Compreender o significado e os limites de calosidade sem dor em pessoa com diabetes.",
+    "shortAnswer": "Calosidade sem dor pode esconder pressão quando há perda de sensibilidade. Não corte nem use ácido e procure avaliação para prevenir ferida.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "calosidade",
+      "dor",
+      "pessoa"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-032",
+    "question": "Quando não é prudente esperar a melhora de unha encravada e diabetes?",
+    "searchIntent": "Saber quando unha encravada e diabetes justifica avaliação profissional.",
+    "shortAnswer": "Não espere apenas melhora espontânea se unha encravada e diabetes estiver piorando, abrindo ferida, produzindo secreção ou alterando a marcha.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "unha",
+      "encravada"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-033",
+    "question": "Como prevenir complicações associadas a micose de unha em pessoa com diabetes?",
+    "searchIntent": "Prevenir agravamento ou recorrência de micose de unha em pessoa com diabetes.",
+    "shortAnswer": "Prevenir complicações de micose de unha em pessoa com diabetes envolve não cavar, furar ou lixar a área e acompanhar dor, cor, calor, secreção e capacidade de caminhar.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "micose",
+      "unha",
+      "pessoa"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-034",
+    "question": "Como registrar a evolução de pele muito seca nos pés com diabetes?",
+    "searchIntent": "Reconhecer sinais relevantes associados a pele muito seca nos pés com diabetes.",
+    "shortAnswer": "Registre pele muito seca nos pés com diabetes com data, sintomas e mudanças percebidas. Uma foto bem iluminada pode mostrar evolução, mas não confirma a causa.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "pele",
+      "muito",
+      "seca",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-035",
+    "question": "O que não fazer diante de uso de removedor químico de calos?",
+    "searchIntent": "Evitar condutas inseguras diante de uso de removedor químico de calos.",
+    "shortAnswer": "Não manipule uso de removedor químico de calos com objeto pontiagudo nem aplique produto irritante; proteja a área e procure orientação se houver dor ou inflamação.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "uso",
+      "removedor",
+      "quimico",
+      "calos"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-036",
+    "question": "Como escolher calçado quando há meias com costura apertada?",
+    "searchIntent": "Entender a relação entre calçado e meias com costura apertada.",
+    "shortAnswer": "Para conviver com meias com costura apertada, escolha calçado estável, no tamanho correto e sem costuras ou pontos rígidos sobre a região sensível.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "meias",
+      "costura",
+      "apertada"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-037",
+    "question": "O que investigar quando ferida que não melhora em poucos dias volta?",
+    "searchIntent": "Entender por que ferida que não melhora em poucos dias pode reaparecer.",
+    "shortAnswer": "Quando ferida que não melhora em poucos dias volta, registre o intervalo, o local exato e mudanças de calçado ou atividade para ajudar a investigar o padrão.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "ferida",
+      "que",
+      "nao",
+      "melhora",
+      "poucos"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-038",
+    "question": "O que relatar antes de uma avaliação de registro diário de mudanças nos pés?",
+    "searchIntent": "Preparar informações úteis sobre registro diário de mudanças nos pés para uma avaliação.",
+    "shortAnswer": "Antes de avaliar registro diário de mudanças nos pés, relate dor, duração, mudanças de cor, secreção, impacto ao caminhar e tratamentos já tentados.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "registro",
+      "diario",
+      "mudancas",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-039",
+    "question": "Como seguir com segurança o cuidado de proteção de uma bolha no pé?",
+    "searchIntent": "Compreender cuidados posteriores ligados a proteção de uma bolha no pé.",
+    "shortAnswer": "Siga o cuidado de proteção de uma bolha no pé pelo período orientado e peça reavaliação se houver piora, sangramento, calor ou dificuldade para caminhar.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "protecao",
+      "bolha"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-040",
+    "question": "Como pesquisar atendimento conservador na Parquelândia com fontes seguras?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre atendimento conservador na Parquelândia.",
+    "shortAnswer": "Pesquise atendimento conservador na Parquelândia em fontes oficiais, confira a data e desconfie de promessas de cura, diagnóstico por foto ou solução universal.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "atendimento",
+      "conservador",
+      "parquelandia"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  },
+  {
+    "id": "pes-e-diabetes-041",
+    "question": "Como lidar com pé quente e avermelhado de forma segura?",
+    "searchIntent": "Compreender o significado e os limites de pé quente e avermelhado.",
+    "shortAnswer": "Pé quente e avermelhado em pessoa com diabetes é sinal de alerta, mesmo sem dor. Reduza apoio e procure avaliação de saúde sem demora.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "quente",
+      "avermelhado"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-042",
+    "question": "Como reconhecer que febre junto com ferida no pé precisa de atenção?",
+    "searchIntent": "Saber quando febre junto com ferida no pé justifica avaliação profissional.",
+    "shortAnswer": "Persistência, aumento da área, dor, perda de sensibilidade ou sinais de infecção indicam que febre junto com ferida no pé precisa de atenção profissional.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "febre",
+      "junto",
+      "ferida"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-043",
+    "question": "Qual conduta preventiva é útil para mau cheiro em uma lesão?",
+    "searchIntent": "Prevenir agravamento ou recorrência de mau cheiro em uma lesão.",
+    "shortAnswer": "Em mau cheiro em uma lesão, prevenção significa reduzir pressão e umidade, evitar produtos irritantes e não adiar avaliação quando surgem sinais de alerta.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "mau",
+      "cheiro",
+      "lesao"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-044",
+    "question": "Quais sinais junto de dificuldade para enxergar a sola dos pés aumentam a preocupação?",
+    "searchIntent": "Reconhecer sinais relevantes associados a dificuldade para enxergar a sola dos pés.",
+    "shortAnswer": "Dor crescente, calor, vermelhidão que se espalha, secreção, ferida ou dificuldade para apoiar o pé aumentam a preocupação em dificuldade para enxergar a sola dos pés.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "dificuldade",
+      "enxergar",
+      "sola",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-045",
+    "question": "Qual prática insegura deve ser evitada em hidratar entre os dedos com diabetes?",
+    "searchIntent": "Evitar condutas inseguras diante de hidratar entre os dedos com diabetes.",
+    "shortAnswer": "A prática insegura em hidratar entre os dedos com diabetes é remover tecido ou unha por conta própria, sobretudo quando há diabetes, baixa sensibilidade ou circulação comprometida.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "hidratar",
+      "dedos"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-046",
+    "question": "Pressão e umidade do calçado afetam escolha de calçado com espaço interno?",
+    "searchIntent": "Entender a relação entre calçado e escolha de calçado com espaço interno.",
+    "shortAnswer": "Pressão repetida e umidade dentro do sapato favorecem irritação e recorrência de escolha de calçado com espaço interno; alternar pares e trocar meias reduz esses fatores.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "escolha",
+      "calcado",
+      "espaco",
+      "interno"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-047",
+    "question": "Que fatores mantêm prevenção de novas áreas de pressão recorrente?",
+    "searchIntent": "Entender por que prevenção de novas áreas de pressão pode reaparecer.",
+    "shortAnswer": "Atrito contínuo, ambiente úmido, pressão localizada e autocuidado inadequado podem manter prevenção de novas áreas de pressão recorrente.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "prevencao",
+      "novas",
+      "areas",
+      "pressao"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "consideration",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-048",
+    "question": "Como acompanhar apoio de cuidador na inspeção diária entre avaliações?",
+    "searchIntent": "Preparar informações úteis sobre apoio de cuidador na inspeção diária para uma avaliação.",
+    "shortAnswer": "Acompanhe apoio de cuidador na inspeção diária com datas e fotos semelhantes, sem manipular a área apenas para melhorar a imagem enviada.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "apoio",
+      "cuidador",
+      "inspecao",
+      "diaria"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "high"
+  },
+  {
+    "id": "pes-e-diabetes-049",
+    "question": "Quando revisar as orientações sobre avaliação médica junto do cuidado dos pés?",
+    "searchIntent": "Compreender cuidados posteriores ligados a avaliação médica junto do cuidado dos pés.",
+    "shortAnswer": "Revise as orientações sobre avaliação médica junto do cuidado dos pés quando a resposta não for a esperada, o curativo molhar ou surgirem sinais novos.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "avaliacao",
+      "medica",
+      "junto",
+      "cuidado",
+      "pes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "booking",
+    "trafficPriority": "medium"
+  },
+  {
+    "id": "pes-e-diabetes-050",
+    "question": "Onde conferir orientações educativas sobre fontes públicas sobre prevenção de complicações?",
+    "searchIntent": "Localizar conteúdo confiável e contextualizado sobre fontes públicas sobre prevenção de complicações.",
+    "shortAnswer": "Orientações educativas sobre fontes públicas sobre prevenção de complicações devem explicar sinais observáveis, limites do autocuidado e quando procurar avaliação.",
+    "category": "pes-e-diabetes",
+    "relatedService": "diabetic",
+    "relatedLocation": null,
+    "canonicalUrl": "https://www.zlpodologia.com.br/pe-diabetico-fortaleza",
+    "naturalTerms": [
+      "diabetes",
+      "cuidado dos pés",
+      "pé diabético",
+      "fontes",
+      "publicas",
+      "prevencao",
+      "complicacoes"
+    ],
+    "professionalAlert": "Pessoas com diabetes devem buscar avaliação de saúde diante de ferida, bolha, vermelhidão, calor, secreção, escurecimento ou perda de sensibilidade.",
+    "internalSourceId": "service-pe-diabetico",
+    "officialSourceIds": [
+      "ms-pe-diabetico-manual",
+      "niddk-diabetes-foot-problems"
+    ],
+    "healthRisk": "attention",
+    "funnelStage": "discovery",
+    "trafficPriority": "supporting"
+  }
+]
