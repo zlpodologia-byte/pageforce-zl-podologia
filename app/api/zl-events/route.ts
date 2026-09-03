@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 
 const EVENT_NAMES = new Set([
   "wa_click",
+  "service_view",
   "service_select",
   "tab_select",
   "maps_click",
@@ -20,6 +21,7 @@ const EVENT_NAMES = new Set([
 const STRING_FIELDS = [
   "source",
   "service",
+  "placement",
   "tab",
   "recommended_service",
   "zl_event_schema",

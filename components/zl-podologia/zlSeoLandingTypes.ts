@@ -45,6 +45,8 @@ export interface ZlSeoLandingPageDefinition {
   ctaLabel: string;
   ctaMessage: string;
   ctaSource: ZlWhatsappSource;
+  /** Servico no padrao do GA4 (ex: "reflexologia_podal"). Default: ctaSource. */
+  analyticsService?: string;
   heroImage: string;
   heroAlt: string;
   prices: readonly ZlSeoPriceCard[];

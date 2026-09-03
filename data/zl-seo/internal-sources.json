@@ -36,6 +36,18 @@
     "evidencePath": "components/zl-podologia/zlServiceClusterPages.ts"
   },
   {
+    "id": "service-reflexologia-podal",
+    "canonicalUrl": "https://www.zlpodologia.com.br/reflexologia-podal-fortaleza",
+    "label": "Reflexologia podal em Fortaleza",
+    "evidencePath": "components/zl-podologia/zlWellnessPages.ts"
+  },
+  {
+    "id": "service-massagem-relaxante-pes",
+    "canonicalUrl": "https://www.zlpodologia.com.br/massagem-relaxante-pes-fortaleza",
+    "label": "Massagem relaxante nos pés em Fortaleza",
+    "evidencePath": "components/zl-podologia/zlWellnessPages.ts"
+  },
+  {
     "id": "location-aldeota",
     "canonicalUrl": "https://www.zlpodologia.com.br/podologia-aldeota",
     "label": "Atendimento para pacientes da Aldeota na Parquelândia",

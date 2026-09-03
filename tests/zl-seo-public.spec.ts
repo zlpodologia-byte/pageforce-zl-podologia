@@ -71,7 +71,9 @@ test("publishes crawler-specific robots rules and the canonical sitemap", async 
   const body = await response.text();
   expect(body).toMatch(/User-Agent: OAI-SearchBot\s+Allow: \//);
   expect(body).toMatch(/User-Agent: ChatGPT-User\s+Allow: \//);
-  expect(body).toMatch(/User-Agent: \*\s+Allow: \/\s+Disallow: \/api\//);
+  expect(body).toMatch(
+    /User-Agent: \*\s+Allow: \/\s+Allow: \/api\/wa\s+Disallow: \/api\//,
+  );
   expect(body).not.toContain("GPTBot");
   expect(body).toContain(
     "Sitemap: https://www.zlpodologia.com.br/sitemap.xml",
@@ -84,7 +86,7 @@ test("keeps the sitemap limited to canonical public routes", async ({ request })
   const xml = await response.text();
   const locations = extractLocations(xml);
   expect(locations).toEqual(PUBLIC_STATIC_ROUTES.map(absoluteSiteUrl));
-  expect(locations).toHaveLength(12);
+  expect(locations).toHaveLength(14);
   expect(xml).not.toContain("<lastmod>");
   for (const location of locations) {
     const url = new URL(location);

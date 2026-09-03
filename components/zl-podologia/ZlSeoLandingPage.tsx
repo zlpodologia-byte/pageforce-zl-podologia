@@ -22,11 +22,15 @@ export function ZlSeoLandingPage({
   page: ZlSeoLandingPageDefinition;
 }) {
   const whatsappHref = buildWhatsappLink(page.ctaMessage, page.ctaSource);
+  const analyticsService = page.analyticsService ?? page.ctaSource;
 
   return (
     <>
       <ZlAnalytics />
-      <main className="min-h-screen bg-[#F8F7F4] text-[#26302B]">
+      <main
+        className="min-h-screen bg-[#F8F7F4] text-[#26302B]"
+        data-service-view={analyticsService}
+      >
         <HeroSection page={page} whatsappHref={whatsappHref} />
         <section className="border-y border-[#E4E0D8] bg-white">
           <div className="mx-auto grid max-w-6xl gap-8 px-5 py-14 md:grid-cols-2 md:px-8">
@@ -100,7 +104,7 @@ function HeroSection({
             />
           ))}
         </div>
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row" data-cta-placement="hero">
           <ZlPrimaryLink
             href={whatsappHref}
             label={page.ctaLabel}
@@ -202,7 +206,7 @@ function FaqSection({
             passo antes de confirmar o horário.
           </p>
         </div>
-        <div className="mt-6 md:mt-0">
+        <div className="mt-6 md:mt-0" data-cta-placement="faq_end">
           <ZlPrimaryLink
             href={whatsappHref}
             label="Chamar a ZL"

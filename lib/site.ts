@@ -20,6 +20,8 @@ export const PUBLIC_STATIC_ROUTES = [
   "/ortonixia-fortaleza",
   "/podoprofilaxia-fortaleza",
   "/pe-diabetico-fortaleza",
+  "/reflexologia-podal-fortaleza",
+  "/massagem-relaxante-pes-fortaleza",
   "/podologia-aldeota",
   "/podologia-centro-fortaleza",
   "/podologia-cidade-dos-funcionarios",

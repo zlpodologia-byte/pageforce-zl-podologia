@@ -5,7 +5,7 @@ test.describe("ZL WhatsApp attribution", () => {
     page,
   }) => {
     await page.goto("/?utm_source=google&utm_medium=cpc&utm_campaign=zl-teste");
-    await page.waitForLoadState("networkidle");
+    await expect(page.locator('a[href*="/api/wa"]').first()).toBeVisible();
 
     const links = await page
       .locator('a[href*="/api/wa"]')
@@ -66,8 +66,9 @@ test.describe("ZL WhatsApp attribution", () => {
     });
 
     await page.goto("/");
-    await page.waitForLoadState("networkidle");
-    await page.locator("#servicos").scrollIntoViewIfNeeded();
+    const services = page.locator("#servicos");
+    await expect(services).toBeVisible();
+    await services.scrollIntoViewIfNeeded();
 
     await page
       .locator("#servicos button")

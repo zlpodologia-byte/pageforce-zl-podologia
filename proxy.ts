@@ -10,6 +10,8 @@ const EXACT_ALLOWED_PATHS = new Set([
   "/ortonixia-fortaleza",
   "/podoprofilaxia-fortaleza",
   "/pe-diabetico-fortaleza",
+  "/reflexologia-podal-fortaleza",
+  "/massagem-relaxante-pes-fortaleza",
   "/podologia-aldeota",
   "/podologia-centro-fortaleza",
   "/podologia-cidade-dos-funcionarios",

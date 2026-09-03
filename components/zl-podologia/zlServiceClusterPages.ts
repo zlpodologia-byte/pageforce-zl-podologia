@@ -22,6 +22,7 @@ export const zlOrthonyxiaPage: ZlSeoLandingPageDefinition = {
   ctaMessage:
     "Oi, quero saber se ortonixia/órtese para unha é indicada para o meu caso na ZL Podologia.",
   ctaSource: "service_orthosis_page",
+  analyticsService: "ortonixia",
   heroImage: ORTHOSIS_IMAGE,
   heroAlt: "Aplicação de órtese para unha na ZL Podologia Fortaleza",
   prices: [
@@ -123,6 +124,7 @@ export const zlPodoprofilaxiaPage: ZlSeoLandingPageDefinition = {
   ctaMessage:
     "Oi, quero agendar uma podoprofilaxia na ZL Podologia em Fortaleza.",
   ctaSource: "service_podoprofilaxia_page",
+  analyticsService: "podoprofilaxia",
   heroImage: PODO_IMAGE,
   heroAlt: "Podoprofilaxia com motor rotativo na ZL Podologia Fortaleza",
   prices: [
@@ -187,6 +189,12 @@ export const zlPodoprofilaxiaPage: ZlSeoLandingPageDefinition = {
   ],
   relatedLinks: [
     {
+      href: "/reflexologia-podal-fortaleza",
+      label: "Reflexologia podal",
+      description:
+        "Conheça a pausa de bem-estar que também pode ser combinada com a podoprofilaxia.",
+    },
+    {
       href: "/pe-diabetico-fortaleza",
       label: "Cuidados para pés com diabetes",
       description: "Consulte sinais de alerta e limites do atendimento podológico preventivo.",
@@ -223,6 +231,7 @@ export const zlDiabeticFootPage: ZlSeoLandingPageDefinition = {
   ctaMessage:
     "Oi, tenho diabetes e quero saber se posso fazer um cuidado seguro dos pés na ZL Podologia.",
   ctaSource: "service_diabetic_page",
+  analyticsService: "pe_diabetico",
   heroImage: DIABETIC_IMAGE,
   heroAlt: "Cuidado podológico sensível para pés na ZL Podologia Fortaleza",
   prices: [

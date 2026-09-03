@@ -41,6 +41,20 @@ export const zlSeoServiceLinks: readonly ZlSeoClusterLink[] = [
       "Consulte cuidados preventivos, sinais de alerta e limites do atendimento podológico.",
     shortLabel: "Pés e diabetes",
   },
+  {
+    href: "/reflexologia-podal-fortaleza",
+    title: "Reflexologia podal em Fortaleza",
+    description:
+      "Conheça as opções de reflexologia para relaxamento e bem-estar dos pés.",
+    shortLabel: "Reflexologia podal",
+  },
+  {
+    href: "/massagem-relaxante-pes-fortaleza",
+    title: "Massagem relaxante nos pés em Fortaleza",
+    description:
+      "Uma pausa de conforto para pés cansados, com atendimento individual e hora marcada.",
+    shortLabel: "Massagem nos pés",
+  },
 ] as const;
 
 export const zlSeoNeighborhoodLinks: readonly ZlSeoClusterLink[] = [

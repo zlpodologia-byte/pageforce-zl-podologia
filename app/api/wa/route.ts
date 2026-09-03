@@ -80,5 +80,9 @@ export async function GET(request: Request) {
 
   const response = NextResponse.redirect(destination.toString(), 307);
   response.headers.set("Cache-Control", "no-store");
+  // Endpoint de atribuicao interna: nunca deve aparecer no indice organico.
+  // `noindex` via cabecalho HTTP (robots.txt nao suporta noindex e o
+  // disallow sozinho nao impede indexacao de URL linkada).
+  response.headers.set("X-Robots-Tag", "noindex, nofollow");
   return response;
 }

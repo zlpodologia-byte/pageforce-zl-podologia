@@ -36,6 +36,7 @@ const ZL_GA_MEASUREMENT_ID = "G-JX1Y5LNLT5";
 
 export type ZlTrackEventName =
   | "wa_click"
+  | "service_view"
   | "service_select"
   | "tab_select"
   | "maps_click"
@@ -53,6 +54,7 @@ export type ZlTrackEventName =
 interface ZlTrackEventParams {
   source?: string;
   service?: string;
+  placement?: string;
   tab?: string;
   step?: number;
   card_index?: number;
@@ -199,6 +201,51 @@ export function ZlAnalytics() {
     observersRef.current = observers;
     return () => {
       for (const o of observers) o.disconnect();
+    };
+  }, []);
+
+  // Service landing tracking — `service_view` + `wa_click` delegado.
+  // Escopo restrito a `[data-service-view]` (paginas de servico): a home
+  // ja dispara `wa_click` manual nos CTAs, entao o listener delegado
+  // ignora qualquer clique fora desse container (sem double-fire).
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const serviceHost = document.querySelector("[data-service-view]");
+    if (!serviceHost) return;
+
+    const service =
+      serviceHost.getAttribute("data-service-view") ?? undefined;
+    trackZlEvent("service_view", { service });
+
+    const onClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+      const anchor = target?.closest?.('a[href*="/api/wa"]') as
+        | HTMLAnchorElement
+        | null;
+      if (!anchor || !serviceHost.contains(anchor)) return;
+
+      let source: string | undefined;
+      try {
+        source =
+          new URL(
+            anchor.href,
+            window.location.origin
+          ).searchParams.get("source") ?? undefined;
+      } catch {
+        source = undefined;
+      }
+
+      const placementHost = anchor.closest("[data-cta-placement]");
+      const placement =
+        placementHost?.getAttribute("data-cta-placement") ?? undefined;
+
+      trackZlEvent("wa_click", { source, service, placement });
+    };
+
+    document.addEventListener("click", onClick);
+    return () => {
+      document.removeEventListener("click", onClick);
     };
   }, []);
 

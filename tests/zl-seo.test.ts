@@ -221,7 +221,7 @@ test("loads audited sources and keeps entity facts aligned with the site", () =>
   assert.equal(entity.address.streetAddress, zlLocation.streetAddress);
   assert.equal(entity.address.district, zlLocation.district);
   assert.deepEqual(entity.openingHours, zlHoursRows);
-  assert.equal(sources.length, 12);
+  assert.equal(sources.length, 14);
   assert.equal(officials.length, 13);
 });
 

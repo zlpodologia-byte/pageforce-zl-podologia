@@ -27,6 +27,8 @@ export const ZL_WHATSAPP_SOURCES = [
   "service_orthosis_page",
   "service_podoprofilaxia_page",
   "service_diabetic_page",
+  "service_reflexology_page",
+  "service_massage_page",
   "neighborhood_aldeota",
   "neighborhood_centro_fortaleza",
   "neighborhood_cidade_dos_funcionarios",
