@@ -20,8 +20,7 @@ const description =
   "Podologia clínica em Fortaleza (Parquelândia) para unha encravada, fungos, podoprofilaxia e reflexologia podal. 5,0 no Google, cuidado humanizado com Zucarina e Jannié. Agende pelo WhatsApp.";
 
 export const metadata: Metadata = {
-  title:
-    "ZL Podologia - Podologia clínica em Fortaleza | Av. Bezerra de Menezes, Parquelândia",
+  title: "Podóloga em Fortaleza | ZL Podologia na Parquelândia",
   description,
   authors: [{ name: "ZL Podologia" }],
   alternates: { canonical: "/" },
