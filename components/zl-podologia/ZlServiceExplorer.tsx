@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
@@ -246,33 +246,8 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
     <Reveal
       as="div"
       delay={120}
-      className={`relative border-t border-[#D9DAD7] pt-6 ${
-        service.premiumStripe
-          ?"ring-1 ring-[rgba(160,131,121,0.18)]"
-          : ""
-      }`}
+      className="relative border-t border-[#D9DAD7] pt-6"
     >
-      {/* Pre-Wedding eyebrow editorial stripe premium (dourado mantido). */}
-      {service.premiumStripe ?(
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[rgba(160,131,121,0.25)] bg-white px-5 py-3 md:px-7">
-          <p
-            className="text-[0.62rem] uppercase tracking-[0.32em]"
-            style={{ color: "#8EA08E" }}
-          >
-            Experiência premium
-          </p>
-          <p
-            className="text-[0.78rem] italic tracking-[0.02em]"
-            style={{
-              fontFamily: "var(--font-display)",
-              fontWeight: 400,
-              color: "#0F6B46",
-            }}
-          >
-            60 minutos só seus
-          </p>
-        </div>
-      ) : null}
 
       {/* Header do card: titulo, dor principal e CTA em uma unica faixa */}
       <div className="px-5 pt-5 md:px-6 md:pt-6">
@@ -280,11 +255,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
           <div className="min-w-0 flex-1">
             <div className="flex flex-wrap items-center gap-2">
               <span
-                className={`rounded-full px-3 py-1 text-[0.68rem] uppercase tracking-[0.2em] ${
-                  service.premiumStripe
-                    ?"bg-white text-[#8EA08E] ring-1 ring-[rgba(160,131,121,0.45)]"
-                    : "bg-[#EFEAE4] text-[#174F3F]"
-                }`}
+                className="rounded-full bg-[#EFEAE4] px-3 py-1 text-[0.68rem] uppercase tracking-[0.2em] text-[#174F3F]"
               >
                 {service.menuLabel}
               </span>
@@ -294,9 +265,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
             </div>
 
             <h3
-              className={`mt-4 text-[clamp(1.6rem,2.5vw,2.4rem)] leading-[1.02] tracking-[-0.03em] text-[#26302B] ${
-                service.premiumStripe ?"italic" : ""
-              }`}
+              className="mt-4 text-[clamp(1.6rem,2.5vw,2.4rem)] leading-[1.02] tracking-[-0.03em] text-[#26302B]"
               style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               {service.title}
@@ -325,7 +294,7 @@ function ServiceCard({ service }: { service: ZlInteractiveService }) {
                 )}
                 label={service.ctaLabel}
                 icon={<ZlWhatsappIcon />}
-                tone={service.premiumStripe ?"blush" : "whatsapp"}
+                tone="whatsapp"
               />
             </div>
           </div>

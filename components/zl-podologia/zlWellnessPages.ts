@@ -51,7 +51,7 @@ export const zlReflexologyPage: ZlSeoLandingPageDefinition = {
       "Rotina cansativa e necessidade de uma pausa com hora marcada.",
       "Busca por relaxamento e atenção individual aos pés.",
       "Pessoas que passam muito tempo em pé ou caminhando.",
-      "Experiência de autocuidado ou presente antes de uma ocasião especial.",
+      "Experiência de autocuidado antes de uma ocasião especial.",
     ],
   },
   secondaryChecklist: {
@@ -98,7 +98,7 @@ export const zlReflexologyPage: ZlSeoLandingPageDefinition = {
     {
       question: "Quanto tempo dura a sessão?",
       answer:
-        "A duração da sessão avulsa é confirmada no agendamento pelo WhatsApp. As experiências de presente da clínica têm 50 minutos.",
+        "A duração da sessão é confirmada no agendamento pelo WhatsApp.",
     },
     {
       question: "Quanto custa a reflexologia podal?",
@@ -197,7 +197,7 @@ export const zlFootMassagePage: ZlSeoLandingPageDefinition = {
       "Rotina com caminhadas e deslocamentos pela cidade.",
       "Uso frequente de calçados fechados ou salto.",
       "Sensação de pés cansados e busca por relaxamento.",
-      "Presente ou experiência de autocuidado.",
+      "Busca por uma experiência de autocuidado.",
     ],
   },
   secondaryChecklist: {
@@ -240,7 +240,7 @@ export const zlFootMassagePage: ZlSeoLandingPageDefinition = {
     {
       question: "Quanto tempo dura a sessão?",
       answer:
-        "A duração é confirmada no agendamento pelo WhatsApp. As experiências de presente da clínica têm 50 minutos.",
+        "A duração é confirmada no agendamento pelo WhatsApp.",
     },
     {
       question: "O que está incluído?",
@@ -266,11 +266,6 @@ export const zlFootMassagePage: ZlSeoLandingPageDefinition = {
       question: "Pode combinar com podoprofilaxia?",
       answer:
         "Sim, o cuidado técnico pode ser combinado com momentos de bem-estar. O protocolo de podoprofilaxia + reflexologia custa R$ 180. Fale no WhatsApp para montar a combinação.",
-    },
-    {
-      question: "É possível comprar como presente?",
-      answer:
-        "Sim. A clínica tem vales-presente de bem-estar, como o Momento Essencial (R$ 120) e a Experiência Encanto (R$ 160). Consulte a disponibilidade pelo WhatsApp.",
     },
     {
       question: "Onde fica a clínica?",

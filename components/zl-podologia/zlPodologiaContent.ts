@@ -39,10 +39,6 @@ export const ZL_WHATSAPP_SOURCES = [
   "fiduciary_bar",
   "packages",
   "experience_podopro_reflexology",
-  "experience_noiva_sublime",
-  "experience_noiva_majestosa",
-  "experience_momento_essencial",
-  "experience_encanto",
   "gbp_website",
   "gbp_appointment",
   "gbp_post_launch",
@@ -125,22 +121,6 @@ export const zlLinks = {
   whatsappPodoproReflexology: buildWhatsappLink(
     "Oi, quero saber sobre a oferta Podoprofilaxia + Reflexologia por R$ 180.",
     "experience_podopro_reflexology"
-  ),
-  whatsappNoivaSublime: buildWhatsappLink(
-    "Oi, quero presentear com a experiência Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
-    "experience_noiva_sublime"
-  ),
-  whatsappNoivaMajestosa: buildWhatsappLink(
-    "Oi, quero a experiência Noiva Majestosa (Pre-Wedding terapêutica 50 min, R$ 240).",
-    "experience_noiva_majestosa"
-  ),
-  whatsappMomentoEssencial: buildWhatsappLink(
-    "Oi, quero presentear com o Vale Presente Momento Essencial (Reflexologia 50min, R$ 120).",
-    "experience_momento_essencial"
-  ),
-  whatsappExperienciaEncanto: buildWhatsappLink(
-    "Oi, quero presentear com o Vale Presente Experiência Encanto (Reflexologia terapêutica + cartão ilustrado personalizado, R$ 160).",
-    "experience_encanto"
   ),
   whatsappNumber: ZL_WHATSAPP_NUMBER,
   // Google Maps: busca oficial que cai direto na ficha certa da ZL em
@@ -331,8 +311,7 @@ export type ZlServiceId =
  * 8. Reflexologia podal — bem-estar
  *
  * Pé diabético não entra como card principal (default: sub-variante de
- * Podoprofilaxia + linha no Pricing). Pre-Wedding removido do Explorer
- * e mencionado apenas como oferta premium discreta no Pricing/Ambiente.
+ * Podoprofilaxia + linha no Pricing).
  */
 export const ZL_MAIN_SERVICE_IDS: readonly ZlServiceId[] = [
   "ingrown",
@@ -370,8 +349,8 @@ export interface ZlInteractiveService {
   steps: readonly [string, string, string] | readonly [string, string, string, string];
   /**
    * Optional list of inclusions shown as a "o que entra" checklist. Used in
-   * premium services (preWedding) and technical services (ingrown) where
-   * the specific components add real authority.
+   * technical services (ingrown) where the specific components add real
+   * authority.
    */
   includes?: readonly string[];
   /**
@@ -395,11 +374,8 @@ export interface ZlInteractiveService {
     objectPosition?: string;
   };
   /**
-   * Tratamento visual premium (eyebrow dourado + borda tintada) — reservado
-   * pra quando/se Pre-Wedding voltar como card. Na v7-final não há card
-   * premiumStripe ativo.
+   * Tratamento visual premium (eyebrow dourado + borda tintada).
    */
-  premiumStripe?: boolean;
   ctaLabel: string;
   /**
    * Short first-person WhatsApp message to open the chat with context about
@@ -873,7 +849,7 @@ export const zlValueSectionCopy = {
   eyebrow: "Valores e continuidade",
   title: "Valores, retornos e continuidade do cuidado.",
   body:
-    "Valores dos atendimentos, retornos, plano de cuidado personalizado e presentes da ZL, com clareza sobre cada etapa.",
+    "Valores dos atendimentos, retornos e plano de cuidado personalizado, com clareza sobre cada etapa.",
 } as const;
 
 export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
@@ -994,13 +970,12 @@ export const zlPricingGroups: readonly ZlPricingBucketGroup[] = [
 ] as const;
 
 /**
- * Rodapé do Pricing — notas finais (plano de cuidado, Pre-Wedding,
- * pagamento). Centraliza a copy pra não dispersar detalhes.
+ * Rodapé do Pricing — notas finais (plano de cuidado, pagamento).
+ * Centraliza a copy pra não dispersar detalhes.
  */
 export const zlPricingFooterNotes = [
   "A clínica não cobra avaliação isolada: o primeiro direcionamento acontece pelo WhatsApp, com relato e foto quando ajuda.",
   "Seu plano de cuidado personalizado é montado no atendimento para orientar continuidade, retornos e cuidados em casa.",
-  "Também há experiências e presentes sob medida, inclusive Pre-Wedding terapêutica.",
   "Formas de pagamento: dinheiro, Pix ou cartão. Condições específicas do cartão são confirmadas direto na clínica.",
 ] as const;
 
@@ -1642,222 +1617,54 @@ export const zlLocalKeywords = [
   "laserterapia para fungos Fortaleza",
   "órtese unha Fortaleza",
   "cuidado pé diabético Fortaleza",
-  "pre-wedding terapêutico noiva Fortaleza",
-  "vale presente aniversário reflexologia",
 ] as const;
 
 /* ------------------------------------------------------------------ */
-/* v9: Experiências e Presentes — Pre-Wedding + Vale Presente          */
+/* Oferta especial: protocolo combinado                                */
 /* ------------------------------------------------------------------ */
 
 /**
- * Ofertas premium confirmadas pela Zucarina em 2026-04-22. Consolidadas
- * em UMA seção dedicada "Experiências e Presentes" com 2 grupos (4 cards).
- * Pre-Wedding saiu do Pricing footer notes e Vale Presente é novidade v9.
+ * Oferta especial confirmada pela Zucarina: protocolo combinado de
+ * podoprofilaxia + reflexologia por R$ 180 — o mesmo item já listado na
+ * tabela de preços (`zlPricingGroups`, bucket `basicos`).
+ *
+ * As demais linhas de oferta da v9 foram descontinuadas pela clínica e
+ * removidas do site.
  */
-export interface ZlExperienceCard {
-  id:
-    | "podopro_reflexologia"
-    | "noiva_sublime"
-    | "noiva_majestosa"
-    | "momento_essencial"
-    | "experiencia_encanto";
-  group: "oferta_especial" | "pre_wedding" | "vale_presente";
-  eyebrow: string;
-  title: string;
-  duration: string;
-  includes: readonly string[];
-  price: string;
-  priceValue: number;
-  featured?: boolean;
-  featuredLabel?: string;
-  ctaLabel: string;
-  whatsappLink: string;
-  image?: {
-    src: string;
-    alt: string;
-    coverLayout?: "editorial_full_bleed";
-    coverTone?: "ritual_claro" | "ritual_profundo" | "presente_suave" | "presente_assinatura";
-    focalPoint?: string;
-  };
-}
-
-export const zlExperienciasPresentes = {
-  eyebrow: "PRESENTES E EXPERIÊNCIAS",
-  title: "Presentear ou desacelerar com a assinatura da ZL",
-  subtitle:
-    "Reflexologia, escalda-pés e rituais de cuidado que podem virar presente digital ou pausa antes do casamento.",
-  groups: [
+export const zlOfertaProtocolo = {
+  eyebrow: "OFERTA ESPECIAL",
+  title: "Protocolo de podoprofilaxia + reflexologia",
+  intro:
+    "Uma sessão combinada para cuidar dos pés e desacelerar, com escalda-pés diferenciado como complemento do momento de cuidado.",
+  cards: [
     {
-      id: "oferta_especial" as const,
-      eyebrow: "OFERTA ESPECIAL",
-      title: "Protocolo de podoprofilaxia + reflexologia",
-      intro:
-        "Uma sessão combinada para cuidar dos pés e desacelerar, com escalda-pés diferenciado como complemento do momento de cuidado.",
-      cards: [
-        {
-          id: "podopro_reflexologia" as const,
-          group: "oferta_especial" as const,
-          eyebrow: "PROTOCOLO COMBINADO",
-          title: "Podoprofilaxia + Reflexologia",
-          duration: "Sessão com hora marcada",
-          includes: [
-            "Podoprofilaxia completa",
-            "Reflexologia podal",
-            "Escalda-pés diferenciado como cuidado complementar",
-          ],
-          price: "R$ 180",
-          priceValue: 180,
-          featured: true,
-          featuredLabel: "Oferta especial",
-          ctaLabel: "Reservar protocolo",
-          whatsappLink: buildWhatsappLink(
-            "Oi, quero saber sobre a oferta Podoprofilaxia + Reflexologia por R$ 180.",
-            "experience_podopro_reflexology"
-          ),
-          image: {
-            src: "/zl-podologia/social/client-approved/2026-04-28/protocolo-podoprofilaxia-reflexologia-2026-04-28.jpeg",
-            alt: "Sessão de reflexologia com escalda-pés preparado para protocolo combinado de podoprofilaxia e reflexologia na ZL Podologia",
-            coverLayout: "editorial_full_bleed",
-            coverTone: "ritual_claro",
-            focalPoint: "50% 52%",
-          },
-        },
+      id: "podopro_reflexologia" as const,
+      eyebrow: "PROTOCOLO COMBINADO",
+      title: "Podoprofilaxia + Reflexologia",
+      duration: "Sessão com hora marcada",
+      includes: [
+        "Podoprofilaxia completa",
+        "Reflexologia podal",
+        "Escalda-pés diferenciado como cuidado complementar",
       ],
-    },
-    {
-      id: "pre_wedding" as const,
-      eyebrow: "CUIDADO PARA NOIVA",
-      title: "Para chegar mais leve ao grande dia",
-      intro:
-        "Reflexologia e escalda-pés pensados para aliviar a tensão dos preparativos e desacelerar com calma.",
-      cards: [
-        {
-          id: "noiva_sublime" as const,
-          group: "pre_wedding" as const,
-          eyebrow: "PRE-WEDDING",
-          title: "Noiva Sublime",
-          duration: "50 minutos",
-          includes: [
-            "Reflexologia Podal Relaxante",
-            "Escalda-pés terapêutico como mimo",
-            "Ambientação acolhedora",
-          ],
-          price: "R$ 180",
-          priceValue: 180,
-          ctaLabel: "Quero presentear Noiva Sublime",
-          whatsappLink: buildWhatsappLink(
-            "Oi, quero presentear com a experiência Noiva Sublime (Pre-Wedding 50 min, R$ 180).",
-            "experience_noiva_sublime"
-          ),
-          image: {
-            src: "/zl-podologia/generated/v10/value-offer/experience-noiva-sublime.jpg",
-            alt: "Composição editorial clara com toalhas, bowl terapêutico e vela usada para contextualizar a experiência Noiva Sublime da ZL Podologia",
-            coverLayout: "editorial_full_bleed",
-            coverTone: "ritual_claro",
-            focalPoint: "52% 58%",
-          },
-        },
-        {
-          id: "noiva_majestosa" as const,
-          group: "pre_wedding" as const,
-          eyebrow: "PRE-WEDDING TERAPÊUTICA",
-          title: "Noiva Majestosa",
-          duration: "50 minutos",
-          includes: [
-            "Reflexologia Podal Terapêutica (cuidado profundo)",
-            "Escalda-pés especial",
-            "Ambientação diferenciada",
-            "Mimo especial preparado para a noiva",
-          ],
-          price: "R$ 240",
-          priceValue: 240,
-          featured: true,
-          featuredLabel: "Mais escolhida pelas noivas",
-          ctaLabel: "Quero a experiência Noiva Majestosa",
-          whatsappLink: buildWhatsappLink(
-            "Oi, quero a experiência Noiva Majestosa (Pre-Wedding terapêutica 50 min, R$ 240).",
-            "experience_noiva_majestosa"
-          ),
-          image: {
-            src: "/zl-podologia/generated/v10/value-offer/experience-noiva-majestosa.jpg",
-            alt: "Composição editorial terrosa com bowl ritual, velas e textura premium usada para contextualizar a experiência Noiva Majestosa da ZL Podologia",
-            coverLayout: "editorial_full_bleed",
-            coverTone: "ritual_profundo",
-            focalPoint: "50% 48%",
-          },
-        },
-      ],
-    },
-    {
-      id: "vale_presente" as const,
-      eyebrow: "VALE-PRESENTE",
-      title: "Presente digital com cuidado real",
-      intro:
-        "Duas opções prontas para presentear com reflexologia e um ritual calmo. A versão Encanto adiciona cartão personalizado.",
-      cards: [
-        {
-          id: "momento_essencial" as const,
-          group: "vale_presente" as const,
-          eyebrow: "PRESENTE",
-          title: "Vale Presente Momento Essencial",
-          duration: "50 minutos",
-          includes: [
-            "Reflexologia Podal Relaxante",
-            "Escalda-pés com mimo especial",
-            "Ambientação acolhedora",
-            "Vale presente digital",
-          ],
-          price: "R$ 120",
-          priceValue: 120,
-          ctaLabel: "Presentear Momento Essencial",
-          whatsappLink: buildWhatsappLink(
-            "Oi, quero presentear com o Vale Presente Momento Essencial (Reflexologia 50min, R$ 120).",
-            "experience_momento_essencial"
-          ),
-          image: {
-            src: "/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.jpg",
-            alt: "Vale Presente Momento Essencial em envelope claro com amarração delicada e composição editorial suave",
-            coverLayout: "editorial_full_bleed",
-            coverTone: "presente_suave",
-            focalPoint: "50% 52%",
-          },
-        },
-        {
-          id: "experiencia_encanto" as const,
-          group: "vale_presente" as const,
-          eyebrow: "PRESENTE PREMIUM",
-          title: "Vale Presente Experiência Encanto",
-          duration: "50 minutos",
-          includes: [
-            "Reflexologia Podal Terapêutica",
-            "Escalda-pés especial",
-            "Ambientação diferenciada",
-            "Vale presente em PDF personalizado",
-            "Cartão ilustrado personalizado",
-          ],
-          price: "R$ 160",
-          priceValue: 160,
-          featured: true,
-          featuredLabel: "Cartão Disney personalizado",
-          ctaLabel: "Presentear Experiência Encanto",
-          whatsappLink: buildWhatsappLink(
-            "Oi, quero presentear com o Vale Presente Experiência Encanto (Reflexologia terapêutica + cartão ilustrado personalizado, R$ 160).",
-            "experience_encanto"
-          ),
-          image: {
-            src: "/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.jpg",
-            alt: "Vale Presente Experiência Encanto em envelope premium com lacre terroso e composição editorial de presente",
-            coverLayout: "editorial_full_bleed",
-            coverTone: "presente_assinatura",
-            focalPoint: "50% 50%",
-          },
-        },
-      ],
+      price: "R$ 180",
+      priceValue: 180,
+      featured: true,
+      featuredLabel: "Oferta especial",
+      ctaLabel: "Reservar protocolo",
+      whatsappLink: buildWhatsappLink(
+        "Oi, quero saber sobre a oferta Podoprofilaxia + Reflexologia por R$ 180.",
+        "experience_podopro_reflexology"
+      ),
+      image: {
+        src: "/zl-podologia/social/client-approved/2026-04-28/protocolo-podoprofilaxia-reflexologia-2026-04-28.jpeg",
+        alt: "Sessão de reflexologia com escalda-pés preparado para protocolo combinado de podoprofilaxia e reflexologia na ZL Podologia",
+        coverLayout: "editorial_full_bleed",
+        coverTone: "ritual_claro",
+        focalPoint: "50% 52%",
+      },
     },
   ],
   closing:
-    "Todas as experiências têm hora marcada e podem ser ajustadas no WhatsApp.",
+    "A oferta tem hora marcada e pode ser ajustada no WhatsApp.",
 } as const;
-
-export type ZlExperienceGroup = (typeof zlExperienciasPresentes.groups)[number];

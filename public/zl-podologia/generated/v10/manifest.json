@@ -1,12 +1,12 @@
 {
   "version": "v10",
-  "generatedAt": "2026-04-23T02:35:55.101Z",
+  "generatedAt": "2026-09-23T13:11:45.282Z",
   "manifestStatus": "partially-generated",
   "summary": {
-    "totalAssets": 19,
+    "totalAssets": 16,
     "readyForGeneration": 15,
     "blockedByPolicy": 0,
-    "generatedAssets": 4
+    "generatedAssets": 1
   },
   "assets": [
     {
@@ -568,68 +568,6 @@
       }
     },
     {
-      "id": "service-prewedding-editorial-context",
-      "title": "Contexto editorial pre-wedding",
-      "category": "service-context",
-      "slot": "service-explorer-editorial",
-      "slotPolicy": "generated-allowed",
-      "ratio": "4:5",
-      "outputBaseName": "service-prewedding-editorial-context",
-      "prompt": "Editorial support image for pre-wedding therapeutic foot care, bright premium feminine styling, warm ivory linens, subtle floral cue, elevated clinic service mood, photorealistic, no bridal person, no fake ring closeup, no staged salon look.",
-      "notes": "Asset seguro para o servico presenteavel sem virar publicidade genérica.",
-      "usage": {
-        "section": "service-explorer",
-        "purpose": "Contextualizar pre-wedding com mais desejo e menos card genérico."
-      },
-      "reviewStatus": "generated",
-      "approval": {
-        "status": "pending",
-        "approvedBy": null,
-        "approvedAt": null
-      },
-      "generation": {
-        "requested": true,
-        "status": "generated",
-        "model": null,
-        "generatedAt": null,
-        "blockedReason": null
-      },
-      "files": {
-        "jpg": {
-          "format": "jpg",
-          "extension": ".jpg",
-          "relativePath": "public/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.jpg",
-          "publicPath": "/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.jpg",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\service-context\\service-prewedding-editorial-context.jpg",
-          "exists": true
-        },
-        "webp": {
-          "format": "webp",
-          "extension": ".webp",
-          "relativePath": "public/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.webp",
-          "publicPath": "/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.webp",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\service-context\\service-prewedding-editorial-context.webp",
-          "exists": true
-        },
-        "avif": {
-          "format": "avif",
-          "extension": ".avif",
-          "relativePath": "public/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.avif",
-          "publicPath": "/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.avif",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\service-context\\service-prewedding-editorial-context.avif",
-          "exists": true
-        },
-        "lqip": {
-          "format": "lqip",
-          "extension": ".lqip.json",
-          "relativePath": "public/zl-podologia/generated/v10/service-context/service-prewedding-editorial-context.lqip.json",
-          "publicPath": null,
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\service-context\\service-prewedding-editorial-context.lqip.json",
-          "exists": true
-        }
-      }
-    },
-    {
       "id": "service-premium-divider",
       "title": "Divisor editorial premium",
       "category": "section-accent",
@@ -688,130 +626,6 @@
           "publicPath": null,
           "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\section-accent\\service-premium-divider.lqip.json",
           "exists": false
-        }
-      }
-    },
-    {
-      "id": "value-gift-card-essencial",
-      "title": "Vale presente Momento Essencial",
-      "category": "value-offer",
-      "slot": "value-offer-editorial",
-      "slotPolicy": "generated-allowed",
-      "ratio": "4:5",
-      "outputBaseName": "value-gift-card-essencial",
-      "prompt": "Premium gift card visual for podology service package named Momento Essencial, elegant card presentation, warm neutral palette, subtle floral and linen context, clinic luxury feel, photorealistic, no licensed characters, no fake pricing text.",
-      "notes": "Substitui mockup generico e evita referencias de IP terceiras.",
-      "usage": {
-        "section": "value",
-        "purpose": "Apresentar vale-presente com mais desejo visual."
-      },
-      "reviewStatus": "generated",
-      "approval": {
-        "status": "pending",
-        "approvedBy": null,
-        "approvedAt": null
-      },
-      "generation": {
-        "requested": true,
-        "status": "generated",
-        "model": null,
-        "generatedAt": null,
-        "blockedReason": null
-      },
-      "files": {
-        "jpg": {
-          "format": "jpg",
-          "extension": ".jpg",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.jpg",
-          "publicPath": "/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.jpg",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-essencial.jpg",
-          "exists": true
-        },
-        "webp": {
-          "format": "webp",
-          "extension": ".webp",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.webp",
-          "publicPath": "/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.webp",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-essencial.webp",
-          "exists": true
-        },
-        "avif": {
-          "format": "avif",
-          "extension": ".avif",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.avif",
-          "publicPath": "/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.avif",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-essencial.avif",
-          "exists": true
-        },
-        "lqip": {
-          "format": "lqip",
-          "extension": ".lqip.json",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-essencial.lqip.json",
-          "publicPath": null,
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-essencial.lqip.json",
-          "exists": true
-        }
-      }
-    },
-    {
-      "id": "value-gift-card-encanto",
-      "title": "Vale presente Experiencia Encanto",
-      "category": "value-offer",
-      "slot": "value-offer-editorial",
-      "slotPolicy": "generated-allowed",
-      "ratio": "4:5",
-      "outputBaseName": "value-gift-card-encanto",
-      "prompt": "Premium gift card visual for podology service package named Experiencia Encanto, elevated feminine clinical luxury, soft warm rose accent, elegant paper card and ribbon styling, photorealistic, no character branding, no fake promotional stamp.",
-      "notes": "Versao mais aspiracional para o pacote premium.",
-      "usage": {
-        "section": "value",
-        "purpose": "Aumentar percepcao premium do bloco de experiencias."
-      },
-      "reviewStatus": "generated",
-      "approval": {
-        "status": "pending",
-        "approvedBy": null,
-        "approvedAt": null
-      },
-      "generation": {
-        "requested": true,
-        "status": "generated",
-        "model": null,
-        "generatedAt": null,
-        "blockedReason": null
-      },
-      "files": {
-        "jpg": {
-          "format": "jpg",
-          "extension": ".jpg",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.jpg",
-          "publicPath": "/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.jpg",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-encanto.jpg",
-          "exists": true
-        },
-        "webp": {
-          "format": "webp",
-          "extension": ".webp",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.webp",
-          "publicPath": "/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.webp",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-encanto.webp",
-          "exists": true
-        },
-        "avif": {
-          "format": "avif",
-          "extension": ".avif",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.avif",
-          "publicPath": "/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.avif",
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-encanto.avif",
-          "exists": true
-        },
-        "lqip": {
-          "format": "lqip",
-          "extension": ".lqip.json",
-          "relativePath": "public/zl-podologia/generated/v10/value-offer/value-gift-card-encanto.lqip.json",
-          "publicPath": null,
-          "absolutePath": "C:\\Users\\Yuri\\Desktop\\Empresas Paperclip\\Pageforce 2.0\\public\\zl-podologia\\generated\\v10\\value-offer\\value-gift-card-encanto.lqip.json",
-          "exists": true
         }
       }
     },

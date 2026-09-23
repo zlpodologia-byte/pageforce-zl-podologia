@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { useCallback, useState } from "react";
@@ -130,8 +130,6 @@ export function ZlPodologiaLanding() {
 
       {/* [12] Pricing + Education */}
       <ZlValueSection />
-
-      {/* [12.5] Experiências e presentes (v9 - Pre-Wedding + Vale Presente) */}
 
       {/* [12.7] Guias de serviços e bairros para descoberta interna */}
       <ZlSeoClusterSection />

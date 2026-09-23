@@ -409,21 +409,6 @@ export const zlAssetCatalogV10 = validateAssetCatalog([
     },
   },
   {
-    id: "service-prewedding-editorial-context",
-    title: "Contexto editorial pre-wedding",
-    category: "service-context",
-    slot: "service-explorer-editorial",
-    ratio: "4:5",
-    outputBaseName: "service-prewedding-editorial-context",
-    prompt:
-      "Editorial support image for pre-wedding therapeutic foot care, bright premium feminine styling, warm ivory linens, subtle floral cue, elevated clinic service mood, photorealistic, no bridal person, no fake ring closeup, no staged salon look.",
-    notes: "Asset seguro para o servico presenteavel sem virar publicidade genérica.",
-    usage: {
-      section: "service-explorer",
-      purpose: "Contextualizar pre-wedding com mais desejo e menos card genérico.",
-    },
-  },
-  {
     id: "service-premium-divider",
     title: "Divisor editorial premium",
     category: "section-accent",
@@ -436,36 +421,6 @@ export const zlAssetCatalogV10 = validateAssetCatalog([
     usage: {
       section: "mid-page",
       purpose: "Criar respiracao visual entre secoes densas.",
-    },
-  },
-  {
-    id: "value-gift-card-essencial",
-    title: "Vale presente Momento Essencial",
-    category: "value-offer",
-    slot: "value-offer-editorial",
-    ratio: "4:5",
-    outputBaseName: "value-gift-card-essencial",
-    prompt:
-      "Premium gift card visual for podology service package named Momento Essencial, elegant card presentation, warm neutral palette, subtle floral and linen context, clinic luxury feel, photorealistic, no licensed characters, no fake pricing text.",
-    notes: "Substitui mockup generico e evita referencias de IP terceiras.",
-    usage: {
-      section: "value",
-      purpose: "Apresentar vale-presente com mais desejo visual.",
-    },
-  },
-  {
-    id: "value-gift-card-encanto",
-    title: "Vale presente Experiencia Encanto",
-    category: "value-offer",
-    slot: "value-offer-editorial",
-    ratio: "4:5",
-    outputBaseName: "value-gift-card-encanto",
-    prompt:
-      "Premium gift card visual for podology service package named Experiencia Encanto, elevated feminine clinical luxury, soft warm rose accent, elegant paper card and ribbon styling, photorealistic, no character branding, no fake promotional stamp.",
-    notes: "Versao mais aspiracional para o pacote premium.",
-    usage: {
-      section: "value",
-      purpose: "Aumentar percepcao premium do bloco de experiencias.",
     },
   },
   {
