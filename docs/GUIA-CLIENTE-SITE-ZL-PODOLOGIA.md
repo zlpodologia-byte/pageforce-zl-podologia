@@ -111,11 +111,11 @@ O que a paciente entende: nem todo atendimento é igual; a avaliação orienta o
 
 Validar: textos, imagens e clareza das explicações.
 
-### 12. Valores, pacotes e experiências
+### 12. Valores, pacotes e continuidade
 
-Apresenta valores, acompanhamento, pacotes, plano mensal, experiências e vale presente.
+Apresenta valores, acompanhamento, pacotes e plano mensal de cuidado.
 
-O que a paciente entende: existem atendimentos avulsos e opções especiais, com detalhes confirmados pelo WhatsApp.
+O que a paciente entende: existem atendimentos avulsos e um plano de continuidade, com detalhes confirmados pelo WhatsApp.
 
 Validar: preços, nomes dos pacotes, inclusões e condições.
 

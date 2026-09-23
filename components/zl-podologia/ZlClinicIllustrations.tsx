@@ -1,4 +1,4 @@
-﻿import type { ReactNode } from "react";
+import type { ReactNode } from "react";
 import {
   ZL_GOOGLE_RATING,
   ZL_GOOGLE_REVIEW_COUNT,
@@ -500,60 +500,6 @@ function ReflexologySvg() {
         ))}
       </g>
       <text x="40" y="50" fontSize="12" fill="#0F6B46" letterSpacing="2.5">REFLEXOLOGIA PODAL</text>
-    </svg>
-  );
-}
-
-function PreWeddingSvg() {
-  return (
-    <svg viewBox="0 0 640 340" className="h-auto w-full" aria-hidden="true">
-      <rect width="640" height="340" fill="#EFEAE4" />
-      {/* Large bloom circle */}
-      <circle cx="320" cy="170" r="130" fill="url(#zl-hero-bloom)" opacity="0.5" />
-      {/* Candle on the left */}
-      <g transform="translate(110 160)">
-        <rect x="10" y="32" width="18" height="68" rx="3" fill="#F7EEE8" stroke={palette.ink} strokeWidth="2" />
-        <path d="M19 32v-18" stroke={palette.ink} strokeWidth="1.6" strokeLinecap="round" />
-        {/* Flame */}
-        <path d="M19 14c6-6 6-14 0-20-6 6-6 14 0 20Z" fill="#D9B8A0" />
-        <path d="M19 10c3-3 3-7 0-10-3 3-3 7 0 10Z" fill="#FFE7B5" />
-        {/* Base */}
-        <ellipse cx="19" cy="100" rx="12" ry="3" fill="#C9B89A" />
-      </g>
-      {/* Foot soaking in a small basin */}
-      <ellipse cx="370" cy="246" rx="140" ry="30" fill="#EFEAE4" />
-      <ellipse cx="370" cy="238" rx="134" ry="24" fill="#C9B89A" />
-      <ellipse cx="370" cy="232" rx="80" ry="8" fill="none" stroke="#ffffff" strokeWidth="2" opacity="0.7" />
-      <path
-        d="M310 220c-18-44-2-92 32-118 28-22 64-26 94-18 26 8 44 32 48 60 2 18-8 34-28 42-20 8-42 10-66 8-30-2-62 2-80 26Z"
-        fill="#FCE0D1"
-        stroke={palette.ink}
-        strokeWidth="2.5"
-        opacity="0.95"
-      />
-      {/* Toe pads */}
-      <circle cx="360" cy="118" r="8" fill="#F4CEBE" stroke={palette.ink} strokeWidth="1.8" />
-      <circle cx="386" cy="110" r="7" fill="#F4CEBE" stroke={palette.ink} strokeWidth="1.8" />
-      <circle cx="408" cy="110" r="6" fill="#F4CEBE" stroke={palette.ink} strokeWidth="1.8" />
-      <circle cx="428" cy="114" r="5" fill="#F4CEBE" stroke={palette.ink} strokeWidth="1.8" />
-      <circle cx="444" cy="122" r="5" fill="#F4CEBE" stroke={palette.ink} strokeWidth="1.8" />
-
-      {/* Rose petals floating */}
-      <path d="M220 100c8-6 20-6 26 2 6 8 2 20-6 24-8 4-20-2-22-12-2-6 0-10 2-14z" fill="url(#zl-hero-petal)" opacity="0.85" />
-      <path d="M500 80c8-6 20-6 26 2 6 8 2 20-6 24-8 4-20-2-22-12-2-6 0-10 2-14z" fill="url(#zl-hero-petal)" opacity="0.75" />
-      <path d="M520 200c6-4 14-4 18 2 4 6 2 14-4 18-6 2-14 0-16-8-2-4 0-8 2-12z" fill="url(#zl-hero-petal)" opacity="0.6" />
-      <circle cx="540" cy="134" r="4" fill={palette.rose} opacity="0.6" />
-      <circle cx="190" cy="200" r="3" fill={palette.rose} opacity="0.55" />
-
-      {/* Hearts / time badge */}
-      <g transform="translate(470 40)">
-        <rect x="0" y="0" width="120" height="34" rx="17" fill="#ffffff" opacity="0.85" stroke={palette.rose} strokeWidth="1.5" />
-        <path d="M18 20l-6-6c-2-2-2-6 0-8s6-2 8 0l-2 2 2-2c2-2 6-2 8 0s2 6 0 8l-10 10" fill="#0F6B46" transform="translate(-2 -3)" />
-        <text x="42" y="22" fontSize="12" fill="#0F6B46" letterSpacing="1.5">60 MINUTOS</text>
-      </g>
-
-      <text x="40" y="64" fontSize="12" fill="#0F6B46" letterSpacing="2.5">PRE-WEDDING</text>
-      <text x="40" y="88" fontSize="18" fill="#26302B" fontFamily="var(--font-display)">Um momento so seu</text>
     </svg>
   );
 }
